@@ -20,10 +20,8 @@ export FRESHRSS_PASSWORD="your_freshrss_password"
 
 ## 核心要求
 
-- **必须调用** `./tech-daily-generator/` Skill
-- **必须读取** SKILL.md 并按照规范执行
-- **必须**采用Subagents 并行处理6个角色
-- **严禁直接生成HTML**，必须调用 subagent 生成
+- **必须调用** `./tech-daily-generator/prompts/` 下的角色指南生成各版本日报
+- **必须**为每个角色独立生成完整的HTML日报
 
 ---
 
@@ -44,12 +42,25 @@ TIME_RANGE: 过去24小时 (...)
 
 **超时设置：2400秒（40分钟）**
 
-### 步骤2: 读取 Skill 规范并执行
-```bash
-cat ./tech-daily-generator/SKILL.md
-```
+### 步骤2: 生成6个角色版本的日报
 
-按照 SKILL.md 规范启动6个subagent处理各角色日报。
+阅读 `./tech-daily-generator/prompts/` 目录下的角色指南，为每个角色生成独立日报：
+
+| 角色 | 指南文件 | 输出文件 |
+|------|----------|----------|
+| CTO洞察版 | `prompts/cto_insight.md` | `cto_insight.html` |
+| 开发者实践版 | `prompts/developer_practice.md` | `developer_practice.html` |
+| 科技爱好者版 | `prompts/tech_enthusiast.md` | `tech_enthusiast.html` |
+| 投资分析版 | `prompts/investment_analysis.md` | `investment_analysis.html` |
+| 学术研究员版 | `prompts/academic_research.md` | `academic_research.html` |
+| 用户研究版 | `prompts/user_research.md` | `user_research.html` |
+
+**生成要求：**
+1. 阅读对应角色的指南文件，了解角色人设和输出要求
+2. 从JSON新闻数据中自主筛选该角色关注的内容
+3. 按照指南要求的结构和风格生成日报
+4. 每条新闻必须标注来源（使用 `link` 和 `feed_title` 字段）
+5. 生成完整HTML文档（含CSS样式）
 
 ### 步骤3: 生成导航首页
 ```bash
