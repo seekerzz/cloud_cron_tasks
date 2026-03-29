@@ -319,7 +319,7 @@ mv 2025XXXX 2026XXXX  # 将错误的年份重命名
 - [ ] 昨日日报已归档（归档目录包含6个HTML文件）
 - [ ] 归档索引已重新生成（步骤5）
 - [ ] 归档索引中无空目录链接（检查 archive/index.html 中的链接是否都有效）
-- [ ] GitHub Pages 推送成功，120s后验证页面可访问。https://h0muraaa.github.io/daily-report/tech-daily/cto_insight.html 等各角色日报均可正常访问
+- [ ] GitHub Pages 推送成功，120s后验证页面可访问。https://h0muraaa.github.io/cloud_cron_tasks/tech-daily/cto_insight.html 等各角色日报均可正常访问
 - [ ] 生成的HTML每条新闻都有内容摘要(summary)，禁止直接输出难懂的原文
 - [ ] 每条新闻附近的源链接(source link near the news)可点击且跳转正确
 - [ ] 底部链接(links at the bottom)可点击且跳转正确
@@ -328,4 +328,4 @@ mv 2025XXXX 2026XXXX  # 将错误的年份重命名
 ---
 
 ## 访问地址
-- https://h0muraaa.github.io/daily-report/tech-daily/
+- https://h0muraaa.github.io/cloud_cron_tasks/tech-daily/
