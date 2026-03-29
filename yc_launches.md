@@ -236,5 +236,5 @@ git push origin main 2>&1
 ---
 
 ## 🔗 访问地址
-- **今日日报**: https://h0muraaa.github.io/cloud_cron_tasks/yc-launches/
-- **历史归档**: https://h0muraaa.github.io/cloud_cron_tasks/yc-launches/archive/
+- **今日日报**: https://seekerzz.github.io/cloud_cron_tasks/yc-launches/
+- **历史归档**: https://seekerzz.github.io/cloud_cron_tasks/yc-launches/archive/
