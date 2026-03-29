@@ -1,5 +1,20 @@
 # 每日科技日报生成任务
 
+## 环境变量配置
+
+以下环境变量必须在运行前设置：
+
+```bash
+# GitHub 配置（必须）
+export GITHUB_TOKEN="your_github_token"
+export GITHUB_USER="your_github_username"
+export GITHUB_REPO="cloud_cron_tasks"
+
+# FreshRSS 配置（必须）
+export FRESHRSS_USERNAME="your_freshrss_username"
+export FRESHRSS_PASSWORD="your_freshrss_password"
+```
+
 ## 任务说明
 从 FreshRSS 导出科技新闻，使用 tech-daily-generator Skill 生成 6 个角色版本的科技日报。
 
@@ -261,6 +276,10 @@ if [ -z "$GITHUB_USER" ]; then
     echo "❌ 错误: GITHUB_USER 环境变量未设置"
     exit 1
 fi
+if [ -z "$GITHUB_REPO" ]; then
+    echo "❌ 错误: GITHUB_REPO 环境变量未设置"
+    exit 1
+fi
 
 cd ./output
 
@@ -278,7 +297,7 @@ export http_proxy=http://127.0.0.1:10998
 export https_proxy=http://127.0.0.1:10998
 
 # 推送
-git remote set-url origin "https://${GITHUB_TOKEN}@github.com/${GITHUB_USER}/daily-report.git"
+git remote set-url origin "https://${GITHUB_TOKEN}@github.com/${GITHUB_USER}/${GITHUB_REPO}.git"
 git push origin main 2>&1
 ```
 
@@ -319,7 +338,7 @@ mv 2025XXXX 2026XXXX  # 将错误的年份重命名
 - [ ] 昨日日报已归档（归档目录包含6个HTML文件）
 - [ ] 归档索引已重新生成（步骤5）
 - [ ] 归档索引中无空目录链接（检查 archive/index.html 中的链接是否都有效）
-- [ ] GitHub Pages 推送成功，120s后验证页面可访问。https://seekerzz.github.io/cloud_cron_tasks/tech-daily/cto_insight.html 等各角色日报均可正常访问
+- [ ] GitHub Pages 推送成功，120s后验证页面可访问。https://${GITHUB_USER}.github.io/${GITHUB_REPO}/tech-daily/cto_insight.html 等各角色日报均可正常访问
 - [ ] 生成的HTML每条新闻都有内容摘要(summary)，禁止直接输出难懂的原文
 - [ ] 每条新闻附近的源链接(source link near the news)可点击且跳转正确
 - [ ] 底部链接(links at the bottom)可点击且跳转正确
@@ -328,4 +347,4 @@ mv 2025XXXX 2026XXXX  # 将错误的年份重命名
 ---
 
 ## 访问地址
-- https://seekerzz.github.io/cloud_cron_tasks/tech-daily/
+- https://${GITHUB_USER}.github.io/${GITHUB_REPO}/tech-daily/

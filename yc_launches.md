@@ -1,5 +1,16 @@
 # YC Launches 日报生成任务 (含AI总结版)
 
+## 环境变量配置
+
+以下环境变量必须在运行前设置：
+
+```bash
+# GitHub 配置（必须）
+export GITHUB_TOKEN="your_github_token"
+export GITHUB_USER="your_github_username"
+export GITHUB_REPO="cloud_cron_tasks"
+```
+
 ## 任务说明
 从 ycombinator.com/launches 抓取项目，获取每个项目的详情页内容，使用 AI 进行总结，生成包含 AI 解读的日报。
 
@@ -190,6 +201,7 @@ git config user.name "Daily Report Bot" 2>/dev/null || true
 # 读取 GitHub 配置（从环境变量）
 export GITHUB_TOKEN="${GITHUB_TOKEN}"
 export GITHUB_USER="${GITHUB_USER}"
+export GITHUB_REPO="${GITHUB_REPO}"
 
 # 检查环境变量是否设置
 if [ -z "$GITHUB_TOKEN" ]; then
@@ -198,6 +210,10 @@ if [ -z "$GITHUB_TOKEN" ]; then
 fi
 if [ -z "$GITHUB_USER" ]; then
     echo "❌ 错误: GITHUB_USER 环境变量未设置"
+    exit 1
+fi
+if [ -z "$GITHUB_REPO" ]; then
+    echo "❌ 错误: GITHUB_REPO 环境变量未设置"
     exit 1
 fi
 
@@ -210,7 +226,7 @@ export http_proxy=http://127.0.0.1:10998
 export https_proxy=http://127.0.0.1:10998
 
 # 推送
-git remote set-url origin "https://${GITHUB_TOKEN}@github.com/${GITHUB_USER}/daily-report.git"
+git remote set-url origin "https://${GITHUB_TOKEN}@github.com/${GITHUB_USER}/${GITHUB_REPO}.git"
 git push origin main 2>&1
 ```
 
@@ -236,5 +252,5 @@ git push origin main 2>&1
 ---
 
 ## 🔗 访问地址
-- **今日日报**: https://seekerzz.github.io/cloud_cron_tasks/yc-launches/
-- **历史归档**: https://seekerzz.github.io/cloud_cron_tasks/yc-launches/archive/
+- **今日日报**: https://${GITHUB_USER}.github.io/${GITHUB_REPO}/yc-launches/
+- **历史归档**: https://${GITHUB_USER}.github.io/${GITHUB_REPO}/yc-launches/archive/
