@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>科技日报 - 开发者实践版 - 2026年3月29日</title>
+    <style>
+        body { font-family: 'Fira Code', 'Courier New', Courier, monospace; line-height: 1.6; color: #e0e0e0; max-width: 1000px; margin: 0 auto; padding: 40px 20px; background-color: #1e1e1e; }
+        header { border-bottom: 2px solid #3c3c3c; padding-bottom: 20px; margin-bottom: 30px; }
+        h1 { color: #569cd6; margin-bottom: 5px; }
+        .date { color: #858585; font-size: 1.1em; }
+        .section { background: #252526; padding: 25px; border-radius: 4px; border: 1px solid #3c3c3c; margin-bottom: 30px; }
+        h2 { color: #ce9178; border-left: 4px solid #ce9178; padding-left: 15px; margin-top: 0; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 12px; }
+        .tech-item { margin-bottom: 25px; border-bottom: 1px solid #333; padding-bottom: 15px; }
+        .tech-item:last-child { border-bottom: none; }
+        .tech-title { font-weight: bold; font-size: 1.2em; color: #4ec9b0; display: block; margin-bottom: 10px; }
+        a { color: #9cdcfe; text-decoration: none; }
+        a:hover { color: #569cd6; text-decoration: underline; }
+        .footer { text-align: center; color: #6a9955; font-size: 0.9em; margin-top: 50px; font-style: italic; }
+        .sources-section { background: #2d2d2d; padding: 20px; border-radius: 4px; }
+        .source-links a { display: inline-block; margin-right: 15px; margin-bottom: 10px; font-size: 0.9em; }
+        code { background-color: #333; padding: 2px 4px; border-radius: 3px; color: #dcdcaa; }
+        .highlight { color: #c586c0; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>// 科技日报 - 开发者实践版</h1>
+        <div class="date">2026-03-29 | From Terminal to Production</div>
+    </header>
+
+    <div class="section">
+        <h2># 今日热榜</h2>
+        <ul>
+            <li><strong>VS Code 1.114 Insiders:</strong> 微软发布最新预览版，包含大量性能改进及新的 AI 辅助功能。 <a href="https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.114" target="_blank" rel="noopener">[来源: Microsoft for Developers]</a></li>
+            <li><strong>Lark CLI 开源:</strong> 飞书官方开源命令行工具，支持 200+ 命令覆盖全量协作能力，通过 <code>npm install -g @larksuite/cli</code> 即可安装。 <a href="https://github.com/larksuite/cli" target="_blank" rel="noopener">[来源: 小互(@imxiaohu)]</a></li>
+            <li><strong>Pretext 文本测量引擎:</strong> 前 Midjourney 专家 Cheng Lou 开源纯 TS 文本测量库，性能提升约 500 倍且完全不依赖 DOM，打破了前端布局的最大性能瓶颈。 <a href="https://x.com/dotey/status/2038115581883257201" target="_blank" rel="noopener">[来源: 宝玉(@dotey)]</a></li>
+            <li><strong>Google TurboQuant:</strong> 全新大模型压缩算法发布，KV Cache 内存节省 6x 以上且零精度损耗，让低配设备本地跑大模型更流畅。 <a href="https://x.com/FinanceYF5/status/2038056534928974119" target="_blank" rel="noopener">[来源: AI Will(@FinanceYF5)]</a></li>
+            <li><strong>AutoGenesis 开源:</strong> 微软 Edge QA 团队开源基于 AI+MCP 的跨平台自动化测试实践方案，用自然语言生成测试脚本。 <a href="https://github.com/microsoft/AutoGenesis" target="_blank" rel="noopener">[来源: InfoQ]</a></li>
+            <li><strong>React Joyride 3.0:</strong> 全新重写的引导式导览库发布，支持现代 React 钩子和更流畅的渲染效果。 <a href="https://react-joyride.com/" target="_blank" rel="noopener">[来源: 印记中文]</a></li>
+            <li><strong>ColaMD 编辑器:</strong> 针对 Agent 时代设计的开源 Markdown 编辑器，支持文件被外部修改后实时刷新内容，解决 Typora 协作痛点。 <a href="https://github.com/marswaveai/ColaMD" target="_blank" rel="noopener">[来源: Orange AI(@oran_ge)]</a></li>
+            <li><strong>PinchBench 基准测试:</strong> 针对 OpenClaw 的真实世界场景评测系统，使用 Rust 开发，评估 Agent 调用工具的实际效果而非单纯的模型问答。 <a href="https://x.com/shao__meng/status/2037894862440460323" target="_blank" rel="noopener">[来源: meng shao(@shao__meng)]</a></li>
+            <li><strong>Google TimesFM:</strong> 首个时间序列预测基础模型开源，实现任意数据零训练开箱即用。 <a href="https://github.com/google-research/timesfm" target="_blank" rel="noopener">[来源: Berryxia.AI(@berryxia)]</a></li>
+            <li><strong>TypeWhisper for Mac:</strong> 免费开源的语音输入法，基于 Whisper 识别，体验流畅。 <a href="https://github.com/TypeWhisper/typewhisper" target="_blank" rel="noopener">[来源: Geek(@geekbb)]</a></li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2># 深度技术解读</h2>
+        <div class="tech-item">
+            <span class="tech-title">1. Pretext: 绕过 DOM 的高性能排版新范式</span>
+            <p><strong>核心变化:</strong> Pretext 使用纯 TypeScript 实现了一套文本测量算法，它直接读取浏览器的字体引擎输出作为基准，在内存中完成计算，彻底避免了 <code>getBoundingClientRect()</code> 触发的高昂 reflow。它的体积仅几 KB，支持多语言混排及 Emoji。</p>
+            <p><strong>实践意义:</strong> 极大地提升了虚拟滚动、图文环绕等复杂排版场景的性能（约 500 倍提升），特别是在 AI 实时生成 UI 的场景下，能有效消除界面闪烁和抖动。</p>
+            <a href="https://x.com/dotey/status/2038115581883257201" target="_blank" rel="noopener">📎 [来源: 宝玉(@dotey)]</a>
+        </div>
+        <div class="tech-item">
+            <span class="tech-title">2. Agentic RL: 后训练（Post-Training）的新前沿</span>
+            <p><strong>技术背景:</strong> 最新的技术报告（Kimi K2.5, Cursor, Chroma）展示了通过强化学习（RL）训练垂直领域 Agent 的新范式：在真实的生产环境 Harness 中进行训练，使用基于结果（Outcome-based）的奖励。</p>
+            <p><strong>核心观点:</strong> SFT 教模型“说什么”，RL 教模型“怎么想”。模型通过 RL 学会了在生产环境中正确调用工具、剪枝上下文、甚至并行派生子 Agent 来解决问题。</p>
+            <a href="https://x.com/_philschmid/status/2037925148599243005" target="_blank" rel="noopener">📎 [来源: Philipp Schmid(@_philschmid)]</a>
+        </div>
+        <div class="tech-item">
+            <span class="tech-title">3. Claude Code "Auto Mode": 审批疲劳的工程化解法</span>
+            <p><strong>方案细节:</strong> 针对用户对高频权限请求产生的“审批疲劳”，Anthropic 推出自动模式。它不是简单的全开放，而是通过内部事故日志（如误删分支、滥找 Token 等）构建的系统安全边界，让模型在受控范围内自由行动。</p>
+            <p><strong>建议:</strong> 对于需要高频操作文件的任务，可以使用自动模式，但关键部署操作仍建议保留确认环节。</p>
+            <a href="https://mp.weixin.qq.com/s?__biz=Mzg3MTkxMjYzOA==&mid=2247513678&idx=1&sn=00d359a3a4bf24aa09107fe501933492" target="_blank" rel="noopener">📎 [来源: AI寒武纪]</a>
+        </div>
+        <div class="tech-item">
+            <span class="tech-title">4. Harness Engineering: Agent 性能的决定性因素</span>
+            <p><strong>核心解读:</strong> 同一个模型，在不同的“脚手架”（Harness）设计下，性能排名可能从 Top 30 跃升至 Top 5。Harness 不仅仅是 Prompt 拼接，它包含了 Context 管理、工具抽象和错误反馈闭环。Agent 不好用，往往是 Configuration 问题，而非 Model 问题。</p>
+            <a href="https://mp.weixin.qq.com/s?__biz=MjM5ODkzMzMwMQ==&mid=2650451421&idx=2&sn=4a313901d47acec34786f7bb88b84653" target="_blank" rel="noopener">📎 [来源: AINLP]</a>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2># 工具推荐</h2>
+        <ul>
+            <li><strong>Lark CLI:</strong> 通过终端直接操作飞书日历、文档和消息。 <code>npm i -g @larksuite/cli</code></li>
+            <li><strong>ColaMD:</strong> 为 Agent 实时编辑优化的 Markdown 编辑器。 <a href="https://colamd.com" target="_blank" rel="noopener">官网</a></li>
+            <li><strong>PinchBench:</strong> Rust 编写的 Agent 基准测试工具，适合本地模型调优评估。 <a href="https://github.com/pinchbench/skills-bench" target="_blank" rel="noopener">GitHub</a></li>
+            <li><strong>TypeWhisper:</strong> 开源好用的 macOS 语音输入法。 <a href="https://github.com/TypeWhisper/typewhisper" target="_blank" rel="noopener">GitHub</a></li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2># 实践指南: 打造健壮的 AI Coding 工作流</h2>
+        <p><strong>1. 引入 Superpowers 模式:</strong> 拿到需求后，先通过 Agent 进行设计评审和测试方案制定，不要直接生成代码。这能显著降低重构成本。</p>
+        <p><strong>2. 善用 CLI 接口:</strong> 将繁琐的 GUI 操作（如新建文档、发通知）通过 CLI 脚本化，并交给 Agent 执行。Agent 处理批量结构化任务的效率远超人工。</p>
+        <p><strong>3. 重视本地部署:</strong> 随着端侧优化算法（如 TurboQuant）成熟，CTO 及开发者应尝试在本地（如 Mac Mini）部署 Qwen 等开源大模型，构建私有且快速的辅助编程环境。</p>
+    </div>
+
+    <div class="section sources-section">
+        <h3>📎 参考链接汇总</h3>
+        <div class="source-links">
+            <a href="https://github.com/larksuite/cli" target="_blank" rel="noopener">Lark CLI - GitHub</a>
+            <a href="https://github.com/chenglou/pretext" target="_blank" rel="noopener">Pretext - GitHub</a>
+            <a href="https://react-joyride.com/" target="_blank" rel="noopener">React Joyride 3.0 - Docs</a>
+            <a href="https://github.com/marswaveai/ColaMD" target="_blank" rel="noopener">ColaMD - GitHub</a>
+            <a href="https://github.com/google-research/timesfm" target="_blank" rel="noopener">TimesFM - GitHub</a>
+            <a href="https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651280184&idx=3&sn=cc73978b6d44573efb9a884432979c5c" target="_blank" rel="noopener">Stripe Minions Agent - InfoQ</a>
+        </div>
+    </div>
+
+    <div class="footer">
+        /* Generated by Jules Engineer | 2026-03-29 13:05:00 */
+    </div>
+</body>
+</html>
