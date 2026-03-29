@@ -303,10 +303,6 @@ git add -A
 TODAY=$(date +%Y-%m-%d)
 git commit -m "Tech Daily Report $TODAY" || echo "无变更需要提交"
 
-# ⚠️ 关键：推送前必须使用代理
-export http_proxy=http://127.0.0.1:10998
-export https_proxy=http://127.0.0.1:10998
-
 # 推送
 git remote set-url origin "https://${GITHUB_TOKEN}@github.com/${GITHUB_USER}/${GITHUB_REPO}.git"
 git push origin main 2>&1
