@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>开发者实践版 - 科技日报 - 2026年3月30日</title>
+    <style>
+        body { font-family: 'Courier New', Courier, monospace; background-color: #0d1117; color: #c9d1d9; padding: 20px; line-height: 1.5; }
+        .container { max-width: 1000px; margin: auto; border: 1px solid #30363d; padding: 30px; border-radius: 6px; }
+        h1, h2, h3 { color: #58a6ff; }
+        a { color: #58a6ff; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .news-item { border-bottom: 1px solid #30363d; padding: 15px 0; }
+        .summary { color: #8b949e; margin-top: 5px; }
+        .deep-dive { background-color: #161b22; border-left: 4px solid #238636; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .deep-dive h3 { margin-top: 0; color: #238636; }
+        .tool-tag { display: inline-block; background: #21262d; border: 1px solid #30363d; padding: 2px 8px; border-radius: 12px; font-size: 0.8em; margin-right: 5px; color: #79c0ff; }
+        .code-block { background: #000; padding: 10px; border-radius: 4px; overflow-x: auto; color: #d1d5da; font-size: 0.9em; }
+        .footer { margin-top: 40px; text-align: center; color: #484f58; font-size: 0.8em; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>💻 科技日报 - 开发者实践版</h1>
+        <p>Terminal Session ID: 2026-03-30 | 关注技术细节与工具实践</p>
+
+        <h2>🔥 今日热榜</h2>
+        <div class="news-item">
+            <strong>[Release] Visual Studio Code 1.114 (Insiders)</strong>
+            <p class="summary">微软发布 VS Code 最新预览版，持续优化远程开发与 AI 辅助能力。 <a href="https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.114" target="_blank">[来源: Microsoft for Developers]</a></p>
+        </div>
+        <div class="news-item">
+            <strong>[OpenSource] Pretext - Pure TS Text Measurement</strong>
+            <p class="summary">Cheng Lou 推出 Pretext，绕过 DOM 直接精确测量文本排版，性能提升 500 倍。 <a href="https://github.com/chenglou/pretext" target="_blank">[来源: GitHub]</a></p>
+        </div>
+        <div class="news-item">
+            <strong>[New Tool] TimesFM by Google</strong>
+            <p class="summary">Google 开源时间序列预测的基础模型，零训练、开箱即用，支持多种数据集。 <a href="https://github.com/google-research/timesfm" target="_blank">[来源: Google Research]</a></p>
+        </div>
+        <div class="news-item">
+            <strong>[Android] AppFunctions SDK Beta</strong>
+            <p class="summary">Google 推出 AppFunctions，允许 AI Agent 直接调用 Android 应用内部功能块。 <a href="https://www.infoq.com/news/2026/03/android-appfunctions-agents/" target="_blank">[来源: InfoQ]</a></p>
+        </div>
+        <div class="news-item">
+            <strong>[Security] Kubescape 4.0 Released</strong>
+            <p class="summary">新增 AI Agent 扫描与运行时安全防护，针对 Kubernetes 环境下的智能体安全。 <a href="https://www.infoq.com/news/2026/03/kubescape-40/" target="_blank">[来源: InfoQ]</a></p>
+        </div>
+        <div class="news-item">
+            <strong>[Frontend] Nuxt Test Utils v4</strong>
+            <p class="summary">集成 Vitest v4，重构 Mocking 机制，提供更严格的环境设置。 <a href="https://www.infoq.com/news/2026/03/nuxt-test-utils-4/" target="_blank">[来源: InfoQ]</a></p>
+        </div>
+        <div class="news-item">
+            <strong>[Vulnerability] OSV.dev CORS API & Python Tool</strong>
+            <p class="summary">开发者利用 OSV.dev 的公开 API 构建了快速扫描 pyproject.toml 漏洞的 HTML 工具。 <a href="https://simonwillison.net/2026/Mar/29/python-vulnerability-lookup/" target="_blank">[来源: Simon Willison]</a></p>
+        </div>
+        <div class="news-item">
+            <strong>[Agent] Trae AI "Session Learning Skill"</strong>
+            <p class="summary">通过对话分析与教训提炼，实现 AI 助手的闭环学习机制，将经验转化为结构化 Skills。 <a href="https://x.com/shao__meng/status/2038247186719477762" target="_blank">[来源: Trae AI]</a></p>
+        </div>
+
+        <h2>🛠️ 深度技术解读</h2>
+
+        <div class="deep-dive">
+            <h3>1. Pretext：彻底告别 getBoundingClientRect 带来的 Reflow 地狱</h3>
+            <p><strong>技术背景：</strong> 在 Web 前端，获取文本宽高通常依赖 DOM API，这会触发耗时的 Reflow。Cheng Lou 的 Pretext 通过纯 TypeScript 实现了浏览器字体引擎的部分逻辑。</p>
+            <p><strong>实践意义：</strong> 性能提升了约 500 倍。开发者可以在非 DOM 环境（如 Worker 或服务器端）预计算布局。支持复杂场景，如多语言混排和响应式杂志排版，且体积仅数 KB。</p>
+            <span class="source-tag">📎 来源: <a href="https://simonwillison.net/2026/Mar/29/pretext-explainer/" target="_blank">Pretext Under the Hood</a></span>
+        </div>
+
+        <div class="deep-dive">
+            <h3>2. Google TimesFM：时间序列预测进入“预训练大模型”时代</h3>
+            <p><strong>核心变化：</strong> 传统的 ARIMA 或 Prophet 需要针对每个任务重新训练。TimesFM 基于 1000 亿个真实世界时间点预训练，实现了零样本（Zero-shot）预测能力。</p>
+            <p><strong>迁移建议：</strong> 开发者在处理流量、天气、销量预测等任务时，应优先尝试 TimesFM 这种开箱即用的 Foundation Model，而非从头构建模型。</p>
+            <span class="source-tag">📎 来源: <a href="https://x.com/berryxia/status/2038213521394082093" target="_blank">Google TimesFM 开源 - Berryxia</a></span>
+        </div>
+
+        <div class="deep-dive">
+            <h3>3. Harness Engineering：为什么你的 Agent 还是“人工智障”</h3>
+            <p><strong>核心观点：</strong> Agent = Model + Harness。许多开发者直接将模型裸奔，导致其在复杂任务中迷失。Harness 包括系统提示词、工具、文件系统沙箱及各种检查机制。</p>
+            <p><strong>实践指南：</strong> 建立闭环反馈。给 Agent 配备 Read/Write/Edit/Bash 四件套的同时，必须加入测试驱动（TDD）流程，让 Agent 知道自己干得对不对。</p>
+            <span class="source-tag">📎 来源: <a href="https://mp.weixin.qq.com/s?__biz=MjM5ODkzMzMwMQ==&mid=2650451421&idx=2" target="_blank">Harness Engineering 深度拆解 - AINLP</a></span>
+        </div>
+
+        <div class="deep-dive">
+            <h3>4. 飞书 CLI 开源：Agent 操作办公套件的最佳实践</h3>
+            <p><strong>技术核心：</strong> 将办公软件的功能原子化为 CLI 命令。Agent 通过 Bash 工具直接执行 `feishu-cli send-message` 或 `create-sheet`，避免了复杂的 API 调用与 Token 处理逻辑。</p>
+            <p><strong>迁移建议：</strong> 推荐使用云原生环境运行 Agent 并挂载此 CLI，实现自动化的周报生成、日程对齐等工作流。</p>
+            <span class="source-tag">📎 来源: <a href="https://github.com/larksuite/cli" target="_blank">Feishu CLI GitHub 仓库</a></span>
+        </div>
+
+        <div class="deep-dive">
+            <h3>5. TurboQuant 算法：本地运行大模型的“降维打击”</h3>
+            <p><strong>技术突破：</strong> Google 发布的 TurboQuant 在不损失质量的前提下，将 KV 缓存内存降低 6 倍，推理提速 8 倍。这意味着 16GB 内存设备可以运行参数规模更大的模型。</p>
+            <p><strong>实践建议：</strong> 开发者可以尝试在 Apple Silicon 芯片上使用该算法加速本地调试，极大降低研发成本并提升隐私安全。</p>
+            <span class="source-tag">📎 来源: <a href="https://x.com/FinanceYF5/status/2038056534928974119" target="_blank">TurboQuant: New Compression Algorithm - Google Research</a></span>
+        </div>
+
+        <div class="deep-dive">
+            <h3>6. Trae AI "Session Learning"：让 Agent 具备长记性</h3>
+            <p><strong>设计决策：</strong> 解决“一次性对话”带来的经验流失。通过被动总结、主动询问、关键词触发三种方式，将编程过程中的坑和最佳实践沉淀到项目 docs 中。</p>
+            <p><strong>实践建议：</strong> 在个人或团队工作区中维护一个 `SKILLS.md` 或 `MEMORY.md`，让不同会话的 Agent 能够共享上下文和操作偏好。</p>
+            <span class="source-tag">📎 来源: <a href="https://x.com/shao__meng/status/2038247186719477762" target="_blank">TRAE 官方企业级编程实践 - Trae_ai</a></span>
+        </div>
+
+        <div class="deep-dive">
+            <h3>7. Codex Security：自动修复漏洞的闭环实践</h3>
+            <p><strong>核心功能：</strong> 不仅是发现漏洞，还能根据上下文自动生成补丁。目前处于预览期且免费，已帮助数千家组织处理了数十万个安全问题。</p>
+            <p><strong>实践指南：</strong> 建议在 CI/CD 流水线中集成此类工具，作为代码静态扫描的进阶补充。</p>
+            <span class="source-tag">📎 来源: <a href="https://developers.openai.com/codex/security/" target="_blank">Codex Security Announcement - OpenAI</a></span>
+        </div>
+
+        <div class="deep-dive">
+            <h3>8. Hermes Agent：面向稳定性的 Agent 架构选型</h3>
+            <p><strong>架构亮点：</strong> 相比常用的 OpenClaw，Hermes 强调学习闭环和分层记忆。L1 为持久记忆（~1.3k tokens），L2 为基于 SQLite+FTS5 的无限全文本搜索。</p>
+            <p><strong>选型建议：</strong> 如果你的项目需要跨会话的长程记忆和 200+ 模型支持，Hermes 可能是比 Ollama/OpenClaw 更专业的选择。</p>
+            <span class="source-tag">📎 来源: <a href="https://x.com/shao__meng/status/2038238691739550101" target="_blank">Hermes Agent 深度报告 - meng shao</a></span>
+        </div>
+
+        <h2>🧰 工具推荐</h2>
+        <ul class="bullet-list">
+            <li><span class="tool-tag">ColaMD</span>：专为 Agent 时代设计的轻量 Markdown 编辑器，支持文件外部修改后实时刷新。 <a href="https://colamd.com" target="_blank">[官网]</a></li>
+            <li><span class="tool-tag">Homelable</span>：将局域网扫描与服务识别结果绘制成实时活拓扑图的自托管工具。 <a href="https://github.com/Pouzor/homelable" target="_blank">[GitHub]</a></li>
+            <li><span class="tool-tag">AnyClaw</span>：给 Agent 使用的万能转接头，将传统 API/Web 转成 MCP/Skills 格式。 <a href="https://github.com/fastclaw-ai/anyclaw" target="_blank">[GitHub]</a></li>
+        </ul>
+
+        <div class="footer">
+            <p>Reference Links Summary:</p>
+            <p><a href="https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.114">VS Code 1.114</a> | <a href="https://github.com/chenglou/pretext">Pretext Library</a> | <a href="https://github.com/google-research/timesfm">TimesFM</a> | <a href="https://github.com/larksuite/cli">Feishu CLI</a></p>
+        </div>
+    </div>
+</body>
+</html>
