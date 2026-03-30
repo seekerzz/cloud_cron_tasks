@@ -160,6 +160,32 @@
 
 - **用户研究版**: 温暖人本风格，橙/紫渐变配色，注重可读性与视觉层次
 
+## 模板参考要求
+
+**在生成日报前，必须先读取并参考 `./DEST_REPO/template/tech-daily/user_research.html` 模板文件**，严格遵循以下要求：
+
+1. **采用完全相同的CSS样式**
+   - 温暖渐变配色方案（橙/紫渐变：`#FF6B6B`, `#FF8E53`, `#764ba2` 等）
+   - CSS变量定义（--primary-gradient, --card-bg, --shadow-soft等）
+   - 组件样式（header、section、trend-card、product-card等）
+   - 动画效果（pulse、heartbeat等）
+   - 响应式布局设置
+
+2. **采用相同的栏目结构**
+   - Header区域：edition-badge、标题、副标题、日期
+   - 今日要点：highlight-list 结构（highlight-item带圆点标记）
+   - 设计趋势洞察：trend-grid 卡片布局（trend-card结构）
+   - 产品体验点评：product-card 结构（含product-header、ux-highlight）
+   - 研究方法论：method-item 结构
+   - UX雷达：radar-grid 卡片布局（radar-item带signal标签）
+   - 参考来源：ref-list 双栏布局
+   - Footer区域
+
+3. **保持一致的视觉层次**
+   - 使用相同的class名称
+   - 使用section-header带icon的结构
+   - 使用相同的标签样式（source-tag、product-tag、radar-signal等）
+
 ---
 
 ## 输出要求

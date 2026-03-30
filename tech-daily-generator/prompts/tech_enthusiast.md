@@ -148,6 +148,31 @@
 
 - **爱好者版**: 活泼配色，emoji点缀
 
+## 模板参考要求
+
+**在生成日报前，必须先读取并参考 `./DEST_REPO/template/tech-daily/tech_enthusiast.html` 模板文件**，严格遵循以下要求：
+
+1. **采用完全相同的CSS样式**
+   - 渐变配色方案（粉紫渐变：`#f093fb`, `#f5576c`, `#667eea` 等）
+   - 圆角卡片和阴影效果
+   - 组件样式（header、section、news-item、product-card等）
+   - 响应式布局设置
+
+2. **采用相同的栏目结构**
+   - Header区域：大标题、副标题、日期徽章
+   - 今日头条：top-news 卡片结构
+   - 科技新鲜事：news-item 列表
+   - 科普小课堂：concept-box 结构
+   - 值得试试：product-grid 卡片布局
+   - 今日金句：quote-box 样式
+   - 延伸阅读：reading-list 结构
+   - Footer区域
+
+3. **保持一致的视觉层次**
+   - 使用相同的class名称
+   - 保持相同的emoji使用风格
+   - 使用相同的标签样式（tag.ai、tag.product等）
+
 ---
 
 ## 输出要求

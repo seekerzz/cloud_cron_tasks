@@ -148,6 +148,31 @@
 
 - **投资版**: 专业金融报表风格
 
+## 模板参考要求
+
+**在生成日报前，必须先读取并参考 `./DEST_REPO/template/tech-daily/investment_analysis.html` 模板文件**，严格遵循以下要求：
+
+1. **采用完全相同的CSS样式**
+   - 深色主题配色方案（`#0a0e1a`, `#111827`, `#1f2937` 等）
+   - 金色/橙色强调色（`#fbbf24`, `#f59e0b` 等）
+   - 组件样式（header、section、market-card、analysis-item等）
+   - 响应式布局设置
+
+2. **采用相同的栏目结构**
+   - Header区域：标题、统计栏(stats-bar)、日期
+   - 市场概览：market-grid 卡片布局（market-card结构）
+   - 深度分析：analysis-item 结构（含highlights、market-potential、risk-factors）
+   - 赛道雷达：sector-grid 卡片布局
+   - 投资趋势洞察：趋势分析区块
+   - 项目列表：source-links 结构
+   - 数据来源声明：disclaimer-section
+   - Footer区域
+
+3. **保持一致的视觉层次**
+   - 使用相同的class名称
+   - 使用相同的索引标记（market-index）
+   - 使用相同的分类标签（market-category、category-tag、project-tag等）
+
 ---
 
 ## 输出要求

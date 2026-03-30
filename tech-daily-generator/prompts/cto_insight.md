@@ -146,6 +146,28 @@
 
 - **CTO版**: 简洁商务风格，蓝灰色调
 
+## 模板参考要求
+
+**在生成日报前，必须先读取并参考 `./DEST_REPO/template/tech-daily/cto_insight.html` 模板文件**，严格遵循以下要求：
+
+1. **采用完全相同的CSS样式**
+   - 颜色方案（蓝灰色调：`#1a365d`, `#2c5282`, `#e2e8f0` 等）
+   - 字体和排版样式
+   - 组件样式（header、section、insight-item、highlight-list等）
+   - 响应式布局设置
+
+2. **采用相同的栏目结构**
+   - Header区域：标题、副标题、日期
+   - 今日要点：highlight-list 列表结构
+   - 深度洞察：insight-item 卡片结构（含headline、analysis、action）
+   - 趋势雷达：radar-item 结构
+   - 信息来源汇总：sources 区域
+
+3. **保持一致的视觉层次**
+   - 使用相同的class名称
+   - 保持相同的间距和边距
+   - 使用相同的标签样式（tag-strategy、tag-talent等）
+
 ---
 
 ## 输出要求
