@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学术研究员版 - 科技日报 - 2026年3月30日</title>
+    <style>
+        body { font-family: 'Times New Roman', Times, serif; background: #fdfaf0; color: #2c3e50; padding: 40px; line-height: 1.8; }
+        .container { max-width: 900px; margin: auto; background: #fff; padding: 50px; border: 1px solid #dcdde1; box-shadow: 0 10px 30px rgba(0,0,0,0.05); }
+        h1 { font-size: 28px; text-align: center; border-bottom: 2px double #2c3e50; padding-bottom: 15px; }
+        h2 { font-size: 22px; color: #c0392b; border-bottom: 1px solid #eee; margin-top: 40px; }
+        h3 { font-size: 18px; color: #2980b9; }
+        .abstract { font-style: italic; color: #7f8c8d; margin-bottom: 20px; text-indent: 2em; }
+        .interpretation { background: #f9f9f9; padding: 20px; border-left: 5px solid #2980b9; margin-bottom: 30px; }
+        .source { font-size: 14px; color: #95a5a6; margin-top: 10px; }
+        a { color: #2980b9; text-decoration: none; }
+        .footer { text-align: center; margin-top: 60px; font-size: 12px; border-top: 1px solid #eee; padding-top: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎓 科技日报 - 学术研究员版</h1>
+        <p style="text-align: center;">学术前沿 · 理论基础 · 学术创新</p>
+        <p style="text-align: center; font-size: 14px;">2026年3月30日</p>
+
+        <div class="abstract">
+            <strong>摘要：</strong> 本期日报聚焦于世界模型、长程研究轨迹合成、多模态基础模型规模化以及 AI 在进攻性安全领域的突破。特别关注 Yann LeCun 团队关于潜在空间规划的最新理论进展，以及 Stanford 对多模态模型视觉理解能力的质疑。
+        </div>
+
+        <h2>🔬 核心学术动态</h2>
+
+        <div class="interpretation">
+            <h3>1. Temporal Straightening for Latent Planning (Yann LeCun/Meta)</h3>
+            <p><strong>核心观点：</strong> 探讨了世界模型在潜在空间中进行规划时面临的“时间曲率”问题。研究指出，AI 的规划能力受制于时间信息的非线性表示，通过“时间直道化”技术，可以使 AI 更好地理解现实世界的演变并进行长程规划。</p>
+            <p><strong>理论意义：</strong> 为构建真正具备常识和规划能力的 AI 提供了新的数学框架，挑战了当前单纯基于自回归生成的预测范式。</p>
+            <div class="source">📎 来源: <a href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651024498&idx=2" target="_blank">AI为什么不会规划？ - 机器之心</a></div>
+        </div>
+
+        <div class="interpretation">
+            <h3>2. OpenResearcher: 离线深度研究轨迹合成流水线</h3>
+            <p><strong>核心创新：</strong> TAMU/Waterloo 团队针对长程研究数据匮乏问题，提出了一种完全开源、可复现的流水线。该系统利用教师模型在离线环境下合成超过 9.7 万条包含百次以上工具调用的深度研究轨迹。</p>
+            <p><strong>研究价值：</strong> 在 BrowseComp-Plus 数据集上达到 54.8% 准确率，超越了 GPT-4.1 和 Claude-4-Opus，证明了合成数据在提升复杂推理能力方面的巨大潜力。</p>
+            <div class="source">📎 来源: <a href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651024498&idx=3" target="_blank">让中小团队也玩得起Deep Research - 机器之心</a></div>
+        </div>
+
+        <div class="interpretation">
+            <h3>3. Intern-S1-Pro: Trillion Scale Scientific Multimodal Model</h3>
+            <p><strong>动态简述：</strong> 发布了万亿参数规模的科学多模态基础模型，旨在处理复杂的科学计算、图像识别及跨学科推理任务。</p>
+            <p><strong>学术影响：</strong> 这标志着多模态模型正从通用领域向高精尖科学领域深耕，万亿规模的参数量为处理极高复杂度的科学数据提供了可能。</p>
+            <div class="source">📎 来源: <a href="https://x.com/_akhaliq/status/2038246016483316116" target="_blank">Intern-S1-Pro Paper - AK (@_akhaliq)</a></div>
+        </div>
+
+        <div class="interpretation">
+            <h3>4. Stanford 论文：多模态模型视觉理解的“海市蜃楼”</h3>
+            <p><strong>核心批判：</strong> Stanford 研究揭示了前沿多模态模型存在“Mirage Reasoning”现象：模型能在未提供图像的情况下生成详尽的图像描述及临床发现，且在部分医疗基准测试中，无图输入竟然拿到了高分。</p>
+            <p><strong>理论警示：</strong> 这一发现严重挑战了当前多模态模型的 utility 评价体系，暗示模型可能主要依赖语言关联而非真实的视觉理解进行推理。</p>
+            <div class="source">📎 来源: <a href="https://garymarcus.substack.com/p/the-mirage-of-visual-understanding" target="_blank">The mirage of visual understanding - Gary Marcus</a></div>
+        </div>
+
+        <div class="interpretation">
+            <h3>5. DragNeXt: 基于隐空间区域优化的拖拽式图像编辑</h3>
+            <p><strong>技术突破：</strong> 首次将拖拽式编辑统一为区域优化（LRO），用区域级操作取代模糊的点拖拽，有效解决了意图歧义和长距形变中的伪影问题。</p>
+            <p><strong>应用价值：</strong> 在 AAAI'26 上获得高度评价，为创意设计和影视后期提供了更具解释性和可靠性的 AI 工具。</p>
+            <div class="source">📎 来源: <a href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652687412&idx=3" target="_blank">DragNeXt: 意图对齐与编辑质量新突破 - 新智元</a></div>
+        </div>
+
+        <div class="interpretation">
+            <h3>6. MicroCoder: 破解代码大模型训练瓶颈</h3>
+            <p><strong>核心方法：</strong> 通过总结 34 条算法数据框架训练经验，优化了代码大模型的微调流程，提升了模型对长文本代码的理解和生成质量。</p>
+            <p><strong>实践意义：</strong> 为开发者提供了一套可操作的代码模型优化指南，缩短了从 SOTA 论文到生产级模型的转化周期。</p>
+            <div class="source">📎 来源: <a href="https://www.qbitai.com/2026/03/393164.html" target="_blank">打破代码大模型训练瓶颈 - 量子位</a></div>
+        </div>
+
+        <div class="interpretation">
+            <h3>7. CERN 的 FPGA 紧凑型 AI 模型部署</h3>
+            <p><strong>技术亮点：</strong> 在极度严苛的硬件环境下，CERN 成功在 FPGA 上部署了超紧凑 AI，以纳秒级延迟实时过滤大型强子对撞机每秒产生的数百 TB 数据。</p>
+            <p><strong>研究领域：</strong> 展示了 AI 在极高频率物理实验数据处理中的应用前景，对实时流处理研究具有重要参考价值。</p>
+            <div class="source">📎 来源: <a href="https://supertechfans.com/cn/post/2026-03-29-HackerNews/" target="_blank">纳秒级 AI 过滤数据 - HackerNews</a></div>
+        </div>
+
+        <div class="interpretation">
+            <h3>8. Build A Reasoning Model (From Scratch) - Sebastian Raschka</h3>
+            <p><strong>动态简述：</strong> 著名学者 Sebastian Raschka 的新书已开启早期访问，系统性阐述了如何从零开始构建具备推理能力的模型。</p>
+            <p><strong>教育意义：</strong> 这本书将复杂的推理模型工程化，为学术界和工业界培养具备底层构建能力的 AI 人才提供了标准教程。</p>
+            <div class="source">📎 来源: <a href="https://x.com/dongxi_nlp/status/2038377149191557390" target="_blank">Build A Reasoning Model 新书发布 - 马东锡 NLP</a></div>
+        </div>
+
+        <div class="footer">
+            <p>信息汇总自: GitHub, arXiv, 机器之心, 新智元, Quantum Bit 等学术前沿媒体</p>
+            <p>&copy; 2026 科技日报学术编辑组</p>
+        </div>
+    </div>
+</body>
+</html>
