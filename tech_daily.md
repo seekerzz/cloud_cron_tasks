@@ -89,13 +89,6 @@ TIME_RANGE: 过去24小时 (...)
 ```bash
 cd ./DEST_REPO
 
-# 创建 tech-daily 目录（如果不存在）
-mkdir -p tech-daily
-
-# Git配置
-git config user.email "bot@daily-report.local" 2>/dev/null || true
-git config user.name "Daily Report Bot" 2>/dev/null || true
-
 # 添加并提交
 git add -A
 TODAY=$(date +%Y-%m-%d)
