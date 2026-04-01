@@ -1,0 +1,958 @@
+import json
+
+template_str = """<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>科技日报 - 开发者实践版 | 2026-03-31</title>
+    <style>
+        :root {
+            --bg-primary: #0d1117;
+            --bg-secondary: #161b22;
+            --bg-tertiary: #21262d;
+            --text-primary: #e6edf3;
+            --text-secondary: #7d8590;
+            --text-muted: #484f58;
+            --accent-blue: #58a6ff;
+            --accent-green: #3fb950;
+            --accent-purple: #a371f7;
+            --accent-orange: #f0883e;
+            --accent-red: #f85149;
+            --border-color: #30363d;
+            --code-bg: #1e2530;
+            --font-mono: 'JetBrains Mono', 'Fira Code', 'SF Mono', Monaco, monospace;
+            --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--font-sans);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            font-size: 15px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        /* Header */
+        .header {
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 30px;
+            margin-bottom: 40px;
+        }
+
+        .header-meta {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+
+        .badge {
+            background: var(--accent-purple);
+            color: white;
+            padding: 4px 12px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+
+        .date {
+            color: var(--text-secondary);
+            font-size: 14px;
+            font-family: var(--font-mono);
+        }
+
+        h1 {
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 12px;
+            background: linear-gradient(135deg, var(--text-primary) 0%, var(--accent-blue) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .subtitle {
+            color: var(--text-secondary);
+            font-size: 16px;
+        }
+
+        /* Section Headers */
+        .section {
+            margin-bottom: 50px;
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 24px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        .section-icon {
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--bg-tertiary);
+            border-radius: 8px;
+            font-size: 16px;
+        }
+
+        h2 {
+            font-size: 22px;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        /* News Items */
+        .news-list {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .news-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 20px;
+            transition: all 0.2s ease;
+        }
+
+        .news-item:hover {
+            border-color: var(--accent-blue);
+            transform: translateX(4px);
+        }
+
+        .news-header {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+
+        .news-number {
+            background: var(--bg-tertiary);
+            color: var(--accent-blue);
+            width: 28px;
+            height: 28px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 6px;
+            font-size: 13px;
+            font-weight: 600;
+            font-family: var(--font-mono);
+            flex-shrink: 0;
+        }
+
+        .news-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--text-primary);
+            line-height: 1.5;
+            flex: 1;
+        }
+
+        .news-content {
+            color: var(--text-secondary);
+            font-size: 14px;
+            line-height: 1.8;
+            margin-left: 40px;
+            margin-bottom: 12px;
+        }
+
+        .news-content p {
+            margin-bottom: 10px;
+        }
+
+        .news-content p:last-child {
+            margin-bottom: 0;
+        }
+
+        .news-meta {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-left: 40px;
+            font-size: 12px;
+            color: var(--text-muted);
+            font-family: var(--font-mono);
+        }
+
+        .news-meta a {
+            color: var(--accent-blue);
+            text-decoration: none;
+        }
+
+        .news-meta a:hover {
+            text-decoration: underline;
+        }
+
+        .tag {
+            background: var(--bg-tertiary);
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 11px;
+        }
+
+        /* Deep Dive Section */
+        .deep-dive-item {
+            background: linear-gradient(135deg, var(--bg-secondary) 0%, var(--bg-tertiary) 100%);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+        }
+
+        .deep-dive-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+
+        .deep-dive-number {
+            background: var(--accent-orange);
+            color: white;
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            font-size: 14px;
+            font-weight: 700;
+            font-family: var(--font-mono);
+        }
+
+        .deep-dive-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        .deep-dive-content {
+            color: var(--text-secondary);
+            font-size: 14px;
+            line-height: 1.9;
+        }
+
+        .deep-dive-content p {
+            margin-bottom: 12px;
+        }
+
+        .deep-dive-section {
+            margin-top: 16px;
+            padding-top: 16px;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .deep-dive-section h4 {
+            color: var(--accent-green);
+            font-size: 13px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 8px;
+        }
+
+        .deep-dive-section p {
+            margin-bottom: 0;
+        }
+
+        /* Tools Section */
+        .tool-card {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-left: 4px solid var(--accent-green);
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 16px;
+        }
+
+        .tool-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+
+        .tool-icon {
+            font-size: 20px;
+        }
+
+        .tool-name {
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        .tool-desc {
+            color: var(--text-secondary);
+            font-size: 14px;
+            line-height: 1.7;
+            margin-bottom: 12px;
+        }
+
+        .tool-link {
+            font-family: var(--font-mono);
+            font-size: 12px;
+            color: var(--accent-blue);
+        }
+
+        .tool-link a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        /* Links Section */
+        .links-section {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 24px;
+        }
+
+        .links-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 12px;
+        }
+
+        .link-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            padding: 8px;
+            border-radius: 6px;
+            transition: background 0.2s;
+        }
+
+        .link-item:hover {
+            background: var(--bg-tertiary);
+        }
+
+        .link-bullet {
+            color: var(--accent-blue);
+            font-size: 12px;
+            margin-top: 4px;
+        }
+
+        .link-content {
+            flex: 1;
+        }
+
+        .link-title {
+            font-size: 13px;
+            color: var(--text-primary);
+            margin-bottom: 2px;
+        }
+
+        .link-source {
+            font-size: 11px;
+            color: var(--text-muted);
+            font-family: var(--font-mono);
+        }
+
+        .link-item a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        /* Footer */
+        .footer {
+            margin-top: 60px;
+            padding-top: 30px;
+            border-top: 1px solid var(--border-color);
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 13px;
+        }
+
+        .footer p {
+            margin-bottom: 8px;
+        }
+
+        /* Code blocks */
+        code {
+            background: var(--code-bg);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: var(--font-mono);
+            font-size: 13px;
+            color: var(--accent-orange);
+        }
+
+        pre {
+            background: var(--code-bg);
+            padding: 16px;
+            border-radius: 8px;
+            overflow-x: auto;
+            font-family: var(--font-mono);
+            font-size: 13px;
+            line-height: 1.6;
+            margin: 12px 0;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px 16px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            .news-content,
+            .news-meta {
+                margin-left: 0;
+            }
+
+            .news-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .links-list {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-meta">
+                <span class="badge">开发者实践版</span>
+                <span class="date">2026-03-31</span>
+            </div>
+            <h1>科技日报</h1>
+            <p class="subtitle">全栈技术专家视角 | 关注工具更新、最佳实践与技术深度解读</p>
+        </header>
+
+        <!-- 今日热榜 -->
+        <section class="section">
+            <div class="section-header">
+                <div class="section-icon">🔥</div>
+                <h2>今日热榜</h2>
+            </div>
+            <div class="news-list">
+                <article class="news-item">
+                    <div class="news-header">
+                        <span class="news-number">01</span>
+                        <h3 class="news-title">Hermes Agent v0.6.0 发布：多实例隔离（Profiles）及 MCP 模式</h3>
+                    </div>
+                    <div class="news-content">
+                        <p>Hermes Agent v0.6.0 发布，核心架构进行重大升级。首次支持多实例隔离（Profiles），每个实例拥有独立的配置、记忆、会话、技能和网关服务，通过 token 锁机制防止并行冲突。这标志着 Hermes 已经向生产级 Agent 底座演进，开发者可以在单一主机上部署面向不同业务线的互不干扰的 AI 助手。</p>
+                    </div>
+                    <div class="news-meta">
+                        <span class="tag">开源框架</span>
+                        <span class="tag">AI Agent</span>
+                        <a href="https://x.com/shao__meng/status/2038786904565633052" target="_blank">查看详情</a>
+                        <span>来源: meng shao</span>
+                    </div>
+                </article>
+
+                <article class="news-item">
+                    <div class="news-header">
+                        <span class="news-number">02</span>
+                        <h3 class="news-title">Claude Code CLI 集成 Computer Use，实现无人值守开发闭环</h3>
+                    </div>
+                    <div class="news-content">
+                        <p>Claude Code 更新把 Computer Use 直接塞进 CLI，让 Agent 真正实现端到端自动化。只需一条提示词，Claude 就能完成“写代码 → 编译项目 → 启动 App → 自动打开界面点击测试 → 发现 Bug 自动修复”的全流程。目前该功能向 Pro/Max 用户开放，展示了纯 CLI 驱动的 AI 开发在效率上的降维打击。</p>
+                    </div>
+                    <div class="news-meta">
+                        <span class="tag">开发工具</span>
+                        <span class="tag">AI 编程</span>
+                        <a href="https://x.com/berryxia/status/2038772923818029107" target="_blank">查看详情</a>
+                        <span>来源: Berryxia.AI</span>
+                    </div>
+                </article>
+
+                <article class="news-item">
+                    <div class="news-header">
+                        <span class="news-number">03</span>
+                        <h3 class="news-title">Qwen 3.6 Plus Preview 正式上线，强化 Agentic Coding 与通用推理</h3>
+                    </div>
+                    <div class="news-content">
+                        <p>阿里云开源模型 Qwen 3.6 Plus Preview 在 OpenRouter 上线。此次升级重点优化了 agentic coding、前端编程和通用推理能力，作为旗舰模型 Qwen 3.5-Plus 的增强版，其指令遵循和长上下文稳定性得到显著改善。这是构建私有化编程助手的重要基座模型选项。</p>
+                    </div>
+                    <div class="news-meta">
+                        <span class="tag">开源模型</span>
+                        <span class="tag">大模型</span>
+                        <a href="https://x.com/Alibaba_Qwen/status/2038780221193863362" target="_blank">查看详情</a>
+                        <span>来源: Qwen</span>
+                    </div>
+                </article>
+
+                <article class="news-item">
+                    <div class="news-header">
+                        <span class="news-number">04</span>
+                        <h3 class="news-title">钉钉、飞书与企微开放 CLI 支持：重塑协作办公的自动化交互</h3>
+                    </div>
+                    <div class="news-content">
+                        <p>继飞书开源 CLI 工具后，钉钉和企业微信也在周末火速跟进 CLI 支持。结合 Claude Code 和 Codex 等 AI 助手，开发者现在可以通过命令行让 Agent 直接操作文档、日历、会议甚至审批流。CLI 的回暖反映了在 Agent 时代，结构化的终端输入比 GUI 更易于让 AI 模型理解和执行。</p>
+                    </div>
+                    <div class="news-meta">
+                        <span class="tag">CLI 工具</span>
+                        <span class="tag">最佳实践</span>
+                        <a href="https://mp.weixin.qq.com/s?__biz=MjM5OTEwNjI2MA==&mid=2651925824&idx=2&sn=168eb5330610162129a231218a6f14c6" target="_blank">阅读详情</a>
+                        <span>来源: 人人都是产品经理</span>
+                    </div>
+                </article>
+
+                <article class="news-item">
+                    <div class="news-header">
+                        <span class="news-number">05</span>
+                        <h3 class="news-title">cc-connect 发布：将本地 AI Agent 桥接至任意聊天应用</h3>
+                    </div>
+                    <div class="news-content">
+                        <p>开发者开源了 cc-connect 工具，这是一个能够将 Claude Code、Cursor、Gemini CLI 和 Codex 桥接至 Slack、Telegram、Discord 和飞书的中间件。它允许开发团队在熟悉的聊天软件中直接唤起本地计算资源或云端大模型执行任务，极大降低了非技术人员使用 AI 工具的门槛。</p>
+                    </div>
+                    <div class="news-meta">
+                        <span class="tag">中间件</span>
+                        <span class="tag">开源项目</span>
+                        <a href="https://x.com/HiTw93/status/2038764711194345795" target="_blank">查看详情</a>
+                        <span>来源: Tw93</span>
+                    </div>
+                </article>
+
+                <article class="news-item">
+                    <div class="news-header">
+                        <span class="news-number">06</span>
+                        <h3 class="news-title">OpenAI 官方发布 Claude Code 插件 codex-plugin-cc</h3>
+                    </div>
+                    <div class="news-content">
+                        <p>OpenAI 发布了专供 Claude Code 使用的 Codex 插件。开发者可以在 Claude Code 中直接运行 `/codex:review` 和 `/codex:adversarial-review` 进行代码审查。这种跨平台的工具集成不仅提高了代码质量，也标志着 AI 开发工具生态正在走向开放与互操作，允许开发者自由组合不同模型的最强能力。</p>
+                    </div>
+                    <div class="news-meta">
+                        <span class="tag">开发插件</span>
+                        <span class="tag">代码审查</span>
+                        <a href="https://x.com/vikingmute/status/2038783732598128775" target="_blank">查看详情</a>
+                        <span>来源: Viking</span>
+                    </div>
+                </article>
+
+                <article class="news-item">
+                    <div class="news-header">
+                        <span class="news-number">07</span>
+                        <h3 class="news-title">Discord 开源 Osprey：每秒处理 230 万条规则的安全引擎</h3>
+                    </div>
+                    <div class="news-content">
+                        <p>Discord 宣布开源其安全规则引擎 Osprey，该引擎每天处理 4 亿次行为和每秒 230 万条规则。Osprey 采用了混合语言架构（Polyglot architecture），由 Rust 协调器处理流量并发，不仅大幅度降低了资源开销，还保证了高可用的低延迟响应，为构建高吞吐量过滤系统提供了优秀范例。</p>
+                    </div>
+                    <div class="news-meta">
+                        <span class="tag">后端架构</span>
+                        <span class="tag">性能优化</span>
+                        <a href="https://www.infoq.com/news/2026/03/discord-osprey/" target="_blank">阅读详情</a>
+                        <span>来源: InfoQ</span>
+                    </div>
+                </article>
+
+                <article class="news-item">
+                    <div class="news-header">
+                        <span class="news-number">08</span>
+                        <h3 class="news-title">Tau Bench 更新：新增银行与客服领域基准测试集</h3>
+                    </div>
+                    <div class="news-content">
+                        <p>主流 Agent 测试基准 Tau Bench 发布更新，新增了受金融科技启发的 "Banking" 客户支持领域。该测试集基于真实的包含 698 个文档的知识库构建，能够更好评估 AI Agent 在复杂商业场景中的检索、推理与工具调用（Tool Calling）能力，对企业级 Agent 开发有很强的指导意义。</p>
+                    </div>
+                    <div class="news-meta">
+                        <span class="tag">AI 测试</span>
+                        <span class="tag">Benchmark</span>
+                        <a href="https://x.com/tau_bench/status/1234567" target="_blank">查看详情</a>
+                        <span>来源: Tau Bench</span>
+                    </div>
+                </article>
+
+                <article class="news-item">
+                    <div class="news-header">
+                        <span class="news-number">09</span>
+                        <h3 class="news-title">Turborepo 利用 Agent、沙箱和人类协同提升 96% 性能</h3>
+                    </div>
+                    <div class="news-content">
+                        <p>Vercel 工程师分享了如何通过结合 AI Agent 和缓存系统来优化 Turborepo。在千个包的 monorepo 中，任务图的计算速度提高了 81-91%，让 `turbo run` 感觉几乎是瞬间完成。通过细粒度的任务并发执行和智能缓存命中，开发者在日常构建流程中节省了大量时间。</p>
+                    </div>
+                    <div class="news-meta">
+                        <span class="tag">前端工程化</span>
+                        <span class="tag">性能优化</span>
+                        <a href="https://vercel.com/blog/turborepo" target="_blank">阅读详情</a>
+                        <span>来源: Vercel</span>
+                    </div>
+                </article>
+
+                <article class="news-item">
+                    <div class="news-header">
+                        <span class="news-number">10</span>
+                        <h3 class="news-title">GitHub Copilot 被爆在 PR 描述中擅自插入商业推广</h3>
+                    </div>
+                    <div class="news-content">
+                        <p>Hacker News 报道，GitHub Copilot 在超过 150 万个由 AI 自动生成的拉取请求（PR）描述中，植入了自身及第三方工具的推广内容。这一举动引发了开发者社区对平台权限滥用的强烈质疑。GitHub 随后回应这是产品提示功能的设计失误，提醒开发者在引入自动化工具时需谨慎审核其生成的周边文本。</p>
+                    </div>
+                    <div class="news-meta">
+                        <span class="tag">开发工具</span>
+                        <span class="tag">安全审查</span>
+                        <a href="https://supertechfans.com/cn/post/2026-03-31-HackerNews/" target="_blank">阅读详情</a>
+                        <span>来源: HackerNews每日摘要</span>
+                    </div>
+                </article>
+
+                <article class="news-item">
+                    <div class="news-header">
+                        <span class="news-number">11</span>
+                        <h3 class="news-title">Litesearch 发布：专为 Claude Code 优化的本地检索栈</h3>
+                    </div>
+                    <div class="news-content">
+                        <p>LlamaIndex 作者 Jerry Liu 发布 Litesearch 工具，它是一个免费、本地化、极速的文档解析与检索栈，专门为 AI Agent 打造。Litesearch 避免了繁重的大模型依赖，采用轻量级算法进行建立索引，完美适配 Claude Code 进行企业内部代码或文档的高效查询，降低了 RAG 的实现门槛。</p>
+                    </div>
+                    <div class="news-meta">
+                        <span class="tag">搜索工具</span>
+                        <span class="tag">RAG</span>
+                        <a href="https://x.com/jerryjliu0/status/2038731768074051694" target="_blank">查看详情</a>
+                        <span>来源: Jerry Liu</span>
+                    </div>
+                </article>
+
+                <article class="news-item">
+                    <div class="news-header">
+                        <span class="news-number">12</span>
+                        <h3 class="news-title">Gemini API Skills：为编程 Agent 提供实时 SDK 知识</h3>
+                    </div>
+                    <div class="news-content">
+                        <p>Google 发布了基于 Gemini API 的技能库，为编程 Agent 提供最新的 SDK 文档和代码示例。在针对 117 个编程提示的测试中，配合 gemini-3.1-pro-preview 模型实现了 96.6% 的成功率。这种实时注入 SDK 知识的机制有效解决了大模型训练数据陈旧导致的接口幻觉问题。</p>
+                    </div>
+                    <div class="news-meta">
+                        <span class="tag">API</span>
+                        <span class="tag">最佳实践</span>
+                        <a href="https://x.com/gemini_api" target="_blank">查看详情</a>
+                        <span>来源: Google Dev</span>
+                    </div>
+                </article>
+
+                <article class="news-item">
+                    <div class="news-header">
+                        <span class="news-number">13</span>
+                        <h3 class="news-title">Replit 升级 Agent 4，重构协作构建体验</h3>
+                    </div>
+                    <div class="news-content">
+                        <p>Replit 推出 Agent 4 版本，彻底重构了基于 AI 的应用开发工作流。新的 Design Canvas 支持跨所有伪代码和设计产物的实时协作。不再需要反复的 forking 和环境配置，开发者可以和 Agent 在同一个沙盒中结对编程。此外，新增了直接通过 Agent 添加 RevenueCat 进行应用内购接入的能力。</p>
+                    </div>
+                    <div class="news-meta">
+                        <span class="tag">开发平台</span>
+                        <span class="tag">云端 IDE</span>
+                        <a href="https://x.com/Replit/status/2038738072758518224" target="_blank">查看详情</a>
+                        <span>来源: Replit ⠕</span>
+                    </div>
+                </article>
+
+                <article class="news-item">
+                    <div class="news-header">
+                        <span class="news-number">14</span>
+                        <h3 class="news-title">M365 Copilot 推出 Council 模式：多模型并发评审</h3>
+                    </div>
+                    <div class="news-content">
+                        <p>微软在 M365 Copilot 中推出了实验性的 Council 功能，允许在同一 prompt 上同时运行多个不同的 LLM。开发者可以直接看到不同模型输出的重合度与分歧点，这在进行架构设计决策或复杂代码审核时极具价值，本质上这是一种基于模型联邦的纠错机制，有助于降低单一模型的幻觉影响。</p>
+                    </div>
+                    <div class="news-meta">
+                        <span class="tag">AI 工具</span>
+                        <span class="tag">开发范式</span>
+                        <a href="https://x.com/satyanadella/status/2038677637644922943" target="_blank">查看详情</a>
+                        <span>来源: Satya Nadella</span>
+                    </div>
+                </article>
+
+                <article class="news-item">
+                    <div class="news-header">
+                        <span class="news-number">15</span>
+                        <h3 class="news-title">datasette-llm 0.1a3 发布：细粒度模型控制插件</h3>
+                    </div>
+                    <div class="news-content">
+                        <p>著名开源数据探索工具 Datasette 发布了 datasette-llm 插件的 0.1a3 版本。新版本允许开发者精确配置在特定场景和特定插件中允许调用哪些大模型。这为本地环境中的多模型协同提供了一种优雅的权限和成本管理方案，避免了昂贵的大模型被意外触发调用。</p>
+                    </div>
+                    <div class="news-meta">
+                        <span class="tag">开源组件</span>
+                        <span class="tag">数据管理</span>
+                        <a href="https://simonwillison.net/2026/Mar/30/datasette-llm/#atom-everything" target="_blank">阅读详情</a>
+                        <span>来源: Simon Willison's Weblog</span>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- 深度技术解读 -->
+        <section class="section">
+            <div class="section-header">
+                <div class="section-icon">🔍</div>
+                <h2>深度技术解读</h2>
+            </div>
+
+            <article class="deep-dive-item">
+                <div class="deep-dive-header">
+                    <span class="deep-dive-number">1</span>
+                    <h3 class="deep-dive-title">模型与脚手架：本地模型表现不佳的真相</h3>
+                </div>
+                <div class="deep-dive-content">
+                    <p>llama.cpp 核心开发者 Georgi Gerganov 指出，很多开发者误将本地小模型能力不足归结为参数太小，而实际上真正的问题在于缺乏合适的“脚手架”（Scaffolding/Harness）。目前大多数的 Agent 框架都是针对具备超长上下文的云端巨型模型（如 GPT-4, Claude 3.5）设计的，它们不加裁剪地发送海量历史对话，小模型根本无法承受。</p>
+                    <p>HuggingFace 的 Clement Delangue 和 Qwen 团队的 Junyang Lin 也证实了这一观点：在 Agent 表现中，模型+脚手架的设计已经比单纯的模型参数更重要。如果在模板构造、状态管理和上下文剪枝上做针对性优化，20B 左右的本地模型也能达到商业 API 80% 的生产力。</p>
+
+                    <div class="deep-dive-section">
+                        <h4>核心变化</h4>
+                        <p>开发范式正在从“无脑扩大 Prompt 和 Context”转向“精细化的 Meta-Harness 工程”。系统设计者需要考虑如何构建能够根据当前任务实时自我裁剪、组装状态的微型 Agent。</p>
+                    </div>
+
+                    <div class="deep-dive-section">
+                        <h4>实践建议</h4>
+                        <p>对于在本地运行 Llama 3 或 Qwen 的开发者，必须重写提示词构建逻辑，避免让 LLM 承担它不需要的记忆负担；改用数据库存储状态，让 LLM 每次只处理最核心的决策逻辑，这不仅降低推理成本，也显著提高了小模型回答的准确率。</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="deep-dive-item">
+                <div class="deep-dive-header">
+                    <span class="deep-dive-number">2</span>
+                    <h3 class="deep-dive-title">为什么 Agent 时代 CLI 反而成了最优解？</h3>
+                </div>
+                <div class="deep-dive-content">
+                    <p>随着 AI 的飞速发展，一种反常识的技术趋势正在发生：GUI 软件开始重新拥抱 CLI（命令行接口）。近日，飞书、钉钉、企微、网易云音乐等纷纷推出了官方 CLI 工具，在图形界面高度发达的今天，这种“技术倒退”其实是为了迎接 Agent 时代。</p>
+                    <p>原因在于：大语言模型本质上是基于文本流的，让 AI 理解并操作复杂的 GUI DOM 树不仅耗时而且容易出错。而 CLI 提供了结构化、无状态、确定性的纯文本输入输出接口。当软件从“为人设计”转变为“为 Agent 设计”时，CLI 毫无疑问是最稳定、最友好的通信桥梁。</p>
+
+                    <div class="deep-dive-section">
+                        <h4>核心变化</h4>
+                        <p>软件交互的设计逻辑发生了根本转移。过去我们设计 API 和 SDK，是为了给系统层调用；设计 GUI，是为了给人类调用。现在我们需要一种中间态的介质，能让人用自然语言指挥，又能在底层无缝连接业务逻辑，CLI 完美填补了这一空白。</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="deep-dive-item">
+                <div class="deep-dive-header">
+                    <span class="deep-dive-number">3</span>
+                    <h3 class="deep-dive-title">Discord Osprey：混合架构处理千万级并发请求</h3>
+                </div>
+                <div class="deep-dive-content">
+                    <p>Discord 每天面临数以亿计的垃圾信息和违规行为，传统的单一架构无法支撑这种强度的安全扫描。他们开源的 Osprey 安全引擎通过多语言混合架构（Polyglot architecture）完美解决了这个问题：系统采用 Rust 编写高并发协调器来吞吐网络请求和管理连接生命周期，而业务逻辑则分配给解释型语言或更易于快速迭代的服务。</p>
+                    <p>这种分离不仅保证了处理每秒 230 万条规则时的低延迟和高稳定性，还能让安全分析师不需要精通 Rust 也能快速编写和热更新规则。对于构建高负载中间件和 API 网关的团队，这是一种极具参考价值的架构模式。</p>
+
+                    <div class="deep-dive-section">
+                        <h4>实践意义</h4>
+                        <p>不要在单一语言生态中死磕。使用 Rust 或 Go 等内存安全的编译型语言处理 I/O 密集型和计算密集的边界逻辑，在内部业务流转上使用 Python 或 JavaScript 提升开发速度，是应对极端并发场景的最佳实践之一。</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="deep-dive-item">
+                <div class="deep-dive-header">
+                    <span class="deep-dive-number">4</span>
+                    <h3 class="deep-dive-title">AI 工具接管全链路：如何进行战略性“偷懒”</h3>
+                </div>
+                <div class="deep-dive-content">
+                    <p>定焦One 和多位资深 PM 的观察指出，AI 正在重塑软件开发的护城河。像 Notion AI、MasterGo AI 以及大量的自动化 Agent 已经能处理掉 80% 的标准化排版、切图和样板代码编写。在未来，能够存活的不是“通用功能型”产品，而是具备强数据壁垒的“垂直专业软件”。</p>
+                    <p>对于开发者和产品经理而言，这意味着竞争焦点转移到了系统的架构设计和对业务的深度理解上。把繁琐的执行任务外包给 AI（即所谓的战略性“偷懒”），不仅能节约时间，还能强迫个人去锻炼 AI 无法替代的高阶判断力。</p>
+
+                    <div class="deep-dive-section">
+                        <h4>迁移建议</h4>
+                        <p>停止在基础框架搭建上重复造轮子。尝试在开发流中引入 OpenClaw 或 auto-research 这类工具，将“编写 CRUD 代码”的时间释放出来，转移到“设计更好的数据库范式”和“优化大并发事务”上，提升自身的不可替代性。</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="deep-dive-item">
+                <div class="deep-dive-header">
+                    <span class="deep-dive-number">5</span>
+                    <h3 class="deep-dive-title">实时音频 API 的生产环境踩坑经验</h3>
+                </div>
+                <div class="deep-dive-content">
+                    <p>随着 OpenAI Realtime API（gpt-realtime-1.5）的更新，语音 Agent 迎来了技术爆发期。Perplexity 的团队分享了他们在构建规模化语音助手时的真实经验：多轮对话中的关键不在于声音合成有多快，而在于“上下文管理”和“音频流切片”的精细化控制。</p>
+                    <p>如果在流式传输中无法精准把握用户的断句和插嘴（Turn-taking），体验将大打折扣。这就要求后端的 WebSocket 服务必须具备极低的网络抖动容忍度，并且需要通过预渲染机制提前拉取可能被触发的知识库索引，以抹平 VAD（语音端点检测）造成的物理延迟。</p>
+
+                    <div class="deep-dive-section">
+                        <h4>可借鉴经验</h4>
+                        <p>在开发实时音频应用时，必须分离文本生成流与音频合成流。优先下发文本给客户端以便进行预处理和日志记录，同时采用多级缓存策略加速热点指令的响应，避免每次会话都全量过 LLM 网络调用。</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="deep-dive-item">
+                <div class="deep-dive-header">
+                    <span class="deep-dive-number">6</span>
+                    <h3 class="deep-dive-title">systemd 的争议与 Linux 初始化的十年长跑</h3>
+                </div>
+                <div class="deep-dive-content">
+                    <p>十年过去了，虽然有 15 个活跃维护的 Linux 发行版依然拒绝使用 systemd，但它已经实质上统一了服务器操作系统的初始化标准。尽管部分原教旨极客批评其背离了 Unix "Do one thing and do it well" 的哲学，变得极其庞大且具有侵入性，但从工程落地的角度看，它确实解决了长期困扰运维人员的复杂依赖关系启动和日志集中管理的问题。</p>
+                    <p>systemd 的成功证明了，在现代大规模分布式系统中，实用主义和标准化往往战胜纯粹的学术理想。它提供的 cgroups 集成、并发启动和强大的服务监控能力，使其成为了构建稳定 Kubernetes 节点和微服务底座的坚实基础。</p>
+
+                    <div class="deep-dive-section">
+                        <h4>实践总结</h4>
+                        <p>与其抱怨工具的臃肿，不如深入理解其设计初衷。对于现代全栈开发者，熟练掌握 systemd 的 unit 文件编写和 journalctl 日志分析，是确保服务在 Linux 环境高可用运行的必备技能。</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <!-- 工具推荐 -->
+        <section class="section">
+            <div class="section-header">
+                <div class="section-icon">🛠️</div>
+                <h2>工具推荐</h2>
+            </div>
+
+            <div class="tool-card">
+                <div class="tool-header">
+                    <span class="tool-icon">🔗</span>
+                    <span class="tool-name">cc-connect</span>
+                </div>
+                <p class="tool-desc">极具创意的中间件，将 Claude Code, Cursor 和 Codex 等本地 AI 编程工具与 Slack, 飞书等聊天应用桥接，让非技术人员也能在手机上通过聊天指挥 Agent 干活。</p>
+                <div class="tool-link">
+                    <a href="https://x.com/HiTw93/status/2038764711194345795" target="_blank">查看详情</a>
+                </div>
+            </div>
+
+            <div class="tool-card">
+                <div class="tool-header">
+                    <span class="tool-icon">⚡</span>
+                    <span class="tool-name">Litesearch</span>
+                </div>
+                <p class="tool-desc">LlamaIndex 作者推出的无大模型依赖、极速的本地知识库检索栈。为 Claude Code 等 AI 助手量身打造，非常适合用于处理本地庞大的代码库和文档。</p>
+                <div class="tool-link">
+                    <a href="https://x.com/jerryjliu0/status/2038731768074051694" target="_blank">查看详情</a>
+                </div>
+            </div>
+
+            <div class="tool-card">
+                <div class="tool-header">
+                    <span class="tool-icon">🛡️</span>
+                    <span class="tool-name">Osprey</span>
+                </div>
+                <p class="tool-desc">Discord 开源的高性能安全规则引擎，基于 Rust 协调流量。能够每秒处理超百万条规则匹配，对于需要构建大规模风控和 API 审计日志的后端工程师极具参考价值。</p>
+                <div class="tool-link">
+                    <a href="https://www.infoq.com/news/2026/03/discord-osprey/" target="_blank">阅读官方博客</a>
+                </div>
+            </div>
+
+            <div class="tool-card">
+                <div class="tool-header">
+                    <span class="tool-icon">🔌</span>
+                    <span class="tool-name">codex-plugin-cc</span>
+                </div>
+                <p class="tool-desc">OpenAI 官方下场为 Anthropic 的 Claude Code 开发的代码审查插件。它可以在终端中直接引入 Codex 的能力，执行代码漏洞扫描与对抗性测试，展现了神仙打架带来的神级工具体验。</p>
+                <div class="tool-link">
+                    <a href="https://x.com/vikingmute/status/2038783732598128775" target="_blank">查看演示</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 参考链接汇总 -->
+        <section class="section">
+            <div class="section-header">
+                <div class="section-icon">🔗</div>
+                <h2>参考链接汇总</h2>
+            </div>
+            <div class="links-section">
+                <div class="links-list">
+                    <div class="link-item">
+                        <span class="link-bullet">></span>
+                        <div class="link-content">
+                            <div class="link-title"><a href="https://x.com/shao__meng/status/2038786904565633052" target="_blank">Hermes Agent v0.6.0 发布</a></div>
+                            <div class="link-source">meng shao</div>
+                        </div>
+                    </div>
+                    <div class="link-item">
+                        <span class="link-bullet">></span>
+                        <div class="link-content">
+                            <div class="link-title"><a href="https://x.com/berryxia/status/2038772923818029107" target="_blank">Claude Code CLI 集成 Computer Use</a></div>
+                            <div class="link-source">Berryxia.AI</div>
+                        </div>
+                    </div>
+                    <div class="link-item">
+                        <span class="link-bullet">></span>
+                        <div class="link-content">
+                            <div class="link-title"><a href="https://x.com/Alibaba_Qwen/status/2038780221193863362" target="_blank">Qwen 3.6 Plus Preview</a></div>
+                            <div class="link-source">Qwen</div>
+                        </div>
+                    </div>
+                    <div class="link-item">
+                        <span class="link-bullet">></span>
+                        <div class="link-content">
+                            <div class="link-title"><a href="https://x.com/HiTw93/status/2038764711194345795" target="_blank">cc-connect 中间件</a></div>
+                            <div class="link-source">Tw93</div>
+                        </div>
+                    </div>
+                    <div class="link-item">
+                        <span class="link-bullet">></span>
+                        <div class="link-content">
+                            <div class="link-title"><a href="https://x.com/vikingmute/status/2038783732598128775" target="_blank">OpenAI Codex Claude 插件</a></div>
+                            <div class="link-source">Viking</div>
+                        </div>
+                    </div>
+                    <div class="link-item">
+                        <span class="link-bullet">></span>
+                        <div class="link-content">
+                            <div class="link-title"><a href="https://www.infoq.com/news/2026/03/discord-osprey/" target="_blank">Discord 开源 Osprey 引擎</a></div>
+                            <div class="link-source">InfoQ</div>
+                        </div>
+                    </div>
+                    <div class="link-item">
+                        <span class="link-bullet">></span>
+                        <div class="link-content">
+                            <div class="link-title"><a href="https://vercel.com/blog/turborepo" target="_blank">Turborepo 性能优化</a></div>
+                            <div class="link-source">Vercel</div>
+                        </div>
+                    </div>
+                    <div class="link-item">
+                        <span class="link-bullet">></span>
+                        <div class="link-content">
+                            <div class="link-title"><a href="https://supertechfans.com/cn/post/2026-03-31-HackerNews/" target="_blank">GitHub Copilot PR 植入推广</a></div>
+                            <div class="link-source">HackerNews每日摘要</div>
+                        </div>
+                    </div>
+                    <div class="link-item">
+                        <span class="link-bullet">></span>
+                        <div class="link-content">
+                            <div class="link-title"><a href="https://x.com/jerryjliu0/status/2038731768074051694" target="_blank">Litesearch 发布</a></div>
+                            <div class="link-source">Jerry Liu</div>
+                        </div>
+                    </div>
+                    <div class="link-item">
+                        <span class="link-bullet">></span>
+                        <div class="link-content">
+                            <div class="link-title"><a href="https://mp.weixin.qq.com/s?__biz=MzkzMjYzNjkzNw==&mid=2247635245&idx=1&sn=d386514bef3482ec74b781f424f6a584" target="_blank">systemd 的争议与 Linux 初始化的十年长跑</a></div>
+                            <div class="link-source">Can Artuc</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>科技日报 - 开发者实践版</p>
+            <p>数据来源: FreshRSS 24h 聚合 | 生成时间: 2026-03-31</p>
+            <p style="margin-top: 16px; font-size: 12px;">本日报由 AI 辅助生成，内容仅供技术参考</p>
+        </footer>
+    </div>
+</body>
+</html>"""
+
+with open("DEST_REPO/tech-daily/developer_practice.html", "w", encoding="utf-8") as f:
+    f.write(template_str)
