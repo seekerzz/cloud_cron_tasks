@@ -1,0 +1,350 @@
+- Hermes Agent v0.6.0 发布：多实例隔离（Profiles）、MCP Server 模式、Docker 官方支持、飞书和企业微信接入、Slack 多工作区、Telegram 生产优化
+...
+  Link: https://x.com/shao__meng/status/2038786904565633052
+  Source: meng shao(@shao__meng)
+
+- [AINews] The Last 4 Jobs in Tech
+  Link: https://www.latent.space/p/ainews-the-last-4-jobs-in-tech
+  Source: Latent.Space
+
+- 别再让AI只干零活了！AI工具正在接管投放全链路
+  Link: https://www.qbitai.com/2026/03/393471.html
+  Source: 量子位
+
+- 昨天刚推荐了在Claude Code当中用Codex的方法 官方插件就发布了啊
+
+这个太棒了 简单看下文档 支持直接在CC中运行如下命令
+
+/codex:review runs the standar...
+  Link: https://x.com/vikingmute/status/2038783732598128775
+  Source: Viking(@vikingmute)
+
+- Vol.110｜养虾时代，OpenClaw 让打工人何去何从？
+  Link: https://www.xiaoyuzhoufm.com/episode/69ca3e32b977fb2c47a0457d
+  Source: 开始连接LinkStart
+
+- model+harness is now over model only. agent perf can be significantly influenced by the design and q...
+  Link: https://x.com/JustinLin610/status/2038783276937310582
+  Source: Junyang Lin(@JustinLin610)
+
+- amazing. i was giving examples like this for DALL-E three years ago.
+
+systems are still struggling ...
+  Link: https://x.com/GaryMarcus/status/2038777481466118565
+  Source: Gary Marcus(@GaryMarcus)
+
+- 沿江高铁总投资超5000亿，多家出险房企扭亏为盈 | 财经日日评
+  Link: https://mp.weixin.qq.com/s?__biz=MzA3OTM5NTkxNA==&mid=2653159300&idx=4&sn=b72b5c782eadaea49905e8e33b3c5ab7
+  Source: 吴晓波频道
+
+- https://t.co/mivSq6zU62
+  Link: https://x.com/berryxia/status/2038773097940373858
+  Source: Berryxia.AI(@berryxia)
+
+- Claude Code 把 Computer Use 直接塞进 CLI 了！又又更新🤯
+
+现在一条提示词就能让 Claude 完整闭环：
+→ 写代码
+→ 编译项目
+→ 启动 App
+→ ...
+  Link: https://x.com/berryxia/status/2038772923818029107
+  Source: Berryxia.AI(@berryxia)
+
+- Imagine if Claude Code/Codex can access AND operate all your chats, calendars, meetings, docs, sheet...
+  Link: https://x.com/zarazhangrui/status/2038771778802331817
+  Source: Zara Zhang(@zarazhangrui)
+
+- Discord Open Sources Osprey Safety Rules Engine Processing 2.3 Million Rules per Second
+  Link: https://www.infoq.com/news/2026/03/discord-osprey/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
+  Source: InfoQ
+
+- Google’s ‘AI Works for Britain’ aims to help stuck Brits unlock progression
+  Link: https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/googles-ai-works-for-britain-aims-to-help-stuck-brits-unlock-progression/
+  Source: The Keyword
+
+- vol.47 有问必答｜真正的蓄能，是看清自己的起心动念
+  Link: https://www.xiaoyuzhoufm.com/episode/69ca92eee2c8be3155eed2b5
+  Source: 天真不天真
+
+- vol.47 有问必答｜真正的蓄能，是看清自己的起心动念
+  Link: https://www.xiaoyuzhoufm.com/episode/69ca92eee2c8be3155eed2b5
+  Source: 天真不天真
+
+- datasette-files 0.1a3
+  Link: https://simonwillison.net/2026/Mar/30/datasette-files/#atom-everything
+  Source: Simon Willison's Weblog
+
+- 2026 03 31 HackerNews
+  Link: https://supertechfans.com/cn/post/2026-03-31-HackerNews/
+  Source: HackerNews每日摘要 on SuperTechFans
+
+- Recently found cc-connect, a neat way to control local AI agents from any chat app. It bridges Claud...
+  Link: https://x.com/HiTw93/status/2038764711194345795
+  Source: Tw93(@HiTw93)
+
+- AI，正在“杀死”哪些软件？
+  Link: https://mp.weixin.qq.com/s?__biz=MjM5OTEwNjI2MA==&mid=2651925824&idx=1&sn=ef8f5e2ecdf16f9ce9e07fe0460cf050
+  Source: 人人都是产品经理
+
+- 10分钟了解突然爆火的CLI并开发一个"烂梗鸡汤"CLI
+  Link: https://mp.weixin.qq.com/s?__biz=MjM5OTEwNjI2MA==&mid=2651925824&idx=2&sn=168eb5330610162129a231218a6f14c6
+  Source: 人人都是产品经理
+
+- 40 个 AI agent 跑营销，还不是最狠的
+  Link: https://mp.weixin.qq.com/s?__biz=MjM5OTEwNjI2MA==&mid=2651925824&idx=3&sn=dd0883ca95983a2bec7b04a90078918c
+  Source: 人人都是产品经理
+
+- AI产品经理的“偷懒”指南：越懒，越值钱
+  Link: https://mp.weixin.qq.com/s?__biz=MjM5OTEwNjI2MA==&mid=2651925824&idx=4&sn=acd894a865203c80a214dc2112addcae
+  Source: 人人都是产品经理
+
+- 想雇她？点这里注册👉 https://t.co/YsIC7RltFQ
+  Link: https://x.com/berryxia/status/2038763205863076165
+  Source: Berryxia.AI(@berryxia)
+
+- 世界首个「自主 AI 营销师」Helena 正式登场！🚀
+
+企业做到第一个 100 万收入前，要烧掉 4000 小时营销……
+
+Helena 帮你全包了：
+
+➤ 深夜自动追踪竞品广告 → 生成 Ti...
+  Link: https://x.com/berryxia/status/2038763173764005927
+  Source: Berryxia.AI(@berryxia)
+
+- Image if Claude Code/Codex can access AND operate all your chats, calendars, meetings, docs, sheets....
+  Link: https://x.com/zarazhangrui/status/2038762790933119019
+  Source: Zara Zhang(@zarazhangrui)
+
+- I'm happy to report that @cursor_ai also works perfectly fine in China with all types of models.
+  Link: https://x.com/petergyang/status/2038761330392629479
+  Source: Peter Yang(@petergyang)
+
+- Marc Andreessen says AI is the "silver bullet excuse" for companies laying people off, but most layo...
+  Link: https://x.com/a16z/status/2038760847473009083
+  Source: a16z(@a16z)
+
+- When Opus 4.5 came out, it was a one-way door to a new way of engineering. Agents now do most of our...
+  Link: https://x.com/rauchg/status/2038759092442050651
+  Source: Guillermo Rauch(@rauchg)
+
+- Agent responsibly
+  Link: https://vercel.com/blog/agent-responsibly
+  Source: Vercel News
+
+- 十年仍争论不休！嫌它背离Unix哲学，又得用它搞定90%的Linux机器
+  Link: https://mp.weixin.qq.com/s?__biz=MzkzMjYzNjkzNw==&mid=2247635245&idx=1&sn=d386514bef3482ec74b781f424f6a584
+  Source: dbaplus社群
+
+- 免费的 Qwen3.6 Plus 来了🥳
+
+https://t.co/uUaDj1v73C
+  Link: https://x.com/geekbb/status/2038756903761891828
+  Source: Geek(@geekbb)
+
+- Our newest featured notebook is absolutely electric🪁⚡️
+
+We partnered with @googlearts @royalsociety...
+  Link: https://x.com/NotebookLM/status/2038756752758550694
+  Source: NotebookLM(@NotebookLM)
+
+- 仔细思考一下，发现还有意思的。
+1. 穿秋裤相对独立，不能通过其他世界知识推导得到；
+2. 穿秋裤，无法机器主动检测，只能人自己来记录，公开样本数据少，无足以形成LLM的世界知识；
+3. 穿秋裤，个体...
+  Link: https://x.com/yan5xu/status/2038756493387088354
+  Source: yan5xu(@yan5xu)
+
+- 这似乎是 Agent 至今都无法解决的问题🤔
+  Link: https://x.com/yan5xu/status/2038753911943962934
+  Source: yan5xu(@yan5xu)
+
+- So proud to have @ggerganov and @ggml_org part of the @huggingface team. One of the unsung heroes of...
+  Link: https://x.com/ClementDelangue/status/2038752860192518294
+  Source: clem 🤗(@ClementDelangue)
+
+- 一个通过写邮件发布文章的产品，喜欢这种小而美的小应用。
+
+https://t.co/AtXFA8LyAX
+  Link: https://x.com/dingyi/status/2038752638876151938
+  Source: Ding(@dingyi)
+
+- We are getting started with another live session on Youtube!
+
+Today, our topic is: AI Workspace Pro ...
+  Link: https://x.com/genspark_ai/status/2038751954932027474
+  Source: Genspark(@genspark_ai)
+
+- 现在也是一个好时机。之前我一直有顾虑，就是真的想让大学生体验“好”模型，不可避免设计到海外闭源模型，多少有点灰色地带。现在国产模型虽然还没有追上SOTA，但已经足够好到，可以感受到LLM的魅力了。
+  Link: https://x.com/yan5xu/status/2038751664354832565
+  Source: yan5xu(@yan5xu)
+
+- Getting a lot of messages like this
+  Link: https://x.com/lennysan/status/2038751570586927304
+  Source: Lenny Rachitsky(@lennysan)
+
+- Brian Armstrong on introspection:
+
+“I get @pmarca’s point, which I think is very important and right...
+  Link: https://x.com/a16z/status/2038744905301049507
+  Source: a16z(@a16z)
+
+- AI: Here's your 90-day roadmap to execute on!
+
+User: Build it literally right now.
+
+AI:
+  Link: https://x.com/TheRundownAI/status/2038743556488036843
+  Source: The Rundown AI(@TheRundownAI)
+
+- These robot malfunction videos do something to the female brain
+  Link: https://x.com/venturetwins/status/2038741708608024798
+  Source: Justine Moore(@venturetwins)
+
+- Agent 4 didn't replace what worked. It rethought it.
+
+The building experience is fundamentally bette...
+  Link: https://x.com/Replit/status/2038738072758518224
+  Source: Replit ⠕(@Replit)
+
+- Brian Armstrong prefers to be a wartime CEO:
+
+“I used to think that I was better as a peacetime CEO,...
+  Link: https://x.com/a16z/status/2038737354077421645
+  Source: a16z(@a16z)
+
+- We're hosting a casual pregame for First Thursdays this week! 🍾
+
+(First Thursdays is a monthly stre...
+  Link: https://x.com/jerryjliu0/status/2038733178689782222
+  Source: Jerry Liu(@jerryjliu0)
+
+- Create a free, local, fast retrieval stack for Claude Code (or your favorite AI agent)
+
+`litesearch...
+  Link: https://x.com/jerryjliu0/status/2038731768074051694
+  Source: Jerry Liu(@jerryjliu0)
+
+- Quoting Georgi Gerganov
+  Link: https://simonwillison.net/2026/Mar/30/georgi-gerganov/#atom-everything
+  Source: Simon Willison's Weblog
+
+- Brian Armstrong says Coinbase started an internal venture bets program so great ideas—and great peop...
+  Link: https://x.com/a16z/status/2038729574415261784
+  Source: a16z(@a16z)
+
+- Meta-Harness
+
+如何为 Agent 优化 harness？
+
+Meta-Harness =  coding agent + experience search
+  Link: https://x.com/dongxi_nlp/status/2038725725566521838
+  Source: 马东锡 NLP(@dongxi_nlp)
+
+- A lot of people mistake inadequate scaffolding for a lack of capability in smaller local models. You...
+  Link: https://x.com/ClementDelangue/status/2038724952547803364
+  Source: clem 🤗(@ClementDelangue)
+
+- We now support GitHub Enterprise Server across our product suite, including Claude Code on the web, ...
+  Link: https://x.com/_catwu/status/2038723796178526712
+  Source: cat(@_catwu)
+
+- STOP TOUCHING RECEIPTS IMMEDIATELY
+  Link: https://www.youtube.com/shorts/EWXwW4Av7Sw
+  Source: The Diary Of A CEO
+
+- Monetize your Replit-built mobile apps with RevenueCat!
+  Link: https://x.com/amasad/status/2038722068418805875
+  Source: Amjad Masad(@amasad)
+
+- A lot of people mistake inadequate scaffolding for a lack of capability in smaller local models. You...
+  Link: https://x.com/ClementDelangue/status/2038721865028706676
+  Source: clem 🤗(@ClementDelangue)
+
+- Training videos shouldn’t be a one-way street.
+
+You spend weeks making them.
+Your team watches once ...
+  Link: https://x.com/HeyGen/status/2038717339617862063
+  Source: HeyGen(@HeyGen_Official)
+
+- This sounds right to me - I've tinkered with running local models against Claude Code and Codex and ...
+  Link: https://x.com/simonw/status/2038715210677293081
+  Source: Simon Willison(@simonw)
+
+- This is really cool! I was already calling Codex inside of Claude Code, but this plugin should make ...
+  Link: https://x.com/omarsar0/status/2038715203940954457
+  Source: elvis(@omarsar0)
+
+- Georgi on why it's still hard to get great coding agent performance from local models:
+
+"Note that t...
+  Link: https://x.com/simonw/status/2038714926769094875
+  Source: Simon Willison(@simonw)
+
+- One of my fav OpenClaw use-uses from @clairevo: "We created Sage the course bot.
+
+We're about a mon...
+  Link: https://x.com/lennysan/status/2038711418619580589
+  Source: Lenny Rachitsky(@lennysan)
+
+- How AI Is Killing Cheap Smartphones - Dylan Patel
+  Link: https://www.youtube.com/shorts/fRpynA_dYtc
+  Source: Dwarkesh Patel
+
+- .@clairevo's biggest @OpenClaw unlock: going multi-agent
+  Link: https://x.com/lennysan/status/2038706612479959296
+  Source: Lenny Rachitsky(@lennysan)
+
+- datasette-llm 0.1a3
+  Link: https://simonwillison.net/2026/Mar/30/datasette-llm/#atom-everything
+  Source: Simon Willison's Weblog
+
+- don’t forget
+
+we are doing all this for the humans, not the other way around
+  Link: https://x.com/ryolu_/status/2038702070799479232
+  Source: Ryo Lu(@ryolu_)
+
+- Qwen 3.6 Plus Preview is an early look of Qwen's flagship model, upgraded to boost agentic coding, f...
+  Link: https://x.com/OpenRouter/status/2038701611179294799
+  Source: OpenRouter(@OpenRouterAI)
+
+- 🆕 Mistral: Voxtral TTS, Forge, Leanstral, ＆ what’s next for Mistral 4
+https://t.co/ozJwPxIMI5
+
+@Mis...
+  Link: https://x.com/latentspacepod/status/2038701549661323277
+  Source: Latent.Space(@latentspacepod)
+
+- Agi will have a harness
+  Link: https://x.com/hwchase17/status/2038699790071153077
+  Source: Harrison Chase(@hwchase17)
+
+- Mistral: Voxtral TTS, Forge, Leanstral, ＆ what's next for Mistral 4 — w/ Pavan Kumar Reddy ＆ Guillaume Lample
+  Link: https://www.latent.space/p/voxtral
+  Source: Latent.Space
+
+- Auto mode for Claude Code is now available on the Enterprise plan and for API users.
+
+To try it out,...
+  Link: https://x.com/claudeai/status/2038693742094246032
+  Source: Claude(@claudeai)
+
+- Stop Vibe Coding. Start Getting Customers.
+  Link: https://www.youtube.com/watch?v=YeoGehNsrLc
+  Source: Greg Isenberg
+
+- We’ve moved to the '#AI Waterfront' and it’s time to celebrate. Swing by on April 2nd to see our new...
+  Link: https://x.com/llama_index/status/2038692801618342146
+  Source: LlamaIndex 🦙(@llama_index)
+
+- “CEO said a thing!”
+  Link: https://garymarcus.substack.com/p/ceo-said-a-thing
+  Source: Marcus on AI
+
+- Codebase-to-course now has 2.6k stars on GitHub
+
+Just optimized it to be a lot more token efficient ...
+  Link: https://x.com/zarazhangrui/status/2038685338865221862

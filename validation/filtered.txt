@@ -1,0 +1,100 @@
+- Hermes Agent v0.6.0 发布：多实例隔离（Profiles）、MCP Server 模式、Docker 官方支持、飞书和企业微信接入、Slack 多工作区、Telegram 生产优化
+...
+  Link: https://x.com/shao__meng/status/2038786904565633052
+  Source: meng shao(@shao__meng)
+- [AINews] The Last 4 Jobs in Tech
+  Link: https://www.latent.space/p/ainews-the-last-4-jobs-in-tech
+  Source: Latent.Space
+- 别再让AI只干零活了！AI工具正在接管投放全链路
+  Link: https://www.qbitai.com/2026/03/393471.html
+  Source: 量子位
+- 昨天刚推荐了在Claude Code当中用Codex的方法 官方插件就发布了啊
+
+这个太棒了 简单看下文档 支持直接在CC中运行如下命令
+
+/codex:review runs the standar...
+  Link: https://x.com/vikingmute/status/2038783732598128775
+  Source: Viking(@vikingmute)
+- Vol.110｜养虾时代，OpenClaw 让打工人何去何从？
+  Link: https://www.xiaoyuzhoufm.com/episode/69ca3e32b977fb2c47a0457d
+  Source: 开始连接LinkStart
+- model+harness is now over model only. agent perf can be significantly influenced by the design and q...
+  Link: https://x.com/JustinLin610/status/2038783276937310582
+  Source: Junyang Lin(@JustinLin610)
+- amazing. i was giving examples like this for DALL-E three years ago.
+
+systems are still struggling ...
+  Link: https://x.com/GaryMarcus/status/2038777481466118565
+  Source: Gary Marcus(@GaryMarcus)
+- 沿江高铁总投资超5000亿，多家出险房企扭亏为盈 | 财经日日评
+  Link: https://mp.weixin.qq.com/s?__biz=MzA3OTM5NTkxNA==&mid=2653159300&idx=4&sn=b72b5c782eadaea49905e8e33b3c5ab7
+  Source: 吴晓波频道
+- https://t.co/mivSq6zU62
+  Link: https://x.com/berryxia/status/2038773097940373858
+  Source: Berryxia.AI(@berryxia)
+- Claude Code 把 Computer Use 直接塞进 CLI 了！又又更新🤯
+
+现在一条提示词就能让 Claude 完整闭环：
+→ 写代码
+→ 编译项目
+→ 启动 App
+→ ...
+  Link: https://x.com/berryxia/status/2038772923818029107
+  Source: Berryxia.AI(@berryxia)
+- Imagine if Claude Code/Codex can access AND operate all your chats, calendars, meetings, docs, sheet...
+  Link: https://x.com/zarazhangrui/status/2038771778802331817
+  Source: Zara Zhang(@zarazhangrui)
+- Discord Open Sources Osprey Safety Rules Engine Processing 2.3 Million Rules per Second
+  Link: https://www.infoq.com/news/2026/03/discord-osprey/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
+  Source: InfoQ
+- Google’s ‘AI Works for Britain’ aims to help stuck Brits unlock progression
+  Link: https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/googles-ai-works-for-britain-aims-to-help-stuck-brits-unlock-progression/
+  Source: The Keyword
+- vol.47 有问必答｜真正的蓄能，是看清自己的起心动念
+  Link: https://www.xiaoyuzhoufm.com/episode/69ca92eee2c8be3155eed2b5
+  Source: 天真不天真
+- vol.47 有问必答｜真正的蓄能，是看清自己的起心动念
+  Link: https://www.xiaoyuzhoufm.com/episode/69ca92eee2c8be3155eed2b5
+  Source: 天真不天真
+- datasette-files 0.1a3
+  Link: https://simonwillison.net/2026/Mar/30/datasette-files/#atom-everything
+  Source: Simon Willison's Weblog
+- 2026 03 31 HackerNews
+  Link: https://supertechfans.com/cn/post/2026-03-31-HackerNews/
+  Source: HackerNews每日摘要 on SuperTechFans
+- Recently found cc-connect, a neat way to control local AI agents from any chat app. It bridges Claud...
+  Link: https://x.com/HiTw93/status/2038764711194345795
+  Source: Tw93(@HiTw93)
+- AI，正在“杀死”哪些软件？
+  Link: https://mp.weixin.qq.com/s?__biz=MjM5OTEwNjI2MA==&mid=2651925824&idx=1&sn=ef8f5e2ecdf16f9ce9e07fe0460cf050
+  Source: 人人都是产品经理
+- 10分钟了解突然爆火的CLI并开发一个"烂梗鸡汤"CLI
+  Link: https://mp.weixin.qq.com/s?__biz=MjM5OTEwNjI2MA==&mid=2651925824&idx=2&sn=168eb5330610162129a231218a6f14c6
+  Source: 人人都是产品经理
+- 40 个 AI agent 跑营销，还不是最狠的
+  Link: https://mp.weixin.qq.com/s?__biz=MjM5OTEwNjI2MA==&mid=2651925824&idx=3&sn=dd0883ca95983a2bec7b04a90078918c
+  Source: 人人都是产品经理
+- AI产品经理的“偷懒”指南：越懒，越值钱
+  Link: https://mp.weixin.qq.com/s?__biz=MjM5OTEwNjI2MA==&mid=2651925824&idx=4&sn=acd894a865203c80a214dc2112addcae
+  Source: 人人都是产品经理
+- 想雇她？点这里注册👉 https://t.co/YsIC7RltFQ
+  Link: https://x.com/berryxia/status/2038763205863076165
+  Source: Berryxia.AI(@berryxia)
+- 世界首个「自主 AI 营销师」Helena 正式登场！🚀
+
+企业做到第一个 100 万收入前，要烧掉 4000 小时营销……
+
+Helena 帮你全包了：
+
+➤ 深夜自动追踪竞品广告 → 生成 Ti...
+  Link: https://x.com/berryxia/status/2038763173764005927
+  Source: Berryxia.AI(@berryxia)
+- Image if Claude Code/Codex can access AND operate all your chats, calendars, meetings, docs, sheets....
+  Link: https://x.com/zarazhangrui/status/2038762790933119019
+  Source: Zara Zhang(@zarazhangrui)
+- I'm happy to report that @cursor_ai also works perfectly fine in China with all types of models.
+  Link: https://x.com/petergyang/status/2038761330392629479
+  Source: Peter Yang(@petergyang)
+- Marc Andreessen says AI is the "silver bullet excuse" for companies laying people off, but most layo...
+  Link: https://x.com/a16z/status/2038760847473009083
+  Source: a16z(@a16z)

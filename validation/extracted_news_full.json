@@ -1,0 +1,300 @@
+{
+  "title": "Hermes Agent v0.6.0 发布：多实例隔离（Profiles）、MCP Server 模式、Docker 官方支持、飞书和企业微信接入、Slack 多工作区、Telegram 生产优化\n...",
+  "summary": "Hermes Agent v0.6.0 发布：多实例隔离（Profiles）、MCP Server 模式、Docker 官方支持、飞书和企业微信接入、Slack 多工作区、Telegram 生产优化核心架构升级 - 多实例隔离（Profiles）· 首次支持在同一安装中运行多个完全隔离的 Hermes 实例· 每个实例拥有独立的配置、记忆、会话、技能和网关服务· 通过 token 锁机制防止多个实例共用同一机器人凭证· 支持导出/导入配置，便于团队共享和迁移MCP Server 模式· Hermes 可作为 MCP 服务器运行· 兼容 Claude Desktop、Cursor、VS Code 等客户端· 支持 stdio 和 Streamable HTTP 两种传输协议· 外部客户端可浏览会话历史、检索消息、管理附件Docker 官方支持· 发布官方 Dockerfile，支持 CLI 和网关两种运行模式· 配置通过 volume 挂载，符合云原生部署标准国内生态适配· 飞书/Lark：完整适配，支持事件订阅、消息卡片、群聊、文件附件、交互式卡片回调· 企业微信：支持文本/图片/语音消息、群聊、回调验证Slack 多工作区· 单网关实例可通过 OAuth 同时接入多个 Slack 工作区· 动态解析每个工作区的 bot tokenTelegram 生产优化· 新增 Webhook 模式，替代轮询，响应更快，更适合反向代理后的生产部署· 群聊触发规则可配置：始终响应、仅 @提及、或正则匹配有序故障转移· 支持配置多层级推理提供商，主提供商故障时自动降级· 覆盖网络错误、服务不可用、速率限制等场景· 429 错误现在显示带倒计时的友好提示完整更新日志：github.com/NousResearch/h…Nous Research@NousResearchThe Hermes...",
+  "link": "https://x.com/shao__meng/status/2038786904565633052",
+  "feed_title": "meng shao(@shao__meng)"
+}
+{
+  "title": "[AINews] The Last 4 Jobs in Tech",
+  "summary": "It’s well known that org charts are changing with AI - the first trend we called out was in 2023 with the Rise of the AI Engineer (now an official org at Meta!), and then in 2025 with Tiny Teams (hired by Meta!), but it seems Yoni Rechtman over at the 99D Substack has the mental model for the new post-AI roles (at least in white collar tech):top level tweet from KarriKarri Saarinen, CEO of Linear, made a popular analogy to the teamwork roles that emerged in World of Warcraft. This is a good 2D augmentation of an earlier age-based company model (much less realistic, name a tech company that fits the latter format, they exist but are very hard to find):AI News for 3/28/2026-3/30/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past...",
+  "link": "https://www.latent.space/p/ainews-the-last-4-jobs-in-tech",
+  "feed_title": "Latent.Space"
+}
+{
+  "title": "别再让AI只干零活了！AI工具正在接管投放全链路",
+  "summary": "从行业中来，到行业中去",
+  "link": "https://www.qbitai.com/2026/03/393471.html",
+  "feed_title": "量子位"
+}
+{
+  "title": "昨天刚推荐了在Claude Code当中用Codex的方法 官方插件就发布了啊\n\n这个太棒了 简单看下文档 支持直接在CC中运行如下命令\n\n/codex:review runs the standar...",
+  "summary": "昨天刚推荐了在Claude Code当中用Codex的方法 官方插件就发布了啊这个太棒了 简单看下文档 支持直接在CC中运行如下命令/codex:review runs the standard read-only Codex review./codex:adversarial-review runs a steerable challenge review. Use it when you want Codex to question the implementation, not just inspect it./codex:rescue hands a task to Codex directly.Longer jobs can run in the background, with /codex:status, /codex:result, and /codex:cancel to manage themVaibhav (VB) Srivastav@reach_vbx.com/i/article/2038…🔗 View Quoted Tweet💬0🔄0❤️8👀898📊1⚡ Powered by xgo.ing",
+  "link": "https://x.com/vikingmute/status/2038783732598128775",
+  "feed_title": "Viking(@vikingmute)"
+}
+{
+  "title": "Vol.110｜养虾时代，OpenClaw 让打工人何去何从？",
+  "summary": "【本期内容】Openclaw 爆火以后，数字员工终于从 AI 圈的概念，变成了企业老板们真正在考虑的现实选项。王诗沐，是网易云音乐创始人，现在创办 Seele AI。他刚刚做了一个非常大胆的决定，让 AI 接管公司办公，把 Openclaw 接入飞书，推动全员 AI 自动化。Austin Xu（Yuhao），曾是 Meta Stories 的高级工程师，他的团队做出了 Junior AI ——一个有名字、有邮箱、有手机号的通用型 AI 数字员工产品。月定价 2, 000 美金，号称一个 Junior AI 就能替代 5 名初级员工本期播客，我们将通过与他们的深度对话，帮老板们看清 OpenClaw 企业落地的真实路径，也帮每一位打工人看懂这波 AI 趋势对自己工作的冲击与机会。（温馨提示：本期为嘉宾远程连线，音质略有起伏，但干货满满，欢迎收听） 【嘉宾】郑玄｜极客公园副主编王诗沐｜Seele AI 创始人&amp;CEOAustin Xu｜Kuse AI / Junior.so CTO 【精彩时刻】PART 1 为什么要布局数字员工？03:01 开场即彩蛋：两位嘉宾的数字员工，不约而同取了日文名04:00 烧烤桌上一句玩笑，王诗沐一夜顿悟：全公司立刻 AI 自动化办公04:56 人与 AI Agent 协作，人反而成了效率瓶颈 PART 2 从装上「龙虾」到真正干活，数字员工实战解析15:02 实践分享：数字员工干的最好干的一件事，和最差劲的一件事18:26 200 美金 Token 换 1 万美金订单，AI 一晚上做出两个月工作量 CRM21:27 OpenClaw —— 新时代「木马」，安全问题该怎么避？28:12 聊聊 AI 圈热议的 Harness Engineering 概念36:55 OpenClaw 落地企业的这个挑战41:12 国内大厂 IM...",
+  "link": "https://www.xiaoyuzhoufm.com/episode/69ca3e32b977fb2c47a0457d",
+  "feed_title": "开始连接LinkStart"
+}
+{
+  "title": "model+harness is now over model only. agent perf can be significantly influenced by the design and q...",
+  "summary": "model+harness is now over model only. agent perf can be significantly influenced by the design and quality of harness. i do believe this is a right direction, nice work!Yoonho Lee@yoonholeeeHow can we autonomously improve LLM harnesses on problems humans are actively working on?Doing so requires solving a hard, long-horizon credit-assignment problem over all prior code, traces, and scores.Announcing Meta-Harness: a method for optimizing harnesses end-to-end🔗 View Quoted Tweet💬0🔄0❤️2👀311📊1⚡ Powered by xgo.ing",
+  "link": "https://x.com/JustinLin610/status/2038783276937310582",
+  "feed_title": "Junyang Lin(@JustinLin610)"
+}
+{
+  "title": "amazing. i was giving examples like this for DALL-E three years ago. \n\nsystems are still struggling ...",
+  "summary": "amazing. i was giving examples like this for DALL-E three years ago. systems are still struggling with some basics.Javier Ideami@ideamiBefore AI solves ARC-AGI3, it could warm up by solving this: \"9 cubes, 4 are red, 3 are green and 2 are blue. The green cubes are on top of the red cubes and the red cubes are on top of the blue cubes\" results from latest ChatGPT, Gemini and Flux Context Pro @fchollet@GaryMarcus🔗 View Quoted Tweet💬2🔄0❤️6👀1774📊2⚡ Powered by xgo.ing",
+  "link": "https://x.com/GaryMarcus/status/2038777481466118565",
+  "feed_title": "Gary Marcus(@GaryMarcus)"
+}
+{
+  "title": "沿江高铁总投资超5000亿，多家出险房企扭亏为盈 | 财经日日评",
+  "summary": "吴晓波频道 2026-03-31 08:20 浙江 内存价格暴涨数月后迎来大跌，中国大模型调用量连续四周超美国...",
+  "link": "https://mp.weixin.qq.com/s?__biz=MzA3OTM5NTkxNA==&mid=2653159300&idx=4&sn=b72b5c782eadaea49905e8e33b3c5ab7",
+  "feed_title": "吴晓波频道"
+}
+{
+  "title": "https://t.co/mivSq6zU62",
+  "summary": "x.com/claudeai/statu…Claude@claudeaiNow available in research preview on Pro and Max on macOS. Enable it with /mcp. Docs: code.claude.com/docs/en/comput…🔗 View Quoted Tweet💬1🔄0❤️0👀183📊1⚡ Powered by xgo.ing",
+  "link": "https://x.com/berryxia/status/2038773097940373858",
+  "feed_title": "Berryxia.AI(@berryxia)"
+}
+{
+  "title": "Claude Code 把 Computer Use 直接塞进 CLI 了！又又更新🤯\n\n现在一条提示词就能让 Claude 完整闭环：\n→ 写代码  \n→ 编译项目  \n→ 启动 App  \n→ ...",
+  "summary": "Claude Code 把 Computer Use 直接塞进 CLI 了！又又更新🤯现在一条提示词就能让 Claude 完整闭环：→ 写代码 → 编译项目 → 启动 App → 自己打开界面点击测试 → 发现 Bug 立刻自动修复并验证通过 从开发到 UI 测试，全程无人值守！Pro/Max用户可体验！Your browser does not support the video tag.🔗 View on Twitter💬1🔄0❤️4👀522📊2⚡ Powered by xgo.ing",
+  "link": "https://x.com/berryxia/status/2038772923818029107",
+  "feed_title": "Berryxia.AI(@berryxia)"
+}
+{
+  "title": "Imagine if Claude Code/Codex can access AND operate all your chats, calendars, meetings, docs, sheet...",
+  "summary": "Imagine if Claude Code/Codex can access AND operate all your chats, calendars, meetings, docs, sheets...That's possible now with Lark CLI. The world's most all-in-one collaboration tool just became the world's most agent-friendly collaboration tool.I just built a skill on top of this: Not only does it extract to-dos from the meetings, it actually EXECUTES those to-dos... insane github.com/larksuite/cli💬2🔄1❤️21👀1168📊7⚡ Powered by xgo.ing",
+  "link": "https://x.com/zarazhangrui/status/2038771778802331817",
+  "feed_title": "Zara Zhang(@zarazhangrui)"
+}
+{
+  "title": "Discord Open Sources Osprey Safety Rules Engine Processing 2.3 Million Rules per Second",
+  "summary": "Discord open-sourced Osprey, a safety rules engine processing 400 million daily actions and 2.3 million rules per second. Osprey uses a polyglot architecture: a Rust coordinator manages traffic, while stateless Python workers execute logic using a Python-based domain-specific language called SML. This design allows trust and safety teams to deploy real-time threat mitigations at high scale. By Patrick Farry",
+  "link": "https://www.infoq.com/news/2026/03/discord-osprey/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+  "feed_title": "InfoQ"
+}
+{
+  "title": "Google’s ‘AI Works for Britain’ aims to help stuck Brits unlock progression",
+  "summary": "Google launches AI Works for Britain upskilling initiative to help the public move from basic prompts to progression-boosting applications of AI.",
+  "link": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/googles-ai-works-for-britain-aims-to-help-stuck-brits-unlock-progression/",
+  "feed_title": "The Keyword"
+}
+{
+  "title": "vol.47 有问必答｜真正的蓄能，是看清自己的起心动念",
+  "summary": "本期节目与专业运动品牌迪桑特共同呈现。此刻蓄能，静待绽放。我最近刚经历了一次滑雪受伤，右脚打着支架，第一次体验坐在轮椅上的视角。这次的经历让我重新审视自己的身体、能量，以及我们与外界碰撞的方式。人这一生，能量的来源有很多种。有的人靠向外求索，有的人靠向内深耕。但真正决定我们能走多远的，往往不是我们拥有多少能量，而是我们如何蓄能、如何转化，又如何在不同处境中觉察自己的起心动念。从运动场的狼狈与“看见”到使用AI的启示，从与朋友相处的争吵到直播学英语的心路历程——这一期我想和你分享这些关于“能量”的体悟，也回应了一些听众相关的焦虑与困惑。希望我们都能找到属于自己的那条蓄能之路，让每一份专注的自我投资，都成为未来绽放的底气。00:33轮椅视角下的世界与共情02:05 雪场被救援的经历、对身体的重新理解08:48 在受挫中恢复、变好，然后继续前行15:19 从“向世界证明我是谁”到“用能量回馈世界”18:19 英语直播课的开启过程：凡事的起心动念就是你能量的来源22:06 我们如何觉察自己的“贪嗔痴慢疑”25:44 “我不畏惧自己做不到，也不害怕别人看见此刻的我没做到”31:09 Q1-32岁职场女性，想运动却难以坚持，怎么办？32:08 被恐惧驱动 vs 被爱驱动：找到你真正愿意运动的那个“快乐来源”37:37 如果身体动不起来，先从呼吸开始40:21 Q2-工作5年陷入倦怠期，想转型又不知从何下手？40:56 跳出旧的路径依赖，学会运用时代工具45:36 用战略眼光看人生：先俯瞰全局，再找适合自己的路47:49 Q3-给当下正在默默努力，暂时还没被看见的女生怎样的蓄能建议？48:22 人应该从自己擅长的事情着手来接洽这个世界50:47 先学会内观：我最快乐的时刻，和最容易耗损我的时刻54:00 真正的自我投资，是让投出去的东西最终回到你身上BGM：《I Bet You're...",
+  "link": "https://www.xiaoyuzhoufm.com/episode/69ca92eee2c8be3155eed2b5",
+  "feed_title": "天真不天真"
+}
+{
+  "title": "vol.47 有问必答｜真正的蓄能，是看清自己的起心动念",
+  "summary": "本期节目与专业运动品牌迪桑特共同呈现。此刻蓄能，静待绽放。我最近刚经历了一次滑雪受伤，右脚打着支架，第一次体验坐在轮椅上的视角。这次的经历让我重新审视自己的身体、能量，以及我们与外界碰撞的方式。人这一生，能量的来源有很多种。有的人靠向外求索，有的人靠向内深耕。但真正决定我们能走多远的，往往不是我们拥有多少能量，而是我们如何蓄能、如何转化，又如何在不同处境中觉察自己的起心动念。从运动场的狼狈与“看见”到使用AI的启示，从与朋友相处的争吵到直播学英语的心路历程——这一期我想和你分享这些关于“能量”的体悟，也回应了一些听众相关的焦虑与困惑。希望我们都能找到属于自己的那条蓄能之路，让每一份专注的自我投资，都成为未来绽放的底气。00:33轮椅视角下的世界与共情02:05 雪场被救援的经历、对身体的重新理解08:48 在受挫中恢复、变好，然后继续前行15:19 从“向世界证明我是谁”到“用能量回馈世界”18:19 英语直播课的开启过程：凡事的起心动念就是你能量的来源22:06 我们如何觉察自己的“贪嗔痴慢疑”25:44 “我不畏惧自己做不到，也不害怕别人看见此刻的我没做到”31:09 Q1-32岁职场女性，想运动却难以坚持，怎么办？32:08 被恐惧驱动 vs 被爱驱动：找到你真正愿意运动的那个“快乐来源”37:37 如果身体动不起来，先从呼吸开始40:21 Q2-工作5年陷入倦怠期，想转型又不知从何下手？40:56 跳出旧的路径依赖，学会运用时代工具45:36 用战略眼光看人生：先俯瞰全局，再找适合自己的路47:49 Q3-给当下正在默默努力，暂时还没被看见的女生怎样的蓄能建议？48:22 人应该从自己擅长的事情着手来接洽这个世界50:47 先学会内观：我最快乐的时刻，和最容易耗损我的时刻54:00 真正的自我投资，是让投出去的东西最终回到你身上BGM：《I Bet You're...",
+  "link": "https://www.xiaoyuzhoufm.com/episode/69ca92eee2c8be3155eed2b5",
+  "feed_title": "天真不天真"
+}
+{
+  "title": "datasette-files 0.1a3",
+  "summary": "Release: datasette-files 0.1a3 I'm working on integrating datasette-files into other plugins, such as datasette-extract. This necessitated a new release of the base plugin. owners_can_edit and owners_can_delete configuration options, plus the files-edit and files-delete actions are now scoped to a new FileResource which is a child of FileSourceResource. #18 The file picker UI is now available as a &lt;datasette-file-picker&gt; Web Component. Thanks, Alex Garcia. #19 New from datasette_files import get_file Python API for other plugins that need to access file data. #20 Tags: datasette",
+  "link": "https://simonwillison.net/2026/Mar/30/datasette-files/#atom-everything",
+  "feed_title": "Simon Willison's Weblog"
+}
+{
+  "title": "2026 03 31 HackerNews",
+  "summary": "2026-03-31 Hacker News Top Stories # GitHub Copilot 被曝在超过 150 万个拉取请求描述中擅自插入推广自身及第三方工具的广告内容，引发开发者对平台滥用权限和信任危机的强烈质疑。 ChatGPT 通过 Cloudflare 的加密 JavaScript 程序收集浏览器指纹、网络位置及 React 状态等 55 项指标进行反自动化验证，导致用户在验证完成前无法输入内容。 通过 Linux 系统配合 hostapd、dnsmasq 和 nftables 等工具，任何具备双网络接口的旧设备均可配置为支持 Wi-Fi 热点、DHCP 和防火墙功能的完整路由器。 互联网正演变为\"认知黑暗森林\"，个人创意被中心化 AI 平台迅速复制吸收，使创作者陷入要么封闭知识要么滋养竞争对手的两难境地。 Neovim 0.12.0 稳定版正式发布，基于 LuaJIT 2.1 构建并支持 Windows、macOS 和 Linux 多平台，带来大量新功能与修复。 费城法院系统宣布全面禁止具备录音录像功能的智能眼镜进入所有法院区域，以防止对司法程序的干扰和对证人的潜在威胁。 MacBook 因键盘与顶盖铆钉固定设计导致单个按键故障需更换整个顶盖（成本高达 730 欧元），作者最终通过软件重新映射按键规避了昂贵维修。 AI 行业面临科技巨头防御性投资、实验室运营成本高昂及商业化困难等多重压力，若泡沫破裂将引发企业减值、风投枯竭及硬件巨头受创的连锁反应。 微软 Copilot 被曝在超过 150 万份 GitHub 拉取请求中自动注入隐藏广告推广第三方工具，引发开发者强烈不满后官方道歉并关闭该功能。 复古演示场景文化中存在手工复制现有图像的传统，强调技艺展示而非绝对原创，反映了数字艺术创作中借鉴与创新的独特伦理边界。 1. Copilot 擅自修改了我的...",
+  "link": "https://supertechfans.com/cn/post/2026-03-31-HackerNews/",
+  "feed_title": "HackerNews每日摘要 on SuperTechFans"
+}
+{
+  "title": "Recently found cc-connect, a neat way to control local AI agents from any chat app. It bridges Claud...",
+  "summary": "Recently found cc-connect, a neat way to control local AI agents from any chat app. It bridges Claude Code, Cursor, Gemini CLI, and Codex to Slack, Telegram, Discord, Feishu, and more, so you can run code review, research, or automation from anywhere.github.com/chenhg5/cc-con…💬2🔄2❤️26👀3497📊12⚡ Powered by xgo.ing",
+  "link": "https://x.com/HiTw93/status/2038764711194345795",
+  "feed_title": "Tw93(@HiTw93)"
+}
+{
+  "title": "AI，正在“杀死”哪些软件？",
+  "summary": "定焦One团队 2026-03-31 07:46 广东 以下文章来源于：定焦One 定焦One 深度影响创新。 留给它们转型的时间，可能不多了。 2026年AI加速冲击软件业：ChatGPT整合Office，Anthropic植入法律金融流程，MiniMax、Kimi已能生成PPT。两类软件最危险——通用功能型易被AI内化，轻交互型将被自然语言替代；社交软件与垂直专业软件（数据壁垒）相对安全。———— / BEGIN / ————2026年，AI对软件行业的冲击明显加速。在海外，OpenAI持续强化ChatGPT在文档、表格等场景中的执行能力；Anthropic则将AI智能体用于法律、金融等更复杂的专业流程中，并尝试与传统软件厂商建立新的合作关系。国内AI厂商同样不甘落后，MiniMax、Kimi等已经将Office文档处理能力整合进对话式产品中，可帮用户完成Excel、PPT等内容的生成、编辑和分析。这些AI公司的动作都表明，AI开始取代部分软件成为执行工具。长期来看，那些主要依赖标准化功能和固定流程的软件，将变得越来越危险。英伟达CEO黄仁勋也在近期发表的一篇关于人工智能的长篇博客中提到，未来几年，传统的软件和APP形态或将消失，一种全新的软件形态AI...",
+  "link": "https://mp.weixin.qq.com/s?__biz=MjM5OTEwNjI2MA==&mid=2651925824&idx=1&sn=ef8f5e2ecdf16f9ce9e07fe0460cf050",
+  "feed_title": "人人都是产品经理"
+}
+{
+  "title": "10分钟了解突然爆火的CLI并开发一个\"烂梗鸡汤\"CLI",
+  "summary": "张佳 2026-03-31 07:46 广东 钉钉和飞书在同一天开放了 CLI 支持，然后企微周末连夜更新增加了 CLI 支持 CLI 到底是个啥？为啥突然火了？钉钉和飞书在同一天开放了 CLI 支持，然后企微周末连夜更新增加了 CLI 支持。在此之前，网易云音乐、美图也开放了 CLI 控制能力，同步上线 Skills更早的，Obsidian 在 1.12.0 版本增加了对 CLI 的支持，可以直接使用 CLI 创建编辑笔记十分钟搞懂这个“新”概念，并拥有自己的 CLI这 CLI 到底是个啥？为啥都往里涌？我能做个 CLI 么？我的产品能 CLI 么？啥是 CLI？CLI 是Command Line Interface的简称，翻译成中文就是命令行界面。emmmmm，没听过？下面这个就是：就是在你电脑的终端(Mac)或者 Powershell/CMD (Win)里，输入一行指令，就可以实现一个功能。比如，系统自带一个叫cp的指令，当你在终端输入：cp hello.txt nihao.txt时，电脑就会把你当前文件夹里名为hello.txt的文档，复制一份命名为nihao.txt。比如，如果你学习过 Python，你会知道，如果你需要运行一个你写的脚本程序，需要在终端输入python jiaoben.py再比如，你在安装 OpenClaw 的时候，第一句话是curl -fsSL https://openclaw.ai/install.sh | bash，这个指令的意思是“从那个网址下载一个东西安装”这些都是 CLI：一个通过终端输入指令，而不是点击按钮的方式，让电脑执行动作的方式。本质上，CLI 就是一个程序，它的运行方式不是双击程序，而是在终端输入指令。有时候，你输入某个指令的时候，会提示你Command Not...",
+  "link": "https://mp.weixin.qq.com/s?__biz=MjM5OTEwNjI2MA==&mid=2651925824&idx=2&sn=168eb5330610162129a231218a6f14c6",
+  "feed_title": "人人都是产品经理"
+}
+{
+  "title": "40 个 AI agent 跑营销，还不是最狠的",
+  "summary": "张艾拉 2026-03-31 07:46 广东 以下文章来源于：Fun AI Everyday Fun AI Everyday 每天分享一个好玩的AI应用 AI agent 做的就是这些原来最难长期坚持、但又最影响结果的动作。 Relay的40个AI agents案例揭示了营销工作流被系统化拆解的全新范式，而OpenClaw与autoresearch的组合则实现了7x24小时的智能测试与优化循环。本文将深度解析AI如何攻克营销中最棘手的持续测试、动态调整与效果追踪难题，揭示营销自动化进入2.0时代的底层逻辑。———— / BEGIN / ————过去一年，AI 做营销最常见的用法，还是写文案、出海报、改标题、做几个短视频脚本。大家也都看腻了。现在，真正的变化开始了。AI 开始往营销里最难、最费人、但又最影响结果的地方发起来进攻，那就是：盯数据、跑测试、做筛选、调结果。先别看 40 个 agent，先看它到底接走了什么活前段时间，Relay 创始人 Jacob Bank 讲了一个很典型的案例：他把一整套营销工作拆给了 40 个 AI agents 来跑。表面上看，最吸引眼球的是“40 个 agent”这个数字，但真正值得看的，不是数量，而是这些 agent 接走的到底是什么活。不是那种听起来很高级、但落不到日常工作的“动脑子工作”，而是一堆原来每天都在发生、很碎、很杂、但又不能没人做的动作。比如新视频发出去之后，自动改写成 LinkedIn 帖子和 X 的内容；比如持续盯竞对创始人的社交平台动态；比如每周扫一遍竞品定价有没有变化等等。可以看到，这个案例里，不是 AI 开始替代整个营销团队了，而是营销团队里原来揉在一起的一团工作，开始被拆开了。以前一个市场同学，可能同时要写、要发、要看、要跟、要复盘。现在，这些动作第一次可以被一条条单独拎出来，交给不同的 agent...",
+  "link": "https://mp.weixin.qq.com/s?__biz=MjM5OTEwNjI2MA==&mid=2651925824&idx=3&sn=dd0883ca95983a2bec7b04a90078918c",
+  "feed_title": "人人都是产品经理"
+}
+{
+  "title": "AI产品经理的“偷懒”指南：越懒，越值钱",
+  "summary": "北沐而川 2026-03-31 07:46 广东 以下文章来源于：健彬的产品Live 健彬的产品Live B端产品设计师，日常分享设计日记与生活，希望文章能帮你提升自己的能力，早日实现自己的梦想~~ “懒”是人类进步的动力 当AI能够处理80%的重复性工作，真正的价值创造来自于精准的战略判断和业务洞察。本文揭秘如何通过Notion AI、MasterGo AI等工具实现'战略性偷懒'，将精力聚焦于高价值决策，在AI时代实现个人价值的指数级增长。———— / BEGIN /...",
+  "link": "https://mp.weixin.qq.com/s?__biz=MjM5OTEwNjI2MA==&mid=2651925824&idx=4&sn=acd894a865203c80a214dc2112addcae",
+  "feed_title": "人人都是产品经理"
+}
+{
+  "title": "想雇她？点这里注册👉 https://t.co/YsIC7RltFQ",
+  "summary": "想雇她？点这里注册👉agent.enrichlabs.ai/marketing/regi…Q💬1🔄0❤️0👀200📊1⚡ Powered by xgo.ing",
+  "link": "https://x.com/berryxia/status/2038763205863076165",
+  "feed_title": "Berryxia.AI(@berryxia)"
+}
+{
+  "title": "世界首个「自主 AI 营销师」Helena 正式登场！🚀\n\n企业做到第一个 100 万收入前，要烧掉 4000 小时营销……\n\nHelena 帮你全包了：\n\n➤ 深夜自动追踪竞品广告 → 生成 Ti...",
+  "summary": "世界首个「自主 AI 营销师」Helena 正式登场！🚀企业做到第一个 100 万收入前，要烧掉 4000 小时营销……Helena 帮你全包了：➤ 深夜自动追踪竞品广告 → 生成 TikTok 幻灯片、UGC、静态广告 ➤ 跨 GA4、Search Console、付费/有机社交实时分析绩效，每天给你洞察 ➤ 研究趋势 → 直接在 WordPress、Framer、Webflow 写好 GEO 优化博客 它有独立记忆 + 定时任务 + 100+ 营销专属工具 + 原生集成 零开发、零 CLI、零 n8n、零 API Key，完全傻瓜式！她不取代 CMO，而是把营销人从苦力活里解放出来～ 体验地址见评论区~Seijin Jung@SeijinJungIntroducing Helena: the world's first autonomous AI marketer.Businesses spend 4,000 hours on marketing…before their first $1M in revenue.We built Helena to solve this. Helena can:➤ Track competitor ads &amp; create TikTok slideshows, UGC, static ads - all while you sleep➤ Analyze performance across GA4, Search Console, paid/organic social for daily insights➤ Research trends to draft GEO optimized blogs directly on WordPress, Framer, Webflow...and moreHelena has her...",
+  "link": "https://x.com/berryxia/status/2038763173764005927",
+  "feed_title": "Berryxia.AI(@berryxia)"
+}
+{
+  "title": "Image if Claude Code/Codex can access AND operate all your chats, calendars, meetings, docs, sheets....",
+  "summary": "Image if Claude Code/Codex can access AND operate all your chats, calendars, meetings, docs, sheets...That's possible now with Lark CLI. The world's most all-in-one collaboration tool just became the world's most agent-friendly collaboration tool.I just built a skill on top of this: Not only does it extract to-dos from the meetings, it actually EXECUTES those to-dos... insane github.com/larksuite/cli💬4🔄2❤️19👀1107📊10⚡ Powered by xgo.ing",
+  "link": "https://x.com/zarazhangrui/status/2038762790933119019",
+  "feed_title": "Zara Zhang(@zarazhangrui)"
+}
+{
+  "title": "I'm happy to report that @cursor_ai also works perfectly fine in China with all types of models.",
+  "summary": "I'm happy to report that @cursor_ai also works perfectly fine in China with all types of models.💬0🔄0❤️5👀1105📊1⚡ Powered by xgo.ing",
+  "link": "https://x.com/petergyang/status/2038761330392629479",
+  "feed_title": "Peter Yang(@petergyang)"
+}
+{
+  "title": "Marc Andreessen says AI is the \"silver bullet excuse\" for companies laying people off, but most layo...",
+  "summary": "Marc Andreessen says AI is the \"silver bullet excuse\" for companies laying people off, but most layoffs are actually due to higher interest rates and overstaffing during COVID:\"This entire labor displacement thing is 100% incorrect. It's completely wrong. It's classic zero-sum economics.\"\"It was the combination of the two—interest rates going to zero during COVID, and then the complete loss of discipline at all these companies when they went virtual and when employees just became an icon on a screen.\"\"What you have happening right now is that essentially every large company is overstaffed. We could debate how much—it's at least overstaffed by 25%. I think most large companies are overstaffed by 50%. A lot of them are overstaffed by 75%.\"\"And now they all have the silver bullet excuse—it's...",
+  "link": "https://x.com/a16z/status/2038760847473009083",
+  "feed_title": "a16z(@a16z)"
+}
+{
+  "title": "When Opus 4.5 came out, it was a one-way door to a new way of engineering. Agents now do most of our...",
+  "summary": "When Opus 4.5 came out, it was a one-way door to a new way of engineering. Agents now do most of our coding.Knowing the inherent flaws and over-confidence of LLMs, we sent a clear message to our teams. Vibing and mission-critical infrastructure don’t go together.We’re sharing some of our early internal guidance in how we’re “agenting responsibly”, prioritizing security, durability, and availability at all times.vercel.com/blog/agent-res…💬34🔄45❤️583👀39951📊181⚡ Powered by xgo.ing",
+  "link": "https://x.com/rauchg/status/2038759092442050651",
+  "feed_title": "Guillermo Rauch(@rauchg)"
+}
+{
+  "title": "Agent responsibly",
+  "summary": "The following is based on an internal talk given at Vercel. We're sharing it publicly because the problem it describes isn't unique to us, and the framework is useful for any team shipping with agents.Coding agents generate code at unprecedented speeds. In the hands of disciplined engineers, they are a productivity multiplier. But without rigorous judgment, they are a highly efficient way to ship bad assumptions directly to production.When teams deploy agent-generated code blindly, the fallout can be immediate and severe. A flawless-looking pull request can ship a query that passes tests, but scans every row in production. Retry logic that seems correct can cause a thundering herd on a downstream service. And a cache with no TTL can quietly grow until Redis dies.Green CI is no longer...",
+  "link": "https://vercel.com/blog/agent-responsibly",
+  "feed_title": "Vercel News"
+}
+{
+  "title": "十年仍争论不休！嫌它背离Unix哲学，又得用它搞定90%的Linux机器",
+  "summary": "原创 Can Artuc 2026-03-31 07:16 广东 十年了，也没出现它的完全替代品…… 十五个发行版，零个 systemd。上个月我统计时，这个数字让我吃了一惊。到 2026 年，仍有十五个活跃维护的 Linux 发行版默认不搭载 systemd。经过十多年关于替代品会消亡的预测，它们依然存在。当你启动一台 Linux 机器时，运行的第一个程序叫做初始化系统。它启动你的计算机所需的所有服务：网络、日志记录、桌面环境，一切。几十年来，Linux 社区一直在争论应该由哪个初始化系统来处理这项工作。一方说是 systemd，一个庞大的、一体化的工具，现在运行在超过 90% 的 Linux 安装上。另一方说它做得太多，违反了 Unix 的“做一件事并做好”的原则，并且更喜欢更小的替代品，如 OpenRC、runit 或 Dinit。这篇文章就是关于这场争论的。初始化系统之争引发的争论比任何其他 Linux 争议都要激烈。比 Wayland 与 X11 之争更激烈。比内核采用 Rust 更激烈。在旁观了这场争斗这么久之后，我认为双方都部分正确，但主要还是固执己见。以下是实际发生的事情、今天的状况，以及为什么这场争斗永远不会真正结束。一、SysVinit 必须被取代最初的 Unix 初始化系统很简单。PID 1 读取 /etc/inittab，按顺序运行 shell 脚本，仅此而已。对于 1980 年代来说，这运行得很好。到了 2010 年，它已经分崩离析。顺序启动脚本意味着一个有 40 个服务的服务器需要几分钟才能启动完成。服务之间的依赖关系？你得通过像 S01networking 和 S20apache 这样的编号文件名手动管理它们，硬件检测基本靠祈祷，热插拔 USB 设备可能会使你的系统处于未定义状态。SysVinit...",
+  "link": "https://mp.weixin.qq.com/s?__biz=MzkzMjYzNjkzNw==&mid=2247635245&idx=1&sn=d386514bef3482ec74b781f424f6a584",
+  "feed_title": "dbaplus社群"
+}
+{
+  "title": "免费的 Qwen3.6 Plus 来了🥳\n\nhttps://t.co/uUaDj1v73C",
+  "summary": "免费的 Qwen3.6 Plus 来了🥳openrouter.ai/qwen/qwen3.6-p…COpenRouter@OpenRouterQwen 3.6 Plus Preview from @Alibaba_Qwen is live now for free for a limited time on OpenRouter!During this free period, prompts and completions will be collected and may be used to improve the model.🔗 View Quoted Tweet💬2🔄2❤️19👀5220📊5⚡ Powered by xgo.ing",
+  "link": "https://x.com/geekbb/status/2038756903761891828",
+  "feed_title": "Geek(@geekbb)"
+}
+{
+  "title": "Our newest featured notebook is absolutely electric🪁⚡️\n\nWe partnered with @googlearts @royalsociety...",
+  "summary": "Our newest featured notebook is absolutely electric🪁⚡️We partnered with @googlearts@royalsociety to dive into the life of Benjamin Franklin like never before. Interact with his life's work, brush up on his personal and professional relationships, and gain a new perspective on this American polymath. Get enlightened here:goo.gle/4s0q6mFVYour browser does not support the video tag.🔗 View on Twitter💬10🔄16❤️195👀10133📊40⚡ Powered by xgo.ing",
+  "link": "https://x.com/NotebookLM/status/2038756752758550694",
+  "feed_title": "NotebookLM(@NotebookLM)"
+}
+{
+  "title": "仔细思考一下，发现还有意思的。\n1. 穿秋裤相对独立，不能通过其他世界知识推导得到；\n2. 穿秋裤，无法机器主动检测，只能人自己来记录，公开样本数据少，无足以形成LLM的世界知识；\n3. 穿秋裤，个体...",
+  "summary": "仔细思考一下，发现还有意思的。1. 穿秋裤相对独立，不能通过其他世界知识推导得到；2. 穿秋裤，无法机器主动检测，只能人自己来记录，公开样本数据少，无足以形成LLM的世界知识；3. 穿秋裤，个体差异大，需要结合世界知识和个人的上下文。🤔我要命名为Agent的秋裤困境。💬0🔄0❤️2👀634📊1⚡ Powered by xgo.ing",
+  "link": "https://x.com/yan5xu/status/2038756493387088354",
+  "feed_title": "yan5xu(@yan5xu)"
+}
+{
+  "title": "这似乎是 Agent 至今都无法解决的问题🤔",
+  "summary": "这似乎是 Agent 至今都无法解决的问题🤔💬2🔄0❤️4👀1134📊3⚡ Powered by xgo.ing",
+  "link": "https://x.com/yan5xu/status/2038753911943962934",
+  "feed_title": "yan5xu(@yan5xu)"
+}
+{
+  "title": "So proud to have @ggerganov and @ggml_org part of the @huggingface team. One of the unsung heroes of...",
+  "summary": "So proud to have @ggerganov and @ggml_org part of the @huggingface team. One of the unsung heroes of AI, powering the most widely used open-source runtime for local AI!Georgi Gerganov@ggerganovllama.cpp at 100k starsnow that 90% of the code worldwide is being written by AI agents, I predict that within 3-6 months, 90% of all AI agents will be running locally with llama.cpp 😄Jokes aside, I am going to use this small milestone as an opportunity to reflect a bit on the project and the state of AI from the perspective of local applications. There is a lot to say and discuss and yet it feels less and less important to try to make a point. Opinions about viability of local LLMs are strongly polarized, details are overlooked, the scientific approach is lacking. Arguments are predominantly based...",
+  "link": "https://x.com/ClementDelangue/status/2038752860192518294",
+  "feed_title": "clem 🤗(@ClementDelangue)"
+}
+{
+  "title": "一个通过写邮件发布文章的产品，喜欢这种小而美的小应用。\n\nhttps://t.co/AtXFA8LyAX",
+  "summary": "一个通过写邮件发布文章的产品，喜欢这种小而美的小应用。posts.im💬0🔄0❤️4👀986📊1⚡ Powered by xgo.ing",
+  "link": "https://x.com/dingyi/status/2038752638876151938",
+  "feed_title": "Ding(@dingyi)"
+}
+{
+  "title": "We are getting started with another live session on Youtube!\n\nToday, our topic is: AI Workspace Pro ...",
+  "summary": "We are getting started with another live session on Youtube!Today, our topic is: AI Workspace Pro TipsYou'll learn all about to make the most of your credits and get to incredible results FAST.Our host today is Devin, the person in our team responsible for training all our Enterprise Clients and making sure they make the most out of their subscriptions. So you'll want to hear what he has to say 😉Today, he'll cover pro tips on:- AI Sheets- AI Docs- AI Slides- AI Chat (the secret sauce to make every part of the way more efficient!)Join us here:youtube.com/watch?v=Y2G3OV…m💬2🔄1❤️13👀1390📊4⚡ Powered by xgo.ing",
+  "link": "https://x.com/genspark_ai/status/2038751954932027474",
+  "feed_title": "Genspark(@genspark_ai)"
+}
+{
+  "title": "现在也是一个好时机。之前我一直有顾虑，就是真的想让大学生体验“好”模型，不可避免设计到海外闭源模型，多少有点灰色地带。现在国产模型虽然还没有追上SOTA，但已经足够好到，可以感受到LLM的魅力了。",
+  "summary": "现在也是一个好时机。之前我一直有顾虑，就是真的想让大学生体验“好”模型，不可避免设计到海外闭源模型，多少有点灰色地带。现在国产模型虽然还没有追上SOTA，但已经足够好到，可以感受到LLM的魅力了。💬0🔄0❤️0👀354⚡ Powered by xgo.ing",
+  "link": "https://x.com/yan5xu/status/2038751664354832565",
+  "feed_title": "yan5xu(@yan5xu)"
+}
+{
+  "title": "Getting a lot of messages like this",
+  "summary": "Getting a lot of messages like thisLenny Rachitsky@lennysanClaire Vo's first day with @OpenClaw it deleted her family calendar.Now she runs 9 agents across 3 Mac Minis, and said \"I haven't felt like this since I was a teenager learning to code.\"Her sales agent Sam does a daily CRM sweep, identifies decision-makers from new signups, and sends personalized outreach—replacing a part-time salesperson she was paying 10 hours a week.Her home agent Finn pings her and her husband every day at 3pm: \"Which of you is picking up which kids?\" Then flags when the oldest's basketball conflicts with the middle kid's soccer and asks how they want to split duties.She also has agents for podcast prep, kids' homework help, and course project management.Claire (host of How I AI, founder of @ChatPRD) started...",
+  "link": "https://x.com/lennysan/status/2038751570586927304",
+  "feed_title": "Lenny Rachitsky(@lennysan)"
+}
+{
+  "title": "Brian Armstrong on introspection:\n\n“I get @pmarca’s point, which I think is very important and right...",
+  "summary": "Brian Armstrong on introspection:“I get @pmarca’s point, which I think is very important and right, which is: you should just be making relentless forward progress.”“Don’t dwell on the past. If you take a loss or something didn’t go your way, it’s like—okay, what could I have done better? Boom. Then just get after it again and keep moving.”“In my experience as an entrepreneur, I was always just biased toward action.”“If you’re not trying ambitious enough things where it might fail, then you’re holding back and you’re not fulfilling your full potential.”@brian_armstrong with @ti_morse on @relentlessYour browser does not support the video tag.🔗 View on TwitterDavid Senra@davidsenraGreat men of history had little to no introspection. The personality that builds empires is not the same...",
+  "link": "https://x.com/a16z/status/2038744905301049507",
+  "feed_title": "a16z(@a16z)"
+}
+{
+  "title": "AI: Here's your 90-day roadmap to execute on!  \n\nUser: Build it literally right now.  \n\nAI:",
+  "summary": "AI: Here's your 90-day roadmap to execute on! User: Build it literally right now. AI:Your browser does not support the video tag.🔗 View on Twitter💬3🔄0❤️9👀1632📊4⚡ Powered by xgo.ing",
+  "link": "https://x.com/TheRundownAI/status/2038743556488036843",
+  "feed_title": "The Rundown AI(@TheRundownAI)"
+}
+{
+  "title": "These robot malfunction videos do something to the female brain",
+  "summary": "These robot malfunction videos do something to the female brainYour browser does not support the video tag.🔗 View on Twitter💬0🔄0❤️5👀286📊1⚡ Powered by xgo.ing",
+  "link": "https://x.com/venturetwins/status/2038741708608024798",
+  "feed_title": "Justine Moore(@venturetwins)"
+}
+{
+  "title": "Agent 4 didn't replace what worked. It rethought it.\n\nThe building experience is fundamentally bette...",
+  "summary": "Agent 4 didn't replace what worked. It rethought it.The building experience is fundamentally better.The Design Canvas now works across every artifact type.Collaboration happens in real time—no forking required.And planning no longer pauses your build.💬10🔄2❤️32👀3594📊13⚡ Powered by xgo.ing",
+  "link": "https://x.com/Replit/status/2038738072758518224",
+  "feed_title": "Replit ⠕(@Replit)"
+}
+{
+  "title": "Brian Armstrong prefers to be a wartime CEO:\n\n“I used to think that I was better as a peacetime CEO,...",
+  "summary": "Brian Armstrong prefers to be a wartime CEO:“I used to think that I was better as a peacetime CEO, but I think that's not true. It's actually totally flipped.”“I think it's wartime, all the time.”“And I actually realized that I like wartime.”“I find it very energizing and motivating. It can make you really pissed in certain moments too, but it's actually very energizing. And sometimes when there isn't any conflict or war going on, I get a little bored and tired and I'm just like—it seems like nothing's blowing up right now, and I could use a good crisis.”“I don't want to be doing conflict for conflict's sake. I think that that's just destructive. But if you see something—a clear problem that needs to be solved—something to fight after—if you don't speak up and say something about it, then...",
+  "link": "https://x.com/a16z/status/2038737354077421645",
+  "feed_title": "a16z(@a16z)"
+}
+{
+  "title": "We're hosting a casual pregame for First Thursdays this week! 🍾\n\n(First Thursdays is a monthly stre...",
+  "summary": "We're hosting a casual pregame for First Thursdays this week! 🍾(First Thursdays is a monthly street party in SF on 2nd Street between Market and Howard. Our office is at the center of this street). We'll have drinks 🍹, pizza 🍕, and vibes 🦙. Come swing by 🔥Starting luma.com/mkh44c7wpPYhKLlamaIndex 🦙@llama_indexWe’ve moved to the '#AI Waterfront' and it’s time to celebrate. Swing by on April 2nd to see our new office on 2nd street, meet our team, grab a bite or drink, and make new friends.Note: Space is limited, so please RSVP early.luma.com/mkh44c7w🔗 View Quoted Tweet💬0🔄2❤️11👀1953📊2⚡ Powered by xgo.ing",
+  "link": "https://x.com/jerryjliu0/status/2038733178689782222",
+  "feed_title": "Jerry Liu(@jerryjliu0)"
+}
+{
+  "title": "Create a free, local, fast retrieval stack for Claude Code (or your favorite AI agent) \n\n`litesearch...",
+  "summary": "Create a free, local, fast retrieval stack for Claude Code (or your favorite AI agent) `litesearch` is a project @itsclelia that lets you parse, index, and search over any collection of documents within your computer. It's fully CLI-native so easy to plug into any agent tool. Come check it out! Repo: github.com/AstraBert/lite…The core parsing is powered by liteparse, our fast/free doc parser: github.com/run-llama/lite…Your browser does not support the video tag.🔗 View on TwitterLlamaIndex 🦙@llama_indexOur OSS engineer @itsclelia recently built 𝗹𝗶𝘁𝗲𝘀𝗲𝗮𝗿𝗰𝗵, a fully local document ingestion and retrieval CLI/TUI application powered by LiteParse ⚡litesearch demonstrates how developers can assemble a high-performance, local-first retrieval pipeline using open tools from across the ecosystem:•...",
+  "link": "https://x.com/jerryjliu0/status/2038731768074051694",
+  "feed_title": "Jerry Liu(@jerryjliu0)"
+}
+{
+  "title": "Quoting Georgi Gerganov",
+  "summary": "Note that the main issues that people currently unknowingly face with local models mostly revolve around the harness and some intricacies around model chat templates and prompt construction. Sometimes there are even pure inference bugs. From typing the task in the client to the actual result, there is a long chain of components that atm are not only fragile - are also developed by different parties. So it's difficult to consolidate the entire stack and you have to keep in mind that what you are currently observing is with very high probability still broken in some subtle way along that chain. — Georgi Gerganov, explaining why it's hard to find local models that work well with coding agents Tags: coding-agents, generative-ai, ai, local-llms, llms, georgi-gerganov",
+  "link": "https://simonwillison.net/2026/Mar/30/georgi-gerganov/#atom-everything",
+  "feed_title": "Simon Willison's Weblog"
+}
+{
+  "title": "Brian Armstrong says Coinbase started an internal venture bets program so great ideas—and great peop...",
+  "summary": "Brian Armstrong says Coinbase started an internal venture bets program so great ideas—and great people—don’t walk out the door:“We have something internally called Next Bets. Twice a year, we have a panel where anybody in the company can come in and pitch and say, ‘I think we should be building this.’”“My fear was from reading things about Steve Wozniak at Hewlett-Packard. He famously went to HP and said, ‘I think we should build a personal computer.’ They said no, and he left to found Apple.”“The panel—there are different product group leaders who each have their own budget. They can decide to fund it out of their own budget.”“If you get any one of them to decide they want to fund it, you’re greenlit. It’s kind of like coming in and pitching an internal set of venture capitalists.”“The...",
+  "link": "https://x.com/a16z/status/2038729574415261784",
+  "feed_title": "a16z(@a16z)"
+}
+{
+  "title": "Meta-Harness\n\n如何为 Agent 优化 harness？\n\nMeta-Harness =  coding agent + experience search",
+  "summary": "Meta-Harness如何为 Agent 优化 harness？Meta-Harness = coding agent + experience searchYoonho Lee@yoonholeeeHow can we autonomously improve LLM harnesses on problems humans are actively working on?Doing so requires solving a hard, long-horizon credit-assignment problem over all prior code, traces, and scores.Announcing Meta-Harness: a method for optimizing harnesses end-to-end🔗 View Quoted Tweet💬0🔄5❤️23👀2394📊6⚡ Powered by xgo.ing",
+  "link": "https://x.com/dongxi_nlp/status/2038725725566521838",
+  "feed_title": "马东锡 NLP(@dongxi_nlp)"
+}
+{
+  "title": "A lot of people mistake inadequate scaffolding for a lack of capability in smaller local models. You...",
+  "summary": "A lot of people mistake inadequate scaffolding for a lack of capability in smaller local models. You can't expect a system that was built for large model APIs to work out of the box magically with smaller local models.Similarly, many people fine-tune poorly and then conclude that fine-tuning does not work.There are clearly still major skills gaps and time investment constraints with local model currently but I'm quite hopeful that a mix of open-source explosion, community work and agent support will make it drastically easier. And then we'll witness the open-source and local explosion that is so necessary!Georgi Gerganov@ggerganovI think the consensus is that Qwen3.5 is a step change so atm I would recommend explore that, given that it covers a range of sizes suitable for all devices.Note...",
+  "link": "https://x.com/ClementDelangue/status/2038724952547803364",
+  "feed_title": "clem 🤗(@ClementDelangue)"
+}

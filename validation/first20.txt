@@ -1,0 +1,120 @@
+{
+  "title": "Visual Studio Code 1.114",
+  "summary": "Learn what's new in Visual Studio Code 1.114 (Insiders) Read the full article",
+  "link": "https://devblogs.microsoft.com/vscode-blog/visual-studio-code-1.114",
+  "feed_title": "Microsoft for Developers"
+}
+{
+  "title": "Hermes Agent v0.6.0 发布：多实例隔离（Profiles）、MCP Server 模式、Docker 官方支持、飞书和企业微信接入、Slack 多工作区、Telegram 生产优化\n...",
+  "summary": "Hermes Agent v0.6.0 发布：多实例隔离（Profiles）、MCP Server 模式、Docker 官方支持、飞书和企业微信接入、Slack 多工作区、Telegram 生产优化核心架构升级 - 多实例隔离（Profiles）· 首次支持在同一安装中运行多个完全隔离的 Hermes 实例· 每个实例拥有独立的配置、记忆、会话、技能和网关服务· 通过 token 锁机制防止多个实例共用同一机器人凭证· 支持导出/导入配置，便于团队共享和迁移MCP Server 模式· Hermes 可作为 MCP 服务器运行· 兼容 Claude Desktop、Cursor、VS Code 等客户端· 支持 stdio 和 Streamable HTTP 两种传输协议· 外部客户端可浏览会话历史、检索消息、管理附件Docker 官方支持· 发布官方 Dockerfile，支持 CLI 和网关两种运行模式· 配置通过 volume 挂载，符合云原生部署标准国内生态适配· 飞书/Lark：完整适配，支持事件订阅、消息卡片、群聊、文件附件、交互式卡片回调· 企业微信：支持文本/图片/语音消息、群聊、回调验证Slack 多工作区· 单网关实例可通过 OAuth 同时接入多个 Slack 工作区· 动态解析每个工作区的 bot tokenTelegram 生产优化· 新增 Webhook 模式，替代轮询，响应更快，更适合反向代理后的生产部署· 群聊触发规则可配置：始终响应、仅 @提及、或正则匹配有序故障转移· 支持配置多层级推理提供商，主提供商故障时自动降级· 覆盖网络错误、服务不可用、速率限制等场景· 429 错误现在显示带倒计时的友好提示完整更新日志：github.com/NousResearch/h…Nous Research@NousResearchThe Hermes...",
+  "link": "https://x.com/shao__meng/status/2038786904565633052",
+  "feed_title": "meng shao(@shao__meng)"
+}
+{
+  "title": "[AINews] The Last 4 Jobs in Tech",
+  "summary": "It’s well known that org charts are changing with AI - the first trend we called out was in 2023 with the Rise of the AI Engineer (now an official org at Meta!), and then in 2025 with Tiny Teams (hired by Meta!), but it seems Yoni Rechtman over at the 99D Substack has the mental model for the new post-AI roles (at least in white collar tech):top level tweet from KarriKarri Saarinen, CEO of Linear, made a popular analogy to the teamwork roles that emerged in World of Warcraft. This is a good 2D augmentation of an earlier age-based company model (much less realistic, name a tech company that fits the latter format, they exist but are very hard to find):AI News for 3/28/2026-3/30/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past...",
+  "link": "https://www.latent.space/p/ainews-the-last-4-jobs-in-tech",
+  "feed_title": "Latent.Space"
+}
+{
+  "title": "别再让AI只干零活了！AI工具正在接管投放全链路",
+  "summary": "从行业中来，到行业中去",
+  "link": "https://www.qbitai.com/2026/03/393471.html",
+  "feed_title": "量子位"
+}
+{
+  "title": "昨天刚推荐了在Claude Code当中用Codex的方法 官方插件就发布了啊\n\n这个太棒了 简单看下文档 支持直接在CC中运行如下命令\n\n/codex:review runs the standar...",
+  "summary": "昨天刚推荐了在Claude Code当中用Codex的方法 官方插件就发布了啊这个太棒了 简单看下文档 支持直接在CC中运行如下命令/codex:review runs the standard read-only Codex review./codex:adversarial-review runs a steerable challenge review. Use it when you want Codex to question the implementation, not just inspect it./codex:rescue hands a task to Codex directly.Longer jobs can run in the background, with /codex:status, /codex:result, and /codex:cancel to manage themVaibhav (VB) Srivastav@reach_vbx.com/i/article/2038…🔗 View Quoted Tweet💬0🔄0❤️8👀898📊1⚡ Powered by xgo.ing",
+  "link": "https://x.com/vikingmute/status/2038783732598128775",
+  "feed_title": "Viking(@vikingmute)"
+}
+{
+  "title": "Salute!",
+  "summary": "Salute!Elisha Long@ElishaDLongAppreciate the shout out @pmarca Thank you.🔗 View Quoted Tweet💬10🔄0❤️12👀3969📊7⚡ Powered by xgo.ing",
+  "link": "https://x.com/pmarca/status/2038783411348000845",
+  "feed_title": "Marc Andreessen 🇺🇸(@pmarca)"
+}
+{
+  "title": "Vol.110｜养虾时代，OpenClaw 让打工人何去何从？",
+  "summary": "【本期内容】Openclaw 爆火以后，数字员工终于从 AI 圈的概念，变成了企业老板们真正在考虑的现实选项。王诗沐，是网易云音乐创始人，现在创办 Seele AI。他刚刚做了一个非常大胆的决定，让 AI 接管公司办公，把 Openclaw 接入飞书，推动全员 AI 自动化。Austin Xu（Yuhao），曾是 Meta Stories 的高级工程师，他的团队做出了 Junior AI ——一个有名字、有邮箱、有手机号的通用型 AI 数字员工产品。月定价 2, 000 美金，号称一个 Junior AI 就能替代 5 名初级员工本期播客，我们将通过与他们的深度对话，帮老板们看清 OpenClaw 企业落地的真实路径，也帮每一位打工人看懂这波 AI 趋势对自己工作的冲击与机会。（温馨提示：本期为嘉宾远程连线，音质略有起伏，但干货满满，欢迎收听） 【嘉宾】郑玄｜极客公园副主编王诗沐｜Seele AI 创始人&amp;CEOAustin Xu｜Kuse AI / Junior.so CTO 【精彩时刻】PART 1 为什么要布局数字员工？03:01 开场即彩蛋：两位嘉宾的数字员工，不约而同取了日文名04:00 烧烤桌上一句玩笑，王诗沐一夜顿悟：全公司立刻 AI 自动化办公04:56 人与 AI Agent 协作，人反而成了效率瓶颈 PART 2 从装上「龙虾」到真正干活，数字员工实战解析15:02 实践分享：数字员工干的最好干的一件事，和最差劲的一件事18:26 200 美金 Token 换 1 万美金订单，AI 一晚上做出两个月工作量 CRM21:27 OpenClaw —— 新时代「木马」，安全问题该怎么避？28:12 聊聊 AI 圈热议的 Harness Engineering 概念36:55 OpenClaw 落地企业的这个挑战41:12 国内大厂 IM...",
+  "link": "https://www.xiaoyuzhoufm.com/episode/69ca3e32b977fb2c47a0457d",
+  "feed_title": "开始连接LinkStart"
+}
+{
+  "title": "model+harness is now over model only. agent perf can be significantly influenced by the design and q...",
+  "summary": "model+harness is now over model only. agent perf can be significantly influenced by the design and quality of harness. i do believe this is a right direction, nice work!Yoonho Lee@yoonholeeeHow can we autonomously improve LLM harnesses on problems humans are actively working on?Doing so requires solving a hard, long-horizon credit-assignment problem over all prior code, traces, and scores.Announcing Meta-Harness: a method for optimizing harnesses end-to-end🔗 View Quoted Tweet💬0🔄0❤️2👀311📊1⚡ Powered by xgo.ing",
+  "link": "https://x.com/JustinLin610/status/2038783276937310582",
+  "feed_title": "Junyang Lin(@JustinLin610)"
+}
+{
+  "title": "“No good comes from kids on social media … and the industry wants them addicted”",
+  "summary": "💾Follow the besties: https://x.com/chamath https://x.com/Jason https://x.com/DavidSacks https://x.com/friedberg Follow on X: https://x.com/theallinpod Follow on Instagram: https://www.instagram.com/theallinpod Follow on TikTok: https://www.tiktok.com/@theallinpod Follow on LinkedIn: https://www.linkedin.com/company/allinpod Intro Music Credit: https://rb.gy/tppkzl https://x.com/yung_spielburg Intro Video Credit: https://x.com/TheZachEffect #allin #tech #news",
+  "link": "https://www.youtube.com/shorts/iT6rI2yQbHA",
+  "feed_title": "All-In Podcast"
+}
+{
+  "title": "How to Remember Everything You Read",
+  "summary": "💾For more free content, check out my newsletter! https://go.icanstudy.com/newsletter-ytshort2026 === About Dr Justin Sung === Dr. Justin Sung is a world-renowned expert in self-regulated learning, a certified teacher, a research author, and a former medical doctor. He has guest lectured on learning skills at Monash University for Master’s and PhD students in Education and Medicine. Over the past decade, he has empowered tens of thousands of learners worldwide to dramatically improve their academic performance, learning efficiency, and motivation.",
+  "link": "https://www.youtube.com/shorts/n1mQvQNS-lg",
+  "feed_title": "Justin Sung"
+}
+{
+  "title": "Our new model  is now live on OpenRouter for an early preview,  go give it a try! Looking forward to...",
+  "summary": "Our new model is now live on OpenRouter for an early preview, go give it a try! Looking forward to your feedback~😎OpenRouter@OpenRouterQwen 3.6 Plus Preview from @Alibaba_Qwen is live now for free for a limited time on OpenRouter!During this free period, prompts and completions will be collected and may be used to improve the model.🔗 View Quoted Tweet💬13🔄14❤️178👀9982📊26⚡ Powered by xgo.ing",
+  "link": "https://x.com/Alibaba_Qwen/status/2038780221193863362",
+  "feed_title": "Qwen(@Alibaba_Qwen)"
+}
+{
+  "title": "amazing. i was giving examples like this for DALL-E three years ago. \n\nsystems are still struggling ...",
+  "summary": "amazing. i was giving examples like this for DALL-E three years ago. systems are still struggling with some basics.Javier Ideami@ideamiBefore AI solves ARC-AGI3, it could warm up by solving this: \"9 cubes, 4 are red, 3 are green and 2 are blue. The green cubes are on top of the red cubes and the red cubes are on top of the blue cubes\" results from latest ChatGPT, Gemini and Flux Context Pro @fchollet@GaryMarcus🔗 View Quoted Tweet💬2🔄0❤️6👀1774📊2⚡ Powered by xgo.ing",
+  "link": "https://x.com/GaryMarcus/status/2038777481466118565",
+  "feed_title": "Gary Marcus(@GaryMarcus)"
+}
+{
+  "title": "Vercel CDN now respects Cache-Control headers from external origins by default",
+  "summary": "New Vercel projects will honor cache-control headers by default when proxying requests to external origins, starting April 6th.Previously, responses served through rewrites to external origins were uncached by default, and enabling caching required the x-vercel-enable-rewrite-caching header in vercel.json. Now, Vercel's CDN automatically respects your origin's caching headers.What's changing:For new projects, Vercel will cache responses from external origins according to upstream Cache-Control, CDN-Cache-Control and Vercel-CDN-Cache-Control headers by default.You can use Cache Tags (Vercel-Cache-Tag header) from your origins to purge cached content.Existing projects can opt in to the new caching behavior from the project dashboard.You can opt out of caching for specific request paths by...",
+  "link": "https://vercel.com/changelog/vercels-cdn-now-respects-cache-control-headers-from-external-origins-by-default",
+  "feed_title": "Vercel News"
+}
+{
+  "title": "Instacart on an iPhone 4s.",
+  "summary": "Instacart on an iPhone 4s.💬7🔄1❤️48👀4376📊11⚡ Powered by xgo.ing",
+  "link": "https://x.com/a16z/status/2038774596430975480",
+  "feed_title": "a16z(@a16z)"
+}
+{
+  "title": "重返杭州第一网红楼：抛弃流量，接纳生活",
+  "summary": "原创 巴九灵 2026-03-31 08:20 浙江 抛弃流量，接纳生活。 点击图片▲立即查看“丽晶国际从未衰落过。过去十年，它承担了很多复杂的议题，像一面镜子，反映着这座城市和这个时代的变化莫测；虽然常常回荡着不同的声音，但始终人来人往。” 文...",
+  "link": "https://mp.weixin.qq.com/s?__biz=MzA3OTM5NTkxNA==&mid=2653159300&idx=1&sn=d4cd56b49cde8af984e1615000d3cc1b",
+  "feed_title": "吴晓波频道"
+}
+{
+  "title": "这帮老板，在宁波聊了一件“残酷”的事 | 吴晓波激荡讲堂",
+  "summary": "巴九灵 2026-03-31 08:20 浙江 在春天学增长 点击上图▲立即报名 文 /...",
+  "link": "https://mp.weixin.qq.com/s?__biz=MzA3OTM5NTkxNA==&mid=2653159300&idx=2&sn=9bbbe3ac236efb959fc8e93c85a7c1a0",
+  "feed_title": "吴晓波频道"
+}
+{
+  "title": "吴晓波X朱祥奎：长期主义的变与不变｜今日直播",
+  "summary": "吴晓波频道 2026-03-31 08:20 浙江 3月31日12:00，和吴晓波老师一起“云”逛双鹿智慧工厂 长按扫码▲预约直播3月31日12:00，锁定吴晓波频道视频号直播间，跟随吴晓波老师一起“云”逛双鹿电池智慧工厂。 文 / 巴九灵（微信公众号：吴晓波频道）在宁波，这座自古以来便是中国对外贸易重要港口的城市，制造业的基因仿佛刻进了每一寸土地的纹理之中。从百年前的“宁波帮”闯荡上海滩，到如今成为全国先进的制造业基地，宁波始终扮演着中国实体经济“压舱石”的角色。这里不仅有中国最大的石化产业基地，更有无数在细分领域默默耕耘、最终成为全球冠军优秀企业。而在这片制造业的沃土上，有一家企业，用72年的时间，将一粒小小的电池做成了中国制造的一张硬核名片。它就是双鹿电池。3月31日12:00，锁定吴晓波频道视频号直播间，吴老师将带领大家一起走进这家位于宁波的“智慧工厂”，与宁波双鹿电池总裁朱祥奎先生展开一场深度对谈。在直播之前，我们先来聊聊这家企业背后，那些值得被看见的历史沉浮与产业荣光。预约直播▼点击按钮从宁波老字号到全球“电池大王”：一部浓缩的中国制造进化史1954年，在宁波江北的一间简陋厂房里，双鹿电池的前身——宁波电池厂诞生了。彼时，新中国刚刚成立不久，老百姓生活中最常用的“电”的来源，就是那一节节笨重的碳性电池。宁波市江北电池生产合作小组旧址中马路原街景在那个物资匮乏的年代，双鹿电池的工人们靠着最原始的手工操作，一浆一糊、一铜一帽地组装着电池。那时的双鹿电池，或许没有想到，72年后，它会成长为亚洲第一、全球第三的电池巨头。双鹿电池的发展史，其实也是中国制造从“土法上马”到“精工制造”的缩影。上世纪90年代，当国外的碱性电池开始涌入中国市场，国内的碳性电池市场受到巨大冲击。面对“洋品牌”的碾压，双鹿电池没有退缩，反而做了一个大胆的决定：砸锅卖铁搞技改。◎...",
+  "link": "https://mp.weixin.qq.com/s?__biz=MzA3OTM5NTkxNA==&mid=2653159300&idx=3&sn=e81bf0a56971e7aa0a2f6428f910ae34",
+  "feed_title": "吴晓波频道"
+}
+{
+  "title": "沿江高铁总投资超5000亿，多家出险房企扭亏为盈 | 财经日日评",
+  "summary": "吴晓波频道 2026-03-31 08:20 浙江 内存价格暴涨数月后迎来大跌，中国大模型调用量连续四周超美国...",
+  "link": "https://mp.weixin.qq.com/s?__biz=MzA3OTM5NTkxNA==&mid=2653159300&idx=4&sn=b72b5c782eadaea49905e8e33b3c5ab7",
+  "feed_title": "吴晓波频道"
+}
+{
+  "title": "https://t.co/mivSq6zU62",
+  "summary": "x.com/claudeai/statu…Claude@claudeaiNow available in research preview on Pro and Max on macOS. Enable it with /mcp. Docs: code.claude.com/docs/en/comput…🔗 View Quoted Tweet💬1🔄0❤️0👀183📊1⚡ Powered by xgo.ing",
+  "link": "https://x.com/berryxia/status/2038773097940373858",
+  "feed_title": "Berryxia.AI(@berryxia)"
+}
+{
+  "title": "Claude Code 把 Computer Use 直接塞进 CLI 了！又又更新🤯\n\n现在一条提示词就能让 Claude 完整闭环：\n→ 写代码  \n→ 编译项目  \n→ 启动 App  \n→ ...",
+  "summary": "Claude Code 把 Computer Use 直接塞进 CLI 了！又又更新🤯现在一条提示词就能让 Claude 完整闭环：→ 写代码 → 编译项目 → 启动 App → 自己打开界面点击测试 → 发现 Bug 立刻自动修复并验证通过 从开发到 UI 测试，全程无人值守！Pro/Max用户可体验！Your browser does not support the video tag.🔗 View on Twitter💬1🔄0❤️4👀522📊2⚡ Powered by xgo.ing",
+  "link": "https://x.com/berryxia/status/2038772923818029107",
+  "feed_title": "Berryxia.AI(@berryxia)"
+}
