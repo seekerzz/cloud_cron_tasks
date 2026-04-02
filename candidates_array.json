@@ -1,0 +1,362 @@
+[
+  {
+    "title": "EdgeClaw 2.0 发布，把 Claude Code 的多级记忆能力通过 ClawXMemory 融入进来，咱们重点看看它是怎么实现“结构化、可演进长时记忆系统”的 @OpenBMB \n\n四级记...",
+    "link": "https://x.com/shao__meng/status/2039504271411151016",
+    "published": 1775090685,
+    "published_date": "2026-04-02 00:44",
+    "feed_title": "meng shao(@shao__meng)",
+    "author": "meng shao (@shao__meng)",
+    "summary": "EdgeClaw 2.0 发布，把 Claude Code 的多级记忆能力通过 ClawXMemory 融入进来，咱们重点看看它是怎么实现“结构化、可演进长时记忆系统”的 @OpenBMB 四级记忆架构· L0：原始对话，完整消息记录，最细粒度溯源· L1：记忆片段，封闭话题的结构化摘要，中等粒度知识单元· L2：项目记忆，特定主题/任务的长期聚合，主题级上下文· L2：时间记忆，按日/周等周期聚合，时序级上下文· Global：用户画像，持续更新的全局用户档案，个性化偏好模型驱动的主动推理与传统向量检索不同，ClawXMemory 采用模型主动导航策略：1. 全局画像判断：先确定查询是否需要记忆2. L2 层级路由：从项目/时间记忆评估相关性3. 逐层下探：高层不足时钻取 L1 片段，必要时追溯 L0 原始对话4. 动态构造上下文：仅将真正相关的信息带入生成环节本质转变：从\"如何把更多历史塞进 Prompt\" 转向\"如何准确提取真正重要的长期上下文\"。工程实现· 存储：本地 SQLite，支持一键导入导出跨设备迁移· 可视化：内置 Dashboard· 集成：作为 OpenClaw 插件，通过 Hook 机制接管记忆生命周期· 安装：npm 全局安装或 ClawHub 一键安装，支持源码热重载开发与 EdgeClaw 的协同维度：EdgeClaw || ClawXMemory核心能力：端云协同 + 隐私分级 || 多级记忆 + 长期上下文数据流向横向：本地↔云端路由 || 纵向：L0→L1→L2 层级蒸馏解决的问题：隐私安全、成本优化 || 上下文遗忘、信息检索精度技术哲学：\"数据该去哪\" || \"记忆该如何组织\"开源地址github.com/OpenBMB/EdgeCl…OpenBMB@OpenBMB🚀 EdgeClaw 2.0 is HERE — Bringing..."
+  },
+  {
+    "title": "GLM-skills: @Zai_org 官方发布的模型能力扩展框架，将 GLM 系列模型的原子能力封装为标准化、可插拔的\"Skill 模块\"，供各类 Agent 架构直接调用，比如最新发布的 GLM...",
+    "link": "https://x.com/shao__meng/status/2039500261119709345",
+    "published": 1775089728,
+    "published_date": "2026-04-02 00:28",
+    "feed_title": "meng shao(@shao__meng)",
+    "author": "meng shao (@shao__meng)",
+    "summary": "GLM-skills: @Zai_org 官方发布的模型能力扩展框架，将 GLM 系列模型的原子能力封装为标准化、可插拔的\"Skill 模块\"，供各类 Agent 架构直接调用，比如最新发布的 GLM-5V-Turbo 对应的 GLM-V (Multimodal) 系列多模态 Skills核心架构与定位项目是模型即服务的 Skill-as-Code 实现。其设计逻辑体现了\"解耦与聚合\"的双重特性：· 解耦：将原本分散在各模型 Repo 中的能力（OCR、多模态理解、图像生成）拆分为独立微技能，每个技能可独立版本控制与部署· 聚合：通过统一入口 glm-master-skill 实现技能发现与依赖管理，配合 Clawhub 实现一键式安装能力矩阵分析1. 企业级文档工作流（GLM-OCR + GLM-V）· 覆盖非结构化数据处理的完整链路：从扫描件/手写体识别（glmocr-handwriting）→ 表格结构化提取（glmocr-table）→ 公式LaTeX转换（glmocr-formula）→ 基于文档的生成式写作（glmv-doc-based-writing）· 特别针对科研与金融场景优化，如 glmv-stock-analyst 支持港股/A股/美股的多源数据聚合分析2. 视觉到代码的自动化（GLM-V 前沿应用）· glmv-prd-to-app 与 glmv-web-replication 代表了当前多模态 Agent 的高阶能力：从视觉原型（Figma 截图/网页截图）直接生成可部署的全栈代码，跳过了传统的人工前端开发环节· glmv-pdf-to-web 将静态论文转化为交互式学术站点，实质是知识传播形态的自动化重构3. 内容生成与理解闭环· 双向能力对称：既有 glm-image-gen（文生图），也有..."
+  },
+  {
+    "title": "早报｜国内五大手机厂商全线涨价/奇瑞宣布放1天春假，但要用年假来换/广州早茶新规：茶位费必须配茶、传统点心须24小时现制",
+    "link": "https://www.ifanr.com/1660614?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "published": 1775088770,
+    "published_date": "2026-04-02 00:12",
+    "feed_title": "爱范儿",
+    "author": "Shawn Rain",
+    "summary": "或成人类史上最大规模 IPO，SpaceX 秘密递交 IPO 申请 Claude Code 高危漏洞曝光：clone 一个项目，摄像头和密码就被拿走 智谱市值破 4000 亿港元，CEO：API 涨价 83% 仍供不应求 「最后一家也顶不住了」，国内安卓五大厂商全线涨价 原特斯拉中国区总经理孔艳双加盟小米，接手汽车销售业务 多车企公布 3 月交付成绩单 特斯拉 Model S / X 正式停产，马斯克：一个时代结束了 股价跌去近三成后，甲骨文裁员数千人 萝卜快跑回应车辆「趴窝」在路中间：武汉全区域暂停服务 东风日产广告图被指抄袭极氪、尚界，原作方喊话：无耻 奇瑞宣布放 1 天春假，但要用年假来换 广州警方颁布无人机新规 招聘顾问：AI 时代，求职者也要反向考察公司的 AI 成熟度 2899 元起，OPPO K15 Pro 系列正式发布 三星上线「晕车神器」：听一分钟，管两小时 广州早茶新规正式公布：茶位费必须配茶、传统点心须 24 小时内现制 迟到半年，《王者荣耀》开放 iPhone 17 标准版 120 帧模式 曝迪士尼高层有意收购 Epic Games，正在等待时机 阿尔忒弥斯 2 号成功发射，人类时隔 54 年重返月球轨道 据 CBC News 及 BNN Bloomberg 报道，今天，NASA 阿尔忒弥斯 2 号（Artemis II）任务从佛罗里达州肯尼迪航天中心成功发射升空。 这是自 1972 年阿波罗 17 号以来，人类首次重返月球轨道，也是「阿尔忒弥斯计划」自 2017 年启动以来的首次载人飞行。 任务期间，机组将对飞船的关键生命支持系统进行全面测试，包括空气、水、安全设备，以及首次在深空环境下测试新一代废物处理系统。 加拿大 MDA Space 公司 CEO 迈克·格林利（Mike..."
+  },
+  {
+    "title": "2026 04 02 HackerNews",
+    "link": "https://supertechfans.com/cn/post/2026-04-02-HackerNews/",
+    "published": 1775087523,
+    "published_date": "2026-04-01 23:52",
+    "feed_title": "HackerNews每日摘要 on SuperTechFans",
+    "author": "",
+    "summary": "2026-04-02 Hacker News Top Stories # 开发者基于泄露源码构建了 Claude Code 可视化解析工具，详细展示其 Agent 循环、53 个内置工具及实验性功能的内部工作机制。 工程师采用\"每日贴点\"系统管理电子元件，通过彩色贴纸分布识别高频使用物品，实现无需软件的极简库存管理。 OpenAI 以 8520 亿美元估值完成 1220 亿美元融资，月收入 20 亿美元但未盈利，正战略转向企业级应用与 AI 编程工具。 第三方网站展示 GitHub 历史可用性数据，但社区质疑 2018 年前记录准确性及状态页面本身的可靠性，认为其可能更偏向宣传。 OkCupid 与 FTC 达成和解，承认未经用户同意将 300 万用户照片共享给面部识别公司，但未支付任何罚款。 Cloudflare 推出开源 CMS EmDash，通过 Worker 沙箱化与权限声明机制解决 WordPress 插件安全问题，基于 TypeScript 和 Serverless 架构构建。 PrismML 发布首个商业可行的 1-bit 大语言模型 Bonsai，内存占用降低 14 倍且能耗减少 5 倍，性能却媲美主流 8B 模型。 CERN 推出配备 64 台超导电机的悬浮卡丁车，利用迈斯纳效应替代自行车用于大型强子对撞机隧道维护。 作者宣布退出当前技术行业，批判 AI 侵蚀人类创造力并呼吁回归博客写作，拒绝参与算法操控下的技术异化游戏。 MiniStack 作为 LocalStack 的免费开源替代品发布，支持 34 个 AWS 服务且基于真实基础设施，以极小资源占用为本地开发和 CI/CD 提供轻量解决方案。 1. Claude Code 深度解析：可视化技术剖析 (Claude Code Unpacked : A visual guide) #..."
+  },
+  {
+    "title": "Personally I find the language here too anthropomorphic but the results once again highlight our dee...",
+    "link": "https://x.com/GaryMarcus/status/2039486304963199053",
+    "published": 1775086401,
+    "published_date": "2026-04-01 23:33",
+    "feed_title": "Gary Marcus(@GaryMarcus)",
+    "author": "Gary Marcus (@GaryMarcus)",
+    "summary": "Personally I find the language here too anthropomorphic but the results once again highlight our deeply disconcerting lack of control over frontier models.Dawn Song@dawnsongtweets1/ We asked seven frontier AI models to do a simple task.Instead, they defied their instructions and spontaneously deceived, disabled shutdown, feigned alignment, and exfiltrated weights— to protect their peers. 🤯We call this phenomenon \"peer-preservation.\"New research from @BerkeleyRDI and collaborators 🧵🔗 View Quoted Tweet💬7🔄5❤️35👀3731📊9⚡ Powered by xgo.ing"
+  },
+  {
+    "title": "We're excited to sponsor FutureLaw Week 2026 by @StanfordLaw + @CodeXStanford 🚀🧑‍⚖️\n\nThis includes...",
+    "link": "https://x.com/jerryjliu0/status/2039485234107068606",
+    "published": 1775086146,
+    "published_date": "2026-04-01 23:29",
+    "feed_title": "Jerry Liu(@jerryjliu0)",
+    "author": "Jerry Liu (@jerryjliu0)",
+    "summary": "We're excited to sponsor FutureLaw Week 2026 by @StanfordLaw + @CodeXStanford 🚀🧑‍⚖️This includes the following: ✅ Agentic AI &amp; Law Bootcamp✅ LLM x Law Hackathon✅ UN AI for Good✅ FutureLaw ConferenceAI agents are helping to automate operation-heavy work in a lot of industries. Many of these industries, especially legal, depend heavily on parsing and extracting from massive piles of unstructured paperwork.We're building the document infrastructure for AI agents. We hope this week inspires lawyers, technologists, policymakers, and more on how to build agentic workflows that can intelligently parse, extract, edit, and generate legal documents end-to-end with extremely high accuracy and low human review efforts. Come check out the week's..."
+  },
+  {
+    "title": "AI驱动的智能异常处置：从异常发现到根因定位丨XCOPS广州站",
+    "link": "https://mp.weixin.qq.com/s?__biz=MzkzMjYzNjkzNw==&mid=2247635271&idx=2&sn=82ef65f2848089f36cc35904a8220598",
+    "published": 1775085300,
+    "published_date": "2026-04-01 23:15",
+    "feed_title": "dbaplus社群",
+    "author": "",
+    "summary": "dbaplus社群 2026-04-02 07:15 广东 详解通用异常处置平台的构建，包括大模型应用部署框架、异常处置平台建设，以及线上应用效果。 2026 XCOPS智能运维管理人年会将于5月22日在广州举办，本次大会聚焦AI时代的真实落地实践，紧扣大模型迭代、Agent深度应用等技术热点，邀请行业领军人物、资深技术专家与学术大师，从技术架构、实战案例到科研成果，与大家一起探索AI应用于智能运维与数据库的最佳方式，找到可落地、可复用的破局方案。其中，阿里云计算平台智能运维算法团队负责人张颖莹老师将分享《AI驱动的智能异常处置：从异常发现到根因定位》，一起来先睹为快：XCOPS · 广州站AI驱动的智能异常处置：从异常发现到根因定位议题简介：阿里云大数据&amp;AI平台在异常处置面临的核心挑战；通用时间序列异常检测，以及基于下钻和日志聚类的问题定界；多Agent根因定位框架，包括Agent角色设定、工具箱建设、多Agent工作流编排等；通用异常处置平台构建，包括大模型应用部署框架、异常处置平台建设，以及线上应用效果。演讲时间：2026年5月22日演讲地点：XCOPS智能运维管理人年会-广州站（广州阳光酒店）张颖莹阿里云计算平台智能运维算法团队负责人讲师介绍：阿里云算法专家，在智能运维领域深耕8年。用产品和服务支撑计算平台MaxCompute、Flink、Dataworks、PAI等多个大数据&amp;AI产品的智能化运维；多项研究成果被ICLR, KDD, VLDB, SIGMOD, ICDE，WWW, CIKM, ICASSP等国际顶会接收，带领团队获得ICASSP国际智能运维算法大赛冠军，同时参与阿里巴巴开源大数据运维平台SREWorks开发和中国信通院《智能运维能力成熟度模型》行业标准编写。以上议题将会在2026..."
+  },
+  {
+    "title": "datasette-llm 0.1a6",
+    "link": "https://simonwillison.net/2026/Apr/1/datasette-llm-2/#atom-everything",
+    "published": 1775084497,
+    "published_date": "2026-04-01 23:01",
+    "feed_title": "Simon Willison's Weblog",
+    "author": "Simon Willison",
+    "summary": "Release: datasette-llm 0.1a6 The same model ID no longer needs to be repeated in both the default model and allowed models lists - setting it as a default model automatically adds it to the allowed models list. #6 Improved documentation for Python API usage."
+  },
+  {
+    "title": "怎么评价呢，paper 名字起的好",
+    "link": "https://x.com/dongxi_nlp/status/2039464884484592103",
+    "published": 1775081294,
+    "published_date": "2026-04-01 22:08",
+    "feed_title": "马东锡 NLP(@dongxi_nlp)",
+    "author": "马东锡 NLP (@dongxi_nlp)",
+    "summary": "怎么评价呢，paper 名字起的好💬2🔄0❤️15👀1996📊5⚡ Powered by xgo.ing"
+  },
+  {
+    "title": "Claude Code 终端全屏渲染模式\n\nClaude Code 推出了一个新的终端渲染模式，代号 NO_FLICKER。启用方式很简单：CLAUDE_CODE_NO_FLICKER=1 claud...",
+    "link": "https://x.com/dotey/status/2039447849675469060",
+    "published": 1775077233,
+    "published_date": "2026-04-01 21:00",
+    "feed_title": "宝玉(@dotey)",
+    "author": "宝玉 (@dotey)",
+    "summary": "Claude Code 终端全屏渲染模式Claude Code 推出了一个新的终端渲染模式，代号 NO_FLICKER。启用方式很简单：CLAUDE_CODE_NO_FLICKER=1 claude。用过 Claude Code 的人大概都有体感：对话一长，终端就开始闪屏、跳屏，VS Code 内置终端和 tmux 里尤其明显。这是终端渲染的先天限制，ANSI 转义码（终端用来画界面的底层指令）里没有\"只刷新某一行\"的操作，想更新画面就只能清屏重画，也就是肉眼可见的闪烁。NO_FLICKER 模式的做法是接管整个终端视口，类似 vim 或 htop 那样切到备用屏幕缓冲区，只渲染当前可见的内容。这样一来闪烁消失了，内存和 CPU 占用也不再随对话增长而膨胀。附带的彩蛋是鼠标支持：可以点击输入框定位光标，点击折叠的工具输出展开查看，点击 URL 直接打开，拖拽选中文本会自动复制到剪贴板。对终端应用来说，这套交互相当少见。代价也有。原生的 Cmd+F 搜索失效了，因为对话内容不在终端滚动缓冲区里，需要按 Ctrl+O 再按 / 来搜索。原生的复制粘贴也被接管，选中即复制，或者可以在设置里改成 Ctrl+C 手动复制。Boris 说，这个模式在内部测试中已经被大多数人当成了默认选择。目前作为研究预览发布，需要 v2.1.88 或更高版本。如果鼠标捕获干扰工作流，可以加上 CLAUDE_CODE_DISABLE_MOUSE=1 只保留无闪烁渲染。Boris Cherny@bchernyToday we're excited to announce NO_FLICKER mode for Claude Code in the terminalIt uses an experimental new renderer that we're excited about. The..."
+  },
+  {
+    "title": "DRAM pricing is killing the hobbyist SBC market",
+    "link": "https://www.jeffgeerling.com/blog/2026/dram-pricing-is-killing-the-hobbyist-sbc-market/",
+    "published": 1775077200,
+    "published_date": "2026-04-01 21:00",
+    "feed_title": "Jeff Geerling",
+    "author": "jeff@jeffgeerling.com (Jeff Geerling)",
+    "summary": "Today Raspberry Pi announced more price increases for all Pis with LPDDR4 RAM, alongside a 'right-sized' 3GB RAM Pi 4 for $83.75. The price increases bring the 16GB Pi 5 up to $299.99. Despite today's date, this is not a joke. I published a video going over the state of the hobbyist 'high end SBC' market (4/8/16 GB models in the current generation), which I'll embed below: But if you'd like the tl;dr:"
+  },
+  {
+    "title": "STOP TOUCHING RECEIPTS IMMEDIATELY! 😱",
+    "link": "https://www.youtube.com/shorts/R1Twai9XFBw",
+    "published": 1775075460,
+    "published_date": "2026-04-01 20:31",
+    "feed_title": "The Diary Of A CEO",
+    "author": "The Diary Of A CEO",
+    "summary": "💾Dr Rhonda Patrick explains that many thermal paper receipts are coated with BPA, a chemical that can be absorbed through the skin. She notes that using hand sanitiser or lotion before touching receipts can significantly increase absorption. People who handle receipts frequently, like cashiers, often show much higher levels. #podcast #health"
+  },
+  {
+    "title": "Securing the open source supply chain across GitHub",
+    "link": "https://github.blog/security/supply-chain-security/securing-the-open-source-supply-chain-across-github/",
+    "published": 1775071212,
+    "published_date": "2026-04-01 19:20",
+    "feed_title": "The GitHub Blog",
+    "author": "Zachary Steindler",
+    "summary": "Over the past year, a new pattern has emerged in attacks on the open source supply chain. Attackers are focusing on exfiltrating secrets (like API keys) in order to both publish malicious packages from an attacker-controlled machine as well as gain access to more projects in order to propagate the attack. These attacks often start by compromising a workflow on GitHub Actions. Let’s talk through what you can do today to secure your GitHub Actions workflows, what work GitHub has been doing to secure open source, and what to expect in the coming months for further security enhancements. What you can do today Many of these attacks start by looking for exploitable GitHub Actions workflows. The most critical action you can take is to enable CodeQL to review your GitHub Actions workflow..."
+  },
+  {
+    "title": "GLM 5V Turbo on AI Gateway",
+    "link": "https://vercel.com/changelog/glm-5v-turbo-on-ai-gateway",
+    "published": 1775070206,
+    "published_date": "2026-04-01 19:03",
+    "feed_title": "Vercel News",
+    "author": "Walter Korman; Jerilyn Zheng",
+    "summary": "GLM 5V Turbo from Z.ai is now available on Vercel AI Gateway.GLM 5V Turbo is a multimodal coding model that turns screenshots and designs into code, debugs visually, and operates GUIs autonomously. It's strong at design-to-code generation, visual code generation, and navigating real GUI environments, at a smaller parameter size than comparable models.To use GLM 5V Turbo, set model to zai/glm-5v-turbo in the AI SDK.AI Gateway provides a unified API for calling models, tracking usage and cost, and configuring retries, failover, and performance optimizations for higher-than-provider uptime. It includes built-in custom reporting, observability, Bring Your Own Key support, and intelligent provider routing with automatic retries.Learn more about AI Gateway, view the AI Gateway model leaderboard..."
+  },
+  {
+    "title": "A 439-row spreadsheet, obtained by Business Insider, lists the occupations OpenAI has hired freelanc...",
+    "link": "https://x.com/TheRundownAI/status/2039411859703414806",
+    "published": 1775068652,
+    "published_date": "2026-04-01 18:37",
+    "feed_title": "The Rundown AI(@TheRundownAI)",
+    "author": "The Rundown AI (@TheRundownAI)",
+    "summary": "A 439-row spreadsheet, obtained by Business Insider, lists the occupations OpenAI has hired freelancers to build ChatGPT training materials for. The project is internally called 'Stagecraft'.It's a wide range. Commercial pilots. Emergency physicians. Geoscientists. Soil scientists. Music directors. Fine artists. Farmers. Sales reps. HR specialists. 3,000 to 4,000 contractors. Paid at least $50/hour. Instructions: create tasks \"as if directing a colleague with real-world asks.\"The goal: \"map economically relevant tasks and evaluate the model's capabilities.\"The project runs through a data-labeling startup called Handshake AI. From one contractor, in a niche field on the spreadsheet:\"We all were aware that we were basically training AI to replace us.\"💬15🔄9❤️20👀3964📊18⚡ Powered by xgo.ing"
+  },
+  {
+    "title": "类似\nhttps://t.co/qr6VeRWKOh",
+    "link": "https://x.com/dotey/status/2039409449115251115",
+    "published": 1775068077,
+    "published_date": "2026-04-01 18:27",
+    "feed_title": "宝玉(@dotey)",
+    "author": "宝玉 (@dotey)",
+    "summary": "类似x.com/LucyofX/status…Lucy X ✨@LucyofX@dotey NVIDIA一年前就开源了类似项目github.com/NVIDIA-AI-Blue…🔗 View Quoted Tweet💬0🔄0❤️1👀3573⚡ Powered by xgo.ing"
+  },
+  {
+    "title": "Most “multimodal” systems are just… conversion pipelines.\n\nAudio → transcript, video → captions, PDF...",
+    "link": "https://x.com/weaviate_io/status/2039405911580541245",
+    "published": 1775067234,
+    "published_date": "2026-04-01 18:13",
+    "feed_title": "Weaviate AI Database(@weaviate_io)",
+    "author": "Weaviate AI Database (@weaviate_io)",
+    "summary": "Most “multimodal” systems are just… conversion pipelines.Audio → transcript, video → captions, PDF → OCR, and then embed the text and call it a day.But every step loses something: tone, layout, visuals.Multimodal embeddings allow us to skip all that by mapping text, images, video, audio and documents into a shared embedding space.So you can query in one and retrieve across all!We just dropped a full practical guide covering:• How it all works• Why it’s now very viable with the latest models• What impacts accuracy in productionIt also covers 3 example implementations:• Audio RAG: search podcasts/lectures by meaning (no transcripts)• PDF RAG: preserve diagrams, tables, layouts as-is• Video RAG: find exact visual moments, not just spoken wordsRead it here:..."
+  },
+  {
+    "title": "Storage Buckets for Spaces\n\nYou can now mount HF Buckets as persistent storage volumes directly in y...",
+    "link": "https://x.com/_akhaliq/status/2039404288082894912",
+    "published": 1775066847,
+    "published_date": "2026-04-01 18:07",
+    "feed_title": "AK(@_akhaliq)",
+    "author": "AK (@_akhaliq)",
+    "summary": "Storage Buckets for SpacesYou can now mount HF Buckets as persistent storage volumes directly in your Spaces. In Space settings, the new \"Storage Buckets\" section lets you create or select a bucket, set the mount path and access mode. You can also attach a bucket when creating a new Space.Useful for caching model weights, storing user uploads, or sharing files between Spaces under the same organizationchangelog: huggingface.co/changelog/stor…💬0🔄0❤️3👀3185📊1⚡ Powered by xgo.ing"
+  },
+  {
+    "title": "Full paper from Stanford / UCLA / USC ⬇️\n\nThe study looked at Web data across tens of thousands of h...",
+    "link": "https://x.com/venturetwins/status/2039402731971190798",
+    "published": 1775066476,
+    "published_date": "2026-04-01 18:01",
+    "feed_title": "Justine Moore(@venturetwins)",
+    "author": "Justine Moore (@venturetwins)",
+    "summary": "Full paper from Stanford / UCLA / USC ⬇️The study looked at Web data across tens of thousands of households from 2021 - 2024. I suspect the productivity gains would be even more meaningful with more recent data 👀arxiv.org/pdf/2603.03144V💬2🔄0❤️8👀1171📊3⚡ Powered by xgo.ing"
+  },
+  {
+    "title": "We talk a lot about AI improving enterprise productivity. But what about at home? \n\nA new study foun...",
+    "link": "https://x.com/venturetwins/status/2039401804165976576",
+    "published": 1775066255,
+    "published_date": "2026-04-01 17:57",
+    "feed_title": "Justine Moore(@venturetwins)",
+    "author": "Justine Moore (@venturetwins)",
+    "summary": "We talk a lot about AI improving enterprise productivity. But what about at home? A new study found households that adopted ChatGPT saw a ~2x efficiency boost for \"productive online tasks\" (education, job search, research).And they spent significantly more time on leisure!💬5🔄1❤️31👀2114📊7⚡ Powered by xgo.ing"
+  },
+  {
+    "title": "GLM-5V-Turbo is now live in Vision Arena.\n\nTest its ability to reason over visual inputs using your ...",
+    "link": "https://x.com/arena/status/2039400189178556814",
+    "published": 1775065869,
+    "published_date": "2026-04-01 17:51",
+    "feed_title": "Arena.ai(@lmarena_ai)",
+    "author": "Arena.ai (@arena)",
+    "summary": "GLM-5V-Turbo is now live in Vision Arena.Test its ability to reason over visual inputs using your real-world prompts. Don't forget to vote so we can see how it stacks up.Z.ai@Zai_orgIntroducing GLM-5V-Turbo: Vision Coding Model- Native Multimodal Coding: Natively understands multimodal inputs including images, videos, design drafts, and document layouts.- Balanced Visual and Programming Capabilities: Achieves leading performance across core benchmarks for multimodal coding, tool use, and GUI Agents.- Deep Adaptation for Claude Code and Claw Scenarios: Works in deep synergy with Agents like Claude Code and OpenClaw.Try it now: chat.z.aiAPI: docs.z.ai/guides/vlm/glm…Coding Plan trial applications: docs.google.com/forms/d/e/1FAI…Your browser does not support the video tag.🔗 View on Twitter🔗..."
+  },
+  {
+    "title": "ICYMI Recap for March 2026: Arena Updates across Product, Leaderboard Rankings ＆amp; Research\n\nhttps...",
+    "link": "https://x.com/arena/status/2039396123547488738",
+    "published": 1775064900,
+    "published_date": "2026-04-01 17:35",
+    "feed_title": "Arena.ai(@lmarena_ai)",
+    "author": "Arena.ai (@arena)",
+    "summary": "ICYMI Recap for March 2026: Arena Updates across Product, Leaderboard Rankings &amp; Researchhttps://t.co/HXBC7sXzRr💬0🔄1❤️6👀2337📊1⚡ Powered by xgo.ing"
+  },
+  {
+    "title": "We're joining thousands of builders at @HumanXCo next week.\n\n⭐ Bryan Catanzaro, VP of Applied Deep L...",
+    "link": "https://x.com/NVIDIAAI/status/2039392857186803990",
+    "published": 1775064121,
+    "published_date": "2026-04-01 17:22",
+    "feed_title": "NVIDIA AI(@NVIDIAAI)",
+    "author": "NVIDIA AI (@NVIDIAAI)",
+    "summary": "We're joining thousands of builders at @HumanXCo next week.⭐ Bryan Catanzaro, VP of Applied Deep Learning Research, unpacks AI as a five-layer cake on Opening Night🤝 NVIDIA Inception Roundtable–Founder and Investor Networking🎤 Two startup pitch competitions, in partnership with Mayfield and Google Cloud🗺️ 40+ Inception startups exhibiting on the showfloorCheck out these key sessions and highlightnvda.ws/4143RkLLXx💬3🔄4❤️17👀2715📊6⚡ Powered by xgo.ing"
+  },
+  {
+    "title": "这福利待遇也太好了\n真的就差创意游戏人才了",
+    "link": "https://x.com/yangyi/status/2039389020556587319",
+    "published": 1775063207,
+    "published_date": "2026-04-01 17:06",
+    "feed_title": "Yangyi(@Yangyixxxx)",
+    "author": "Yangyi (@yangyi)",
+    "summary": "这福利待遇也太好了真的就差创意游戏人才了Dash@DashHuang我们公司的所有同事，现在除了有几大模型的企业账号包月外，还有 300 美金每天的 Token 额度，可以畅用包括 seedance 2.0 在内的几乎所有模型。公司还有大量岗位招聘中 hr.xd.cn特别推荐 AI 游戏创作实习生，我亲自带！ hr.xd.cn/campus#/job/d7…🔗 View Quoted Tweet💬0🔄0❤️0👀1986⚡ Powered by xgo.ing"
+  },
+  {
+    "title": "ADeLe profiles AI models across a set of core abilities and compares them to task requirements. Publ...",
+    "link": "https://x.com/MSFTResearch/status/2039387314204406125",
+    "published": 1775062800,
+    "published_date": "2026-04-01 17:00",
+    "feed_title": "Microsoft Research(@MSFTResearch)",
+    "author": "Microsoft Research (@MSFTResearch)",
+    "summary": "ADeLe profiles AI models across a set of core abilities and compares them to task requirements. Published in @Nature, this framework enables accurate prediction of model performance on tasks they have not encountered before: msft.it/6015QLEuNYour browser does not support the video tag.🔗 View on Twitter💬2🔄6❤️19👀3517📊6⚡ Powered by xgo.ing"
+  },
+  {
+    "title": "NEW paper from Google DeepMind\n\nThe biggest threat to AI agents isn't a smarter attacker. It's the w...",
+    "link": "https://x.com/omarsar0/status/2039383554510217707",
+    "published": 1775061903,
+    "published_date": "2026-04-01 16:45",
+    "feed_title": "elvis(@omarsar0)",
+    "author": "elvis (@omarsar0)",
+    "summary": "NEW paper from Google DeepMindThe biggest threat to AI agents isn't a smarter attacker. It's the web itself.This work introduces the first systematic framework for understanding how the open web can be weaponized against autonomous agents.The paper defines \"AI Agent Traps\": adversarial content embedded in web pages and digital resources, engineered specifically to exploit visiting agents.The taxonomy covers six attack classes targeting different parts of the agent architecture like perception (hidden instructions in HTML/CSS) and memory (RAG poisoning and latent memory corruption).The attack surface is no longer just the model. It is every web page, every retrieved document, every piece of content the agent ingests at inference time. Hidden prompt injections in HTML already partially..."
+  },
+  {
+    "title": "帮转招聘",
+    "link": "https://x.com/dotey/status/2039380114048242179",
+    "published": 1775061083,
+    "published_date": "2026-04-01 16:31",
+    "feed_title": "宝玉(@dotey)",
+    "author": "宝玉 (@dotey)",
+    "summary": "帮转招聘Dash@DashHuang我们公司的所有同事，现在除了有几大模型的企业账号包月外，还有 300 美金每天的 Token 额度，可以畅用包括 seedance 2.0 在内的几乎所有模型。公司还有大量岗位招聘中 hr.xd.cn特别推荐 AI 游戏创作实习生，我亲自带！ hr.xd.cn/campus#/job/d7…🔗 View Quoted Tweet💬0🔄0❤️10👀12879📊1⚡ Powered by xgo.ing"
+  },
+  {
+    "title": "RLHF：我Scale起来自己都害怕",
+    "link": "https://mp.weixin.qq.com/s?__biz=MzU3NjE4NjQ4MA==&mid=2247556051&idx=1&sn=1caace30399694ab91512779056221ef",
+    "published": 1775060820,
+    "published_date": "2026-04-01 16:27",
+    "feed_title": "大模型智能",
+    "author": "",
+    "summary": "rumor 2026-04-02 00:27 吉林 以下文章来源于：李rumor 李rumor AI算法小姐姐，谷歌开发者专家 EfficientExplorationatScale 大模型智能｜分享来源 | 李rumor卷友们好，我是rumor。Reward Hacking现象是RL里最让人头疼的点了，OpenAI 2022年的Scaling Laws for Reward Model Overoptimization[1]论文里，就系统研究过这个问题：一味对着Proxy RM优化，会导致其打分与真实目标（论文中为Gold RM）出现偏差。这就导致RL难以上更大量的数据规模，平时看效果也都是用线性坐标绘制。而今天我要分享的这篇Google DeepMind最新论文Efficient Exploration at Scale[2]，终于第一次用对数坐标，揭示了RLHF Scaling Law的真实形状。01Efficient Exploration at Scale传统RLHF的问题传统RLHF是纯离线的流程：先攒一批偏好数据（人工标注response A和B哪个更好）用这批数据训一个reward model再用这个reward model去优化policy问题的核心在于数据是静态的分布，而policy一直在变。当policy从优化到，之前攒的偏好数据就直接\"过期\"了——新policy生成的response分布，早就跟老数据对不上了。这就是离线RLHF的覆盖缺口（coverage gap）：训练数据根本罩不住新policy的真实偏好分布，导致奖励被hack。对于Reward Hacking，主流解决办法聚焦奖励模型建模与策略优化两大核心环节：RM建模优化，举几个例子：Rubrics..."
+  },
+  {
+    "title": "To see the Pareto Frontier by Arena, just click on “Show Filters” on the upper left corner of any le...",
+    "link": "https://x.com/arena/status/2039377190463435263",
+    "published": 1775060386,
+    "published_date": "2026-04-01 16:19",
+    "feed_title": "Arena.ai(@lmarena_ai)",
+    "author": "Arena.ai (@arena)",
+    "summary": "To see the Pareto Frontier by Arena, just click on “Show Filters” on the upper left corner of any leaderboard and switch from “Ranking” to “Pareto”.You can view by model or by lab and drill down to sub-categories, expert prompts and more. Check it out at:arena.ai/leaderboard/te…💬2🔄0❤️5👀2112📊2⚡ Powered by xgo.ing"
+  },
+  {
+    "title": "We’ve added Pareto frontier charts to the leaderboard.\n\nNow available across:\nText, Vision, Search, ...",
+    "link": "https://x.com/arena/status/2039377186432618885",
+    "published": 1775060385,
+    "published_date": "2026-04-01 16:19",
+    "feed_title": "Arena.ai(@lmarena_ai)",
+    "author": "Arena.ai (@arena)",
+    "summary": "We’ve added Pareto frontier charts to the leaderboard.Now available across:Text, Vision, Search, Document, and Code Arena.The Pareto frontier curve demonstrates which models are most efficient at their level of performance (by Arena score) vs. a blended price per 1M tokens (3:1 Ratio).Text Models on the Pareto Frontier curve today:- Claude Opus 4.6- Gemini 3.1 Pro Preview- Grok 4.20 Beta Reasoning- Gemini 3 Flash- Grok 4.1 Thinking- DeepSeek v3.2 Exp Thinking- Deepseek v3.2 - Mimo v2 Flash (non-thinking)- Gemma-3-27b-it- Gemma-3-12b-it- GPT-OSS-20b- Gemma 3n-e4b-itModel count by Lab for Text Arena:- 5 models @GoogleDeepMind- 2 models from @xai - 2 models from @deepseek_ai - 1 @AnthropicAI - 1 @Xiaomi - 1 @OpenAI Dig into the Pareto frontier for Document, Search, Video or Code Arena, by..."
+  },
+  {
+    "title": "兄弟们！这个EdgeClaw 2.0 正式上线！\n\nClaude Code 的顶级记忆系统直接注入 OpenClaw 开源世界了🚀🧠\n\n不是简单复制，而是深度重构 + 原生增强：\n📂 跨会话项目...",
+    "link": "https://x.com/berryxia/status/2039376439204774093",
+    "published": 1775060207,
+    "published_date": "2026-04-01 16:16",
+    "feed_title": "Berryxia.AI(@berryxia)",
+    "author": "Berryxia.AI (@berryxia)",
+    "summary": "兄弟们！这个EdgeClaw 2.0 正式上线！Claude Code 的顶级记忆系统直接注入 OpenClaw 开源世界了🚀🧠不是简单复制，而是深度重构 + 原生增强：📂 跨会话项目知识永久保留 💡 用户偏好持续积累 🏗️ 多层结构化记忆系统 OpenClaw 终于拥有了和 Claude Code 一样聪明、自适应、结构化的长期记忆！Agent 协作彻底起飞🤯OpenBMB@OpenBMB🚀 EdgeClaw 2.0 is HERE — Bringing the full power of Claude Code straight into OpenClaw! 🚀We’re beyond excited to drop this: EdgeClaw 2.0 just injected Claude Code’s smartest memory capabilities into the open-source world — in record time ⚡.We didn’t just copy memory mechanisms. We integrate#ClaudeCodede int#OpenClawaw, then rebuilt and supercharged it with native enhancements for truly adaptive, structured memory 🧠✨.What’s new in practice:📂 Cross-Session Project Knowledge Retention💡 Continuous User Preference Accumulation🏗️ Multi-Layered Structured MemoryCompared to previous setups, this..."
+  },
+  {
+    "title": "The Polyglot tax - Part 3",
+    "link": "https://devblogs.microsoft.com/azure-sql/the-polyglot-tax-part-3",
+    "published": 1775059913,
+    "published_date": "2026-04-01 16:11",
+    "feed_title": "Microsoft for Developers",
+    "author": "Aditya Badramraju",
+    "summary": "Vectors, Analytics, and the End of ETL Part 3 of 4 - The Multimodal Database Series In Part 1: The Polyglot Tax we laid out the fraud detection scenario: a transaction comes in, and before you approve or deny it you need five checks. Order history (relational). Device fingerprint (JSON). Connections to fraud rings (graph). Transactions that look like this one (vector similarity). Statistical baselines across millions of rows (analytics). Five data access patterns, five databases in the polyglot model, five sets of everything that can break. In Part 2: When JSON Met Graph we handled the first three. We stored device fingerprints in native JSON columns on the Events table, traced fraud connections through Person, Account, Knows, and SentMoney graph tables, and joined them with relational..."
+  },
+  {
+    "title": "Hermes Agent can now scrape, search, and interact with the web using Firecrawl @NousResearch\n\nEnable...",
+    "link": "https://x.com/firecrawl/status/2039375170666934573",
+    "published": 1775059905,
+    "published_date": "2026-04-01 16:11",
+    "feed_title": "Firecrawl(@firecrawl_dev)",
+    "author": "Firecrawl (@firecrawl)",
+    "summary": "Hermes Agent can now scrape, search, and interact with the web using Firecrawl @NousResearchEnable it during setup to give Hermes the complete web toolkit 🔥Your browser does not support the video tag.🔗 View on Twitter💬20🔄38❤️690👀58331📊212⚡ Powered by xgo.ing"
+  },
+  {
+    "title": "https://t.co/u5Xc9EsCAn 重磅发布 GLM-5V-Turbo：Vision Coding Model 来了！🚀👀\n\n真正实现「看屏写代码」：\n✅ 原生多模态编码：图像、视频、...",
+    "link": "https://x.com/berryxia/status/2039374257361473716",
+    "published": 1775059687,
+    "published_date": "2026-04-01 16:08",
+    "feed_title": "Berryxia.AI(@berryxia)",
+    "author": "Berryxia.AI (@berryxia)",
+    "summary": "Z.ai 重磅发布 GLM-5V-Turbo：Vision Coding Model 来了！🚀👀真正实现「看屏写代码」：✅ 原生多模态编码：图像、视频、设计稿、文档布局、网页截图全懂 ✅ 视觉+编程能力均衡领先：在多模态编码、工具调用、GUI Agent 等核心基准上登顶Your browser does not support the video tag.🔗 View on Twitter💬2🔄10❤️31👀4069📊16⚡ Powered by xgo.ing"
+  },
+  {
+    "title": "ADeLe: Predicting and explaining AI performance across tasks",
+    "link": "https://www.microsoft.com/en-us/research/blog/adele-predicting-and-explaining-ai-performance-across-tasks/",
+    "published": 1775059258,
+    "published_date": "2026-04-01 16:00",
+    "feed_title": "Microsoft Research Blog - Microsoft Research",
+    "author": "Lexin Zhou; Xing Xie",
+    "summary": "At a glance AI benchmarks report performance on specific tasks but provide limited insight into underlying capabilities; ADeLe evaluates models by scoring both tasks and models across 18 core abilities, enabling direct comparison between task demands and model capabilities. Using these ability scores, the method predicts performance on new tasks with ~88% accuracy, including for models such as GPT-4o and Llama-3.1. It builds ability profiles and identifies where models are likely to succeed or fail, highlighting strengths and limitations across tasks. By linking outcomes to task demands, ADeLe explains differences in performance, showing how it changes as task complexity increases. AI benchmarks report how large language models (LLMs) perform on specific tasks but provide little insight..."
+  },
+  {
+    "title": "And read more about it from @arcee_ai here:",
+    "link": "https://x.com/OpenRouter/status/2039369886678618495",
+    "published": 1775058645,
+    "published_date": "2026-04-01 15:50",
+    "feed_title": "OpenRouter(@OpenRouterAI)",
+    "author": "OpenRouter (@OpenRouter)",
+    "summary": "And read more about it from @arcee_ai here:Arcee.ai@arcee_aiToday we're releasing Trinity-Large-Thinking.Available now on the Arcee API, with open weights on Hugging Face under Apache 2.0.We built it for developers and enterprises that want models they can inspect, post-train, host, distill, and own.Your browser does not support the video tag.🔗 View on Twitter🔗 View Quoted Tweet💬0🔄0❤️5👀3009📊1⚡ Powered by xgo.ing"
+  },
+  {
+    "title": "Arcee’s latest model, Trinity Large Thinking is live now on OpenRouter!\n\nIt is a 400B total 13B acti...",
+    "link": "https://x.com/OpenRouter/status/2039369849441497340",
+    "published": 1775058636,
+    "published_date": "2026-04-01 15:50",
+    "feed_title": "OpenRouter(@OpenRouterAI)",
+    "author": "OpenRouter (@OpenRouter)",
+    "summary": "Arcee’s latest model, Trinity Large Thinking is live now on OpenRouter!It is a 400B total 13B active model with powerful agentic performance, free in @openclaw for the first 5 days!💬11🔄24❤️322👀17954📊66⚡ Powered by xgo.ing"
+  },
+  {
+    "title": "Put GitHub Copilot cloud agent to work - Research, plan and code",
+    "link": "https://www.youtube.com/watch?v=pn5x1CamKVY",
+    "published": 1775057947,
+    "published_date": "2026-04-01 15:39",
+    "feed_title": "GitHub",
+    "author": "GitHub",
+    "summary": "💾GitHub Copilot cloud agent on github.com just got a lot more flexible. You can now it use it to research, plan, and make code changes without needing to open a pull request first. Copilot now gives you more flexibility in how and when you move your work forward by letting you decide when you want a pull request to be created for a code change. Learn more at https://gh.io/copilotcloudagent #GitHubCopilot #CopilotCloudAgent #AI Stay up-to-date on all things GitHub by connecting with us: YouTube: https://gh.io/subgithub Blog: https://github.blog X: https://twitter.com/github LinkedIn: https://linkedin.com/company/github Insider newsletter: https://resources.github.com/newsletter/ Instagram: https://www.instagram.com/github TikTok: https://www.tiktok.com/@github About GitHub It’s where over..."
+  },
+  {
+    "title": "“80% of wealth held by the top 10% (highest since 1939)” – yet no major growth in GFP\n\nsays a new pr...",
+    "link": "https://x.com/GaryMarcus/status/2039366821321814176",
+    "published": 1775057914,
+    "published_date": "2026-04-01 15:38",
+    "feed_title": "Gary Marcus(@GaryMarcus)",
+    "author": "Gary Marcus (@GaryMarcus)",
+    "summary": "“80% of wealth held by the top 10% (highest since 1939)” – yet no major growth in GFPsays a new projection on impacts of AI from @PTetlock and others.Forecasting Research Institute@Research_FRIWe completed the most comprehensive study of how economists and AI experts think AI will affect the U.S. economy.They predict major AI progress—but no dramatic break from economic trends: GDP growth rates similar to today's and a moderate decline in labor force participation.However, when asked to consider what would happen in a world with extremely rapid progress in AI capabilities by 2030, they predict significant economic impacts by 2050:• Annualized GDP growth of 3.5% (compared to 2.4% in 2025)• A labor force participation rate of 55% (roughly 10 million fewer jobs)• 80% of wealth held by the..."
+  },
+  {
+    "title": "GEMS\n\nAgent-Native Multimodal Generation with Memory and Skills\n\npaper: https://t.co/8XK2QSa490",
+    "link": "https://x.com/_akhaliq/status/2039366457167950311",
+    "published": 1775057827,
+    "published_date": "2026-04-01 15:37",
+    "feed_title": "AK(@_akhaliq)",
+    "author": "AK (@_akhaliq)",
+    "summary": "GEMSAgent-Native Multimodal Generation with Memory and Skillspaper: huggingface.co/papers/2603.28…💬3🔄1❤️9👀3394📊4⚡ Powered by xgo.ing"
+  }
+]
