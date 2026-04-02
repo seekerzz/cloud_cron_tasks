@@ -52,15 +52,15 @@ jobs:
           # ---------------------------------------------------------
           # 核心修改：删除目标目录下的旧 JSON 并复制新 JSON
           # ---------------------------------------------------------
-          echo "清理 DEST_REPO 根目录下的旧 JSON 文件..."
+          echo "清理 DEST_REPO/tech-daily 根目录下的旧 JSON 文件..."
           
-          rm -f DEST_REPO/*.json
+          rm -f DEST_REPO/tech-daily/*.json
           
           # 【你的原始需求】：如果你确定要无差别删除，可以注释掉上面那行，取消下面这行的注释：
           # rm -f DEST_REPO/*.json
           
-          echo "将新的 JSON 数据复制到 DEST_REPO..."
-          cp freshrss/output/*.json DEST_REPO/
+          echo "将新的 JSON 数据复制到 DEST_REPO/tech-daily..."
+          cp freshrss/output/*.json DEST_REPO/tech-daily
           
           # 进入目标仓库并提交推送
           cd DEST_REPO
