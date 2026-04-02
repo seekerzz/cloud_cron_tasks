@@ -35,8 +35,8 @@ jobs:
       - name: Push JSON to Target Repository
         env:
           GITHUB_TOKEN: ${{ secrets.TARGET_GITHUB_TOKEN }}
-          GITHUB_USER: ${{ secrets.GITHUB_USER }}
-          GITHUB_REPO: ${{ secrets.GITHUB_REPO }}
+          GITHUB_USER: ${{ secrets.TARGET_GITHUB_USER }}
+          GITHUB_REPO: ${{ secrets.TARGET_GITHUB_REPO }}
         run: |
           # 配置 Git 机器人账号信息
           git config --global user.name "github-actions[bot]"
