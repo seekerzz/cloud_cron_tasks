@@ -90,7 +90,7 @@ python3 arxiv_codes/process_arxiv_papers.py
 **脚本说明：**
 - 采用每篇论文独立 Notebook 策略，避免图片互相覆盖
 - 处理流程：创建 notebook → 提交 PDF → 生成 infographic → 等待 → 下载 → 压缩为 720P JPG
-- CSV 数据库记录已处理论文，支持断点续传
+- 通过检查图片文件是否存在判断是否已处理，避免重复处理
 
 **超时设置：2400秒（40分钟）**
 
@@ -141,9 +141,8 @@ git push origin main 2>&1
 | `arxiv_codes/fetch_arxiv_rss.py` | 解析 RSS XML 为 papers.json |
 | `arxiv_codes/process_arxiv_papers.py` | 使用 NotebookLM 生成信息图表 |
 | `arxiv_codes/generate_html_report.py` | 生成 HTML 日报 |
-| `arxiv-daily-output/processed_papers.csv` | 数据库，记录处理状态、图片路径 |
 | `arxiv-daily-output/papers_processed.json` | 累积所有处理过的论文详情 |
-| `arxiv-daily-output/arxiv-daily/images/` | 720P JPG 图片存储目录 |
+| `arxiv-daily-output/arxiv-daily/images/` | 720P JPG 图片存储目录（用于判断论文是否已处理） |
 
 ## 配置说明
 
@@ -166,13 +165,9 @@ DEBUG_LIMIT=3 python3 arxiv_codes/process_arxiv_papers.py
 DEBUG_LIMIT=10 python3 arxiv_codes/process_arxiv_papers.py
 ```
 
-### CSV 数据库格式
+### 去重机制
 
-```csv
-arxiv_id,title,source_id,image_path,status,summary,error_msg,processed_date
-2501.01234,论文标题...,src_abc123,images/paper_2501.01234_20260115.jpg,completed,"AI总结内容",,2026-01-15 08:30:00
-```
-
-**状态说明：**
-- `completed`: 已下载并压缩图片（CSV 只保存此状态的论文）
-- 失败的论文不会写入 CSV，下次运行时会自动重试
+脚本通过检查图片文件是否存在来判断论文是否已处理：
+- 检查路径：`arxiv-daily-output/arxiv-daily/images/paper_{arxiv_id}_{date}.jpg`
+- 如果图片已存在，则跳过该论文
+- 支持检查 jpg 和 png 两种格式

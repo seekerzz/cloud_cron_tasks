@@ -5,7 +5,7 @@ arXiv 论文 NotebookLM 处理脚本（独立 Notebook 版）
 特性：
 - 每篇论文独立 notebook，避免 infographic 互相覆盖
 - 完整流程：创建 notebook → 提交 → 生成 → 等待 → 下载 → 压缩
-- CSV 记录进度，支持断点续传
+- 通过图片文件存在性判断去重
 - 720P JPG 图片压缩
 """
 
@@ -13,16 +13,13 @@ import json
 import subprocess
 import time
 import os
-import csv
 import re
 from datetime import datetime
 from urllib.parse import urlparse
 
 # 配置 - 使用相对路径或环境变量
 OUTPUT_DIR = os.environ.get('OUTPUT_DIR', './arxiv-daily-output')
-CSV_FILENAME = "processed_papers.csv"  # CSV数据库文件名（显式规定）
 PAPERS_JSON = os.path.join(OUTPUT_DIR, "papers.json")
-PROCESSED_CSV = os.path.join(OUTPUT_DIR, CSV_FILENAME)
 PROCESSED_JSON = os.path.join(OUTPUT_DIR, "papers_processed.json")
 IMAGES_DIR = os.path.join(OUTPUT_DIR, "arxiv-daily", "images")
 NOTEBOOK_PREFIX = "arxiv_daily"
@@ -46,51 +43,6 @@ def extract_arxiv_id(abs_url):
     if len(path_parts) >= 2 and path_parts[0] == 'abs':
         return path_parts[1]
     return None
-
-
-def load_csv_db():
-    """加载 CSV 数据库"""
-    db = {}
-    if os.path.exists(PROCESSED_CSV):
-        with open(PROCESSED_CSV, 'r', newline='', encoding='utf-8') as f:
-            reader = csv.DictReader(f)
-            for row in reader:
-                db[row['arxiv_id']] = row
-    return db
-
-
-def save_csv_record(arxiv_id, title, source_id='', image_path='',
-                    status='pending', error_msg='', processed_date=''):
-    """保存或更新 CSV 记录 - 只保存 completed 状态的论文"""
-    # 只保存已完成的论文到 CSV，失败的论文不保留
-    if status != 'completed':
-        return
-
-    db = load_csv_db()
-
-    db[arxiv_id] = {
-        'arxiv_id': arxiv_id,
-        'title': title[:100] if title else '',
-        'source_id': source_id,
-        'image_path': image_path,
-        'status': 'completed',
-        'error_msg': '',
-        'processed_date': processed_date or datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-    }
-
-    # 写回文件
-    fieldnames = ['arxiv_id', 'title', 'source_id', 'image_path', 'status', 'summary', 'error_msg', 'processed_date']
-    with open(PROCESSED_CSV, 'w', newline='', encoding='utf-8') as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
-        writer.writeheader()
-        for row in db.values():
-            writer.writerow(row)
-
-
-def get_papers_by_status(status):
-    """获取特定状态的论文"""
-    db = load_csv_db()
-    return {k: v for k, v in db.items() if v.get('status') == status}
 
 
 def find_existing_notebook(notebook_name):
@@ -418,23 +370,26 @@ def process_papers():
         paper['arxiv_id'] = extract_arxiv_id(paper['abs_url'])
         paper['pdf_url'] = paper['abs_url'].replace('/abs/', '/pdf/') + '.pdf'
 
-    # 筛选未处理的论文（显式跳过 CSV 中 status='completed' 的论文）
-    db = load_csv_db()
+    # 获取今天的日期（用于图片文件名匹配）
+    today = datetime.now().strftime('%Y%m%d')
+
+    # 筛选未处理的论文（检查图片是否已存在）
     papers_to_process = []
     skipped_completed = 0
     for p in papers:
         arxiv_id = p['arxiv_id']
         if not arxiv_id:
             continue
-        if arxiv_id in db:
-            if db[arxiv_id].get('status') == 'completed':
-                skipped_completed += 1
-                continue  # 跳过已完成的论文
-            # 其他状态（failed, pending等）允许重新处理
+        # 检查图片是否已存在（支持 jpg 和 png 格式）
+        jpg_path = os.path.join(IMAGES_DIR, f"paper_{arxiv_id}_{today}.jpg")
+        png_path = os.path.join(IMAGES_DIR, f"paper_{arxiv_id}_{today}.png")
+        if os.path.exists(jpg_path) or os.path.exists(png_path):
+            skipped_completed += 1
+            continue  # 跳过已有图片的论文
         papers_to_process.append(p)
 
     if skipped_completed > 0:
-        print(f"\n跳过 {skipped_completed} 篇已完成的论文（status='completed'）")
+        print(f"\n跳过 {skipped_completed} 篇已有图片的论文")
 
     if not papers_to_process:
         print("\n所有论文已处理完成，无需新任务")
@@ -444,7 +399,6 @@ def process_papers():
     print(f"预计耗时: 约 {len(papers_to_process) * (WAIT_TIME + 30) // 60} 分钟")
 
     # 逐篇处理
-    today = datetime.now().strftime('%Y%m%d')
     results = []
 
     # 加载已有结果
@@ -462,33 +416,18 @@ def process_papers():
 
         if result:
             results.append(result)
-            save_csv_record(
-                arxiv_id=paper['arxiv_id'],
-                title=paper['title'],
-                source_id=result['source_id'],
-                image_path=result['image'],
-                status='completed',
-                processed_date=result['processed_date']
-            )
         else:
-            # 失败的论文不保存到 CSV，下次会重新处理
-            print(f"  ✗ 论文 {paper['arxiv_id']} 处理失败，不写入 CSV（下次将重试）")
+            print(f"  ✗ 论文 {paper['arxiv_id']} 处理失败（下次将重试）")
 
     # 保存结果
     with open(PROCESSED_JSON, 'w', encoding='utf-8') as f:
         json.dump(results, f, indent=2, ensure_ascii=False)
 
     # ========== 统计 ==========
-    db = load_csv_db()
-    completed = len(get_papers_by_status('completed'))
-    failed = len(get_papers_by_status('failed'))
-
     print("\n" + "=" * 60)
     print("处理完成！")
     print(f"  本次成功: {len([r for r in results if r.get('processed_date', '').startswith(today)])} 篇")
-    print(f"  累计完成: {completed} 篇")
-    print(f"  累计失败: {failed} 篇")
-    print(f"  总计: {len(db)} 篇")
+    print(f"  累计: {len(results)} 篇")
     print("=" * 60)
 
 
