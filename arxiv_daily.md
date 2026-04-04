@@ -24,8 +24,8 @@ export DEBUG_LIMIT=12  # 处理论文数量限制，默认12篇
 
 ## 核心要求
 
-- **必须**调用 `process_arxiv_papers.py` 生成论文信息图表
-- **必须**调用 `generate_html_report.py` 生成 HTML 日报
+- **必须**调用 `arxiv_codes/process_arxiv_papers.py` 生成论文信息图表
+- **必须**调用 `arxiv_codes/generate_html_report.py` 生成 HTML 日报
 - **必须**为每篇论文生成中文总结填入 `summary` 字段
 
 ---
@@ -67,7 +67,7 @@ curl -s "https://export.arxiv.org/api/query?search_query=cat:eess.AS&sortBy=subm
     -o ./arxiv-daily-output/rss_data.xml
 
 # 解析 RSS 为 JSON
-python3 fetch_arxiv_rss.py
+python3 arxiv_codes/fetch_arxiv_rss.py
 ```
 
 **必须等待解析完成，输出：**
@@ -108,7 +108,7 @@ nlm login --check || nlm login -p default
 
 ```bash
 # 使用环境变量 DEBUG_LIMIT 控制处理数量
-python3 process_arxiv_papers.py
+python3 arxiv_codes/process_arxiv_papers.py
 ```
 
 **脚本说明：**
@@ -121,7 +121,7 @@ python3 process_arxiv_papers.py
 ### 步骤6: 生成 HTML 日报
 
 ```bash
-python3 generate_html_report.py
+python3 arxiv_codes/generate_html_report.py
 ```
 
 ### 步骤7: 推送到 GitHub Pages
@@ -163,9 +163,9 @@ git push origin main 2>&1
 
 | 文件 | 用途 |
 |------|------|
-| `fetch_arxiv_rss.py` | 解析 RSS XML 为 papers.json |
-| `process_arxiv_papers.py` | 使用 NotebookLM 生成信息图表 |
-| `generate_html_report.py` | 生成 HTML 日报 |
+| `arxiv_codes/fetch_arxiv_rss.py` | 解析 RSS XML 为 papers.json |
+| `arxiv_codes/process_arxiv_papers.py` | 使用 NotebookLM 生成信息图表 |
+| `arxiv_codes/generate_html_report.py` | 生成 HTML 日报 |
 | `arxiv-daily-output/processed_papers.csv` | 数据库，记录处理状态、图片路径 |
 | `arxiv-daily-output/papers_processed.json` | 累积所有处理过的论文详情 |
 | `arxiv-daily-output/arxiv-daily/images/` | 720P JPG 图片存储目录 |
@@ -185,10 +185,10 @@ git push origin main 2>&1
 
 ```bash
 # 测试模式（只处理3篇）
-DEBUG_LIMIT=3 python3 process_arxiv_papers.py
+DEBUG_LIMIT=3 python3 arxiv_codes/process_arxiv_papers.py
 
 # 自定义数量
-DEBUG_LIMIT=10 python3 process_arxiv_papers.py
+DEBUG_LIMIT=10 python3 arxiv_codes/process_arxiv_papers.py
 ```
 
 ### CSV 数据库格式
