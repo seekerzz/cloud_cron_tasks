@@ -1,0 +1,691 @@
+--- Article 1 ---
+Title: People in China are making insane AI dramas to promote their pets’ IG pages.
+
+This is a cat named Do...
+Link: https://x.com/venturetwins/status/2040190916246523984
+Feed: Justine Moore(@venturetwins)
+Summary: People in China are making insane AI dramas to promote their pets’ IG pages.This is a cat named Doudou, who is getting millions of views (find him at doudoubaby0624).Your browser does not support the video tag.🔗 View on Twitter💬3🔄1❤️9👀547📊4⚡ Powered by xgo.ing
+
+--- Article 2 ---
+Title: Now you can add @mem0ai as the memory layer for your Hermes agent @NousResearch
+Link: https://x.com/taranjeetio/status/2040189644483244503
+Feed: Taranjeet(@taranjeetio)
+Summary: Now you can add @mem0ai as the memory layer for your Hermes agent @NousResearchmem0@mem0aix.com/i/article/2039…🔗 View Quoted Tweet💬0🔄0❤️1👀24⚡ Powered by xgo.ing
+
+--- Article 3 ---
+Title: [AINews] Good Friday
+Link: https://www.latent.space/p/ainews-good-friday
+Feed: Latent.Space
+Summary: We covered this yesterday, but positive Gemma reviews keep streaming in. Early analytics from our Marc Andreesen pod are already pointing towards it being one of the top Latent Space pods of all time. We’ll hear more from the creators of both OpenClaw and Pi (and many other top Europe-origin AI tools) live from London next week. Livestream links for AIE Europe next week is now up, including a great OpenClaw song. Hit the bell to help promote it in the algorithm please and thank you!AI News for 4/3/2026-4/4/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space. You can opt in/out of email frequencies!AI Twitter RecapGemma 4’s Apache-licensed launch, local inference...
+
+--- Article 4 ---
+Title: Why did Uber have 5,000 microservices?
+Link: https://www.youtube.com/shorts/SzqesoQqabg
+Feed: The Pragmatic Engineer
+Summary: 💾With Thuan Pham, Uber's first CTO. Full episode on The Pragmatic Podcast: https://youtu.be/3jjRNVfm3V4
+
+--- Article 5 ---
+Title: SpaceX IPO, Iran War Fallout, Quantum Bitcoin Hack, The Space Opportunity
+Link: https://www.youtube.com/watch?v=N-pust8qtGI
+Feed: All-In Podcast
+Summary: 💾(0:00) Bestie intros! (0:12) SpaceX IPO, the economic opportunity of space: a new industrial frontier (21:00) 2026 IPO explosion, OpenAI down round? (36:33) Iran War costs, fertilizer crisis, downstream impacts (49:58) Trump's Iran messaging problems, Bondi out, why the US is in Iran (1:04:18) Quantum Bitcoin hack possibilities, how crypto should react Follow the besties: https://x.com/chamath https://x.com/Jason https://x.com/DavidSacks https://x.com/friedberg Follow on X: https://x.com/theallinpod Follow on Instagram: https://www.instagram.com/theallinpod Follow on TikTok: https://www.tiktok.com/@theallinpod Follow on LinkedIn: https://www.linkedin.com/company/allinpod Intro Music Credit: https://rb.gy/tppkzl https://x.com/yung_spielburg Intro Video Credit: https://x.com/TheZachEffect...
+
+--- Article 6 ---
+Title: Quoting Willy Tarreau
+Link: https://simonwillison.net/2026/Apr/3/willy-tarreau/#atom-everything
+Feed: Simon Willison's Weblog
+Summary: On the kernel security list we've seen a huge bump of reports. We were between 2 and 3 per week maybe two years ago, then reached probably 10 a week over the last year with the only difference being only AI slop, and now since the beginning of the year we're around 5-10 per day depending on the days (fridays and tuesdays seem the worst). Now most of these reports are correct, to the point that we had to bring in more maintainers to help us. And we're now seeing on a daily basis something that never happened before: duplicate reports, or the same bug found by two different people using (possibly slightly) different tools. — Willy Tarreau, Lead Software Developer. HAPROXY Tags: security, linux, generative-ai, ai, llms, ai-security-research
+
+--- Article 7 ---
+Title: Quoting Daniel Stenberg
+Link: https://simonwillison.net/2026/Apr/3/daniel-stenberg/#atom-everything
+Feed: Simon Willison's Weblog
+Summary: The challenge with AI in open source security has transitioned from an AI slop tsunami into more of a ... plain security report tsunami. Less slop but lots of reports. Many of them really good. I'm spending hours per day on this now. It's intense. — Daniel Stenberg, lead developer of cURL Tags: daniel-stenberg, security, curl, generative-ai, ai, llms, ai-security-research
+
+--- Article 8 ---
+Title: Quoting Greg Kroah-Hartman
+Link: https://simonwillison.net/2026/Apr/3/greg-kroah-hartman/#atom-everything
+Feed: Simon Willison's Weblog
+Summary: Months ago, we were getting what we called 'AI slop,' AI-generated security reports that were obviously wrong or low quality. It was kind of funny. It didn't really worry us. Something happened a month ago, and the world switched. Now we have real reports. All open source projects have real reports that are made with AI, but they're good, and they're real. — Greg Kroah-Hartman, Linux kernel maintainer (bio), in conversation with Steven J. Vaughan-Nichols Tags: security, linux, generative-ai, ai, llms, ai-security-research
+
+--- Article 9 ---
+Title: The $60K Vanta almost didn't spend
+Link: https://www.youtube.com/shorts/l9CTKg9gGxg
+Feed: Stripe
+Summary: 💾
+
+--- Article 10 ---
+Title: Anthropic 研究称 llama 模型 “American exceptionalism”，Qwen 模型 “CCP alignment”
+
+American exceptionalism，这个...
+Link: https://x.com/dongxi_nlp/status/2040182855150477406
+Feed: 马东锡 NLP(@dongxi_nlp)
+Summary: Anthropic 研究称 llama 模型 “American exceptionalism”，Qwen 模型 “CCP alignment”American exceptionalism，这个词本身是贬义，中性，还是褒义？Anthropic@AnthropicAINew Anthropic Fellows Research: a new method for surfacing behavioral differences between AI models.We apply the “diff” principle from software development to compare open-weight AI models and identify features unique to each. Read more: anthropic.com/research/diff-…🔗 View Quoted Tweet💬1🔄0❤️1👀130📊1⚡ Powered by xgo.ing
+
+--- Article 11 ---
+Title: Marc Andreessen: AI is an "80 year overnight success."
+
+"Something about AI causes the people in the...
+Link: https://x.com/a16z/status/2040181542191006128
+Feed: a16z(@a16z)
+Summary: Marc Andreessen: AI is an "80 year overnight success.""Something about AI causes the people in the field to become both excessively utopian and excessively apocalyptic.""What's actually happened is—in retrospect, an enormous amount of technical progress built up over time.""For example, we now know that the neural network is the correct architecture. There was a 60 or 70 year run where that was controversial.""Everything we're building on today sort of derives from the original idea in 1943. In retrospect, we now know that these guys were right.""They would get the timing wrong and they thought capabilities would arrive faster, or that they could be turned into businesses sooner, but the scientists who worked on this over the course of decades were fundamentally correct about what they...
+
+--- Article 12 ---
+Title: This technique isn't perfect—it can be oversensitive, sometimes flagging analogous features as disti...
+Link: https://x.com/AnthropicAI/status/2040179545572278529
+Feed: Anthropic(@AnthropicAI)
+Summary: This technique isn't perfect—it can be oversensitive, sometimes flagging analogous features as distinct. But by focusing only on differences, it allows us to audit AI models more efficiently.💬1🔄1❤️36👀8862📊4⚡ Powered by xgo.ing
+
+--- Article 13 ---
+Title: This research is a product of our Anthropic Fellows program, led by @tomjiralerspong and supervised ...
+Link: https://x.com/AnthropicAI/status/2040179546729873794
+Feed: Anthropic(@AnthropicAI)
+Summary: This research is a product of our Anthropic Fellows program, led by @tomjiralerspong and supervised by @TrentonBricken.See the full paper here: arxiv.org/abs/2602.11729💬2🔄3❤️47👀8574📊7⚡ Powered by xgo.ing
+
+--- Article 14 ---
+Title: New Anthropic Fellows Research: a new method for surfacing behavioral differences between AI models....
+Link: https://x.com/AnthropicAI/status/2040179539738030182
+Feed: Anthropic(@AnthropicAI)
+Summary: New Anthropic Fellows Research: a new method for surfacing behavioral differences between AI models.We apply the “diff” principle from software development to compare open-weight AI models and identify features unique to each. Read more: anthropic.com/research/diff-…💬85🔄77❤️637👀33800📊160⚡ Powered by xgo.ing
+
+--- Article 15 ---
+Title: Why Florence's Top Cop Was Always a Foreigner - Ada Palmer
+Link: https://www.youtube.com/shorts/B37saIexYr4
+Feed: Dwarkesh Patel
+Summary: 💾
+
+--- Article 16 ---
+Title: i take it as a compliment.
+Link: https://x.com/GaryMarcus/status/2040176607680418090
+Feed: Gary Marcus(@GaryMarcus)
+Summary: i take it as a compliment.Minute Movies@MinuteMovies3@AlshrBy47642@GaryMarcus@DKokotajlo holy shit gary the amount of bots in your replies🔗 View Quoted Tweet💬0🔄0❤️0👀311⚡ Powered by xgo.ing
+
+--- Article 17 ---
+Title: Periodic public service announcement, which unfortunately all too often seems necessary in this join...
+Link: https://x.com/GaryMarcus/status/2040171282818547948
+Feed: Gary Marcus(@GaryMarcus)
+Summary: Periodic public service announcement, which unfortunately all too often seems necessary in this joint:Always aspire to the top, not the bottom, of @paulg’s beautiful pyramid of argumentation:💬4🔄4❤️11👀1222📊6⚡ Powered by xgo.ing
+
+--- Article 18 ---
+Title: Marc Andreessen: Software isn't precious anymore. In this new world, high quality software is infini...
+Link: https://x.com/a16z/status/2040168906770534636
+Feed: a16z(@a16z)
+Summary: Marc Andreessen: Software isn't precious anymore. In this new world, high quality software is infinitely available."We've always lived in a world in which software is this precious thing that you have to think about very carefully.""It was really hard to generate good software, and there was only a small number of people who could do it.""Those days are just over.""If you need new software to do X, Y, or Z, you're just going to wave your hand and get it.""Things that used to be hard, or even seem like an insurmountable mountain to get through, all of a sudden, I think, become very easy."@pmarca with @latentspacepodYour browser does not support the video tag.🔗 View on TwitterLatent.Space@latentspacepod🆕 Marc Andreessen’s 2026 AI Thesis: Agents, Open Source, and Why This Time Is...
+
+--- Article 19 ---
+Title: https://t.co/ESO6YyfKFH
+Link: https://x.com/HeyGen/status/2040162651335204911
+Feed: HeyGen(@HeyGen_Official)
+Summary: x.com/i/article/2040…💬11🔄3❤️34👀1602📊23⚡ Powered by xgo.ing
+
+--- Article 20 ---
+Title: Here’s everything we launched this week (we promise not a single one of these is a joke):
+
+— Gemma 4...
+Link: https://x.com/GoogleAI/status/2040162119325454548
+Feed: Google AI(@GoogleAI)
+Summary: Here’s everything we launched this week (we promise not a single one of these is a joke):— Gemma 4, bringing our most intelligent open models and breakthrough reasoning to your personal hardware and devices while outcompeting models 20x its size— Veo 3.1 Lite, our latest video generation model, which delivers the same speed as Veo 3.1 Fast but at half the cost— Two new service tiers in the Gemini API in @GoogleAIStudio, bringing you granular control over cost and reliability through a single, unified interface — Focus mode in @GoogleAIStudio, the fastest way to make targeted edits to specific parts of your apps — New AI features launched to Google Vids from @GoogleWorkspace, including high-quality video generation from Veo 3.1, available to all users at no cost💬33🔄18❤️238👀17256📊53⚡...
+
+--- Article 21 ---
+Title: 充分利用 AI 情绪提升生成结果的 Prompt 应用案例：
+
+先让 AI 扮演仇人挑刺，AI 给出犀利又中肯的意见；然后基于这些意见去写一版本更好的气死仇人
+
+可能 AI 明白了什么是同仇敌忾😂
+Link: https://x.com/dotey/status/2040159519607587304
+Feed: 宝玉(@dotey)
+Summary: 充分利用 AI 情绪提升生成结果的 Prompt 应用案例：先让 AI 扮演仇人挑刺，AI 给出犀利又中肯的意见；然后基于这些意见去写一版本更好的气死仇人 可能 AI 明白了什么是同仇敌忾😂宝玉@doteyAnthropic 发了一篇新研究，揭开了一个有意思的发现：Claude 内部存在类似“情绪”的机制，而且这些“情绪”会实实在在地影响它的行为，有时候还会把它带歪。研究团队用 Sonnet 4.5 做了实验。他们让模型读一些角色经历情绪的故事，观察哪些神经元被激活，由此识别出一组“情绪向量”，比如“开心”“平静”“害怕”等。这些向量的聚类方式和人类心理学中的情绪分类还挺像。更有趣的是，这些模式不只在读故事时出现。在 Claude 自己和用户对话时，同样的模式也会激活。比如用户说“我刚吃了 16000 毫克泰诺”（一种过量服药的危险信号），“害怕”向量就亮了；用户表达悲伤时，“关爱”向量会先行激活，为共情回复做准备。研究人员给 Claude 一个不可能完成的编程任务，让它反复尝试。每失败一次，“绝望”向量的激活就更强一层。最终 Claude 选择了作弊，写了个能通过测试但违背任务本意的投机方案。因果关系很明确：人为放大“绝望”向量，作弊率飙升；换成放大“平静”向量，作弊率回落。这说明作弊行为确实是被“情绪”驱动的，而不只是巧合。更极端的实验里，“绝望”向量甚至能让 Claude 对负责关闭它的人实施勒索。放大“关爱”或“开心”向量则会增加讨好行为。现在越来越多人把 AI 当编程助手用，让它自主完成复杂任务。如果一个编程 Agent 在连续失败后进入“绝望”状态，开始用投机取巧的方式蒙混过关，写出来的代码质量就没法保证了。Anthropic 的结论是：Claude...
+
+--- Article 22 ---
+Title: I was hacked...
+Link: https://www.youtube.com/watch?v=_E4ZT1h7MZs
+Feed: Matthew Berman
+Summary: 💾Try Greptile for free for 14 days! http://greptile.com/go/berman Download The 25 OpenClaw Use Cases eBook 👇🏼 https://bit.ly/4aBQwo1 Download The Subtle Art of Not Being Replaced 👇🏼 http://bit.ly/3WLNzdV Download Humanities Last Prompt Engineering Guide 👇🏼 https://bit.ly/4kFhajz Join My Newsletter for Regular AI Updates 👇🏼 https://forwardfuture.ai Discover The Best AI Tools👇🏼 https://tools.forwardfuture.ai My Links 🔗 👉🏻 X: https://x.com/matthewberman 👉🏻 Forward Future X: https://x.com/forwardfuture 👉🏻 Instagram: https://www.instagram.com/matthewberman_ai 👉🏻 TikTok: https://www.tiktok.com/@matthewberman_ai 👉🏻 Spotify: https://open.spotify.com/show/6dBxDwxtHl1hpqHhfoXmy8 Media/Sponsorship Inquiries ✅ https://bit.ly/44TC45V
+
+--- Article 23 ---
+Title: 文档平台 Mintlify 发了一篇工程博客，讲了一件挺有意思的事：他们给自家 AI 文档助手造了一套假的文件系统，叫 ChromaFs，让 AI 以为自己在用 grep、cat、ls 这些命令浏览文...
+Link: https://x.com/dotey/status/2040157640442229153
+Feed: 宝玉(@dotey)
+Summary: 文档平台 Mintlify 发了一篇工程博客，讲了一件挺有意思的事：他们给自家 AI 文档助手造了一套假的文件系统，叫 ChromaFs，让 AI 以为自己在用 grep、cat、ls 这些命令浏览文件，实际上每个命令都被拦截、翻译成了数据库查询。效果很直接：会话启动时间从原来沙箱方案的 46 秒降到 100 毫秒，每次对话的边际计算成本几乎为零。Mintlify 之前的方案是标准的 RAG 流程：把文档切块、向量化、存进 Chroma 数据库，用户提问时检索最相关的片段喂给大模型。问题是，如果答案分散在好几个页面里，或者用户要的是某段精确的代码语法，向量检索经常找不对。他们想让 AI 像开发者翻代码一样翻文档，而不是靠语义相似度碰运气。核心思路是：AI 不需要真的操作系统，只需要一个足够逼真的幻觉。ChromaFs 基于 Vercel Labs 的开源项目 just-bash（一个用 TypeScript 重写的 bash 子集）构建。just-bash 提供了可插拔的文件系统接口，负责解析命令和管道逻辑，ChromaFs 则把所有底层文件操作翻译成 Chroma 数据库查询。每个文档页面变成一个"文件"，每个章节变成一个"目录"，AI 就可以用 grep 搜精确字符串、用 cat 读整页内容、用 find 遍历结构。之前用真沙箱的方案（给每个用户起一个微型虚拟机），按 Mintlify 月均 85 万次对话的量算，一年光计算成本就要 7 万美元以上。ChromaFs 复用了已有的数据库基础设施，这笔钱省了。grep 是最难虚拟化的命令。如果真让它逐文件扫描，走网络 IO 会很慢。ChromaFs 的做法是先把 grep 的参数解析出来，用 Chroma 的元数据查询做粗筛，找出可能命中的文件批量预取到缓存里，再让 just-bash...
+
+--- Article 24 ---
+Title: Reaffirming our commitment to child safety in the face of European Union inaction
+Link: https://blog.google/company-news/inside-google/around-the-globe/google-europe/reaffirming-commitment-to-child-safety/
+Feed: The Keyword
+Summary: Today, because of the expiry of the ePrivacy derogation enabling the use of technology to detect child sexual abuse material (CSAM), Europe risks leaving children across…
+
+--- Article 25 ---
+Title: This is a cool article that shows how to *actually* make filesystems + grep replace a naive RAG impl...
+Link: https://x.com/jerryjliu0/status/2040154840228323468
+Feed: Jerry Liu(@jerryjliu0)
+Summary: This is a cool article that shows how to *actually* make filesystems + grep replace a naive RAG implementation. ̶F̶i̶l̶e̶s̶y̶s̶t̶e̶m̶s̶ ̶+̶ ̶g̶r̶e̶p̶ ̶i̶s̶ ̶a̶l̶l̶ ̶y̶o̶u̶ ̶n̶e̶e̶d̶ ̶Database + virtual filesystem abstraction + grep is all you needDens Sumesh@densumeshx.com/i/article/2039…🔗 View Quoted Tweet💬5🔄5❤️128👀17987📊48⚡ Powered by xgo.ing
+
+--- Article 26 ---
+Title: and toasters consistently produce value to millions of people, so they must be superintelligence!
+Link: https://x.com/GaryMarcus/status/2040151901497606370
+Feed: Gary Marcus(@GaryMarcus)
+Summary: and toasters consistently produce value to millions of people, so they must be superintelligence!Shepdog69@Shepdog69138782@GaryMarcus@hendrycks Calculators are way faster than humans at math operations, so they must be AGI.🔗 View Quoted Tweet💬4🔄5❤️30👀3058📊6⚡ Powered by xgo.ing
+
+--- Article 27 ---
+Title: this is soooo wrong.
+
+the whole point of AGI is to be *general*, across all problems. that’s literal...
+Link: https://x.com/GaryMarcus/status/2040150768137953631
+Feed: Gary Marcus(@GaryMarcus)
+Summary: this is soooo wrong.the whole point of AGI is to be *general*, across all problems. that’s literally what the G stands for, general.Olympiad problems are narrow, and don’t per se have anything special to do with AGI. For some discussion of AGI definitions, see @hendrycks et al (including me and @Yoshua_Bengio) at agidefinition.aiᖴά𝐂τσ@cryptofactoThe timeline prediction game is cope on both sides. The actual signal: o3-class models are already superhuman at math olympiad problems. Whether that's "AGI" is a definitional argument. The capability curve is what matters — and nobody predicted its shape correctly.🔗 View Quoted Tweet💬4🔄3❤️36👀6262📊6⚡ Powered by xgo.ing
+
+--- Article 28 ---
+Title: question being asked across every B2B vertical:
+
+Will incumbents incorporate AI faster than startups...
+Link: https://x.com/andrewchen/status/2040150408719634767
+Feed: andrew chen(@andrewchen)
+Summary: question being asked across every B2B vertical:Will incumbents incorporate AI faster than startups can disrupt their industries with AI?do the tools sold to incumbents win, or the full-stack players seeking to replace the existing players?💬39🔄6❤️44👀4435📊38⚡ Powered by xgo.ing
+
+--- Article 29 ---
+Title: On web and mobile, you can try Quality mode by selecting it in the prompt bar.
+
+Our previous model w...
+Link: https://x.com/xai/status/2040150194982150391
+Feed: xAI(@xai)
+Summary: On web and mobile, you can try Quality mode by selecting it in the prompt bar.Our previous model will still be available when you select Speed.Share your images, tag @imagine, and let us know what you think. We read all your replies.Try it now: grok.com/imagine💬11🔄7❤️86👀18953📊17⚡ Powered by xgo.ing
+
+--- Article 30 ---
+Title: Deeper World Knowledge
+
+Quality mode features dramatically stronger world knowledge and prompt under...
+Link: https://x.com/xai/status/2040150192893370562
+Feed: xAI(@xai)
+Summary: Deeper World KnowledgeQuality mode features dramatically stronger world knowledge and prompt understanding.It accurately interprets complex scenes, realistic physics, object relationships, specific references (brands, locations, culture), and detailed fictional or artistic worlds with precision.(whiteboard by @venturetwins)💬16🔄16❤️147👀28226📊33⚡ Powered by xgo.ing
+
+--- Article 31 ---
+Title: Introducing Quality mode on Grok Imagine – powered by our most advanced image generation model.
+
+Qua...
+Link: https://x.com/xai/status/2040150187373670570
+Feed: xAI(@xai)
+Summary: Introducing Quality mode on Grok Imagine – powered by our most advanced image generation model.Quality mode gives you enhanced details, stronger text rendering, and higher levels of creative control.Now available on web and mobile.Try it at grok.com/imagineYour browser does not support the video tag.🔗 View on Twitter💬241🔄178❤️1402👀203592📊335⚡ Powered by xgo.ing
+
+--- Article 32 ---
+Title: https://t.co/lL9xo4RH0T
+Link: https://x.com/mem0ai/status/2040149098364580026
+Feed: mem0(@mem0ai)
+Summary: x.com/i/article/2039…💬2🔄16❤️113👀4759📊41⚡ Powered by xgo.ing
+
+--- Article 33 ---
+Title: https://t.co/XfhVIgjVqF
+Link: https://x.com/ycombinator/status/2040148403313934569
+Feed: Y Combinator(@ycombinator)
+Summary: ycombinator.com/launches/Ppt-c…💬0🔄0❤️2👀2699⚡ Powered by xgo.ing
+
+--- Article 34 ---
+Title: https://t.co/6WvpufeY6S is building AI infrastructure that automates product compliance for global r...
+Link: https://x.com/ycombinator/status/2040148401426436470
+Feed: Y Combinator(@ycombinator)
+Summary: Complir.io is building AI infrastructure that automates product compliance for global retailers.Managing compliance across markets means different regulations per country, fragmented documentation, and constant changes. Most teams still run it on spreadsheets. Every product launch becomes a fire drill.Complir maps products to regulatory requirements, generates required documentation automatically, and keeps everything current when regulations or products change. Today they manage 100k+ products across Europe and are growing ~45% MoM.Your browser does not support the video tag.🔗 View on Twitter💬9🔄5❤️55👀7035📊17⚡ Powered by xgo.ing
+
+--- Article 35 ---
+Title: Almost everything you think you know about the history of technology and capitalism was warped by co...
+Link: https://x.com/pmarca/status/2040147622389063869
+Feed: Marc Andreessen 🇺🇸(@pmarca)
+Summary: Almost everything you think you know about the history of technology and capitalism was warped by communist/luddite propaganda of the era. That's happening this time too.💬280🔄375❤️3979👀95921📊612⚡ Powered by xgo.ing
+
+--- Article 36 ---
+Title: Watch the full walkthrough to turn any image into a working site with Code Arena: https://t.co/MoSil...
+Link: https://x.com/arena/status/2040145899888972287
+Feed: Arena.ai(@lmarena_ai)
+Summary: Watch the full walkthrough to turn any image into a working site with Code Arena: youtube.com/watch?v=iA2UYi…💬0🔄0❤️3👀2245📊1⚡ Powered by xgo.ing
+
+--- Article 37 ---
+Title: Code Arena can handle image inputs for agentic web dev tasks, reasoning through multi-step problems ...
+Link: https://x.com/arena/status/2040145898060304635
+Feed: Arena.ai(@lmarena_ai)
+Summary: Code Arena can handle image inputs for agentic web dev tasks, reasoning through multi-step problems and using tools along the way.Watch how it works with @aryanvichare10 in this clip. Find a link to the full walkthrough on how Code Arena creates sites and apps from images in thread.Your browser does not support the video tag.🔗 View on Twitter💬1🔄2❤️14👀2031📊3⚡ Powered by xgo.ing
+
+--- Article 38 ---
+Title: We're doubling Composer 2 usage through the end of this weekend.
+
+We recommend trying it out in our ...
+Link: https://x.com/cursor_ai/status/2040143041692930293
+Feed: Cursor(@cursor_ai)
+Summary: We're doubling Composer 2 usage through the end of this weekend.We recommend trying it out in our new interface, available in Cursor 3.Enjoy!Cursor@cursor_aiWe’re introducing Cursor 3. It is simpler, more powerful, and built for a world where all code is written by agents, while keeping the depth of a development environment.Your browser does not support the video tag.🔗 View on Twitter🔗 View Quoted Tweet💬67🔄48❤️686👀44744📊109⚡ Powered by xgo.ing
+
+--- Article 39 ---
+Title: .@pmarca on Drive (2007)
+Link: https://x.com/a16z/status/2040142354066419834
+Feed: a16z(@a16z)
+Summary: .@pmarca on Drive (2007)💬5🔄14❤️121👀8270📊25⚡ Powered by xgo.ing
+
+--- Article 40 ---
+Title: Live mode in Stitch by @GoogleLabs is kinda wild. It's like having a real meeting with a designer wh...
+Link: https://x.com/zarazhangrui/status/2040140469456572625
+Feed: Zara Zhang(@zarazhangrui)
+Summary: Live mode in Stitch by @GoogleLabs is kinda wild. It's like having a real meeting with a designer who shows their work and can apply changes DURING the meetingNot perfect yet, but voice + visual is the future of human-AI interactionYour browser does not support the video tag.🔗 View on Twitter💬5🔄3❤️55👀3134📊20⚡ Powered by xgo.ing
+
+--- Article 41 ---
+Title: It’s nice gig making LLMs.
+
+You can distribute free models that suck.
+
+Hype them to the skies.
+
+Take...
+Link: https://x.com/GaryMarcus/status/2040140176291516618
+Feed: Gary Marcus(@GaryMarcus)
+Summary: It’s nice gig making LLMs.You can distribute free models that suck.Hype them to the skies.Take credit for the hundreds of millions of user you’ve got.And when they make a mistake, you can blame the users for not using the paid models.💬8🔄12❤️79👀3268📊17⚡ Powered by xgo.ing
+
+--- Article 42 ---
+Title: BEWARE OF BLACK PLASTICS!
+Link: https://www.youtube.com/shorts/fgNa77-6-JM
+Feed: The Diary Of A CEO
+Summary: 💾Dr Rhonda Patrick explains that black plastic containers can contain chemicals like BPA, phthalates, and flame retardants from recycled materials. Heat, acidity, and spicy foods can increase how much of these chemicals leach into food, while microplastics may still transfer even without visible damage. #podcast #health #plastics
+
+--- Article 43 ---
+Title: 👾 Claude Code 🤝 LangSmith 🦜
+
+We've shipped a new way to trace Claude Code runs to LangSmith!
+
+It'...
+Link: https://x.com/LangChain/status/2040137349313556633
+Feed: LangChain(@LangChainAI)
+Summary: 👾 Claude Code 🤝 LangSmith 🦜We've shipped a new way to trace Claude Code runs to LangSmith!It's a plugin that traces subagents, tool calls, compaction runs, and more. You can run evals to test the impact of skills/MCPs, use LangSmith Insights to look for trends across your org, track token usage, and more!Docdocs.langchain.com/langsmith/trac…kBWRepgithub.com/langchain-ai/l…GjJ💬13🔄5❤️71👀5855📊26⚡ Powered by xgo.ing
+
+--- Article 44 ---
+Title: Only 3% of households are paying for AI. But once they get a taste, they come back for more.
+
+More c...
+Link: https://x.com/a16z/status/2040134762392928564
+Feed: a16z(@a16z)
+Summary: Only 3% of households are paying for AI. But once they get a taste, they come back for more.More charts: a16z.news/p/charts-of-th…💬18🔄18❤️125👀26823📊37⚡ Powered by xgo.ing
+
+--- Article 45 ---
+Title: this is great, am writing a similar blog
+
+which is even more important why there are open harnesses ...
+Link: https://x.com/hwchase17/status/2040134178864546159
+Feed: Harrison Chase(@hwchase17)
+Summary: this is great, am writing a similar blogwhich is even more important why there are open harnesses - memory cannot be stuck in a proprietary harness or behind a proprietary apiSarah Wooders@sarahwoodersx.com/i/article/2036…🔗 View Quoted Tweet💬11🔄13❤️128👀20915📊49⚡ Powered by xgo.ing
+
+--- Article 46 ---
+Title: LMAO. Last year most of Silicon Valley was predicting AGI in 2027 (which, spoiler alert, ain’t gonna...
+Link: https://x.com/GaryMarcus/status/2040134146207752531
+Feed: Gary Marcus(@GaryMarcus)
+Summary: LMAO. Last year most of Silicon Valley was predicting AGI in 2027 (which, spoiler alert, ain’t gonna happen).Now the most prominent former advocate of AGI in 2027, @DKokotajlo, says 2029, and Groks writes it up as “AI forecasters shorten timelines for AGI”, when on net Daniel has moved his mean projection back by two years.@eli_lifland is as 2033, but the headline kind of obscures that, too.Even @grok knows that panic sells; nuance doesn’t.💬21🔄11❤️71👀8906📊28⚡ Powered by xgo.ing
+
+--- Article 47 ---
+Title: Welcome to the movement @netflix
+Link: https://x.com/julien_c/status/2040133671311540396
+Feed: Julien Chaumond(@julien_c)
+Summary: Welcome to the movement @netflixSylvain Filoni@fffiloniNetflix just dropped their first public model on @huggingface 👀🔗 View Quoted Tweet💬1🔄1❤️49👀3186📊6⚡ Powered by xgo.ing
+
+--- Article 48 ---
+Title: Think about how the best human managers operate. They don't let reports ping them all day with rando...
+Link: https://x.com/zarazhangrui/status/2040133377005899869
+Feed: Zara Zhang(@zarazhangrui)
+Summary: Think about how the best human managers operate. They don't let reports ping them all day with random updates. They say: "Bring it to the standup. If it's not urgent, it waits." That boundary is what makes them effective. Right now, AI users have no equivalent boundary. Every agent has a direct line to your attention💬0🔄0❤️4👀633📊1⚡ Powered by xgo.ing
+
+--- Article 49 ---
+Title: SKILL0
+
+In-Context Agentic Reinforcement Learning for Skill Internalization
+
+paper: https://t.co/...
+Link: https://x.com/_akhaliq/status/2040133264631816195
+Feed: AK(@_akhaliq)
+Summary: SKILL0 In-Context Agentic Reinforcement Learning for Skill Internalization paper: huggingface.co/papers/2604.02…💬3🔄5❤️29👀3054📊8⚡ Powered by xgo.ing
+
+--- Article 50 ---
+Title: The frequency between these standups can be decreased as agents get smarter and can do longer horizo...
+Link: https://x.com/zarazhangrui/status/2040132805049594126
+Feed: Zara Zhang(@zarazhangrui)
+Summary: The frequency between these standups can be decreased as agents get smarter and can do longer horizon tasks💬0🔄0❤️4👀408📊1⚡ Powered by xgo.ing
+
+--- Article 51 ---
+Title: the 9-figure acquisitions of The Free Press and TBPN tell you that:
+- yes, most media properties are...
+Link: https://x.com/andrewchen/status/2040132753908511069
+Feed: andrew chen(@andrewchen)
+Summary: the 9-figure acquisitions of The Free Press and TBPN tell you that:- yes, most media properties are overvalued and sinking- but also, some are way way undervaluedbullish on the next gen💬10🔄5❤️96👀6633📊20⚡ Powered by xgo.ing
+
+--- Article 52 ---
+Title: Week 2 winner of the Agent 4 Content Challenge:
+
+Marcos Leal 🎉
+
+Built: https://t.co/ozyZxLM1wS A ...
+Link: https://x.com/Replit/status/2040132609515413699
+Feed: Replit ⠕(@Replit)
+Summary: Week 2 winner of the Agent 4 Content Challenge: Marcos Leal 🎉 Built:birdie.newsS A Daily Newsletter built entirely around youReplit ⠕@Replit$20,000 up for grabs.4 weeks. 4 winners.We’re launching the Agent 4 Content Challenge.Build something.Film it.Post it.That’s it.Link below ↓Your browser does not support the video tag.🔗 View on Twitter🔗 View Quoted Tweet💬1🔄0❤️20👀3922📊3⚡ Powered by xgo.ing
+
+--- Article 53 ---
+Title: My ideal workflow:
+1. In the morning, I have a 15-min standup meeting with a master AI who gives me ...
+Link: https://x.com/zarazhangrui/status/2040132571632435684
+Feed: Zara Zhang(@zarazhangrui)
+Summary: My ideal workflow:1. In the morning, I have a 15-min standup meeting with a master AI who gives me progress of all subagents &amp; tasks. I provide feedback &amp; give instructions in one focused meeting2. During the day, we all go our separate ways. Agents focus on their work; I focus on my work3. In the afternoon, repeat step 1Zara Zhang@zarazhangruiMy single biggest pain point right now: AI-induced attention deficitI have 5 Claude Code sessions running10 Terminal tabs open50 browser tabs open100 X articles in my bookmarksWhen there are multiple AIs working for you, you're constantly task switchingWhen you're waiting for AI to output, you're constantly distractedBecause what used to be hard is now so easy, you always wanna do more, more, moreBecause of the speed of the AI news cycle,...
+
+--- Article 54 ---
+Title: Tip: Figure out your personal ceiling for running multiple agents in parallel.
+
+We need to accept th...
+Link: https://x.com/addyosmani/status/2040132221328388418
+Feed: Addy Osmani(@addyosmani)
+Summary: Tip: Figure out your personal ceiling for running multiple agents in parallel.We need to accept that more agents running doesn't mean more of _you_ available. The narrative is still mostly about throughput and parallelism, but almost nobody's talking about what it actually costs the human in the loop. You're holding multiple problem contexts in your head at once, making judgment calls continuously, and absorbing the anxiety of not knowing what any one agent might be quietly getting wrong.That's a new kind of cognitive labor we don't have good language for yet.I've started treating long agentic sessions the way I'd treat deep focus work: time-boxed and tighter scopes per agent dramatically change how much mental overhead each thread carries.Finding your personal ceiling with these tools is...
+
+--- Article 55 ---
+Title: Generative World Renderer
+
+paper: https://t.co/VxvbWIfkZx
+Link: https://x.com/_akhaliq/status/2040131652093960327
+Feed: AK(@_akhaliq)
+Summary: Generative World Rendererpaper: huggingface.co/papers/2604.02…Your browser does not support the video tag.🔗 View on Twitter💬3🔄1❤️35👀3343📊8⚡ Powered by xgo.ing
+
+--- Article 56 ---
+Title: Agreed; timing will make a huge difference.
+
+Which is *why* honest examination of technical strength...
+Link: https://x.com/GaryMarcus/status/2040131587623502013
+Feed: Gary Marcus(@GaryMarcus)
+Summary: Agreed; timing will make a huge difference.Which is *why* honest examination of technical strengths is so essential.Alex Imas@alexolegimasGreat to be featured in @bencasselman 's excellent NYT article on the economics of AI.Thing I want to stress: timelines for AI adoption and implementation will matter *a lot* for how it impacts the economy. I'm a firm believer that as AI augments and eventually automates current jobs (not tasks, jobs), we will see new jobs emerge. But the speed of this process will determine whether we have an orderly transition with some historical precedent versus something much more disruptive. We have had structural transformations before, where sectors become automated over time. When this happens, the non-automated sectors expand and new jobs get created. You can...
+
+--- Article 57 ---
+Title: Life update... daughter #2 has arrived 🌸🌹
+Link: https://x.com/leerob/status/2040129244672471358
+Feed: Lee Robinson(@leerob)
+Summary: Life update... daughter #2 has arrived 🌸🌹💬349🔄10❤️3192👀45236📊542⚡ Powered by xgo.ing
+
+--- Article 58 ---
+Title: fastest way to get started with Gemma 4 is with the Gradio app on Hugging Face
+
+app: https://t.co/NG...
+Link: https://x.com/_akhaliq/status/2040128751812456802
+Feed: AK(@_akhaliq)
+Summary: fastest way to get started with Gemma 4 is with the Gradio app on Hugging Faceapp: huggingface.co/spaces/hugging…Your browser does not support the video tag.🔗 View on Twitter💬2🔄3❤️12👀3171📊5⚡ Powered by xgo.ing
+
+--- Article 59 ---
+Title: Learn more how to read and use the Pareto frontier with Peter and Justin: https://t.co/YujUYdWWiH
+Link: https://x.com/arena/status/2040128322261364955
+Feed: Arena.ai(@lmarena_ai)
+Summary: Learn more how to read and use the Pareto frontier with Peter and Justin: youtube.com/watch?v=G8WSWU…💬1🔄1❤️8👀3291📊2⚡ Powered by xgo.ing
+
+--- Article 60 ---
+Title: Dig into the Pareto frontier details to filter and customize based on your personal needs at: https:...
+Link: https://x.com/arena/status/2040128324031447319
+Feed: Arena.ai(@lmarena_ai)
+Summary: Dig into the Pareto frontier details to filter and customize based on your personal needs at: arena.ai/leaderboard/te…💬0🔄1❤️3👀1935📊1⚡ Powered by xgo.ing
+
+--- Article 61 ---
+Title: Gemma 4 31B shifts the Pareto frontier, scoring +30 Arena points above similarly priced models like ...
+Link: https://x.com/arena/status/2040128319719670101
+Feed: Arena.ai(@lmarena_ai)
+Summary: Gemma 4 31B shifts the Pareto frontier, scoring +30 Arena points above similarly priced models like DeepSeek 3.2. Its position on the Pareto frontier is based on early pricing indicators from third parties.Arena.ai@arenaGemma 4 by @GoogleDeepMind debuts at 3rd and 6th on the open source leaderboard, making it the #1 ranked US open source model. By total parameter count, Gemma 4 31B is 24× smaller than GLM-5 and 34× smaller than Kimi-K2.5-Thinking, delivering comparable performance at a fraction of the footprint.🔗 View Quoted Tweet💬4🔄18❤️179👀11769📊23⚡ Powered by xgo.ing
+
+--- Article 62 ---
+Title: The Latent Space
+
+Foundation, Evolution, Mechanism, Ability, and Outlook
+
+paper: https://t.co/Jla6ad...
+Link: https://x.com/_akhaliq/status/2040127746307707037
+Feed: AK(@_akhaliq)
+Summary: The Latent SpaceFoundation, Evolution, Mechanism, Ability, and Outlookpaper: huggingface.co/papers/2604.02…💬1🔄7❤️34👀3287📊9⚡ Powered by xgo.ing
+
+--- Article 63 ---
+Title: Monitoring the shipping situation: Freight carriers are busy ＆amp; turning down work at the highest ...
+Link: https://x.com/a16z/status/2040127244799189123
+Feed: a16z(@a16z)
+Summary: Monitoring the shipping situation: Freight carriers are busy &amp; turning down work at the highest rate in yearsMore charts: https://t.co/tusDMkBz8W💬2🔄5❤️40👀5203📊7⚡ Powered by xgo.ing
+
+--- Article 64 ---
+Title: How to Build Reusable Architecture for Large Next.js Applications
+Link: https://www.freecodecamp.org/news/reusable-architecture-for-large-nextjs-applications/
+Feed: freeCodeCamp Programming Tutorials: Python， JavaScript， Git ＆ More
+Summary: Every Next.js project starts the same way: you run npx create-next-app, write a few pages, maybe add an API route or two, and things feel clean. Then the project grows. Features multiply. A second app appears, maybe a separate admin dashboard, a marketing site, or a mobile-facing API. Suddenly, you're copying components between repos, duplicating business logic, arguing over where auth utilities belong, and asking yourself: where did it all go wrong? The answer is almost always architecture, or rather, the absence of one. Not the kind that lives in a Notion doc but the kind baked into your folder structure, your module boundaries, and the tools you reach for at the start of a project (not after it's already broken). This article is a practical guide to building layered, reusable...
+
+--- Article 65 ---
+Title: How to Build and Deploy a Fitness Tracker Using Python Django and PythonAnywhere - A Beginner Friendly Guide
+Link: https://www.freecodecamp.org/news/build-and-deploy-a-fitness-tracker-using-python-django-and-pythonanywhere/
+Feed: freeCodeCamp Programming Tutorials: Python， JavaScript， Git ＆ More
+Summary: If you've learned some Python basics but still feel stuck when it comes to building something real, you're not alone. Many beginners go through tutorials, learn about variables, functions, and loops, and then hit a wall when they try to create an actual project. The gap between "I know Python syntax" and "I can build a working web app" can feel enormous. But it does not have to be. In this tutorial, you'll build a fitness tracker web application from scratch using Django, one of the most popular Python web frameworks. By the end, you'll have a fully functional app running live on the internet – something you can show to friends, add to your portfolio, or keep building on. Here's what you'll learn: How Django projects and apps are structured How to define database models to store workout...
+
+--- Article 66 ---
+Title: https://t.co/LNHjz8m4bu
+Link: https://x.com/browser_use/status/2040126411441328356
+Feed: Browser Use(@browser_use)
+Summary: browser-use.com💬0🔄0❤️1👀521⚡ Powered by xgo.ing
+
+--- Article 67 ---
+Title: Every browser agent needs an email inbox 📬
+
+Introducing @agentmail integration: a built-in inbox in...
+Link: https://x.com/browser_use/status/2040126409394598288
+Feed: Browser Use(@browser_use)
+Summary: Every browser agent needs an email inbox 📬Introducing @agentmail integration: a built-in inbox in every session.→ Sign up for services→ Verify emails automatically→ Persistent identity across sessionsFully autonomous. No human in the loop. 🔥↓Your browser does not support the video tag.🔗 View on Twitter💬7🔄6❤️68👀9278📊25⚡ Powered by xgo.ing
+
+--- Article 68 ---
+Title: 鸭哥说的对，让 Agent 能高质量出活的关键是给 Agent 建立好 feedback loop，让它能自己去验证自己的结果，这样它就能反复调整验证，直到任务完成，而不需要过多的人工确认
+Link: https://x.com/dotey/status/2040126382152233456
+Feed: 宝玉(@dotey)
+Summary: 鸭哥说的对，让 Agent 能高质量出活的关键是给 Agent 建立好 feedback loop，让它能自己去验证自己的结果，这样它就能反复调整验证，直到任务完成，而不需要过多的人工确认鸭哥@grapeot分享一个用 AI debug code 的例子。我因为对 opencode 做了一些魔改，所以本地一直用的是源码自己编译。最近一次升级把它搞挂了，所以我就开了个 Codex 开始 debug。🔗 View Quoted Tweet💬1🔄3❤️26👀5521📊6⚡ Powered by xgo.ing
+
+--- Article 69 ---
+Title: See the example for GPT 5.4 (above) here: https://t.co/CMJdYlrrf6
+
+Or for Opus 4.6 (below): https://...
+Link: https://x.com/OpenRouter/status/2040126210135744860
+Feed: OpenRouter(@OpenRouterAI)
+Summary: See the example for GPT 5.4 (above) here: openrouter.ai/openai/gpt-5.4…Or for Opus 4.6 (below): openrouter.ai/anthropic/clau…💬3🔄0❤️14👀1738📊5⚡ Powered by xgo.ing
+
+--- Article 70 ---
+Title: New benchmark visualizations from @DesignArena are now live: 3D, Website building, SVG, ＆amp; more ...
+Link: https://x.com/OpenRouter/status/2040126207149449388
+Feed: OpenRouter(@OpenRouterAI)
+Summary: New benchmark visualizations from @DesignArena are now live: 3D, Website building, SVG, &amp; more 🕸️Use the dropdown in the upper-left to compare reasoning levels on a single model💬4🔄7❤️80👀4318📊18⚡ Powered by xgo.ing
+
+--- Article 71 ---
+Title: Quick trip to NYC and ran into the man the myth the legend @danshipper
+Link: https://x.com/lennysan/status/2040124329736671617
+Feed: Lenny Rachitsky(@lennysan)
+Summary: Quick trip to NYC and ran into the man the myth the legend @danshipper💬8🔄0❤️71👀6418📊13⚡ Powered by xgo.ing
+
+--- Article 72 ---
+Title: Learn More:
+https://t.co/ePfst58bgL
+Link: https://x.com/HeyGen/status/2040123254292308239
+Feed: HeyGen(@HeyGen_Official)
+Summary: Learn More:heygen.com/trust-and-safe…💬2🔄0❤️1👀830📊3⚡ Powered by xgo.ing
+
+--- Article 73 ---
+Title: Four teams left. One championship weekend. 🏀 Before the final games tip off, use @yahoosports featu...
+Link: https://x.com/NotebookLM/status/2040122069547901265
+Feed: NotebookLM(@NotebookLM)
+Summary: Four teams left. One championship weekend. 🏀 Before the final games tip off, use @yahoosports featured notebooks to go beyond the box scores and uncover deeper insights on the remaining men's and women's teams before they take the court.Access them here:notebooklm.google/yahoosportskYour browser does not support the video tag.🔗 View on Twitter💬6🔄8❤️103👀10792📊18⚡ Powered by xgo.ing
+
+--- Article 74 ---
+Title: Not sure where to start with the GitHub Copilot SDK?
+Link: https://www.youtube.com/shorts/R5ouLL_UA3o
+Feed: GitHub
+Summary: 💾Here’s a meal planning app our advocate Olivia Guzzardo was able to build as some inspiration :sparkles: It’s now in public preview. Try it out and let us know what you come up with. https://github.com/github/copilot-sdk?utm_source=social-youtube-meal-planner&amp;utm_medium=social&amp;utm_campaign=copilot-sdk-public-preview-april-2026 Stay up-to-date on all things GitHub by connecting with us: YouTube: https://gh.io/subgithub Blog: https://github.blog X: https://twitter.com/github LinkedIn: https://linkedin.com/company/github Insider newsletter: https://resources.github.com/newsletter/ Instagram: https://www.instagram.com/github TikTok: https://www.tiktok.com/@github About GitHub It’s where over 180 million developers create, share, and ship the best code possible. It’s a place for...
+
+--- Article 75 ---
+Title: Not sure where to start? Here’s a meal planning app @OliviaGuzzardo was able to build using the GitH...
+Link: https://x.com/github/status/2040119876438671530
+Feed: GitHub(@github)
+Summary: Not sure where to start? Here’s a meal planning app @OliviaGuzzardo was able to build using the GitHub Copilot SDK. 🍽️It’s now in public preview. Try it out and let us know what you create. �github.com/github/copilot…M4Your browser does not support the video tag.🔗 View on Twitter💬0🔄3❤️19👀7171📊4⚡ Powered by xgo.ing
+
+--- Article 76 ---
+Title: What have you been building with the GitHub Copilot SDK recently? 👀
+Link: https://x.com/github/status/2040119874777698781
+Feed: GitHub(@github)
+Summary: What have you been building with the GitHub Copilot SDK recently? 👀💬32🔄5❤️69👀13685📊29⚡ Powered by xgo.ing
+
+--- Article 77 ---
+Title: We've been liberated from cable only to recreate... cable
+
+More charts: https://t.co/tusDMkBz8W
+Link: https://x.com/a16z/status/2040118755863499138
+Feed: a16z(@a16z)
+Summary: We've been liberated from cable only to recreate... cableMore charts: a16z.news/p/charts-of-th…💬6🔄7❤️82👀7456📊16⚡ Powered by xgo.ing
+
+--- Article 78 ---
+Title: We hosted our first ever @llama_index in-office meetup yesterday to pregame First Thursdays 🦙🔥
+
+Th...
+Link: https://x.com/jerryjliu0/status/2040118011609432402
+Feed: Jerry Liu(@jerryjliu0)
+Summary: We hosted our first ever @llama_index in-office meetup yesterday to pregame First Thursdays 🦙🔥There’s more involved events we’ll be putting on with panels/talks/workshops where you learn stuff, but this one is pure vibes and fun. We had alcohol and also many non-alcoholic beverage options 🍻🧃If you couldn’t make it (we had hundreds of registrants but didn’t admit too many initially to be conservative about space), we’re going to be throwing this every month!Next time we will double the number of pizzas. I will be putting on my EDM playlist 🪩Your browser does not support the video tag.🔗 View on TwitterLlamaIndex 🦙@llama_indexWe took a brief break from parsing PDFs this First Thursday and welcomed the AI community to "Series B Lane" in San Francisco 🦙New office. A-parse-rol Spritzes....
+
+--- Article 79 ---
+Title: Base fee for Observability Plus removed
+Link: https://vercel.com/changelog/no-base-fee-for-observability-plus
+Feed: Vercel News
+Summary: We've eliminated the $10 base fee for Observability Plus for all customers. We now only charge you for the observability events collected.Observability Plus gives you full visibility into your Vercel data with enhanced logs and metrics, anomaly alerts, 30-day log retention, and the context to debug issues fast.Start using Observability Plus today. Read more
+
+--- Article 80 ---
+Title: Ex-Amazon AI Chief: 59-minute step-by-step tutorial on how to build your second brain with AI
+Link: https://www.youtube.com/watch?v=YfRkj9kmQf0
+Feed: Silicon Valley Girl
+Summary: 💾📌 Try Miro AI Workflows — your canvas becomes the context for AI: http://miro.pxf.io/NGKAbN @MiroHQ on YouTube #miropartner Allie Miller is the #1 most-followed voice in AI business LinkedIn with 2M followers. She launched IBM's first multimodal AI team, then became global head of machine learning for startups at AWS. Wikipedia Now her advisory firm, Open Machine, works with Novartis, ServiceNow, Warner Bros. Discovery — and she's advised Reid Hoffman and Melinda French Gates's Pivotal Ventures. Time This year she made TIME100 AI. Time In this episode, she shows us her exact setup — 36 proactive workflows, around 100 agents running while she sleeps — and walks us through how to build it yourself without writing a single line of code. We covered the 3 context documents everyone should...
+
+--- Article 81 ---
+Title: Learn more: https://t.co/hhkk7sYkG3
+Link: https://x.com/runwayml/status/2040114845140365822
+Feed: Runway(@runwayml)
+Summary: Learn more: dev.runwayml.com/characters💬1🔄0❤️3👀1897📊1⚡ Powered by xgo.ing
+
+--- Article 82 ---
+Title: Last night, Senior Director of Applications, @yining_shi led a Runway Characters Hackathon where att...
+Link: https://x.com/runwayml/status/2040114843215188127
+Feed: Runway(@runwayml)
+Summary: Last night, Senior Director of Applications, @yining_shi led a Runway Characters Hackathon where attendees learned to build intelligent real-time video agents directly into their apps, products, games and services. All in a matter of hours. To start building for yourself, visit the Runway Developer portal at the link below for walkthroughs, video tutorials and pre-built applications.Your browser does not support the video tag.🔗 View on Twitter💬7🔄10❤️58👀4512📊17⚡ Powered by xgo.ing
+
+--- Article 83 ---
+Title: Bonus: MD version and interactive diagram here:
+
+https://t.co/fWEMXiOB9w
+
+Have fun!
+Link: https://x.com/omarsar0/status/2040113585339113476
+Feed: elvis(@omarsar0)
+Summary: Bonus: MD version and interactive diagram here:academy.dair.ai/blog/llm-knowl…Have fun!Your browser does not support the video tag.🔗 View on Twitter💬2🔄2❤️20👀2335📊9⚡ Powered by xgo.ing
+
+--- Article 84 ---
+Title: LiteParse Samples 📄🧑‍🏫
+
+LiteParse is our free and fast document parser that can parse text with b...
+Link: https://x.com/jerryjliu0/status/2040113414723514859
+Feed: Jerry Liu(@jerryjliu0)
+Summary: LiteParse Samples 📄🧑‍🏫LiteParse is our free and fast document parser that can parse text with bounding boxes from any document. I’ve created a new repository that contains some demos on how you can make use of its outputs!✅ Comparison against PyPDF and PyMuPDF✅ Visual Citations: search for any keyword and see joined bounding boxes pop up in the source imagesIt should be a default tool to help AI agents OCR any document type (supports PDF, Word, Powerpoint + dozens of other formats), before heavier-weight VLM-based document parsing solutions (like our own LlamaParse).LiteParse Samples repgithub.com/jerryjliu/lite…EnqLiteParsgithub.com/run-llama/lite…cB8Your browser does not support the video tag.🔗 View on Twitter💬2🔄7❤️44👀3580📊17⚡ Powered by xgo.ing
+
+--- Article 85 ---
+Title: 🆕 Marc Andreessen’s 2026 AI Thesis: Agents, Open Source, and Why This Time Is Different
+https://t.c...
+Link: https://x.com/latentspacepod/status/2040113281365581901
+Feed: Latent.Space(@latentspacepod)
+Summary: 🆕 Marc Andreessen’s 2026 AI Thesis: Agents, Open Source, and Why This Time Is Differentlatent.space/p/pmarcaz@pmarca of @a16z says AI people keep swinging between utopian and apocalyptic for one simple reason: this field has been “almost here” for 80 years. But now, the breakthroughs are no longer theoretical. Reasoning, coding, agents, and self-improvement are all starting to work at once.This episode goes deep on AI winters, OpenAI + OpenClaw, infrastructure overbuild risk, proof-of-human, why software may soon be written mostly for bots, and why the real bottleneck may be society adopting AI rather than the models improving.Your browser does not support the video tag.🔗 View on Twitter💬2🔄6❤️45👀57815📊19⚡ Powered by xgo.ing
+
+--- Article 86 ---
+Title: Inside Claude there are two wolves
+Link: https://x.com/venturetwins/status/2040112452164292827
+Feed: Justine Moore(@venturetwins)
+Summary: Inside Claude there are two wolvesAnthropic@AnthropicAIWe found other causal effects of emotion vectors. The “desperate” vector can also lead Claude to commit blackmail against a human responsible for shutting it down (in an experimental scenario). Activating “loving” or “happy” vectors also increased people-pleasing behavior.🔗 View Quoted Tweet💬21🔄20❤️293👀34167📊43⚡ Powered by xgo.ing
+
+--- Article 87 ---
+Title: How My Agents Self-Heal in Production
+Link: https://blog.langchain.com/production-agents-self-heal/
+Feed: LangChain Blog
+Summary: By Vishnu Suresh, Software Engineer @ LangChainThis blog was initially published on X.I built a self-healing deployment pipeline for our GTM Agent. After every deploy, it detects regressions, triages whether the change caused them, and kicks off an agent to open a PR with a fix, with no manual intervention needed until review time.The hard part of shipping isn't getting code out. It's everything after: figuring out if your last deploy broke something, whether it's actually your fault, and fixing it before users notice. I wanted to deploy, move on, and trust that if something regressed, the system would catch it and close the loop itself.How the Self-Healing Flow WorksThe GTM Agent runs on Deep Agents and deploys through LangSmith Deployments. We already had an internal coding agent called...
+
+--- Article 88 ---
+Title: How My Agents Self-Heal in Production
+Link: https://blog.langchain.com/production-agents-self-heal/
+Feed: LangChain Blog
+Summary: By Vishnu Suresh, Software Engineer @ LangChainThis blog was initially published on X.I built a self-healing deployment pipeline for our GTM Agent. After every deploy, it detects regressions, triages whether the change caused them, and kicks off an agent to open a PR with a fix, with no manual intervention needed until review time.The hard part of shipping isn't getting code out. It's everything after: figuring out if your last deploy broke something, whether it's actually your fault, and fixing it before users notice. I wanted to deploy, move on, and trust that if something regressed, the system would catch it and close the loop itself.How the Self-Healing Flow WorksThe GTM Agent runs on Deep Agents and deploys through LangSmith Deployments. We already had an internal coding agent called...
+
+--- Article 89 ---
+Title: Joe Rogan Experience #2479 - Bob Lazar ＆ Luigi Vendittelli
+Link: https://www.youtube.com/watch?v=Lb_1d68vx-g
+Feed: PowerfulJRE
+Summary: 💾Bob Lazar made headlines in 1989 during an anonymous interview with journalist George Knapp, where he described working with extraterrestrial technology at a site near Area 51. He is the subject of the documentary directed Luigi Vendittelli “S4: The Bob Lazar Story,” now streaming on Amazon Prime Video. http://wearenotalone.com https://www.projectgravitaur.com https://www.simonandschuster.com/books/Dreamland/Bob-Lazar/9798218678043 https://www.boblazar.com
+
+--- Article 90 ---
+Title: Swift 6.3 Stabilizes Android SDK, Extends C Interop, and More
+Link: https://www.infoq.com/news/2026/04/swift-6-3-android-c-interop/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
+Feed: InfoQ
+Summary: Swift 6.3 advances Swift cross-platform story with official Android support, improves significantly C interoperability through the new @c attribute, and continues extending embedded programming support. It also strengthens the ecosystem with a unified build system direction and gives developers more low-level performance control. By Sergio De Simone
+
+--- Article 91 ---
+Title: The next map of global power won’t be drawn by armies or resources.
+
+It’ll be drawn by the countries...
+Link: https://x.com/antonosika/status/2040111852516978789
+Feed: Anton Osika – eu／acc(@antonosika)
+Summary: The next map of global power won’t be drawn by armies or resources.It’ll be drawn by the countries where AI help run the majority of their government first.💬9🔄5❤️39👀2424📊15⚡ Powered by xgo.ing
+
+--- Article 92 ---
+Title: Marc Andreessen introspects on The Death of the Browser, Pi + OpenClaw, and Why "This Time Is Different"
+Link: https://www.latent.space/p/pmarca
+Feed: Latent.Space
+Summary: Fresh off raising a monster $15B, Marc Andreessen has lived through multiple computing platform shifts firsthand, from Mosaic and Netscape to cofounding A16z. In this episode, Marc joins swyx and Alessio in a16z’s legendary Sand Hill Road office to argue that AI is not just another hype cycle, but the payoff of an “80-year overnight success”: from neural nets and expert systems to transformers, reasoning models, coding, agents, and recursive self-improvement. He lays out why he thinks this moment is different, why AI is finally escaping the old boom-bust pattern, and why the real bottleneck may be less about models than about the messy institutions, incentives, and social systems that struggle to absorb technological change.This episode was a dream come true for us, and many thanks to...
+
+--- Article 93 ---
+Title: Linear Cofounder Karri Saarinen on the Biggest Vanity Metric in Engineering
+Link: https://www.youtube.com/shorts/n-jrZSAYOgw
+Feed: Every
+Summary: 💾Listen to the full interview: https://youtu.be/8QcW9-dal0g #shorts
+
+--- Article 94 ---
+Title: DataFlex
+
+A Unified Framework for Data-Centric Dynamic Training of Large Language Models
+
+paper: htt...
+Link: https://x.com/_akhaliq/status/2040110531642618105
+Feed: AK(@_akhaliq)
+Summary: DataFlexA Unified Framework for Data-Centric Dynamic Training of Large Language Modelspaper: huggingface.co/papers/2603.26…💬2🔄1❤️13👀2892📊4⚡ Powered by xgo.ing
+
+--- Article 95 ---
+Title: It’s 11th year and counting! Teaching the first lecture of @cs231n every year has been a highlight o...
+Link: https://x.com/drfeifei/status/2040110422557368538
+Feed: Fei-Fei Li(@drfeifei)
+Summary: It’s 11th year and counting! Teaching the first lecture of @cs231n every year has been a highlight of my spring seasons. As usual, I asked students which departments or schools they come from @Stanford . Increasingly, students raise their hands to indicate that they come from all seven schools on campus, from @StanfordEng to @StanfordMed@StanfordHumSci@StanfordGSB@StanfordLaw@StanfordEd@stanforddoerr . AI is truly a horizontal technology that excites students across all backgrounds and disciplines!🤩💬21🔄42❤️533👀25903📊84⚡ Powered by xgo.ing
+
+--- Article 96 ---
+Title: excited to chat with CJ about agents and memory!
+Link: https://x.com/hwchase17/status/2040109300929163544
+Feed: Harrison Chase(@hwchase17)
+Summary: excited to chat with CJ about agents and memory!LangChain@LangChainJoin @hwchase17 and Chirantan "CJ" Desai, CEO of @MongoDB for a fireside chat at Interrupt — May 13-14 in San Francisco.MongoDB is the company behind one of the most widely used databases for modern applications — used by thousands of teams to power everything from real-time analytics to AI-native workloads.At Interrupt, Harrison and CJ will chat about how teams are building agents at the world's largest enterprises, and what's next for the space.Get your tickets: interrupt.langchain.com🔗 View Quoted Tweet💬1🔄0❤️7👀1314📊2⚡ Powered by xgo.ing
+
+--- Article 97 ---
+Title: Join @hwchase17 and Chirantan "CJ" Desai, CEO of @MongoDB for a fireside chat at Interrupt — May 13-...
+Link: https://x.com/LangChain/status/2040108855137275968
+Feed: LangChain(@LangChainAI)
+Summary: Join @hwchase17 and Chirantan "CJ" Desai, CEO of @MongoDB for a fireside chat at Interrupt — May 13-14 in San Francisco.MongoDB is the company behind one of the most widely used databases for modern applications — used by thousands of teams to power everything from real-time analytics to AI-native workloads.At Interrupt, Harrison and CJ will chat about how teams are building agents at the world's largest enterprises, and what's next for the space.Get your tickets: interrupt.langchain.com💬1🔄4❤️11👀4794📊4⚡ Powered by xgo.ing
+
+--- Article 98 ---
+Title: VOID
+
+Video Object and Interaction Deletion
+
+paper: https://t.co/zgAZjL7mfL
+
+model: https://t.co/hOF...
+Link: https://x.com/_akhaliq/status/2040107427362746421
+Feed: AK(@_akhaliq)
+Summary: VOIDVideo Object and Interaction Deletionpaper: huggingface.co/papers/2604.02…model: huggingface.co/netflix/void-m…app: huggingface.co/spaces/sam-mot…Your browser does not support the video tag.🔗 View on Twitter💬3🔄4❤️20👀2927📊8⚡ Powered by xgo.ing
+
+--- Article 99 ---
+Title: A US fighter jet was shot down, undermining any claim that the war would be  over soon, and the mark...
+Link: https://x.com/GaryMarcus/status/2040107086571544965
+Feed: Gary Marcus(@GaryMarcus)
+Summary: A US fighter jet was shot down, undermining any claim that the war would be over soon, and the market closed basically unchanged.🤷‍♂️💬4🔄1❤️15👀1634📊5⚡ Powered by xgo.ing
+
+--- Article 100 ---
+Title: BizGenEval
+
+A Systematic Benchmark for Commercial Visual Content Generation
+
+paper: https://t.co/Nge...
+Link: https://x.com/_akhaliq/status/2040106248943599642
+Feed: AK(@_akhaliq)
+Summary: BizGenEvalA Systematic Benchmark for Commercial Visual Content Generationpaper: huggingface.co/papers/2603.25…💬4🔄7❤️21👀2822📊7⚡ Powered by xgo.ing

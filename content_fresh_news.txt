@@ -1,0 +1,104 @@
+<!-- 科技新鲜事 -->
+<section class="section">
+<h2 class="section-title">💡 科技新鲜事</h2>
+<div class="news-item">
+<div class="news-title">中国网友用 AI 制作短剧来推广宠物账号</div>
+<div class="news-content">
+                        在中国，网友们开始利用 AI 制作风格夸张的短剧，只为了推广他们宠物的 Instagram 等社交账号。例如一只名叫 Doudou 的猫，通过这种方式获得了数百万的浏览量。这展现了生成式 AI 在内容创作和社交媒体营销中意想不到的创新用法，技术正在改变每个人展示生活的方式。
+                    </div>
+<div class="news-meta">
+<span class="tag trend">社交趋势</span>
+<span>来源：<a href="https://x.com/venturetwins/status/2040190916246523984" target="_blank" rel="noopener">Justine Moore(@venturetwins)</a></span>
+</div>
+</div>
+<div class="news-item">
+<div class="news-title">mem0ai 现可作为 Hermes Agent 的记忆层</div>
+<div class="news-content">
+                        开发者现在可以将 mem0ai 添加为 NousResearch 的 Hermes agent 的记忆层。这使得 AI Agent 能够拥有更持久、更智能的记忆能力，从而在复杂任务中表现得更像一个了解你上下文的私人助理。这反映了 AI 生态在工具链整合方面的快速进步。
+                    </div>
+<div class="news-meta">
+<span class="tag ai">AI生态</span>
+<span>来源：<a href="https://x.com/taranjeetio/status/2040189644483244503" target="_blank" rel="noopener">Taranjeet(@taranjeetio)</a></span>
+</div>
+</div>
+<div class="news-item">
+<div class="news-title">Anthropic 研究提出使用“Diff”方法寻找 AI 模型间的差异</div>
+<div class="news-content">
+                        Anthropic 的研究团队借鉴软件开发中的“diff”原理，提出了一种比较开源 AI 模型并找出各自独特特征的新方法。有趣的是，该方法在测试中标记出 llama 模型存在“美国例外论”倾向，而 Qwen 模型则有特定的文化对齐倾向。这为理解不同大模型的底层文化偏好提供了一个全新视角。
+                    </div>
+<div class="news-meta">
+<span class="tag ai">AI研究</span>
+<span>来源：<a href="https://x.com/AnthropicAI/status/2040179539738030182" target="_blank" rel="noopener">Anthropic(@AnthropicAI)</a></span>
+</div>
+</div>
+<div class="news-item">
+<div class="news-title">Stitch 的 Live Mode：让设计变得像实时视频会议</div>
+<div class="news-content">
+                        GoogleLabs 开发的 Stitch 推出了令人惊叹的 Live mode。体验就像在和一个真正的设计师开会，AI 可以在会议期间实时向你展示工作并应用修改。尽管目前还不完美，但这种“语音+视觉”的模式被认为是未来人机交互的重要方向，让普通人也能像指挥团队一样使用 AI。
+                    </div>
+<div class="news-meta">
+<span class="tag product">人机交互</span>
+<span>来源：<a href="https://x.com/zarazhangrui/status/2040140469456572625" target="_blank" rel="noopener">Zara Zhang(@zarazhangrui)</a></span>
+</div>
+</div>
+<div class="news-item">
+<div class="news-title">警惕黑塑料：你的外卖盒安全吗？</div>
+<div class="news-content">
+                        科普专家 Dr Rhonda Patrick 提醒，黑色塑料容器中可能含有来自回收材料的 BPA、邻苯二甲酸盐和阻燃剂等化学物质。在受热、接触酸性或辛辣食物时，这些化学物质更容易渗入食物。即使没有肉眼可见的损坏，微塑料也可能发生转移。科技不仅带来便利，也提醒我们关注日常生活中的健康隐患。
+                    </div>
+<div class="news-meta">
+<span class="tag trend">数字健康</span>
+<span>来源：<a href="https://www.youtube.com/shorts/fgNa77-6-JM" target="_blank" rel="noopener">The Diary Of A CEO</a></span>
+</div>
+</div>
+<div class="news-item">
+<div class="news-title">仅有 3% 的家庭在为 AI 付费，但复购率极高</div>
+<div class="news-content">
+                        a16z 的数据图表显示，目前只有大约 3% 的家庭在为 AI 服务付费。然而有趣的是，一旦人们尝试并体验到了 AI 带来的价值，他们极有可能会持续使用甚至续费。这说明 AI 的消费者普及还有很长的路要走，但其产品粘性和价值已经被早期采用者所认可。
+                    </div>
+<div class="news-meta">
+<span class="tag trend">AI商业</span>
+<span>来源：<a href="https://x.com/a16z/status/2040134762392928564" target="_blank" rel="noopener">a16z(@a16z)</a></span>
+</div>
+</div>
+<div class="news-item">
+<div class="news-title">Complir.io 尝试用 AI 自动化合规管理</div>
+<div class="news-content">
+                        Y Combinator 支持的初创公司 Complir.io 正在构建自动执行全球零售商产品合规性的 AI 基础设施。传统上，管理跨市场合规性需要应对不同国家的法规和碎片化文档。Complir 可以自动将产品映射到监管要求并生成文档，目前已在欧洲管理超过 10 万件产品，证明了 AI 在替代繁琐的表格工作上的巨大潜力。
+                    </div>
+<div class="news-meta">
+<span class="tag product">企业应用</span>
+<span>来源：<a href="https://x.com/ycombinator/status/2040148401426436470" target="_blank" rel="noopener">Y Combinator(@ycombinator)</a></span>
+</div>
+</div>
+<div class="news-item">
+<div class="news-title">Marc Andreessen：AI 是一个历经 80 年的“一夜成名”</div>
+<div class="news-content">
+                        风险投资家 Marc Andreessen 在讨论中提到，AI 让人觉得有些疯狂，它是一个经过 80 年积累的“一夜成名”。他指出，神经网络的架构其实源自 1943 年的初步想法。科学家们在这几十年里对技术方向的坚持是正确的，只是之前时机未到。这个观点让我们更理性地看待当下的 AI 热潮。
+                    </div>
+<div class="news-meta">
+<span class="tag trend">科技观点</span>
+<span>来源：<a href="https://x.com/a16z/status/2040181542191006128" target="_blank" rel="noopener">a16z(@a16z)</a></span>
+</div>
+</div>
+<div class="news-item">
+<div class="news-title">关于 AGI 定义的争论：会做奥数题就是 AGI 吗？</div>
+<div class="news-content">
+                        知名学者 Gary Marcus 批评了目前一种倾向：认为大模型擅长做数学奥林匹克题就是迈向了 AGI（通用人工智能）。他强调 AGI 的核心在于“General（通用）”，而奥数题只是一个极其狭窄的领域。这种争论提醒消费者，在面对 AI 公司天花乱坠的宣传时，要保持独立思考，不要轻易被“超人类”的营销词汇迷惑。
+                    </div>
+<div class="news-meta">
+<span class="tag ai">概念科普</span>
+<span>来源：<a href="https://x.com/GaryMarcus/status/2040150768137953631" target="_blank" rel="noopener">Gary Marcus(@GaryMarcus)</a></span>
+</div>
+</div>
+<div class="news-item">
+<div class="news-title">Gemma 模型收获好评，本地推理生态崛起</div>
+<div class="news-content">
+                        根据 Latent.Space 的最新汇总，Google 发布的 Gemma 模型在开发者社区中持续收获正面评价。配合 Apache 许可证和出色的本地推理能力，越来越多的用户开始尝试在个人设备上运行这个强大的模型，这意味着未来我们或许不再需要完全依赖云端大厂，本地私有化 AI 的时代正在加速到来。
+                    </div>
+<div class="news-meta">
+<span class="tag product">大模型</span>
+<span>来源：<a href="https://www.latent.space/p/ainews-good-friday" target="_blank" rel="noopener">Latent.Space</a></span>
+</div>
+</div>
+</section>

@@ -1,0 +1,17 @@
+<!-- 科普小课堂 -->
+<section class="section">
+<h2 class="section-title">🎓 科普小课堂</h2>
+<div class="concept-box">
+<div class="concept-title">📚 什么是"Agentic Web Dev"（代理式 Web 开发）？</div>
+<div class="concept-content">
+<p><strong>概念解释：</strong> "Agentic Web Dev" 是随着大模型能力提升而兴起的一种开发模式。传统的 Web 开发需要程序员一行行写代码来构建网页。而在代理式开发中，像 Code Arena 这样的 AI Agent 就像一个有自主能力的“包工头”。你只需要提供一张草图或需求描述，AI 会自己进行逻辑推理、自己选择合适的工具（比如 HTML/CSS 生成器、组件库），甚至自己纠正错误，最终输出完整的网站。</p>
+<p style="margin-top: 15px;"><strong>为什么重要：</strong></p>
+<ul style="margin-left: 20px; margin-top: 10px;">
+<li><strong>门槛极低：</strong>你不需要懂编程，只要会画草图或用自然语言描述需求。</li>
+<li><strong>效率革命：</strong>把几天甚至几周的前端工作压缩到了几分钟。</li>
+<li><strong>多模态能力落地：</strong>AI 不再只是陪聊，它能通过“看图”直接干活。</li>
+</ul>
+<p style="margin-top: 15px;"><strong>有趣事实：</strong> 未来，也许我们浏览的很多精美网站，背后可能连一行人类写的前端代码都没有。</p>
+</div>
+</div>
+</section>

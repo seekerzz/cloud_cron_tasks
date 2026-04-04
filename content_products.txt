@@ -1,0 +1,30 @@
+<!-- 值得试试 -->
+<section class="section">
+<h2 class="section-title">🛠️ 值得试试</h2>
+<div class="product-grid">
+<div class="product-card">
+<div class="product-name">✨ Grok Imagine (Quality Mode)</div>
+<div class="product-desc">xAI 推出的图像生成工具最新模式，拥有强大的世界知识库，能精准还原物理特性、品牌和复杂场景，适合高阶 AI 绘画玩家体验。</div>
+</div>
+<div class="product-card">
+<div class="product-name">💻 Cursor 3</div>
+<div class="product-desc">专为 AI Agent 时代打造的新一代编程环境，支持强大的 Composer 2 功能，是当前最好用的 AI 辅助编程神器之一。</div>
+</div>
+<div class="product-card">
+<div class="product-name">🌐 Code Arena</div>
+<div class="product-desc">支持图像输入的前端开发 Agent 平台，只要给它一张草图，它就能通过多步推理帮你写出完整的网页代码。</div>
+</div>
+<div class="product-card">
+<div class="product-name">🧠 mem0ai</div>
+<div class="product-desc">为 AI Agent 提供长效记忆层的工具，可以轻松接入现有的 Hermes 等模型中，让你的 AI 助手拥有持续的记忆。</div>
+</div>
+<div class="product-card">
+<div class="product-name">📊 LangSmith for Claude</div>
+<div class="product-desc">LangChain 推出的最新追踪插件，能够让你清晰地看到 Claude Code 的内部运行逻辑、工具调用和 Token 消耗。</div>
+</div>
+<div class="product-card">
+<div class="product-name">🎨 Stitch (Live mode)</div>
+<div class="product-desc">来自 GoogleLabs，一种全新的“语音+视觉”人机交互工具，你可以像和真人设计师视频开会一样，让 AI 实时修改设计。</div>
+</div>
+</div>
+</section>
