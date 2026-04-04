@@ -26,7 +26,6 @@ export DEBUG_LIMIT=12  # 处理论文数量限制，默认12篇
 
 - **必须**调用 `arxiv_codes/process_arxiv_papers.py` 生成论文信息图表
 - **必须**调用 `arxiv_codes/generate_html_report.py` 生成 HTML 日报
-- **必须**为每篇论文生成中文总结填入 `summary` 字段
 
 ---
 
@@ -75,36 +74,13 @@ python3 arxiv_codes/fetch_arxiv_rss.py
 解析到 xxx 篇论文
 ```
 
-### 步骤3: AI Agent 生成中文总结（必填）
-
-读取 `./arxiv-daily-output/papers.json`，为每篇论文生成中文总结：
-
-**生成要求：**
-1. 读取 `papers.json` 中的每篇论文
-2. 基于 `abstract` 字段内容，生成 3-5 句话中文总结
-3. 总结需概括：核心贡献、方法、实验结果
-4. 将总结填入对应论文的 `summary` 字段
-5. 保存更新后的 `papers.json`
-
-**输出格式示例：**
-```json
-{
-  "title": "论文标题",
-  "authors": ["作者1", "作者2"],
-  "abstract": "原文摘要...",
-  "abs_url": "https://arxiv.org/abs/2501.01234",
-  "published": "2026-01-15T00:00:00Z",
-  "summary": "本文提出了一种新的语音合成方法。该方法基于深度学习架构，通过改进的注意力机制提升了合成质量。实验结果表明，在多个基准数据集上均取得了优于现有方法的性能。"
-}
-```
-
-### 步骤4: 检查 NotebookLM 登录
+### 步骤3: 检查 NotebookLM 登录
 
 ```bash
 nlm login --check || nlm login -p default
 ```
 
-### 步骤5: 生成论文信息图表
+### 步骤4: 生成论文信息图表
 
 ```bash
 # 使用环境变量 DEBUG_LIMIT 控制处理数量
@@ -118,13 +94,13 @@ python3 arxiv_codes/process_arxiv_papers.py
 
 **超时设置：2400秒（40分钟）**
 
-### 步骤6: 生成 HTML 日报
+### 步骤5: 生成 HTML 日报
 
 ```bash
 python3 arxiv_codes/generate_html_report.py
 ```
 
-### 步骤7: 推送到 GitHub Pages
+### 步骤6: 推送到 GitHub Pages
 
 ```bash
 # 复制文件到仓库
@@ -147,7 +123,6 @@ git push origin main 2>&1
 ## 验证清单
 
 - [ ] GitHub Pages 推送成功，120s后验证页面可访问
-- [ ] 生成的 HTML 每篇论文都有中文内容摘要（summary）
 - [ ] 每篇论文的信息图表可正常显示
 - [ ] 论文链接可点击且跳转正确
 
