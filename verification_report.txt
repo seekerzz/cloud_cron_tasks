@@ -1,0 +1,1 @@
+Verification Report: Generated DEST_REPO/tech-daily/user_research.html successfully and verified its content format to be compliant with the requirements and the user research template.
