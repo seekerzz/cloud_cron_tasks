@@ -3,7 +3,7 @@ name: Auto Export FreshRSS to Target Repo
 on:
   schedule:
     # 定时任务：每天北京时间凌晨2点执行（UTC时间18点）
-    - cron: '0 22 * * *'
+    - cron: '0 18 * * *'
   workflow_dispatch: # 允许网页端手动触发
 
 jobs:

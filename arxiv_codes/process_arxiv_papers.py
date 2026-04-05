@@ -14,6 +14,7 @@ import subprocess
 import time
 import os
 import re
+import traceback
 from datetime import datetime
 from urllib.parse import urlparse
 
@@ -203,17 +204,6 @@ def compress_image_to_720p(input_path, output_path):
         return False, None, str(e)
 
 
-def get_source_summary(source_id, default_summary):
-    """获取 source 摘要（完整版本）"""
-    result = subprocess.run(
-        ['nlm', 'source', 'describe', source_id],
-        capture_output=True, text=True
-    )
-    if result.returncode == 0:
-        return result.stdout.strip()
-    return default_summary
-
-
 def check_login():
     """检查登录"""
     result = subprocess.run(['nlm', 'login', '--check'], capture_output=True, text=True)
@@ -238,105 +228,160 @@ def process_single_paper(paper, today):
     6. 下载图片
     7. 压缩为 720P JPG
     """
-    arxiv_id = paper['arxiv_id']
+    import traceback
+
+    arxiv_id = paper.get('arxiv_id', 'unknown')
     print(f"\n{'='*60}")
     print(f"处理: {arxiv_id}")
-    print(f"标题: {paper['title'][:60]}...")
+    print(f"标题: {paper.get('title', 'N/A')[:60]}...")
 
-    # 步骤1: 创建独立 notebook
-    notebook_name = f"{NOTEBOOK_PREFIX}_{arxiv_id}"
-    print(f"\n  步骤1: 创建 notebook '{notebook_name}'...")
-    notebook_id = create_notebook(notebook_name)
-    if not notebook_id:
-        print(f"  ✗ 创建 notebook 失败")
+    notebook_id = None
+    source_id = None
+    png_path = None
+
+    try:
+        # 步骤1: 创建独立 notebook
+        notebook_name = f"{NOTEBOOK_PREFIX}_{arxiv_id}"
+        print(f"\n  步骤1: 创建 notebook '{notebook_name}'...")
+        try:
+            notebook_id = create_notebook(notebook_name)
+            if not notebook_id:
+                print(f"  ✗ 创建 notebook 失败: 返回值为空")
+                return None
+            print(f"  ✓ Notebook ID: {notebook_id[:20]}...")
+        except Exception as e:
+            print(f"  ✗ 创建 notebook 异常: {type(e).__name__}: {e}")
+            traceback.print_exc()
+            return None
+
+        # 步骤2: 提交 URL
+        print(f"  步骤2: 提交论文 URL...")
+        pdf_url = paper.get('pdf_url', '')
+        if not pdf_url:
+            print(f"  ✗ 论文 PDF URL 为空")
+            return None
+        try:
+            success, stdout, stderr = add_url_to_notebook(notebook_id, pdf_url)
+            if not success:
+                print(f"  ✗ 提交失败")
+                print(f"     stdout: {stdout}")
+                print(f"     stderr: {stderr}")
+                return None
+            print(f"  ✓ 已提交")
+        except Exception as e:
+            print(f"  ✗ 提交 URL 异常: {type(e).__name__}: {e}")
+            traceback.print_exc()
+            return None
+
+        # 等待 source 处理
+        print(f"  等待 10 秒让 source 处理...")
+        time.sleep(10)
+
+        # 步骤3: 获取 source_id
+        print(f"  步骤3: 获取 source ID...")
+        try:
+            sources = get_all_sources(notebook_id)
+            print(f"     找到 {len(sources)} 个 sources")
+            source_id = find_source_id(sources, pdf_url)
+            if not source_id:
+                print(f"  ✗ 未找到 source ID")
+                print(f"     可用 sources: {[s.get('id', 'N/A')[:20] + '...' for s in sources[:3]]}")
+                return None
+            print(f"  ✓ Source ID: {source_id[:20]}...")
+        except Exception as e:
+            print(f"  ✗ 获取 source ID 异常: {type(e).__name__}: {e}")
+            traceback.print_exc()
+            return None
+
+        # 步骤4: 生成 infographic
+        print(f"  步骤4: 请求生成 infographic...")
+        try:
+            success, error = create_infographic(notebook_id, source_id)
+            if not success:
+                print(f"  ✗ 生成请求失败: {error}")
+                return None
+            print(f"  ✓ 生成请求已提交")
+        except Exception as e:
+            print(f"  ✗ 生成 infographic 异常: {type(e).__name__}: {e}")
+            traceback.print_exc()
+            return None
+
+        # 步骤5: 等待 30 秒让生成开始
+        print(f"  步骤5: 等待 30 秒让生成开始...")
+        time.sleep(30)
+        print(f"  ✓ 开始轮询下载")
+
+        # 步骤6: 下载图片（带重试）
+        print(f"  步骤6: 下载图片（轮询等待）...")
+        png_filename = f"paper_{arxiv_id}_{today}.png"
+        png_path = os.path.join(IMAGES_DIR, png_filename)
+
+        try:
+            dl_success, stdout, dl_error = download_infographic_with_retry(notebook_id, png_path, max_retries=5)
+            if not dl_success:
+                print(f"  ✗ 下载失败")
+                print(f"     错误: {dl_error}")
+                print(f"     stdout: {stdout}")
+                return None
+            print(f"  ✓ 已下载: {png_filename}")
+        except Exception as e:
+            print(f"  ✗ 下载图片异常: {type(e).__name__}: {e}")
+            traceback.print_exc()
+            return None
+
+        # 步骤7: 压缩为 720P JPG
+        print(f"  步骤7: 压缩为 720P JPG...")
+        jpg_filename = f"paper_{arxiv_id}_{today}.jpg"
+        jpg_path = os.path.join(IMAGES_DIR, jpg_filename)
+        rel_path = f"images/{jpg_filename}"
+
+        try:
+            compress_success, _, compress_error = compress_image_to_720p(png_path, jpg_path)
+            if compress_success:
+                os.remove(png_path)
+                print(f"  ✓ 已压缩: {jpg_filename}")
+            else:
+                print(f"  ⚠ 压缩失败，保留 PNG: {compress_error}")
+                rel_path = f"images/{png_filename}"
+        except Exception as e:
+            print(f"  ⚠ 压缩异常: {type(e).__name__}: {e}")
+            traceback.print_exc()
+            rel_path = f"images/{png_filename}"
+
+        # 步骤8: 删除 notebook（清理）
+        print(f"  步骤8: 删除 notebook...")
+        try:
+            del_success, _, del_error = delete_notebook(notebook_id)
+            if del_success:
+                print(f"  ✓ 已删除 notebook")
+            else:
+                print(f"  ⚠ 删除 notebook 失败: {del_error}")
+        except Exception as e:
+            print(f"  ⚠ 删除 notebook 异常: {type(e).__name__}: {e}")
+            traceback.print_exc()
+
+        processed_date = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+
+        print(f"\n✓ 完成: {arxiv_id}")
+
+        return {
+            'arxiv_id': arxiv_id,
+            'title': paper.get('title', ''),
+            'authors': paper.get('authors', []),
+            'abstract': paper.get('abstract', ''),
+            'abs_url': paper.get('abs_url', ''),
+            'pdf_url': pdf_url,
+            'published': paper.get('published', ''),
+            'source_id': source_id,
+            'image': rel_path,
+            'processed_date': processed_date
+        }
+
+    except Exception as e:
+        print(f"\n✗ 处理论文 {arxiv_id} 时发生未捕获异常: {type(e).__name__}: {e}")
+        traceback.print_exc()
+        print(f"   当前状态: notebook_id={notebook_id}, source_id={source_id}, png_path={png_path}")
         return None
-    print(f"  ✓ Notebook ID: {notebook_id[:20]}...")
-
-    # 步骤2: 提交 URL
-    print(f"  步骤2: 提交论文 URL...")
-    success, _, stderr = add_url_to_notebook(notebook_id, paper['pdf_url'])
-    if not success:
-        print(f"  ✗ 提交失败: {stderr}")
-        return None
-    print(f"  ✓ 已提交")
-
-    # 等待 source 处理
-    time.sleep(10)
-
-    # 步骤3: 获取 source_id
-    print(f"  步骤3: 获取 source ID...")
-    sources = get_all_sources(notebook_id)
-    source_id = find_source_id(sources, paper['pdf_url'])
-    if not source_id:
-        print(f"  ✗ 未找到 source ID")
-        return None
-    print(f"  ✓ Source ID: {source_id[:20]}...")
-
-    # 步骤4: 生成 infographic
-    print(f"  步骤4: 请求生成 infographic...")
-    success, error = create_infographic(notebook_id, source_id)
-    if not success:
-        print(f"  ✗ 生成请求失败: {error}")
-        return None
-    print(f"  ✓ 生成请求已提交")
-
-    # 步骤5: 等待 30 秒让生成开始
-    print(f"  步骤5: 等待 30 秒让生成开始...")
-    time.sleep(30)
-    print(f"  ✓ 开始轮询下载")
-
-    # 步骤6: 下载图片（带重试）
-    print(f"  步骤6: 下载图片（轮询等待）...")
-    png_filename = f"paper_{arxiv_id}_{today}.png"
-    png_path = os.path.join(IMAGES_DIR, png_filename)
-
-    dl_success, _, dl_error = download_infographic_with_retry(notebook_id, png_path, max_retries=5)
-    if not dl_success:
-        print(f"  ✗ 下载失败: {dl_error}")
-        return None
-    print(f"  ✓ 已下载: {png_filename}")
-
-    # 步骤7: 压缩为 720P JPG
-    print(f"  步骤7: 压缩为 720P JPG...")
-    jpg_filename = f"paper_{arxiv_id}_{today}.jpg"
-    jpg_path = os.path.join(IMAGES_DIR, jpg_filename)
-    rel_path = f"images/{jpg_filename}"
-
-    compress_success, _, compress_error = compress_image_to_720p(png_path, jpg_path)
-    if compress_success:
-        os.remove(png_path)
-        print(f"  ✓ 已压缩: {jpg_filename}")
-    else:
-        print(f"  ⚠ 压缩失败，保留 PNG: {compress_error}")
-        rel_path = f"images/{png_filename}"
-
-    # 步骤8: 删除 notebook（清理）
-    print(f"  步骤8: 删除 notebook...")
-    del_success, _, del_error = delete_notebook(notebook_id)
-    if del_success:
-        print(f"  ✓ 已删除 notebook")
-    else:
-        print(f"  ⚠ 删除 notebook 失败: {del_error}")
-
-    # 获取摘要
-    summary = get_source_summary(source_id, paper['abstract'])
-    processed_date = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-
-    print(f"\n✓ 完成: {arxiv_id}")
-
-    return {
-        'arxiv_id': arxiv_id,
-        'title': paper['title'],
-        'authors': paper['authors'],
-        'abstract': paper['abstract'],
-        'abs_url': paper['abs_url'],
-        'pdf_url': paper['pdf_url'],
-        'published': paper['published'],
-        'source_id': source_id,
-        'image': rel_path,
-        'summary': summary,
-        'processed_date': processed_date
-    }
 
 
 def process_papers():
@@ -412,12 +457,16 @@ def process_papers():
         print(f"{'#'*60}")
 
         # 处理这篇论文
-        result = process_single_paper(paper, today)
-
-        if result:
-            results.append(result)
-        else:
-            print(f"  ✗ 论文 {paper['arxiv_id']} 处理失败（下次将重试）")
+        try:
+            result = process_single_paper(paper, today)
+            if result:
+                results.append(result)
+                print(f"  ✓ 论文 {paper.get('arxiv_id', 'N/A')} 处理成功，已加入结果")
+            else:
+                print(f"  ✗ 论文 {paper.get('arxiv_id', 'N/A')} 处理失败（返回 None，下次将重试）")
+        except Exception as e:
+            print(f"  ✗ 论文 {paper.get('arxiv_id', 'N/A')} 处理时抛出异常: {type(e).__name__}: {e}")
+            traceback.print_exc()
 
     # 保存结果
     with open(PROCESSED_JSON, 'w', encoding='utf-8') as f:

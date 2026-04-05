@@ -6,11 +6,10 @@
 - 展示最新的 12 篇论文（不限制日期）
 - 每行一篇论文，共12行（单卡片全宽布局）
 - 横屏图片优化显示
-- 从 CSV 读取 AI 生成的文字总结
+- 使用论文原始摘要
 """
 
 import json
-import csv
 import re
 from datetime import datetime
 import os
@@ -18,39 +17,7 @@ import os
 # 使用相对路径或环境变量
 OUTPUT_DIR = os.environ.get('OUTPUT_DIR', './arxiv-daily-output')
 PROCESSED_JSON = os.path.join(OUTPUT_DIR, "papers_processed.json")
-PAPERS_JSON = os.path.join(OUTPUT_DIR, "papers.json")
-PROCESSED_CSV = os.path.join(OUTPUT_DIR, "processed_papers.csv")
 HTML_OUTPUT = os.path.join(OUTPUT_DIR, "arxiv-daily", "index.html")
-
-
-def load_csv_summaries():
-    """从 CSV 加载 AI 生成的总结"""
-    summaries = {}
-    if os.path.exists(PROCESSED_CSV):
-        with open(PROCESSED_CSV, 'r', newline='', encoding='utf-8') as f:
-            reader = csv.DictReader(f)
-            for row in reader:
-                arxiv_id = row.get('arxiv_id')
-                summary = row.get('summary', '')
-                if arxiv_id and summary:
-                    summaries[arxiv_id] = summary
-    return summaries
-
-
-def load_json_summaries():
-    """从 papers.json 加载 AI 生成的中文总结"""
-    summaries = {}
-    if os.path.exists(PAPERS_JSON):
-        with open(PAPERS_JSON, 'r', encoding='utf-8') as f:
-            papers = json.load(f)
-            for paper in papers:
-                # 从 abs_url 提取 arxiv_id
-                abs_url = paper.get('abs_url', '')
-                arxiv_id = abs_url.split('/')[-1].replace('v1', '')
-                summary = paper.get('summary', '')
-                if arxiv_id and summary:
-                    summaries[arxiv_id] = summary
-    return summaries
 
 
 def clean_summary(text):
@@ -77,12 +44,6 @@ def generate_html():
 
     with open(PROCESSED_JSON, 'r', encoding='utf-8') as f:
         all_papers = json.load(f)
-
-    # 从 CSV 和 JSON 加载 AI 总结（JSON 优先，包含中文总结）
-    csv_summaries = load_csv_summaries()
-    json_summaries = load_json_summaries()
-    print(f"从 CSV 加载了 {len(csv_summaries)} 条 AI 总结")
-    print(f"从 papers.json 加载了 {len(json_summaries)} 条 AI 总结")
 
     # 只选择已完成的论文（有图片文件存在的）
     papers = []
@@ -111,14 +72,6 @@ def generate_html():
             unique_papers.append(p)
 
     papers = unique_papers[:12]
-
-    # 将 AI 总结合并到 papers（优先使用 papers.json 中的中文总结）
-    for paper in papers:
-        arxiv_id = paper.get('arxiv_id', '').replace('v1', '')
-        if arxiv_id in json_summaries:
-            paper['ai_summary'] = json_summaries[arxiv_id]
-        elif arxiv_id in csv_summaries:
-            paper['ai_summary'] = csv_summaries[arxiv_id]
 
     today = datetime.now().strftime('%Y-%m-%d')
 
@@ -279,12 +232,8 @@ def generate_html():
         if len(authors) > 3:
             authors_str += f" 等{len(authors)}人"
 
-        # 优先使用 CSV 中的 AI 总结，否则使用原始 abstract
-        ai_summary = paper.get('ai_summary', '')
-        if ai_summary:
-            summary = clean_summary(ai_summary)
-        else:
-            summary = clean_summary(paper.get('abstract', ''))
+        # 使用原始摘要
+        summary = clean_summary(paper.get('abstract', ''))
 
         # 图片路径改为 .jpg
         image_path = paper.get('image', '')

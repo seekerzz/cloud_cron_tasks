@@ -3,7 +3,6 @@
 获取 arXiv EESS.AS (Audio and Speech Processing) RSS 数据并解析。
 
 将 RSS XML 解析为 papers.json，供后续处理使用。
-AI Agent 需要读取 papers.json 为每篇论文生成中文 summary。
 """
 
 import xml.etree.ElementTree as ET
@@ -21,7 +20,7 @@ def parse_arxiv_rss(xml_path: str, output_path: str) -> list[dict]:
         output_path: 输出的 JSON 文件路径
 
     Returns:
-        论文列表，每个论文包含 title, authors, abstract, abs_url, published, summary 字段
+        论文列表，每个论文包含 title, authors, abstract, abs_url, published 字段
     """
     ns = {'atom': 'http://www.w3.org/2005/Atom'}
     tree = ET.parse(xml_path)
@@ -34,8 +33,7 @@ def parse_arxiv_rss(xml_path: str, output_path: str) -> list[dict]:
             'authors': [a.find('atom:name', ns).text for a in entry.findall('atom:author', ns)],
             'abstract': entry.find('atom:summary', ns).text.strip(),
             'abs_url': entry.find('atom:id', ns).text,
-            'published': entry.find('atom:published', ns).text,
-            'summary': ''  # AI Agent 将基于 abstract 生成中文总结填入此字段
+            'published': entry.find('atom:published', ns).text
         }
         papers.append(paper)
 
