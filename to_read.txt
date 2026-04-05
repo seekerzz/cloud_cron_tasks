@@ -1,0 +1,199 @@
+TITLE: Writing code to automate your repo? Great.
+Writing Markdown to do it? Pretty sick.
+
+GitHub Agentic ...
+LINK: https://x.com/github/status/2040546623818711278
+FEED: GitHub(@github)
+SUMMARY: Writing code to automate your repo? Great.Writing Markdown to do it? Pretty sick. GitHub Agentic Workflows: now in technical preview.Your browser does not support the video tag.🔗 View on Twitter💬2🔄0❤️7👀2300📊3⚡ Powered by xgo.ing
+----------------------------------------
+TITLE: The deeper you build with agents, the clearer this becomes. Standard MCP support is a plus but one r...
+LINK: https://x.com/omarsar0/status/2040532924622119387
+FEED: elvis(@omarsar0)
+SUMMARY: The deeper you build with agents, the clearer this becomes. Standard MCP support is a plus but one reason I continue to build with MCP is that I no longer have to think about integration complexity. I just prompt my agent to build the MCP tools and it works every single time.MCP for tools and markdown for memory. It doesn’t get any simpler and better than that. I expect more people to come around to this realisation. Debates are great (MCP vs. CLI) but it’s important to increasingly build for ag
+----------------------------------------
+TITLE: Agents in fleet learn by updating their context!
+LINK: https://x.com/hwchase17/status/2040501213939273875
+FEED: Harrison Chase(@hwchase17)
+SUMMARY: Agents in fleet learn by updating their context!Derek Gilbert@derek_gilbert@hwchase17 I’ve really enjoyed tuning my fleet agents in the moment. First time I saw it do it was crazy cool UX.🔗 View Quoted Tweet💬3🔄2❤️13👀1974📊5⚡ Powered by xgo.ing
+----------------------------------------
+TITLE: All usage refresh has rolled out on Ollama's cloud! Let's go open models!
+
+It's time to give your ...
+LINK: https://x.com/ollama/status/2040500411631849740
+FEED: ollama(@ollama)
+SUMMARY: All usage refresh has rolled out on Ollama's cloud! Let's go open models! It's time to give your 🦞 an open home.ollama@ollamaStarting tomorrow at 11am PT, Ollama subscriptions usage will refresh to cover increased usage of third-party tools like OpenClaw.Our goal is to help you transition smoothly.All tools will work with Ollama's cloud just like before.🔗 View Quoted Tweet💬20🔄21❤️226👀16006📊34⚡ Powered by xgo.ing
+----------------------------------------
+TITLE: 2. Select the mode and model
+
+You have the choice between multiple options like:
+
+- Agent Skills
+- A...
+LINK: https://x.com/itsPaulAi/status/2040482507263795608
+FEED: Paul Couvert(@itsPaulAi)
+SUMMARY: 2. Select the mode and modelYou have the choice between multiple options like:- Agent Skills- AI Chat- Ask Image- Audio Scribe- Etc.If you just want to chat locally with Gemma 4, just pick AI chat.Then pick either:- Gemma E4B if your phone is powerful enough (like 8GB RAM at least)- Gemma E2B which is still VERY capable💬3🔄2❤️26👀16221📊8⚡ Powered by xgo.ing
+----------------------------------------
+TITLE: meta harness is a great paper from @yoonholeee that came out earlier this week and is a great exampl...
+LINK: https://x.com/hwchase17/status/2040471961206214864
+FEED: Harrison Chase(@hwchase17)
+SUMMARY: meta harness is a great paper from @yoonholeee that came out earlier this week and is a great example of learning at the harness layerHarrison Chase@hwchase17x.com/i/article/2040…🔗 View Quoted Tweet💬5🔄8❤️86👀8879📊28⚡ Powered by xgo.ing
+----------------------------------------
+TITLE: most people thinking of continual learning as happening at the model level
+
+but with agents - there'...
+LINK: https://x.com/hwchase17/status/2040468943035682985
+FEED: Harrison Chase(@hwchase17)
+SUMMARY: most people thinking of continual learning as happening at the model levelbut with agents - there's actually three different levels you could "learn" at:- model- harness- contextHarrison Chase@hwchase17x.com/i/article/2040…🔗 View Quoted Tweet💬16🔄23❤️190👀22209📊64⚡ Powered by xgo.ing
+----------------------------------------
+TITLE: Anthropic’s  Designs Three-Agent Harness Supports Long-Running Full-Stack AI Development
+LINK: https://www.infoq.com/news/2026/04/anthropic-three-agent-harness-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
+FEED: InfoQ
+SUMMARY: Anthropic introduces a three-agent harness separating planning, generation, and evaluation to improve long-running autonomous AI workflows for frontend and full-stack development. Industry commentary highlights structured approaches, iterative evaluation, and practical methods to maintain coherence and quality over multi-hour AI coding sessions. By Leela Kumili
+----------------------------------------
+TITLE: 日调用量超万亿破纪录！阿里千问3.6Plus登顶全球模型调用量榜首
+LINK: https://www.qbitai.com/2026/04/396346.html
+FEED: 量子位
+SUMMARY: 日调用量突破1.4万亿Token
+----------------------------------------
+TITLE: 过去这几年，硅谷出现了很多所谓「人类历史上第一个」「彻底颠覆个人电脑」「世界上第一个 AI 操作系统」这类的创业项目，那时候第一代 agent 产品 Cursor 还是绝对的领头羊，现在都快第四代了，...
+LINK: https://x.com/dingyi/status/2040414189014110326
+FEED: Ding(@dingyi)
+SUMMARY: 过去这几年，硅谷出现了很多所谓「人类历史上第一个」「彻底颠覆个人电脑」「世界上第一个 AI 操作系统」这类的创业项目，那时候第一代 agent 产品 Cursor 还是绝对的领头羊，现在都快第四代了，这些创业公司呢？屁也没做出来。人呐，还是要务实一点，搞那些假大空的只会让人们反感和遗忘。💬9🔄6❤️41👀13839📊13⚡ Powered by xgo.ing
+----------------------------------------
+TITLE: 用 Bruno，https://t.co/sK0fZ1r0hI
+我已经用了很久了，离线，免费，开源。没有什么账户，同步直接把 bru 文件写到 git 里面，推送就好了。
+
+而且非常利于AI，
+ht...
+LINK: https://x.com/vikingmute/status/2040411436288274765
+FEED: Viking(@vikingmute)
+SUMMARY: 用 Bruno，usebruno.com我已经用了很久了，离线，免费，开源。没有什么账户，同步直接把 bru 文件写到 git 里面，推送就好了。而且非常利于AI， docs.usebruno.com/agents/overview可以帮你写 bru 文件，根据你的接口，他可以同时自动写好，你也可以直接把 bru 文件保存在你的项目中，然后配合 Bruno CLI 可以直接跑，就没有GUI 什么事情了，还可以配合 CI/CD 做自动化测试什么的。但是我觉得现在越来越 AI ，其实这种工具的场景越来越少了，AI 直接写脚本测试就好了，想用什么工具用什么工具，TinyShip 中 api 测试，AI 就用了轻量级的 vitest 和最简单的 fetch，效果也很好的。luolei@luoleiorg😡 我实在受不了 Postman 现在越来越慢的本地启动和调试速度了，那么问题来了：2026年，综合考虑 UI、交互、速度和开源这几个方面，最值得推荐的本地 API 调试工具是什么？🔗 View Quoted Tweet💬7🔄9❤️66👀10561📊27⚡ Powered by xgo.ing
+----------------------------------------
+TITLE: Google Cloud AI (Gemini | Vertex) 总监 @addyosmani 开源「Agent Skills」：生产级工程 Skills 集合，覆盖 6 阶段开发全生命周期、19 ...
+LINK: https://x.com/shao__meng/status/2040402798794166620
+FEED: meng shao(@shao__meng)
+SUMMARY: Google Cloud AI (Gemini | Vertex) 总监 @addyosmani 开源「Agent Skills」：生产级工程 Skills 集合，覆盖 6 阶段开发全生命周期、19 项核心 Skills，真是宝藏 Skills 👍🏻Agent Skills 把将资深工程师构建软件时使用的工作流、质量门禁和最佳实践进行编码，让 AI Agents 能够在开发的每个阶段一致地遵循这些规范，支持 Codex / Claude Code / Cursor / Copilot / Gemini 等开源地github.com/addyosmani/age…EZ六阶段开发生命周期，每个阶段对应特定的目录和 Skills：DEFINE → PLAN → BUILD → VERIFY → REVIEW → SHIP/spec /plan /build /test /review /ship命令体系 - 7 个斜杠命令（用途和原则）：/spec：定义要构建的内容，Spec before code/plan：规划构建方式，Small, atomic tasks/build：增量构建，One
+----------------------------------------
+TITLE: 7/🧭 三角难题决定终局
+
+Agent可靠性 × 计费可预测性 × 用户教育——12个玩家谁先解这道题谁赢。
+
+离真正的"AI员工"，所有人都还有距离。
+LINK: https://x.com/FinanceYF5/status/2040392340649754916
+FEED: AI Will(@FinanceYF5)
+SUMMARY: 7/🧭 三角难题决定终局Agent可靠性 × 计费可预测性 × 用户教育——12个玩家谁先解这道题谁赢。离真正的"AI员工"，所有人都还有距离。💬1🔄0❤️1👀1207📊1⚡ Powered by xgo.ing
+----------------------------------------
+TITLE: 医生果然是最爱学习的群体之一，还聊到大模型投毒的黑帽GEO。
+
+一群护士和医生都推荐主任用豆包，都觉得deepseek幻觉有点多等。
+
+这些信息来源还是央视315和央视春晚。
+
+国内AI交流讨论氛围真...
+LINK: https://x.com/vista8/status/2040391947614052508
+FEED: 向阳乔木(@vista8)
+SUMMARY: 医生果然是最爱学习的群体之一，还聊到大模型投毒的黑帽GEO。一群护士和医生都推荐主任用豆包，都觉得deepseek幻觉有点多等。这些信息来源还是央视315和央视春晚。国内AI交流讨论氛围真的热。💬1🔄0❤️42👀6815📊4⚡ Powered by xgo.ing
+----------------------------------------
+TITLE: 千问混元智谱阶跃集结！高规格AI大会最新50+大咖公布，OpenClaw、世界模型研讨会议程同步出炉
+LINK: https://mp.weixin.qq.com/s?__biz=MzA4MTQ4NjQzMw==&mid=2652800268&idx=1&sn=47b02e076b67f9cbd82b66c5c649b8b8
+FEED: 智东西
+SUMMARY: GenAICon 2026 2026-04-04 18:32 北京 2026中国生成式AI大会4月21-22日将在北京举办～ 4月21-22日北京站将正式举行~4月21-22日，GenAICon 2026 | 2026中国生成式AI大会（北京站）将在北京富力万丽酒店正式举行。中国生成式AI大会已成功举办四届，现已成为国内人工智能领域最具影响力的产业峰会之一。本次大会由智一科技旗下智东西联合智猩猩发起主办，为期两天，由开幕式+专题论坛+研讨会+交流晚宴+展览区组成，将以“奔赴AGI...
+----------------------------------------
+TITLE: Gemma 4 + Hermes/OpenClaw: HOW IS THIS POSSIBLE? FULLY LOCAL AI Agent that ACTUALLY WORKS!
+LINK: https://www.youtube.com/watch?v=x3IG3elJvZk
+FEED: AICodeKing
+SUMMARY: 💾In this video, I'll be talking about Google's new Gemma 4 open models, why they are such a big deal for local AI, and how you can run them with Ollama, Hermes Agent, and OpenClaw, or even try Gemma 4 31B through NVIDIA NIM. -- Key Takeaways: 🚀 Google’s Gemma 4 is one of the most interesting open model releases so far, with strong performance for its size. 🧠 The lineup includes E2B, E4B, 26B MoE, and 31B dense models, giving users options for both lightweight and powerful local setups. 🏆 Gemma 4
+----------------------------------------
+TITLE: 开源 Kimi 的四个故事
+LINK: https://mp.weixin.qq.com/s?__biz=MjM5NDk5MTA0MQ==&mid=2652331167&idx=1&sn=854371e80e27811889b8a514a38dd40a
+FEED: 真格基金
+SUMMARY: 真格基金 2026-04-04 17:05 北京 在《人物》杂志刚刚发表的报道《「卧底」Kimi 的 100 小时》中，月之暗面被描述为一个风暴开始酝酿的中心点，而「风眼之内，万物静止」。这里天才扎堆，聪明、坚韧、有品味，专注得近乎偏执。这里没有部门分工，也没有职级和 OKR，月之暗面以极度扁平化的组织形式创造了太多令人惊艳的成果，一个真正的「AI Native」公司。我们挑选出报道中的几个关键技术点，让故事穿插其间，带你一同感受月之暗面最纯粹的技术底色。#AI #创业 #智能体 #月之暗面 #Kimi #科技爱好者必看 跳转微信打开
+----------------------------------------
+TITLE: 虽然大家好像似乎都不在使用Apple Xcode进行编写代码，但是这次它也更新了一下接入了Agent来辅助编程还是有点用处的！
+
+对于习惯使用Swift编程的可以看看这个是Apple 官方的一个文章。
+LINK: https://x.com/berryxia/status/2040354710985801861
+FEED: Berryxia.AI(@berryxia)
+SUMMARY: 虽然大家好像似乎都不在使用Apple Xcode进行编写代码，但是这次它也更新了一下接入了Agent来辅助编程还是有点用处的！对于习惯使用Swift编程的可以看看这个是Apple 官方的一个文章。Berryxia.AI@berryxiax.com/i/article/2040…🔗 View Quoted Tweet💬3🔄0❤️1👀1271📊3⚡ Powered by xgo.ing
+----------------------------------------
+TITLE: TigerFS Mounts PostgreSQL Databases as a Filesystem for Developers and AI Agents
+LINK: https://www.infoq.com/news/2026/04/tigerfs-postgresql-filesystem/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
+FEED: InfoQ
+SUMMARY: TigerFS is a new experimental filesystem that mounts a database as a directory and stores files directly in PostgreSQL. The open source project exposes database data through a standard filesystem interface, allowing developers and AI agents to interact with it using common Unix tools such as ls, cat, find, and grep, rather than via APIs or SDKs. By Renato Losio
+----------------------------------------
+TITLE: 踩坑三个月，我们总结出的 Agent Harness 实践与反思
+LINK: https://mp.weixin.qq.com/s?__biz=MzAxMDMxOTI2NA==&mid=2649107032&idx=1&sn=858bb227ad6859d06b7324dc03c16e39
+FEED: 十字路口Crossing
+SUMMARY: Nexad Team 2026-04-04 16:01 福建 Harness 应由业务驱动。👦🏻 作者：青年王大米🥷 编辑：Jason Hu, William Jin🧑‍🎨 排版: NCon本文来自 Nexad 团队的大米（作者）、Jason（编辑）、William（编辑），Nexad 是一家 base 湾区和上海的 AI startup，从 a16z, Prosus, Point72 等基金融资 $6M。2026 年初，OpenAI 和 Anthropic 先后发表了关于 Harness Engineering 的深度文章。OpenAI 展示了 3 名工程师用 Codex 产出百万行代码的实验；Anthropic 展示了用 Initializer-Coder 两阶段架构让 Agent 跨多个 Context Window 持续工作。两篇文章都非常好。但它们面向的都是 Coding Agent——写正确的代码、通过测试、合入 PR。我们在过去三个月做的事情不太一样。nexad 是一个 AI-native 广告平台。我们的 Agent 不只写代码——它们跨多个广告平台运行，生成广告创意，
+----------------------------------------
+TITLE: 我经常需要在做产品的过程中，快速索引各种框架、方法论和思维工具。
+
+设计思维、JTBD、Kano 模型、精益画布、北极星指标、AARRR……
+
+这些框架你可能都听过，但下次要用的时候，你还是会打开 G...
+LINK: https://x.com/goocarlos/status/2040335470127992947
+FEED: Luyu Zhang(@goocarlos)
+SUMMARY: 我经常需要在做产品的过程中，快速索引各种框架、方法论和思维工具。设计思维、JTBD、Kano 模型、精益画布、北极星指标、AARRR……这些框架你可能都听过，但下次要用的时候，你还是会打开 Google 或者 Claude 从头搜。我也一样。所以我顺手做了 pmframe.works——100 个产品思维框架的索引站。每个框架都有：· 可视化结构图· 真实案例拆解· 可下载的 Skill站在巨人的肩膀上，少走弯路。免费开放，拿去用。💬28🔄158❤️749👀75483📊444⚡ Powered by xgo.ing
+----------------------------------------
+TITLE: 过去 30 天大家到底在聊什么？这个开源技能把 Reddit、X、YouTube、HN 和预测市场揉成一份研究简报
+LINK: https://mp.weixin.qq.com/s?__biz=MzU2NzkxNDY0Ng==&mid=2247490178&idx=1&sn=ac33d52fbea03e96539f5c239d35d517
+FEED: 山行AI
+SUMMARY: 原创 山行AI 2026-04-04 15:33 浙江 过去 30 天大家到底在聊什么？这个开源技能把 Reddit、X、YouTube、HN 和预测市场揉成一份研 如果你经常做内容研究、产品判断、提示词整理，或者需要快速搞清楚“最近一个月某个话题到底发生了什么”，那你大概率遇到过一个问题： 信息很多，但很散。 Reddit 上有人在认真讨论，X 上有人在快速扩散，YouTube 里有人已经做了长视频拆解，Hacker News 在从技术角度评价，预测市场里甚至已经有人拿真钱下注。真正难的，从来不是找到一条信息，而是把这些分散信号整理成一份有权重、有来源、有结论的研究结果。 GitHub 上最近这个项目 last30days-skill，就是在做这件事。 它把自己定义成一个面向 AI Agent 的 research skill：针对任意主题，自动去抓取过去 30 天里多个平台上的相关讨论与信号，再把结果整理成一份带引用的叙述式简报。 这不是普通搜索，而是“跨平台近 30 天研究” 从定位上看，last30days-skill 并不想替代通用搜索引擎。 它更像一个面向近期趋势和社区共识
+----------------------------------------
+TITLE: 燃烧 token 是手段，而不是目的。
+
+按这篇论文的思想来看，应是通过燃烧 token，找到更多的“结构”。
+
+烧完之后，要问一句：
+
+我得到的是新“结构”还是遍地灰尘？
+LINK: https://x.com/lijigang/status/2040325735022510176
+FEED: 李继刚(@lijigang_com)
+SUMMARY: 燃烧 token 是手段，而不是目的。按这篇论文的思想来看，应是通过燃烧 token，找到更多的“结构”。烧完之后，要问一句：我得到的是新“结构”还是遍地灰尘？李继刚@lijigang过去几个月，对我观念产生冲击最大的是这篇论文：arxiv.org/html/2601.0322…（在有限算力前提下），人能从信息中看出多少「结构」。🔗 View Quoted Tweet💬2🔄7❤️43👀9604📊14⚡ Powered by xgo.ing
+----------------------------------------
+TITLE: Training trillion-parameter MoEs is an infra problem disguised as a modeling problem.
+
+So we built t...
+LINK: https://x.com/FireworksAI_HQ/status/2040316161129361505
+FEED: Fireworks AI(@FireworksAI_HQ)
+SUMMARY: Training trillion-parameter MoEs is an infra problem disguised as a modeling problem.So we built the infra solution. Cursor used it to train Composer 2. Now it's available for Kimi K2.5, Qwen3.5 397B, MiniMax M2.5, and more:→Fused RL loss (~2x faster PPO)→MXFP8 expert kernels on Blackwell→Composable 4D parallelism→1M+ token context training validatedHere's how it all works ↓fireworks.ai/blog/scaling-o…💬5🔄24❤️211👀12093📊63⚡ Powered by xgo.ing
+----------------------------------------
+TITLE: Wan 2.7 is now live on Poe!
+
+Four video generation modes in one model: Text-to-Video, Image-to-Video...
+LINK: https://x.com/poe_platform/status/2040308384377778464
+FEED: Poe(@poe_platform)
+SUMMARY: Wan 2.7 is now live on Poe!Four video generation modes in one model: Text-to-Video, Image-to-Video, Video Edit, and Reference-to-Video. Supports multi-shot generation, audio-driven output, first-and-last-frame control, and seamless video continuation -- from concept to final cut.You can try it in Poe app on all platforms and in the Poe API at poe.com/Wan-2.7Your browser does not support the video tag.🔗 View on Twitter💬3🔄3❤️31👀1541📊8⚡ Powered by xgo.ing
+----------------------------------------
+TITLE: 不会写代码也能用 AI 干活了：OpenAI 正在做一个“替你用电脑”的 Super App，新模型Spud 几周内登场
+LINK: https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&mid=2247660410&idx=1&sn=fcb23df498ca5b8029e8ed372c2baca8
+FEED: AI前线
+SUMMARY: AI前线 2026-04-04 13:31 北京 算力不够，必须有人出局。 编译 | 宇琪 策划 | Tina 编辑 | 褚杏娟 Sora 都能先停掉，说明 OpenAI 这次是真的开始做残酷取舍了。在外界眼里，视频生成明明还是最容易出圈、最能制造话题的明星业务，但 OpenAI 却选择在这个节点收缩战线，把资源转向一个更大的目标：Super App。它不只是想再做一个更强的 ChatGPT，也不只是想补上 Codex 和浏览器能力，而是想抢先造出那个真正承接 AGI 的总入口，即一个能理解你、代表你、替你操作电脑、接管工作流，甚至逐步“运行”你数字生活的系统。OpenAI 已经不再满足于赢下一两个爆款产品，而是在主动砍掉分叉的科技树，把所有最宝贵的算力、产品和组织资源，押向一条它认定最接近 AGI 的路径。近日，Greg Brockman 在播客节目中与主持人 Alex Kantrowitz 围绕 AI 领域最具潜力的发展机会、Super App 的布局、AGI 的“起飞”以及算力资源等话题展开了讨论。从这场对话中，OpenAI 当下的优先级、野心与焦虑，也被进一步摊开在外界面前。核
+----------------------------------------
+TITLE: File system is observability for AI agents ＆amp; humans.
+LINK: https://x.com/taranjeetio/status/2040286577721835991
+FEED: Taranjeet(@taranjeetio)
+SUMMARY: File system is observability for AI agents &amp; humans.Andrej Karpathy@karpathyLLM Knowledge BasesSomething I'm finding very useful recently: using LLMs to build personal knowledge bases for various topics of research interest. In this way, a large fraction of my recent token throughput is going less into manipulating code, and more into manipulating knowledge (stored as markdown and images). The latest LLMs are quite good at it. So:Data ingest:I index source documents (articles, papers, repos,
+----------------------------------------
+TITLE: Agent 即 Unix
+来自 @pmarca 的播客
+LINK: https://x.com/oran_ge/status/2040285813536379253
+FEED: Orange AI(@oran_ge)
+SUMMARY: Agent 即 Unix来自 @pmarca 的播客李继刚@lijigang把这期播客，用 /ljg-card -c 跑了一下：latent.space/p/pmarca🔗 View Quoted Tweet💬2🔄5❤️31👀10531📊10⚡ Powered by xgo.ing
+----------------------------------------
+TITLE: Google DeepMind 的 Gemma 4 在开源榜单中首次登场便拿下第 3 和第 6 名，成为美国排名第一的开源模型。
+
+按总参数量计算，Gemma 4 31B 比 GLM-5 小 24 倍...
+LINK: https://x.com/FinanceYF5/status/2040280156527554622
+FEED: AI Will(@FinanceYF5)
+SUMMARY: Google DeepMind 的 Gemma 4 在开源榜单中首次登场便拿下第 3 和第 6 名，成为美国排名第一的开源模型。按总参数量计算，Gemma 4 31B 比 GLM-5 小 24 倍，比 Kimi-K2.5-Thinking 小 34 倍，却能以更小的体量实现相近的性能。💬4🔄8❤️34👀15796📊14⚡ Powered by xgo.ing
+----------------------------------------
+TITLE: 4月2日斯坦福大学 的 CS25《Transformer》课程重启！🤖
+
+面向所有人开放（支持线下 + 线上参与）。每周举办讲座（每周四），邀请顶尖 AI 研究者分享前沿内容。
+
+这是斯坦福最受欢迎...
+LINK: https://x.com/FinanceYF5/status/2040277119645917582
+FEED: AI Will(@FinanceYF5)
+SUMMARY: 4月2日斯坦福大学 的 CS25《Transformer》课程重启！🤖面向所有人开放（支持线下 + 线上参与）。每周举办讲座（每周四），邀请顶尖 AI 研究者分享前沿内容。这是斯坦福最受欢迎的人工智能研讨课程之一，千万不要错过！更多信息如下 👇（1/6）💬2🔄43❤️163👀15937📊60⚡ Powered by xgo.ing
+----------------------------------------
