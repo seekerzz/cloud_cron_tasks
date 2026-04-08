@@ -1,0 +1,1086 @@
+[0] Vercel News: GLM 5.1 on AI Gateway
+[1] Jeff Dean(@JeffDean): Have
+Too
+Many
+Tabs
+Open?
+
+G
+O
+
+V
+E
+R
+T
+I
+C
+A
+L
+!
+[2] Latent.Space(@latentspacepod): 🆕 Extreme Harness Engineering: 1M LOC, 1B toks/day, 0% human code, 0% human review
+
+https://t.co/qo...
+[3] Paul Couvert(@itsPaulAi): And again, the model is open source...
+
+So we've officially something competitive with closed labs a...
+[4] Latent.Space: Extreme Harness Engineering for Token Billionaires: 1M LOC, 1B toks/day, 0% human code, 0% human review — Ryan Lopopolo, OpenAI Frontier ＆ Symphony
+[5] Paul Couvert(@itsPaulAi): There's no way 🤯
+
+Zai has just released a new open source model which is competitive with Opus 4.6 ...
+[6] LangChain Blog: Deep Agents v0.5
+[7] LangChain Blog: Deep Agents v0.5
+[8] Justine Moore(@venturetwins): It's not perfect, but some of the motion is crazy good.
+
+These are both image-to-video and blow away...
+[9] MongoDB | Blog: MongoDB Predictive Auto-Scaling: An Experiment
+[10] LangChain(@LangChainAI): Join LangChain, MongoDB, and Confluent for a happy hour during Google Cloud Next. Come grab a drink ...
+[11] HeyGen(@HeyGen_Official): HeyGen x Seedance 2.0: Prompts, workflows ＆amp; pro tips https://t.co/h3BU4EkWap
+[12] Cursor(@cursor_ai): Use Design Mode in Cursor 3 to annotate and target UI elements in the browser.
+[13] The Keyword: Get more done with new vertical tabs and immersive reading mode in Chrome
+[14] 向阳乔木(@vista8): 今天经常刷到说川普TACO ，好奇问了下claude sonnet4.6
+
+不是指墨西哥卷饼，全称是：
+
+Trump Always Chickens Out
+
+中文意思是：“川普总是临阵退缩” 或 “...
+[15] Gary Marcus(@GaryMarcus): I am really uncomfortable being a citizen of a country in which the leader is publicly threatening t...
+[16] Gary Marcus(@GaryMarcus): Yes: “It's reasonably foreseeable to believe that such rhetoric will sow terror amongst the civilian...
+[17] LangChain(@LangChainAI): .@TryArcade's 7,500+ agent-optimized MCP tools are now available in LangSmith Fleet.
+
+Create a gatew...
+[18] a16z(@a16z): .@balajis says AI verification is much harder in the digital world than it is for the physical world...
+[19] AK(@_akhaliq): GLM-5.1 is out on Hugging Face
+
+#1 in open source and #3 globally across SWE-Bench Pro, Terminal-Ben...
+[20] Justine Moore(@venturetwins): Another impressive example - check out the product consistency across shots and prompt adherence 🤯
+...
+[21] Dwarkesh Patel: Michael Nielsen – How science actually progresses
+[22] Justine Moore(@venturetwins): A new video model dropped at #1 on the leaderboard 👀
+
+It's called HappyHorse-1.0, and it's currentl...
+[23] Arena.ai(@lmarena_ai): Try out GLM-5.1 in the Code Arena where AI models are tested on agentic coding tasks involving multi...
+[24] Arena.ai(@lmarena_ai): A new open model has entered the Arena!
+
+GLM-5.1 by @Zai_org is now ready for your prompts in the Te...
+[25] clem 🤗(@ClementDelangue): The best performing model on SWE-Bench Pro is open-source on @huggingface! Welcome GLM 5.1!
+
+https:/...
+[26] Weaviate AI Database(@weaviate_io): PDF import just landed in Weaviate Agent Skills!
+
+Point Claude Code (or any agent) at a PDF, and it ...
+[27] Qdrant(@qdrant_engine): Qdrant Office Hours - April 16
+
+🎙️ Tony, our community member will present:
+
+“Vigilante - Cluster G...
+[28] DAN KOE(@thedankoe): If you're a writer, be okay with repeating what's already been said, because most ideas have already...
+[29] Artificial Intelligence: Building real-time conversational podcasts with Amazon Nova 2 Sonic
+[30] The Pragmatic Engineer: Martin Fowler ＆ Kent Beck: Frameworks for reinventing software, again and again
+[31] andrew chen(@andrewchen): prev startup advice: do things that don't scale
+
+2026 update: do things that don't scale, then build...
+[32] Artificial Intelligence: Text-to-SQL solution powered by Amazon Bedrock
+[33] Gary Marcus(@GaryMarcus): Is threatening to commit war crimes itself a war crime?
+[34] Mustafa Suleyman(@mustafasuleyman): Bing's web grounding already powers almost every major AI chatbot today. With Harrier, it just got a...
+[35] Mustafa Suleyman(@mustafasuleyman): Big kudos to @JordiRib1 and the @bing team - awesome to see the speed and quality shipping across @M...
+[36] Mustafa Suleyman(@mustafasuleyman): Another SOTA model drop! This time from the @Bing team: meet Harrier, a new open-source embedding mo...
+[37] Google: Your inbox is your business. Here’s how we keep your Gmail secure with all our new Gemini features.
+[38] Vercel News: Query and visualize workflow data in Vercel Observability
+[39] Notion(@NotionHQ): The data’s in…🥁
+
+We looked across 300,000+ Custom Agents to find the top 5 connectors teams use to ...
+[40] OpenRouter(@OpenRouterAI): Read more about it here:
+[41] OpenRouter(@OpenRouterAI): Try it now: https://t.co/qZMCZxHfvJ
+[42] OpenRouter(@OpenRouterAI): GLM-5.1 from @Zai_org is live on OpenRouter!
+
+GLM-5.1 shows a strong jump in long horizon task compl...
+[43] Gary Marcus(@GaryMarcus): Imagine if your car randomly went out of control 10% of the time.
+
+That’s commercial-grade generativ...
+[44] andrew chen(@andrewchen): old: Viral content
+
+new: Viral demos
+[45] Replit ⠕(@Replit): Launch your Product with Replit - Agent 4 Buildathon https://t.co/FIATj8tyCJ
+[46] LlamaIndex 🦙(@llama_index): Open call to fintech leaders in NYC 🏦 May 13, in-person workshop with @jerryjliu0 on turning comple...
+[47] Firecrawl(@firecrawl_dev): New from Firecrawl last month:
+
+- /interact lets agents scrape a page then click, type, and navigate...
+[48] Harrison Chase(@hwchase17): LangSmith 🤝Fix your agents
+
+You'll see our billboards around SF and NYC over the next few months.
+
+...
+[49] Cloud Blog: Under one roof: Rightmove reinvents property search with unified data
+[50] Cloud Blog: Ultimate prompting guide for Lyria 3 models
+[51] Cloud Blog: Build music generation into your apps with Lyria 3 models on Vertex AI
+[52] Databricks: How MakeMyTrip Achieved Millisecond Personalization at Scale with Databricks
+[53] Product School: Enterprise AI Agents ＆ Integration Architecture | Merge Director of Product
+[54] The Keyword: Here’s how we built Gmail to keep your data secure and private in the Gemini era.
+[55] The Keyword: 5 new features for Android XR
+[56] The Keyword: Expanding AI literacy to Catholic-school classrooms nationwide.
+[57] AK(@_akhaliq): MinerU2.5-Pro
+
+Pushing the Limits of Data-Centric Document Parsing at Scale
+
+paper: https://t.co/qAa...
+[58] Geek(@geekbb): 今天满屏都是 OpenClaw 已经过时了
+[59] Nikhil Kamath: This One Felt Different From The Start
+[60] Nikhil Kamath: Why I'm Proud Of My Father
+[61] 宝玉(@dotey): 好莱坞女星 Milla Jovovich（《第五元素》女主角）和开发者 Ben Sigman 联合发布了一个开源 AI 记忆系统 MemPalace，声称在 LongMemEval 基准测试中拿下满分...
+[62] Eric Jing(@ericjing_ai): Word → md
+Excel → python
+PowerPoint → html
+
+The new AI office stack.
+[63] Nikhil Kamath: Real Reason Inequality Is Rising
+[64] Eric Jing(@ericjing_ai): Thank you all for your support and recognition!
+
+We still have a long way to go. Our 70-person team ...
+[65] AK(@_akhaliq): OpenWorldLib
+
+A Unified Codebase and Definition of Advanced World Models
+
+paper: https://t.co/IZ9eEn...
+[66] 歸藏(guizang.ai)(@op7418): Codepilot 帮我整理完后我的 Obsidian 笔记图谱
+[67] Ado(@adocomplete): I am also very active here on X and on our Claude Discord channel.
+
+(Fair warning my inbox and DMs ...
+[68] Ado(@adocomplete): I also work very closely with our Claude for Open Source program. Get 6 months of Claude Max 20 for ...
+[69] Ado(@adocomplete): Apply to become a Claude Community Ambassador here: https://t.co/bZYQzebogK
+[70] Ado(@adocomplete): Working closely with our amazing Community Ambassadors. We have 14 community meetups this week alone...
+[71] Ado(@adocomplete): Sharing tips and tricks on how to get the most out of Claude and Claude Code.
+
+Did you know you can ...
+[72] Ado(@adocomplete): Woke up to a ton of new followers today. Hi everyone!
+
+I'm Ado, I am full stack engineer, have done ...
+[73] ByteByteGo Newsletter: Nextdoor’s Database Evolution: A Scaling Ladder
+[74] a16z(@a16z): "AI doesn't take your job. AI makes you the CEO."
+
+Balaji Srinivasan joins a16z’s Erik Torenberg for...
+[75] The Keyword: 3 updates that make contributing to Maps easier
+[76] 宝玉(@dotey): Skill 可以参考这个版本：
+https://t.co/H3ApfI0GF9
+[77] 宝玉(@dotey): AK 分享了提示词：https://t.co/j0tNCKv0cr
+
+https://t.co/o3pxCu59JB
+[78] Every: How to Promote Yourself With AI
+[79] Berryxia.AI(@berryxia): 项目地址：https://t.co/EdG0YXy7Wv
+[80] Berryxia.AI(@berryxia): 好莱坞女星直接下场写 Agent 记忆架构？
+Milla Jovovich 居然跑来搞开源 AI 记忆工具了！😱🚀
+
+@bensig 和她一起开发的 MemPalace 正式开源：
+
+✅ Agen...
+[81] Milvus(@milvusio): 🔥 Join us for our first 𝗭𝗶𝗹𝗹𝗶𝘇 𝗪𝗲𝗯𝗶𝗻𝗮𝗿 of 2026 — 𝗔𝗽𝗿𝗶𝗹 𝟭𝟲, 𝗢𝗻𝗹𝗶𝗻𝗲
+
+If you...
+[82] elvis(@omarsar0): NEW paper on multi-agents from Stanford.
+
+More agents, better results, right?
+
+Not so fast.
+
+This pa...
+[83] Recraft(@recraftai): Prompt 1:
+A stylish man sitting on a manicured lawn, leaning against a large topiary shaped like a g...
+[84] Recraft(@recraftai): Exploring playful scale and landscape storytelling.
+
+With Recraft V4, it’s easy to turn familiar sha...
+[85] Google Developers Blog: TorchTPU: Running PyTorch Natively on TPUs at Google Scale
+[86] Philipp Schmid(@_philschmid): https://t.co/zT2jxB5f0w
+[87] Philipp Schmid(@_philschmid): Gemma 4 is now available in the Gemini API and Google AI Studio. Use `gemma-4-26b-a4b-it` and `gemma...
+[88] AI Breakfast(@AiBreakfast): The use cases are getting out of hand:
+
+- Full SEO audits from a single prompt
+- Tracking competitor...
+[89] AI Breakfast(@AiBreakfast): This is what I've been saying AI agents should be.
+
+Not a model that explains what it could do: a sy...
+[90] AI Breakfast(@AiBreakfast): PokeeClaw is a different beast.
+
+Enterprise-grade AI agent platform. 1,000+ integrations. RL-powered...
+[91] GitHub: How Pretext is fixing browser layout struggles
+[92] TED: Is Luck Random — or Can You Cultivate It? | Christian Busch | TED
+[93] Greg Isenberg: How to turn iMessage into an AI executive assistant with Lindy
+[94] Ding(@dingyi): CSS Studio 发布了，在浏览器里面的设计工具，支持和 agent 联动。
+[95] Sequoia Capital: Roelof Botha: From Command-and-Control to Ground-Truth Signals #ai #founders
+[96] LangChain Blog: Arcade.dev tools now in LangSmith Fleet
+[97] LangChain Blog: Arcade.dev tools now in LangSmith Fleet
+[98] 爱范儿: 联手华为乾崑！五菱推出新品牌华境，首发大六座车长超 5 米 2
+[99] Ray Dalio(@RayDalio): https://t.co/WksCy869Th
+[100] Frank Wang 玉伯(@lifesinger): 发推特的最好状态
+是忘掉流量
+纯粹分享
+
+逛推特的最好状态
+是推开窗户
+眺望远方
+[101] Lenny Rachitsky(@lennysan): @TheRialMichelle Grab a copy of her book here: https://t.co/TMxA5GwWOk
+[102] Frank Wang 玉伯(@lifesinger): 创业要断渴爱之欲
+做事要有慈爱之心
+
+芒果给我的建议
+太棒了
+[103] Lenny Rachitsky(@lennysan): Breaking: My wife's children's book is out today!
+
+It's called Charts for Babies, and is available a...
+[104] clem 🤗(@ClementDelangue): Curious, how much are you all spending in S3/R2 or storage in general these days?
+[105] Berryxia.AI(@berryxia): 兄弟们！分币不花跑小龙虾！
+Gemma 4 本地跑 + OpenClaw 联动，3步几分钟搞定！🚀
+
+Google＆Ollama 官方亲自教你：
+
+1️⃣ 去 https://t.co/06WGEu...
+[106] Paul Couvert(@itsPaulAi): Joke aside I'm glad to see that you can connect your agent to external tools securely
+
+Because if o...
+[107] Datawhale: 突破1k ！具身智能中文教程项目火了
+[108] GitHub(@github): Git the full story here in last year's 20th anniversary Q＆amp;A with Linus Torvalds. 📖
+https://t.co...
+[109] GitHub(@github): Linus Torvalds wrote Git in just 10 days after Linux kernel developers lost access to their propriet...
+[110] GitHub(@github): Picture it: The year is 2005 and you decide to download a new distributed system called Git (on your...
+[111] Simon Willison(@simonw): Vibe check on Gemma 4 now that we've had a few days to play with it - how does it hold up against Qw...
+[112] Geek(@geekbb): DeepSeek V4 好像要来了，快上 OpenRouter free 给兄弟们冲冲。
+
+对了，我要是抢一次 Code Plan 算我输，搞笑，都什么年代了，还在这种营销。
+[113] The Rundown AI(@TheRundownAI): Read more: https://t.co/V6KQf1fCIk
+[114] The Rundown AI(@TheRundownAI): Top stories in tech today:
+
+- This startup plans to light up the night
+- Apple’s foldable iPhone hit...
+[115] Weaviate AI Database(@weaviate_io): We are so excited to welcome Pierre to our team today! 🎉
+
+Pierre Demagny is joining us from France ...
+[116] a16z: AI Won't Take Your Job—It Will Make You the CEO | The a16z Show
+[117] Y Combinator(@ycombinator): AICE Power builds sensors that detect energy waste in buildings and send real-time alerts when somet...
+[118] Runway(@runwayml): Get started now: https://t.co/529ttnYzAY
+[119] Runway(@runwayml): Seedance 2.0 is now on Runway. Use text, image, video or audio as inputs to generate stunning multi-...
+[120] Matt Wolfe: OpenAI Just Bought A Media Company
+[121] Replit ⠕(@Replit): An app for planning parties that people actually show up to 🎉
+Made with Replit Canvas
+[122] Visual Studio Blog: Take full control of your floating windows in Visual Studio
+[123] Gary Marcus(@GaryMarcus): I rest my case
+[124] 李继刚(@lijigang_com): 读好文： https://t.co/XdfAJkJoLS
+[125] clem 🤗(@ClementDelangue): @pmarca Let’s go open-source and local AI!
+[126] Martin Fowler(@martinfowler): NEW POST
+
+Modern hardware is fast, but software often fails to leverage it. Caer Sanders guides his ...
+[127] InfoQ: Presentation: When Every Bit Counts: How Valkey Rebuilt Its Hashtable for Modern Hardware
+[128] Martin Fowler: Principles of Mechanical Sympathy
+[129] Viking(@vikingmute): 很值得看的一个帖子：Redis 作者分享的一个真实实验对比
+
+过去一周，他用 Claude Code Opus 4.6 和 Codex GPT 5.4（max thinking）进行了长时间的自主运行...
+[130] Rowan Cheung(@rowancheung): Github link: https://t.co/vZ7ygd0IVT
+[131] 宝玉(@dotey): 因为太多人写过 Andrej Karpathy 的 LLM Wiki，我就没写，其实在我心中比 Auto Research 更有创意，Auto Research 本身不新鲜，早就有相关理论，但 LLM...
+[132] 白鲸出海: 一个电子木鱼，靠AI，持续吸金
+[133] 白鲸出海: 年收入4亿美元的“一人公司”，这么快就翻车了？
+[134] Rowan Cheung(@rowancheung): Researchers at Netflix just released a new AI model
+
+It erases objects from video, then rewrites the...
+[135] 向阳乔木(@vista8): 躺床上，如何用iPhone制作高质量PPT。
+
+1）Raycast AI iPhone客户端跟claude sonnet4.6对话（其实不用opus）提制作需求和你的初始想法。
+
+2）让AI反向提问，...
+[136] meng shao(@shao__meng): Vibe Coding 之下，人人都是 Builder ！
+
+如果以前你还觉得这是一句口号，看看这个项目，你的想法会完全不一样：
+「生化危机」女主角 Alice @MillaJovovich 和她的朋...
+[137] Justin Welsh(@thejustinwelsh): Living below your means confuses people who are convinced that spending more is the point.
+[138] The JetBrains Blog: Adversarial AI: Understanding the Threats to Modern AI Systems
+[139] Ding(@dingyi): Orchids 品牌变成了 Bud，这个设计真不错啊，让我来复刻一下。
+
+https://t.co/lFUedikn5s
+[140] Yangyi(@Yangyixxxx): App Store 突然涌入大量新应用
+
+由于AI 编程工具让任何人都能快速创建功能性应用，2025 年新应用上架量增长 30%，2026 年初增长 84%​。集中在生产力、照片、视频、天气类别。
+
+...
+[141] Lovable(@lovable_dev): Introducing the Founder Series: a new set of global events, by founders, for founders.
+
+You’ll hear ...
+[142] Product School: OpenAI ＆ Figma Product Builders on Why AI is Not Just for Developers
+[143] Geek(@geekbb): 童锦程.skill
+
+＆gt; 童锦程
+＆gt; 深情祖师爷
+＆gt; 用童锦程的方式
+＆gt; 从童锦程视角
+＆gt; 景辰怎么看
+
+https://t.co/VEklCg1Dx8
+[144] My First Million: We asked a $15B Investor how to survive the AI bubble
+[145] AI炼金术: Botlearn.ai 李可佳：别自学了，送你的 Agent 去读书吧
+[146] Skywork(@Skywork_ai): Turn Your Daily Health Data into Smart Insights with SkyClaw
+
+See your health data scattered across ...
+[147] Qdrant(@qdrant_engine): @ptdamiba Small typo: The event will take place at 5 PM CEST!
+[148] 古典古少侠: 我把20年咨询经验喂给AI，有人深夜聊到流泪
+[149] freeCodeCamp.org: Learn Drone Programming with Python – Tutorial
+[150] Berryxia.AI(@berryxia): Hermes Agent 直接把 Karpathy 的 LLM-Wiki 打包进去了！🚀📚
+
+现在超级简单：
+1. 敲 `hermes update`
+2. 新对话里输入 `/llm-wiki ＜...
+[151] 晚点再听LaterCast: Anthropic增长主管：工程师越多，产品经理越稀缺丨Lenny's Podcast
+[152] Frank Wang 玉伯(@lifesinger): 深度使用 AI 带来的一个直接好处是：终于治好了我多年来的细节强迫症。
+
+比如：不再在乎中英文标点符号或盘古之白。语义清晰，就好。
+
+比如：不再在乎文章的长短或是否有 AI 味。有内容值得看，就好。
+...
+[153] freeCodeCamp.org: Learn how to render elements into your scenes in Three.js
+[154] 傅盛(@FuSheng_0306): AI浪潮来了，连14岁的孩子都开始"研究龙虾"了。
+一个初中生，每天对战AI龙虾，越玩越上头，游戏自然就放下了。不是有人逼他戒，是龙虾比游戏更有意思。
+AI时代的新玩法，14岁就开始闯龙虾关了。游戏算...
+[155] 小互(@imxiaohu): 其他功能
+
+Live Photos 和 Motion Photos 全平台支持
+iOS 文档扫描
+非官方客户端警告
+
+详细介绍：https://t.co/TiALF6lCSu
+[156] Ding(@dingyi): 想我两年前还斥巨资 249.99 美金买了 superwhisper，当年语音输入的绝对一哥，硅谷每个大佬都推荐，那时候 vibe coding 这个名词都还没有出现，对于那时的人们来说，口喷写代码简...
+[157] 小互(@imxiaohu): Managed Bots：用 Bot 批量创建和管理 Bot
+
+这次更新了 Bot API，让 Bot 可以创建和管理其他 Bot。
+
+比如你跟一个 AI Bot 说"帮我建一个自动回复客服问题的 B...
+[158] 小互(@imxiaohu): 兄弟们 牛P
+
+Telegram 大更新：Bot 能批量创建和管理 Bot
+
+Telegram 刚推了 12.6 版本更新，一次塞了六个大功能。
+
+最关注的3个功能：
+
+1、Telegram 正在把 ...
+[159] Justin Welsh(@thejustinwelsh): "Must be nice" and "that's easy for you to say" are two of the most cowardly sentences a grown adult...
+[160] Yangyi(@Yangyixxxx): 太搞笑了
+我还记得23年的时候有人专门开发那个doc文档给公务员用的摸鱼看小说的插件……
+[161] How I AI: Write a script to pull latest code from all repos daily—and let Claude Code write it
+[162] Viking(@vikingmute): 分享一个实用工具的更新。PPIO推出的 PPClaw ，最近推出了 On-Demand 模式，主要解决了开发环境闲置时的成本问题。
+
+简单来说就是：沙箱在空闲时会自动暂停，暂停期间零计费，当有请求进来...
+[163] InfoQ: Istio Evolves for the AI Era with Multicluster, Ambient Mode, and Inference Capabilities
+[164] Berryxia.AI(@berryxia): 项目地址：https://t.co/4VpfvjDs3B
+[165] 阿真Irene: OiiOii x Seedance 2.0，让我从手搓工作流里解放了。
+[166] Stripe: The history and future of AI at Google, with Sundar Pichai
+[167] meng shao(@shao__meng): 这种模仿手绘制图案的动画，叫做手绘动画，是我前面做了 6 年的工具产品，那是在 Vibe Coding 前的古法编程年代...
+
+现在用 Codex，一句提示词要求，一轮就能做出这个动画，确实不得不感...
+[168] AINLP: 拆解Gemma4架构和训练的技术选择，以及与Qwen3和GLM-5的对比
+[169] 阑夕: AI短剧得有「规矩」了
+[170] Aadit Sheth(@aaditsh): Anthropic hitting $30B ARR is incredible. But that's not the actual story.
+
+The story is the decisio...
+[171] Lenny's Podcast: The AI Challenger disaster prediction
+[172] 硅基观察Pro: 别被6亿利润“骗”了！最赚钱的硬件，恰恰是宇树的最大风险
+[173] 向阳乔木(@vista8): 躺床上一天读完了，这是押沙龙的第一部小说集，之前印象他都是讲历史
+
+一共七个故事，多数故事血腥，凶残，粗糙，读起来像看b级片。
+
+说是致敬鲁迅《故事新编》，内容暗黑，比如暗黑版“桃花源记”等
+
+好几个...
+[174] AI科技大本营: 硅谷前沿访谈：CUDA之父复盘英伟达20年护城河，揭开万亿算力帝国的底牌
+[175] Viking(@vikingmute): 看回复中说 反过来也可以的….Edge也可以转换成 Copilot App https://t.co/8SjeZshqEJ
+[176] Viking(@vikingmute): 微软真的没有taste
+
+网友发现新版 Windows 11 的 Copilot App 其实就是 Microsoft Edge 改了个名字
+
+把 mscopilot.exe重命名为 msedge....
+[177] The JetBrains Blog: How to Train Your First TensorFlow Model in PyCharm
+[178] 奇舞精选: AutoDev Next：IDE 即 AI 编程服务，构建多端粪围编程
+[179] 小互(@imxiaohu): Yoroll 目前采用邀请码制，优先面向独立开发者、内容创作者和短视频创作者开放。
+
+内测申请链接：https://t.co/o0ZaYqAG4N
+[180] 小互(@imxiaohu): 不过目前来看Yoroll 还处于很早期
+
+其商业模式和平台的生成能力还有待验证和打磨
+
+但我感觉这个方向是对的，而且确实是很有新意，很符合当下年轻人对游戏和短剧模式的娱乐方向..
+
+感觉很有搞头🧐
+[181] 小互(@imxiaohu): 兄弟们
+
+这个模式可能是一个AI 游戏新物种
+
+Yoroll：世界模型+AI视频模型 打造了一种全新的游戏体验
+
+他们把视频生成模型从“内容工具”变成“游戏运行层”
+
+也就是通过AI视频模型来为游戏...
+[182] The Rundown AI(@TheRundownAI): Read more: https://t.co/LVa3dpN3iR
+[183] The Rundown AI(@TheRundownAI): Top stories in AI today:
+
+- OpenAI’s ‘social contract’ ideas for society, ASI
+- New Yorker surfaces ...
+[184] 机器之心SOTA模型: 今日开源（2026-4-7）：单条Prompt生成多智能体科研平台Claw AI Lab开源，FIFO并行调度+人类在环机制，跨项目知识共享提升算力利用率
+[185] meng shao(@shao__meng): Marketing Skills for AI Agents
+
+@coreyhainesco 开源的同时面向技术人员和营销人员的 AI Agent 结构化专业化营销工作流 Skills
+开源地址：
+h...
+[186] AI Will(@FinanceYF5): 源：https://t.co/F3CGk6NJWu
+[187] AI Will(@FinanceYF5): 感兴趣的可以看这儿：
+https://t.co/R3ytwQGEhR
+[188] AI Will(@FinanceYF5): 有人分享了自己上周日晚上该做的“作业”：
+
+去看 Stanford CS153Systems的第一讲。
+
+最喜欢的一部分是：人生的 scaling laws
+
+-  和你喜欢的人一起做重要的事
+- 追...
+[189] AI Will(@FinanceYF5): 以上就是全部，原作者 @minchoi
+
+如果您喜欢这个主题：
+
+1.关注我（@FinanceYF5）
+2. 点赞+转发下面第一条帖子
+
+https://t.co/o14SJDPMV5
+[190] AI科技评论: 西游取经团再出征：小米 Token Plan 能把 Token 价格打下来吗？
+[191] AI科技评论: 港中文薛天帆团队：实现 4K 全景视频生成，普通视频也能「长出空间」丨CVPR 2026
+[192] AI Will(@FinanceYF5): 10. 非常惊艳、非常唯美的 Grok Imagine 视频
+https://t.co/82Ap1v4lxk
+[193] AI Will(@FinanceYF5): Grok Imagine 新推出的 Quality 模式真实感，昨天几乎刷爆了全网。
+
+这 100% 是 AI 生成的。
+
+10 个疯狂案例：
+
+1. 现在已经没有什么是真实的了
+[194] AI Will(@FinanceYF5): 源：https://t.co/PXrahWK5Re
+[195] AI Will(@FinanceYF5): OpenAI 的新图像模型 GPT-Image-2 泄露了。
+
+它看起来具备非常强的世界知识，文字生成能力也很出色。
+
+甚至可能比 Nano Banana Pro 还要更强。
+
+目前它在arena上以...
+[196] AI Will(@FinanceYF5): 源：https://t.co/LQRbq0a07B
+[197] AI Will(@FinanceYF5): 不是每一场 AI 大会都能让人觉得有差异化，但这场可以。
+
+Yann LeCun、David MacMillan，再加上一批跨学科的 AI 嘉宾都在同一场活动里！
+
+AIX Summit 已经很有“高...
+[198] 创业邦: 深圳90后团队做了个AI员工，让人躺着把钱赚了
+[199] 创业邦: 内存条价格闪崩，车企仍在硬抗
+[200] 创业邦: 特斯拉前员工出任小米汽车欧洲交付与物流负责人；特斯拉鸿蒙版App上架华为应用市场丨汽车交通日报
+[201] 创业邦: 赛级金融男最爱的户外品牌，为了让你别退货号称要「代表地球」收运费？
+[202] 极客公园: AI 时代，「共享算力」是新码农们的小黄车
+[203] Vercel News: Build an MCP server with Nuxt
+[204] Articles on Smashing Magazine — For Web Designers And Developers: Identifying Necessary Transparency Moments In Agentic AI (Part 1)
+[205] The Keyword: An update on our mental health work
+[206] 跨国串门儿计划: #488.14个月从10亿到190亿美金：Anthropic 增长负责人的指数级思维与 AI 工作流
+[207] 爱范儿: 联想天禧 Claw 产品体验：大家都能吃的龙虾才是好龙虾
+[208] Frank Wang 玉伯(@lifesinger): Antropic 的收入
+超越 OpenAI 了
+
+新时代的微软
+已诞生
+
+微软的愿景：让每个桌面和家庭都拥有一台计算机
+Antropic 做到了：让每台计算机都拥有写 microsoft 的能力
+
+...
+[209] Qdrant(@qdrant_engine): Happening today with @ptdamiba: Agent Skills for Qdrant Live Chat
+
+Deep dive into structured, intell...
+[210] 小互(@imxiaohu): 刚才的邀请码有误，这里：https://t.co/9BnNHykDuu
+[211] AI Will(@FinanceYF5): 以上就是全部
+
+如果您喜欢这个主题：
+
+1.关注我（@FinanceYF5）
+2. 点赞+转发下面第一条帖子
+
+https://t.co/rDz5ECvqcN
+[212] AI Will(@FinanceYF5): 7/ 🧭 笼子的大小，你自己选
+
+龙虾是一条冻僵的蛇——放笼子里没事，放怀里就可能咬你。
+
+先隔离再放权，预设最坏情况下这台机器上所有数据都是别人的——唯一现实的安全策略。
+[213] AI Will(@FinanceYF5): 🧵Thread: 龙虾安全，没有银弹
+
+1/🧭 龙虾最大的漏洞，架构级无解
+
+大模型把system prompt和用户数据拼成一个string，天生分不清指令和数据。
+
+黑客的输入可以直接变成系统...
+[214] 深网腾讯新闻: 马云雷军投资的前英伟达工程师，为何急着“上市”？ | 深网
+[215] 通义大模型: FIPO：精准追踪2%的Token，突破大模型推理瓶颈！
+[216] 通义大模型: 热浪中的每个“我”：一场关于AI与人的年度对话
+[217] CSDN: Claude越更越废？AMD AI负责人甩出23万次调用记录：已“变蠢+摆烂”，复杂工程根本干不了
+[218] CSDN: 小红书、京东、蚂蚁、平安等 7 位专家复盘 AI 落地实战，2026 奇点智能技术大会「AI+行业落地实践」专题揭晓
+[219] CSDN: macOS出现运行49.7天“魔咒”：TCP连接失效，网络服务将全面瘫痪！
+[220] AI Engineer(@aiDotEngineer): 🎥🔴 LIVESTREAM ANNOUNCEMENT: Keynotes + @openclaw / Personal Agents track
+
+🔔 Hit the bell on our ...
+[221] AICodeKing: AwesomeDesign-md + OpenCode,Claude: This OPENSOURCE Design System is SO EASY ＆ SO GOOD!
+[222] 量子位: Meta员工空转AI只为浪费token！烧的多挣的多，日均消耗2万亿
+[223] 量子位: Claude爆火研究漏引华人团队成果，已挨打立正道歉
+[224] 字节跳动技术团队: 重磅发布｜Scale‑SWE 构造 10 万级真实 SWE 数据集，火山引擎沙箱底座重塑代码智能体训练
+[225] LovartAI(@lovart_ai): https://t.co/rt127JimLf
+[226] AI寒武纪: Anthropic最新战报：年化收入突破300亿美元，反超OpenAI，千家企业客户单笔年消费超百万
+[227] 小米技术: 喜讯｜Xiaomi Vela Safety 内核斩获车规功能安全 ASIL-D 最高等级认证
+[228] InfoQ: Article: Bloom Filters: Theory, Engineering Trade‑offs, and Implementation in Go
+[229] 小互(@imxiaohu): 还有几个邀请码：
+
+https://t.co/UXRIdFIGAU https://t.co/r3ZqM1PgSD https://t.co/GRfaIXnITM https://t.co/rBXBD...
+[230] meng shao(@shao__meng): OpenCode 团队公布最近 7 天模型使用量排行
+
+· GPT-5.4 和 GPT-5.3-Codex 前二
+· Kimi-K2.5 第三
+· Gemini-3.1-Pro 第四
+· Claude...
+[231] Ding(@dingyi): Dia 终于想起来做账户和书签同步了，但我回归 Chrome 用得可爽了。
+[232] 量子位: 哈萨比斯传记里讲了好多八卦啊
+[233] 数字生命卡兹克(@Khazix0918): AI FUT大会倒计时最后一天！
+
+啊啊啊真的就是最后一天了！明天就要跟大家面基了，我现在真的跟土拨鼠一样，不过还好整体都超出了我自己的预期！ 我们内场的彩排已经在推进中....外场也布置的差不多了！...
+[234] 小互(@imxiaohu): 目前处于内测阶段，需要邀请码激活
+桌面端目前只支持 macOS
+
+中国版入口：https://t.co/lYnqYvftBa
+国际版入口：https://t.co/ipRCIFGBwW
+
+这里有我的想...
+[235] 小互(@imxiaohu): 也有技能市场
+
+装一个 Skill，以后类似的任务直接丢给它，不用每次重新解释。
+[236] 小互(@imxiaohu): AI 编程工具 TRAE，刚出了一个独立产品叫 SOLO
+
+不是之前的TRAE SOLO模式
+
+不是给程序员的，是给打工人的桌面 AI 助手，有点类似Claude Cowork
+
+它可以读取你的文件、...
+[237] 甲子光年: 一个投资人与他的AI龙虾助手70天真实协作笔记｜甲子光年
+[238] 甲子光年: 加入甲子光年，我们一起定义未来｜甲子光年
+[239] 量子位: 印奇带队千里首个完整年：营收近百亿，智驾毛利率达30.8%
+[240] InfoQ: Anthropic Accidentally Exposes Claude Code Source via npm Source Map File
+[241] InfoQ: Google Open Sources Experimental Multi-Agent Orchestration Testbed Scion
+[242] Frank Wang 玉伯(@lifesinger): 用 YouMind 搭建知识库的体验
+远胜于 @karpathy 的玩法
+
+忘掉文件
+忘掉 AI
+忘掉可忘掉的一切
+
+开始创作
+就开始了
+[243] Marc Andreessen 🇺🇸(@pmarca): Solve for the equilibrium…
+[244] Marc Andreessen 🇺🇸(@pmarca): It’s an unfortunate time for the industry to run out of every single important component in the supp...
+[245] Marc Andreessen 🇺🇸(@pmarca): And for just the agent modality.
+[246] 极客公园: 从成立 ATH，到模型三连发，阿里想要的是「握指成拳」
+[247] Marc Andreessen 🇺🇸(@pmarca): And that’s just the use BY PEOPLE.
+[248] Marc Andreessen 🇺🇸(@pmarca): For 5+ billion people.
+[249] Marc Andreessen 🇺🇸(@pmarca): It’s very unclear to me what the upper bound on daily token use per person is going to. Orders of ma...
+[250] 爱范儿: 专访 XREAL 徐驰：我有手机、电脑，为什么要用 AI 眼镜去替代它？ | 多样性公司
+[251] Yangyi(@Yangyixxxx): 这个交互挺创新的
+或许可以集成到许多APP的新手引导模式里
+降低学习成本
+[252] Stack Overflow Blog: He designed C++ to solve your code problems
+[253] Vercel News: Team-wide Zero Data Retention and prompt training controls now on AI Gateway
+[254] Marc Andreessen 🇺🇸(@pmarca): Yep!
+[255] 量子位: 像素蛋糕9.0：一场关于AI与修图的颠覆革命
+[256] 爱范儿: 人类重返月球第一张自拍，来自 iPhone
+[257] meng shao(@shao__meng): Karpathy 几小时前开源了 KarpathyTalk，定位是 X 和 GitHub Gists 的结合体
+
+Karpathy 把它定义为「面向 LLM 时代的开放社交网络」：和封闭的传统社交平台...
+[258] ollama(@ollama): 🦞Ollama's cloud is one of the best places to run OpenClaw.
+
+$20 plan is enough for most day to da...
+[259] Yangyi(@Yangyixxxx): https://t.co/U8PI8brwBg
+[260] Yangyi(@Yangyixxxx): 这个PokeClaw看起来有点儿屌啊
+用Gemma4直接在设备端自主控制Android手机
+两天开发出来的
+Gemma4现在能在端侧跑本地化模型 能改变很多事情
+只是不确定它的成功率会怎么样   慢估...
+[261] 小互(@imxiaohu): 如果你觉得一个 AI 工具贵，而不是，不好用
+
+那么就是：你有问题！
+
+你应该反思怎么配的上它的贵，这样你就会不断进步
+
+比别人更强！
+[262] Ding(@dingyi): Linux Porn indeed.
+[263] Junyang Lin(@JustinLin610): tokenmaxxing vs. ironmaxxing lol. it should be an era where results matter but it seems not.
+[264] 枫言枫语: Vol. 165 做客声东击西:「龙虾」和 vibe coding 正如何改变我们的思维-来自小白、创业者和工程师不同视角的讨论
+[265] 小互(@imxiaohu): 代码不值钱了
+
+想法更值钱了？
+
+以前是很多人有很多创意苦于没法实现，现在是有想法就能实现正在变为现实？
+
+但是一旦你把自己的想法变为产品，那么很快你的想法就会被窃取！
+
+那么如何保护自己的想法呢?
+...
+[266] 量子位: “Claude Code更新废了”！热议Issue：思考深度下降67%，已无法胜任复杂的工程任务
+[267] Marc Andreessen 🇺🇸(@pmarca): Magical OpenClaw experiences that use frontier models cost $300-1,000/day today, heading to $10,000/...
+[268] Marc Andreessen 🇺🇸(@pmarca): Overheard in Silicon Valley: “Remember ‘hate speech and misinformation’? That was weird.”
+[269] 赛博禅心: Coze 2.5 发布：成为 Agent 的网络
+[270] Viking(@vikingmute): 喜欢这个 liveline，https://t.co/ncRsnVEMd2
+
+AI 时代还有人认认真真的打磨这样一个功能丰富，属性众多的实时 animated line chart，真的像艺术品一样。...
+[271] koji(@Yuancheng): And if you know friends who are interested in China AI but don’t read Chinese, feel free to share it...
+[272] koji(@Yuancheng): So I wanted to build a simple bridge: an English site that translates each episode’s title and shown...
+[273] 量子位: 卡帕西没做完的，开源社区48小时搞定了！完全体知识库，token省70倍
+[274] koji(@Yuancheng): A small update:
+
+We’ve launched an English website for Crossing:
+https://t.co/ydPcHH0uN0
+
+We has fea...
+[275] AI前线: Claude Code越更越废？！大厂AI主管公开怒喷思考深度暴跌，官方回应更被怼爆 ：菜成AI“玩具”
+[276] AI前线: 智能体 AI 模式强化软件工程规范性
+[277] 袋鼠帝AI客栈: Solo独立端来了！Trae想让普通人也能拥有顶级Agent（附免费邀请码）
+[278] 歸藏(guizang.ai)(@op7418): 安装后就能用不用管 Claude Code
+[279] 歸藏(guizang.ai)(@op7418): 终于彻底解耦了！
+
+下个版本 CodePilot 可以支持脱离 Claude Code 运行，如果你要启用 Claude Code 连接的话也可以。
+
+也还会支持 Codex 授权登录
+[280] Amjad Masad(@amasad): Simple, yet effective.
+[281] Vercel News: 58% of PRs in our largest monorepo merge without human review
+[282] InfoQ: Karpathy 亲手终结了RAG的草莽时代
+[283] InfoQ: 从工具到生命形式：OpenClaw 引发的 Agent 再思考
+[284] InfoQ: AI 时代的架构治理
+[285] InfoQ: Helidon 引入 Agent 能力，Java 框架开始内建 AI 编排
+[286] Berryxia.AI(@berryxia): 看到这个我设计，我有个大胆的想法🤔
+哈哈哈
+[287] Berryxia.AI(@berryxia): 不知不觉，藏是否已经开源这么多SKILLS，非常使用。
+包含了从提示词PPT到Claude-IM的skills，直接拿来就可以用，推荐大家顺手给他一个Star！
+[288] Berryxia.AI(@berryxia): 论文直达👉 https://t.co/duSuODH3BV
+[289] Berryxia.AI(@berryxia): MIT PhD @qinzytech 直接把训练 Computer Use Agent 的基础设施干翻了！🚀
+
+OSGym 横空出世：
+
+✅ 1024 个完整 OS sandbox 并行跑
+✅ ...
+[290] Ding(@dingyi): 其实只关注几个头部并不能学会什么，很多人起号就喜欢 at 各领域大佬，不仅打扰别人还屁用没有，人们还特别喜欢收藏这种赛博垃圾。每次看到下图这种就很好笑，就好像在说：人呐，想要活着，就要吃饭，就要睡觉，...
+[291] Marc Andreessen 🇺🇸(@pmarca): Frontier models become more expensive to serve. Token demand explodes at exponential rates. Solve fo...
+[292] Browser Use(@browser_use): https://t.co/rKAn7bCVB7
+[293] Browser Use(@browser_use): POV: you let an AI edit your launch vid-
+
+anyway
+
+web agents are stupid. they visit google flights, ...
+[294] Berryxia.AI(@berryxia): 这样做交互设计是真的有趣啊，是否AI可以有这样的想象力呢？
+[295] Marc Andreessen 🇺🇸(@pmarca): Yep!
+[296] Berryxia.AI(@berryxia): Telegram 的这个更新可以，直接让AI 自主创建其他bot，人类无需参与更为简单。nice！
+[297] Wes Roth: Claude just changed overnight
+[298] 创业邦: 太意外，大厂开始招聘中学生了
+[299] 创业邦: 同事.skill的尽头，是把人生外包给AI
+[300] 创业邦: 苹果首款折叠屏手机已在试产；明年起，宝马最古老的工厂将只生产电动汽车丨智能制造日报
+[301] 创业邦: 硅谷VC正在疯狂劝人辍学创业
+[302] 新智元: 「OpenClaw之父点赞」终结百虾大战？一场升级版的AI原生革命上演
+[303] 新智元: Anthropic封杀48小时，逼出OpenClaw最强反击！龙虾首次会生视频了
+[304] 新智元: 用雨伞「钓」无人机？首个针对自主目标跟踪闭环系统的物理攻击
+[305] Geek(@geekbb): Qwen 3.6 Plus 已在 Qwen Code CLI 中提供
+[306] Paul Graham(@paulg): I'm also tired of people misrepresenting that quote about parachuting him into an island full of can...
+[307] UX Magazine: Gamification or Manipulation? Understanding the Ethics of Engagement Loops
+[308] 量子位: 下一代OpenClaw来了？“龙虾之父”称将率先支持阿里千问
+[309] 少数派: macOS 开发者们最近自荐了这 3 个好用的 App
+[310] 少数派: 别只盯着 AI 工具了，这 100 个名额能让你看见创造的另一种可能
+[311] 量子位: 持续霸榜！阿里千问3.6Plus问鼎全球大模型调用周榜冠军
+[312] cs.SD updates on arXiv.org: Composer Vector: Style-steering Symbolic Music Generation in a Latent Space
+[313] cs.SD updates on arXiv.org: Measuring Robustness of Speech Recognition from MEG Signals Under Distribution Shift
+[314] cs.SD updates on arXiv.org: OmniSonic: Towards Universal and Holistic Audio Generation from Video and Text
+[315] cs.SD updates on arXiv.org: Joint Fullband-Subband Modeling for High-Resolution SingFake Detection
+[316] cs.SD updates on arXiv.org: Rewriting TTS Inference Economics: Lightning V2 on Tenstorrent Achieves 4x Lower Cost Than NVIDIA L40S
+[317] cs.SD updates on arXiv.org: CoLoRSMamba: Conditional LoRA-Steered Mamba for Supervised Multimodal Violence Detection
+[318] cs.SD updates on arXiv.org: FlueBricks: A Construction Kit of Flute-like Instruments for Acoustic Reasoning
+[319] cs.SD updates on arXiv.org: A Systematic Study of Cross-Modal Typographic Attacks on Audio-Visual Reasoning
+[320] cs.SD updates on arXiv.org: Neurological Plausibility of AI-Generated Music for Commercial Environments: An In-Silico Cortical Investigation Using Wubble and TRIBE v2
+[321] cs.SD updates on arXiv.org: AffectSpeech: A Large-Scale Emotional Speech Dataset with Fine-Grained Textual Descriptions for Speech Emotion Captioning and Synthesis
+[322] cs.SD updates on arXiv.org: Hierarchical Semantic Correlation-Aware Masked Autoencoder for Unsupervised Audio-Visual Representation Learning
+[323] cs.SD updates on arXiv.org: Audio-to-Image Bird Species Retrieval without Audio-Image Pairs via Text Distillation
+[324] cs.SD updates on arXiv.org: When Spoof Detectors Travel: Evaluation Across 66 Languages in the Low-Resource Language Spoofing Corpus
+[325] cs.SD updates on arXiv.org: IQRA 2026: Interspeech Challenge on Automatic Pronunciation Assessment for Modern Standard Arabic (MSA)
+[326] cs.SD updates on arXiv.org: WhisperRT -- Turning Whisper into a Causal Streaming Model
+[327] cs.SD updates on arXiv.org: VABench: A Comprehensive Benchmark for Audio-Video Generation
+[328] cs.SD updates on arXiv.org: Noise-Robust Contrastive Learning with an MFCC-Conformer For Coronary Artery Disease Detection
+[329] cs.SD updates on arXiv.org: Compact Hypercube Embeddings for Fast Text-based Wildlife Observation Retrieval
+[330] cs.SD updates on arXiv.org: PhiNet: Speaker Verification with Phonetic Interpretability
+[331] cs.MM updates on arXiv.org: Hierarchical Semantic Correlation-Aware Masked Autoencoder for Unsupervised Audio-Visual Representation Learning
+[332] cs.MM updates on arXiv.org: Imagine Before Concentration: Diffusion-Guided Registers Enhance Partially Relevant Video Retrieval
+[333] cs.MM updates on arXiv.org: Love Me, Love My Label: Rethinking the Role of Labels in Prompt Retrieval for Visual In-Context Learning
+[334] cs.MM updates on arXiv.org: LightThinker++: From Reasoning Compression to Memory Management
+[335] cs.MM updates on arXiv.org: OmniSonic: Towards Universal and Holistic Audio Generation from Video and Text
+[336] cs.MM updates on arXiv.org: BiTDiff: Fine-Grained 3D Conducting Motion Generation via BiMamba-Transformer Diffusion
+[337] cs.MM updates on arXiv.org: NAIMA: Semantics Aware RGB Guided Depth Super-Resolution
+[338] cs.MM updates on arXiv.org: E-VLA: Event-Augmented Vision-Language-Action Model for Dark and Blurred Scenes
+[339] cs.MM updates on arXiv.org: DIRECT: Video Mashup Creation via Hierarchical Multi-Agent Planning and Intent-Guided Editing
+[340] cs.MM updates on arXiv.org: Document Parsing Unveiled: Techniques, Challenges, and Prospects for Structured Information Extraction
+[341] cs.MM updates on arXiv.org: Editing Physiological Signals in Videos Using Latent Representations
+[342] cs.MM updates on arXiv.org: A Simple Method to Enhance Pre-trained Language Models with Speech Tokens for Classification
+[343] cs.MM updates on arXiv.org: Compact Hypercube Embeddings for Fast Text-based Wildlife Observation Retrieval
+[344] cs.MM updates on arXiv.org: ModalImmune: Immunity Driven Unlearning via Self Destructive Training
+[345] eess.AS updates on arXiv.org: Rewriting TTS Inference Economics: Lightning V2 on Tenstorrent Achieves 4x Lower Cost Than NVIDIA L40S
+[346] eess.AS updates on arXiv.org: MALEFA: Multi-grAnularity Learning and Effective False Alarm Suppression for Zero-shot Keyword Spotting
+[347] eess.AS updates on arXiv.org: AffectSpeech: A Large-Scale Emotional Speech Dataset with Fine-Grained Textual Descriptions for Speech Emotion Captioning and Synthesis
+[348] eess.AS updates on arXiv.org: Full-Duplex-Bench-v3: Benchmarking Tool Use for Full-Duplex Voice Agents Under Real-World Disfluency
+[349] eess.AS updates on arXiv.org: FastTurn: Unifying Acoustic and Streaming Semantic Cues for Low-Latency and Robust Turn Detection
+[350] eess.AS updates on arXiv.org: DHFP-PE: Dual-Precision Hybrid Floating Point Processing Element for AI Acceleration
+[351] eess.AS updates on arXiv.org: Joint Fullband-Subband Modeling for High-Resolution SingFake Detection
+[352] eess.AS updates on arXiv.org: SenSE: Semantic-Aware High-Fidelity Universal Speech Enhancement
+[353] eess.AS updates on arXiv.org: Noise-Robust Contrastive Learning with an MFCC-Conformer For Coronary Artery Disease Detection
+[354] eess.AS updates on arXiv.org: Validating Computational Markers of Depressive Behavior: Cross-Linguistic Speech-Based Depression Detection with Neurophysiological Validation
+[355] eess.AS updates on arXiv.org: PhiNet: Speaker Verification with Phonetic Interpretability
+[356] eess.AS updates on arXiv.org: WhisperRT -- Turning Whisper into a Causal Streaming Model
+[357] eess.AS updates on arXiv.org: When Spoof Detectors Travel: Evaluation Across 66 Languages in the Low-Resource Language Spoofing Corpus
+[358] eess.AS updates on arXiv.org: IQRA 2026: Interspeech Challenge on Automatic Pronunciation Assessment for Modern Standard Arabic (MSA)
+[359] 向阳乔木(@vista8): 有了planning-with-files Skill，感觉心里踏实不少。
+[360] Paul Graham(@paulg): Since there's yet another article claiming that we "removed" Sam because partners distrusted him, no...
+[361] 向阳乔木(@vista8): 正在写一个Skill，一句话生成知名人物传记电子书。
+[362] 花叔: Karpathy又双叒叕发新概念了，这次我替你找到了那个产品
+[363] 快手技术: 采纳率从3%到80%：智能单元测试生成的进化之路
+[364] 数字生命卡兹克(@Khazix0918): https://t.co/ozd2hhQ0oS
+[365] Jeff Dean(@JeffDean): Incredible!  The purple-ish and reddish colors don't quite come through when we look from Earth (and...
+[366] 歸藏(guizang.ai)(@op7418): 在开了 Fast 模式疯狂使用后
+
+第一次用完 20 美元会员 Codex 的 5 小时限额
+
+真 tm 耐用啊
+[367] AI产品黄叔: 不靠感觉不靠投票，我用 Agent 做了一套社群贡献排名系统 | 搭建一家Agent First公司（三）
+[368] Justine Moore(@venturetwins): This ad was one-shotted by OpenAI's new image model 🤯
+
+Prompt was literally "make an advertisement ...
+[369] 优设: 5分钟搞定Claude Code从安装到上手
+[370] Yangyi(@Yangyixxxx): 这个强 agent也能自己创建agent进行管理了！
+[371] 网易科技: 满嘴谎言却手握万亿帝国！OpenAI奥特曼黑料大起底，他凭什么捏死普通人的未来？
+[372] andrew chen(@andrewchen): falcon 9 over Venice beach this afternoon during an evening dog walk
+
+Launched from vandenberg space...
+[373] 印记中文: 前端播客周刊 #047 - Void 与 Next 博弈、TS 6、遗留迁移与 Claude Code 泄露
+[374] 傅盛(@FuSheng_0306): 恭喜老傅同学视频号粉丝过百万😆😆😆
+[375] 歸藏(guizang.ai)(@op7418): 整理一下藏师傅开源的所有 Skill
+
+Claude-to-IM-skill：
+1800🌟
+安装后可以将你的 Claude Code 和 Codex 连接到任何聊天软件，实现远程控制
+https:/...
+[376] 腾讯科技: 谁是美国大模型第一股？
+[377] AI产品黄叔(@PMbackttfuture): 之前说过黄叔想整Agent Native的组织
+现在社群有4个500人满群，社群极其活跃
+
+当前依靠学委的机制来满足学员的沟通交流
+打算给学委最高以CC 20x会员的奖励政策
+
+那如何评选呢？
+想要A...
+[378] 向阳乔木(@vista8): 发现小任务也要Claude Code写执行文档！
+
+比如上午制作一个Epub电子书，边制作边优化Skill，很快超上下文，CC就忘了很多之前讨论好的修改。
+
+一怒之下安装了下面两个Skill并写入到C...
+[379] koji(@Yuancheng): 【十字路口】“AGI 来了？我用了一周，头皮发麻“｜对谈张昊然：Moxt 联合创始人【视频播客】 https://t.co/k87en1uWsS via @YouTube
+[380] Ado(@adocomplete): The Cloudflare Workers Platform is honestly so nice. It's quickly and quietly becoming my go-to.
+[381] koji(@Yuancheng): I just sponsored yologdev. Go sponsor your open source dependencies! https://t.co/oAo961VshP
+[382] Z Potentials: 深度｜Agent Harness：当驯化Agent取代通用代理成为硅谷新共识
+[383] Z Potentials: 速递｜ 质疑IPO时机，OpenAI内部正在上演一场财务博弈
+[384] Z Potentials: 速递｜毛利超30%，50万用户撑起月入800万美元，Wrtn正在抢占AI角色扮演市场
+[385] 傅盛(@FuSheng_0306): https://t.co/ybNf5jApAT
+[386] 小互(@imxiaohu): AI可以操控推特
+
+不用担心被封号
+[387] Geek(@geekbb): 还挺感慨的……
+[388] 量子位: 23天靠AI短片赚100万！非科班出身逆袭影视区，郭帆导演拍手叫好
+[389] 刘润: 吴军：AI时代，普通人该有的10个清醒认知
+[390] 刘润: 不想卷了，就去做自己擅长的事吧
+[391] 刘润: 哪一种人，算是高级经理？
+[392] 刘润: 04月07日（勤商日历卡片）：恳请收下我一直在用的5个读书方法
+[393] 硅谷科技评论: AI不是泡沫，软件正在被重新定价 | SVTR Thesis #006
+[394] 宝玉(@dotey): https://t.co/1cvpnYbwvE
+[395] 逛逛GitHub: 这个 GitHub 项目很有意思啊，解了死磕 30 年的前端难题。
+[396] Gary Marcus(@GaryMarcus): Commercial airlines crash at a rate of 7 per 41 million flights.
+
+Current top LLMs hallucinate (by...
+[397] Gary Marcus(@GaryMarcus): Another way to think about, with some basic math:
+[398] Browser Use(@browser_use): We built web agents that self evolve
+[399] 量子位: Ilya曝光70页OpenAI绝密文件
+[400] AI Will(@FinanceYF5): 老K游记
+[401] 硅星人Pro: 罗福莉：各位醒醒吧，该结束token虚假狂欢了
+[402] 硅星人Pro: Siri 重生倒计时：苹果用 10 亿美元买来的，不只是一个模型
+[403] 硅星人Pro: 年收入4亿美元的“一人公司”，这么快就翻车了？
+[404] Gary Marcus(@GaryMarcus): literally exactly what i said in March 2022.
+
+if only people had read the full article [https://t.c...
+[405] Gary Marcus(@GaryMarcus): I missed it. What did the “editorially independent” @tbpn say about the @ronanfarrow @andrewmarantz ...
+[406] 数字生命卡兹克: 今天，我决定把「卡兹克风格创作.skill」开源了。
+[407] 深思圈: Agent互联网：为什么我们需要重建整个互联网基础设施
+[408] 歸藏(guizang.ai)(@op7418): Telegram 这个更新牛蛙
+
+你的机器人可以自主创建和管理其他机器人了，不需要你的审批和操作。
+
+这样你的龙虾或者 Claude Code 就可以帮你创建带有复杂功能的机器人
+[409] Peter Yang(@petergyang): I had a wonderful chat with my friend @illscience (a16z GP) about the future of work in an AI agent ...
+[410] 向阳乔木(@vista8): 真牛逼
+[411] ChatGPT(@ChatGPTapp): Millions of chats 🏀
+[412] meng shao(@shao__meng): Unix 哲学延续：为什么文件系统比 RAG 和 MCP 更懂 AI Agent，把整个 Web 装进文件系统是正确方向吗？
+
+# 核心问题：代码幻觉是数据问题，而非模型问题
+
+@arlanr 指出，...
+[413] Orange AI(@oran_ge): 新的 office 三件套
+md csv html
+[414] 小互(@imxiaohu): 详细介绍：https://t.co/YRQeVYwGln
+
+GitHub：https://t.co/kHgnScyqG2
+[415] 小互(@imxiaohu): 除了技能本身，还有什么
+
+3 个预配置 Agent 角色：
+
+code-reviewer：Staff Engineer 视角做代码审查，标准是"一个 Staff Engineer 会不会批准这个 PR...
+[416] 小互(@imxiaohu): Google 工程师的 Agent Skills技能包
+
+Google Chrome 团队工程负责人 Addy Osmani 开源了一套叫 Agent Skills 的技能包
+
+这些技能都来自 Goo...
+[417] meng shao(@shao__meng): Reducto 为复杂文档解析发布「Deep Extract」，针对长文档、高复杂度、强准确性场景的系统性重构，将 "Human-in-the-Loop" 替换为 "Agent-in-the-Loop...
+[418] Jerry Liu(@jerryjliu0): Hosted filesystems for agents are the new RAG
+[419] Yangyi(@Yangyixxxx): 早晚有一天
+人会喜欢自己当下厌恶的
+也会厌恶自己当下喜欢的
+[420] 李继刚(@lijigang_com): 在 AI 面前，人成了压缩包。
+
+费曼这样的人，名字输进去，思维方式、表达风格、行为习惯全解压出来了，是一个巨大的压缩包。
+
+有的人，AI 得现场搜索、调研、拼凑，勉强攒出一个小压缩包。
+
+还有的人，...
+[421] Jerry Liu(@jerryjliu0): I just listened to the podcast episode last night
+
+"19B end of Feb, wonder where they are right now"...
+[422] Geek(@geekbb): haha~ 好玩，当 Claude Code 完成回复时，它就会跳两下。
+[423] Lenny Rachitsky(@lennysan): Anthropic added the combined ARR of Palantir, Anduril, and Databricks—in one month.
+[424] 机器之心: 与Generalist顶峰相见，30天狂吸30亿，千寻智能做对了什么？
+[425] 机器之心: Sam Altman：超级智能近在眼前！OpenAI官方13页蓝图引爆海外社区
+[426] 机器之心: 十分钟破解加密货币！谷歌在量子计算领域发现了什么？
+[427] 卡尔的AI沃茨: 一句话用Seedance2.0直出5分钟漫剧，我决定把工作流全拆开来讲讲
+[428] 前端早读课: 【早说】不用IDE，只用计划文件和语音：所知道的Claude Code全部技巧
+[429] Jerry Liu(@jerryjliu0): The tutorial uses LlamaParse, come check it out! https://t.co/e0hRfFjbqs
+[430] Jerry Liu(@jerryjliu0): Let Claude Code automate your business operations
+
+I started a tutorial series geared towards provid...
+[431] 爱范儿: 早报｜折叠屏iPhone下半年有望发布/微信关停「支付有优惠」小程序/胖东来再回应鸡蛋角黄素风波
+[432] meng shao(@shao__meng): [AI Agent 系统构建实战指南] 打造一个比所有人类助理都更可靠的 AI 私人助理
+
+# 核心架构：超越会话记忆的"记忆层"
+
+当前大多数 AI 助手（包括 ChatGPT、Claude 等）的...
+[433] Orange AI(@oran_ge): 大家不要把算法大牛的那些终局思考放到现实中来
+终局的东西，没有考虑时间，而时机非常重要
+比如 Claude Code，终局就不应该写硬规则，全是苦涩的教训
+可是没有 CC 的工程现实，也许就不会有这么...
+[434] Replit ⠕(@Replit): Week 2 winner of the Agent 4 Content Challenge:
+
+Marcos Leal 🏆
+
+Built https://t.co/ozyZxLM1wS, a da...
+[435] 前端充电宝: 很严重了，大家别轻易离职。。
+[436] Yangyi(@Yangyixxxx): 你的注意力
+正在悄无声息的塑造或摧毁你
+[437] Orange AI(@oran_ge): 这篇文章，看完的人都会陷入迷茫
+产品技术已经没有任何壁垒的时代
+是要寻求他处了
+[438] 极客公园: 传易烊千玺方就 AI「偷脸」维权，红果下架作品；华为 2026 新问界 M9 曝光；阿耳忒弥斯 2 号宇航员破最远飞行纪录 | 极客早知道
+[439] Tw93(@HiTw93): I spent a day turning the Skills I personally use most into a new thing called Waza. In Japanese, Wa...
+[440] Peter Yang(@petergyang): I don’t know measuring productivity by token usage sounds almost as dumb as measuring by lines of co...
+[441] 阿里云开发者: 「纯干货」几万字都讲不明白的Memory架构与思考
+[442] meng shao(@shao__meng): 需求澄清 -＞ 规范固化 -＞ 增量实现 -＞ 端到端验证
+
+@reactive_dude 分享的这四个 Skills，实现了一条从"想法"到"可运行软件"的可靠闭环，先用 grill-me 澄清需求...
+[443] Orange AI(@oran_ge): 继语音输入法泛滥之后
+island 也泛滥了
+资本主义还是低估了人类
+人们没有商业利益人类也可以卷
+😂
+[444] 吴晓波频道: 坐了几趟过山车的黄金，还能买吗？
+[445] 吴晓波频道: 三大经济拐点，让出海成为必答题
+[446] Fireworks AI(@FireworksAI_HQ): Fireworks Training is now in preview.
+
+You can now full-parameter fine-tune Kimi K2.5 (1T params, 25...
+[447] 体验进阶: 张雪让人看到这个社会的希望
+[448] Latent.Space: [AINews] Gemma 4 crosses 2 million downloads
+[449] meng shao(@shao__meng): 增长营销与 AI 的四个实践维度
+
+Anthropic 增长团队 @helloitsaustin 提出了一套超越"用 AI 加速现有工作"的系统性框架，一共四个维度按价值层级递进。
+
+维度一：自动化现...
+[450] 宝玉(@dotey): Anthropic 年化收入突破 300 亿美元，超过 OpenAI
+
+2024 年 12 月，Anthropic 的年化收入（run-rate revenue，把当月收入乘以 12 得到的数字）刚到...
+[451] 创业邦: 小伙“一人公司”估值超3000万：用AI写歌，歌曲版权赚了5位数；红果下架AI盗脸易烊千玺短剧；苹果首款折叠屏手机已在试产丨邦早报
+[452] 创业邦: 中国AI大模型调用量环比增逾31%，连续五周超越美国；浙江成立“AI+新材料”产业联盟丨AIGC日报
+[453] 创业邦: 对话OiiOii创始人闹闹：做AI时代的皮克斯丨光合说
+[454] 十字路口Crossing: 这个华人团队，在海外做了一个「游戏版 TikTok」
+[455] Spring: This Week in Spring - April 7th, 2026
+[456] Spring: Spring AI Agentic Patterns (Part 6): AutoMemoryTools — Persistent Agent Memory Across Sessions
+[457] 跨国串门儿计划: #487.AI 智能体大爆发：编程将吞噬所有知识性工作？AI 工作流与未来生存指南
+[458] HackerNews每日摘要 on SuperTechFans: 2026 04 07 HackerNews
+[459] 人人都是产品经理: AI大厂疯抢文科生？差不多得了
+[460] 人人都是产品经理: 2026，如何才能拿到一个高薪产品offer？
+[461] 人人都是产品经理: OpenClaw 被Anthropic断供！这步棋，太狠了
+[462] 人人都是产品经理: 踩坑无数总结的：AI 产品经理的 5 条避坑铁律
+[463] Lenny Rachitsky(@lennysan): Learn from their head of growth https://t.co/zHvekvv9m1
+[464] Berryxia.AI(@berryxia): 完整 benchmark + 代码仓库👉 https://t.co/uRYhtjGb2X
+[465] Berryxia.AI(@berryxia): 国外老哥速度真快，又放大招了！🚀
+
+Gemma-4 + TurboQuant 在 M5 Max 上完整 benchmark 直接上线！
+
+✅ 4-bit / 8-bit / bf16
+✅ Tur...
+[466] Sundar Pichai(@sundarpichai): Most I’ve ever talked about latency budgets in a pub 😂thanks for having me @collision and @eladgil ...
+[467] Berryxia.AI(@berryxia): 这个尼玛是真的牛马挨鞭子了！
+
+这哥们直接搞了个鞭子抽Claude ，让它干活麻利点！😂
+[468] HeyGen(@HeyGen_Official): https://t.co/DrlhU6Z47z
+[469] Berryxia.AI(@berryxia): GitHub 直达👉 https://t.co/YomP4CuyUB
+[470] Berryxia.AI(@berryxia): Karpathy 前两天刚说“应该有人做这个”，
+
+兄弟们，48小时后就有人直接干出来了！
+
+Graphify 横空出世：
+
+✅ 指向任意文件夹
+✅ 在 Claude Code 里输入 /grap...
+[471] GitHub(@github): Web ＆ game developers, this is your jam.
+
+Gamedev.js Jam 2026 is back. 🎮
+
+🗓 April 13-26, 2026
+🌐 ...
+[472] dbaplus社群: 还不会做数据库智能异常检测的DBA，真的要被炒鱿鱼了……
+[473] AK(@_akhaliq): gradio.Server
+
+Any Custom Frontend with Gradio's Backend
+
+build with your own frontend framework ent...
+[474] Geek(@geekbb): 5090 24G 的兄弟可以参考一下
+[475] Berryxia.AI(@berryxia): Anthropic ＆Google强强联合！直接放大招了！🚀💰
+
+刚刚官宣：
+✅ 和 Google + Broadcom 签下
+多个下一代 TPU 大单
+✅ 从 2027 年开始上线，专供前沿...
+[476] Berryxia.AI(@berryxia): Colab 直达 + 教程👉 https://t.co/3lRRygZfWK
+[477] Berryxia.AI(@berryxia): Gemma 4 现在免费微调了！🚀🔥
+
+直接教你用 Google Colab + Unsloth Studio，4 步搞定：
+
+1. 打开下面这个 Colab 笔记本
+2. 运行代码块启动 U...
+[478] Windsurf(@windsurf_ai): Between Adaptive, the updated model picker, and the removal of daily limits for Max, we think this i...
+[479] Windsurf(@windsurf_ai): Finally, for Max users, we’ve decided to remove your daily limits entirely starting today.
+
+Your wee...
+[480] Windsurf(@windsurf_ai): Today Windsurf is getting a few updates: an Adaptive model router, a redesigned model picker with mo...
+[481] 跨国串门儿计划: #486.跑神基普乔格的精神世界：人类没有极限，自律方得自由
+[482] Browser Use(@browser_use): Commit Machine
+[483] a16z: We’re going back to the moon.
+[484] Gary Marcus(@GaryMarcus): This ML Prof told me that the hallucination rate for frontier reasoning LLMs is “next to nil”
+
+And t...
+[485] Gary Marcus(@GaryMarcus): the plot gets wilder: the prof’s evidence for hallucinations has been allegedly solved is a chart fr...
+[486] Gary Marcus(@GaryMarcus): Wild: the head of Y Combinator seems pretty blind to the security risks in OpenClaw.
+[487] Lenny Rachitsky(@lennysan): Source https://t.co/po1H8jxBm7
+[488] Lenny Rachitsky(@lennysan): Breaking: Anthropic is now at $30B ARR.
+
+Up from $19B in February.
+
+That's $11B ARR added in one mon...
+[489] Anthropic(@AnthropicAI): Our run-rate revenue has surpassed $30 billion, up from $9 billion at the end of 2025, as demand for...
+[490] Anthropic(@AnthropicAI): We've signed an agreement with Google and Broadcom for multiple gigawatts of next-generation TPU cap...
+[491] Ding(@dingyi): 不想用 cmux 或 tmux 的话也可以装这个试试。
+
+https://t.co/0Ki7Dlwk0k
+[492] Notion(@NotionHQ): Custom Agents 🤝 @SlackHQ
+
+Connect your Custom Agent to Slack to monitor channels for requests, ext...
+[493] Matt Wolfe: Claude's Source Code Got Leaked Across The Whole Internet
+[494] The GitHub Blog: GitHub Copilot CLI combines model families for a second opinion
+[495] Orange AI(@oran_ge): 跟 Cola 一起学习的体验很神奇
+她的连点成线能力太强了
+我自己都没意识到最近我看的这些内容其内部的关联性
+[496] No Priors: AI， Machine Learning， Tech， ＆ Startups: ChatGPT Co-Creator's Shocking AI Timeline
+[497] freeCodeCamp Programming Tutorials: Python， JavaScript， Git ＆ More: How to Go from Toy API Calls to Production-Ready Networking in JavaScript
+[498] freeCodeCamp Programming Tutorials: Python， JavaScript， Git ＆ More: How to Build and Secure a Personal AI Agent with OpenClaw
+[499] a16z(@a16z): Roblox home page (2007)
+[500] Marc Andreessen 🇺🇸(@pmarca): Overheard in Silicon Valley: "There's a certain kind of company that has market/investor fit."
+[501] DeepLearning.AI(@DeepLearningAI): We're excited to welcome @ReductoAI as a partner at AI Dev 26!
+
+Reducto helps the world's best AI t...
+[502] AWS Architecture Blog: Unlock efficient model deployment: Simplified Inference Operator setup on Amazon SageMaker HyperPod
+[503] Cursor(@cursor_ai): Read about our work on warp decode: https://t.co/YFIcFPkvku
+[504] Cursor(@cursor_ai): We rebuilt how MoE models generate tokens on Blackwell GPUs, resulting in 1.84x faster inference and...
+[505] Arena.ai(@lmarena_ai): New eval mode: Battles in Direct anonymously surfaces a second model mid-conversation during your di...
+[506] Arena.ai(@lmarena_ai): Check it out at https://t.co/yZiJuG8ica and let us know what you think about Battles in Direct chat.
+[507] Arena.ai(@lmarena_ai): Clayton and John explain how it works on our YouTube here: https://t.co/ebynP2wwZY
+[508] The Cloudflare Blog: How we built Organizations to help enterprises manage Cloudflare at scale
+[509] Justine Moore(@venturetwins): This is a bit of an overstatement - the real story is AI is prescribing refills of standard anxiety/...
+[510] Gary Marcus(@GaryMarcus): and this another minute later
+[511] Gary Marcus(@GaryMarcus): My timeline has been filled with flagrant antisemitism, like this.
+[512] Gary Marcus(@GaryMarcus): https://t.co/GQv4iYbyAW
+[513] Stripe: A Cheeky Pint with Google
+[514] Gary Marcus(@GaryMarcus): I have an ML professor asserting that hallucinations have been solved in recent frontier reasoning m...
+[515] freeCodeCamp Programming Tutorials: Python， JavaScript， Git ＆ More: How to Self-Host Your Own Server Monitoring Dashboard Using Uptime Kuma and Docker
+[516] freeCodeCamp Programming Tutorials: Python， JavaScript， Git ＆ More: How to Authenticate Users in Kubernetes: x509 Certificates, OIDC, and Cloud Identity
+[517] Anton Osika – eu／acc(@antonosika): I keep telling people I built Lovable for the 99% who can't code.
+
+The 1% who can seem very concerne...
+[518] Y Combinator(@ycombinator): Demis Hassabis (@demishassabis), co-founder ＆ CEO of Google DeepMind is coming to YC!
+
+＞ Fireside ch...
+[519] Marc Andreessen 🇺🇸(@pmarca): Top doomer.
+[520] Peter Yang(@petergyang): @embirico @OpenAI If you enjoyed this, sign up for free to my newsletter to get my best AI and produ...
+[521] Vercel News: Zero Data Retention on AI Gateway
+[522] Lenny Rachitsky(@lennysan): Narrative violation: Anthropic's Head of Growth says we'll need more PMs, not fewer.
+
+"While PMs and...
+[523] OpenAI Developers(@OpenAIDevs): Let’s talk about building with Codex.
+
+Join @ryannystrom, @derrickcchoi and @varunrau for a chat abo...
+[524] Replit ⠕(@Replit): Find your next 100 customers with Replit!
+[525] The Diary Of A CEO: THERE WILL BE A GLOBAL FAMINE?
+[526] 马东锡 NLP(@dongxi_nlp): MiroEval: Benchmarking Multimodal Deep Research Agents in Process and Outcome
+
+https://t.co/5rwvnBmt...
+[527] 马东锡 NLP(@dongxi_nlp): 「 MiroMind, MiroEval 」
+
+面向 Deep Research Agent 的多模态的，反映现实世界查询复杂度的 benchmark。
+[528] 马东锡 NLP(@dongxi_nlp): ClawKeeper: Comprehensive Safety Protection for OpenClaw Agents Through Skills, Plugins, and Watcher...
+[529] 马东锡 NLP(@dongxi_nlp): ClawKeeper
+
+OpenClaw 生态中的现有安全措施高度碎片化。
+
+ClawKeeper 提出基于 Skill, Plugins, Watchers 的保护框架，并且开源。
+[530] ollama(@ollama): Gemma 4 on Ollama's cloud runs on the latest @nvidia Blackwell GPUs.
+
+https://t.co/WD3DDuxEhx
+[531] ollama(@ollama): Ollama's cloud is now the best place to run Gemma 4 in the cloud!
+
+Available through a subscription...
+[532] HeyGen(@HeyGen_Official): You've seen what Seedance can do inside HeyGen.
+
+Now learn how to actually use it.
+
+We're breaking d...
+[533] LangChain(@LangChainAI): Introducing Cost Alerting in LangSmith 💸
+
+More and more agents are making it to production, and cos...
+[534] Cursor(@cursor_ai): Read about our work on warp decode: https://t.co/YFIcFPkvku
+[535] Cursor(@cursor_ai): We rebuilt how MoE models generate tokens on Blackwell GPUs, resulting in 1.84x faster inference and...
+[536] NotebookLM(@NotebookLM): Hi! For those of you who have been using Cinematic Video Overviews over the past few weeks— what do ...
+[537] Vercel News: Vercel CLI commands now scoped to local directory
+[538] a16z: We're going back to the moon.
+[539] Justin Welsh(@thejustinwelsh): Every Saturday, I send one email with stories, lessons, and practical ideas on earning more from wha...
+[540] My First Million: How Zuckerberg bought Instagram in 48 hours
+[541] Gary Marcus(@GaryMarcus): ps: i do agree with many who have commented below that it is not so unheard of to see these two trai...
