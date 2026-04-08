@@ -15,6 +15,7 @@ import re
 import subprocess
 import time
 import traceback
+import shutil
 from datetime import datetime
 from urllib.parse import urlparse
 
@@ -26,12 +27,65 @@ IMAGES_DIR = os.path.join(OUTPUT_DIR, "arxiv-daily", "images")
 NOTEBOOK_PREFIX = "arxiv_daily"
 
 PAPERS_LIMIT = int(os.environ.get("DEBUG_LIMIT", 12))
-SOURCE_READY_WAIT = 10
-INFOGRAPHIC_READY_WAIT = 30
-DOWNLOAD_MAX_RETRIES = 5
-DOWNLOAD_RETRY_INTERVAL = 60
+SOURCE_READY_WAIT = int(os.environ.get("SOURCE_READY_WAIT", 10))
+INFOGRAPHIC_READY_WAIT = int(os.environ.get("INFOGRAPHIC_READY_WAIT", 30))
+DOWNLOAD_MAX_RETRIES = int(os.environ.get("DOWNLOAD_MAX_RETRIES", 5))
+DOWNLOAD_RETRY_INTERVAL = int(os.environ.get("DOWNLOAD_RETRY_INTERVAL", 60))
+ARTIFACT_STATUS_POLL_INTERVAL = int(os.environ.get("ARTIFACT_STATUS_POLL_INTERVAL", 30))
+ARTIFACT_STATUS_TIMEOUT = int(os.environ.get("ARTIFACT_STATUS_TIMEOUT", 1800))
 
 os.makedirs(IMAGES_DIR, exist_ok=True)
+
+
+def resolve_nlm_command() -> str:
+    """Resolve the nlm executable path across local and CI environments."""
+    explicit = os.environ.get("NLM_COMMAND")
+    if explicit:
+        return explicit
+
+    resolved = shutil.which("nlm")
+    if resolved:
+        return resolved
+
+    appdata = os.environ.get("APPDATA")
+    if appdata:
+        candidate = os.path.join(appdata, "uv", "tools", "notebooklm-mcp-cli", "Scripts", "nlm.exe")
+        if os.path.exists(candidate):
+            return candidate
+
+    home = os.path.expanduser("~")
+    candidate = os.path.join(home, ".local", "bin", "nlm")
+    if os.path.exists(candidate):
+        return candidate
+
+    raise FileNotFoundError(
+        "Unable to find the nlm CLI. Set NLM_COMMAND or add nlm to PATH."
+    )
+
+
+NLM_COMMAND = resolve_nlm_command()
+NLM_PROFILE = os.environ.get("NLM_PROFILE", "default")
+
+
+def run_nlm(*args: str) -> subprocess.CompletedProcess[str]:
+    """Run the nlm CLI with captured output."""
+    return subprocess.run(
+        [NLM_COMMAND, *args],
+        capture_output=True,
+        text=True,
+    )
+
+
+def run_nlm_json(*args: str):
+    """Run nlm and parse JSON output when possible."""
+    result = run_nlm(*args)
+    if result.returncode != 0:
+        return None, result
+
+    try:
+        return json.loads(result.stdout), result
+    except json.JSONDecodeError:
+        return None, result
 
 
 def extract_arxiv_id(abs_url):
@@ -49,11 +103,7 @@ def extract_arxiv_id(abs_url):
 
 def find_existing_notebook(notebook_name):
     """查找是否已存在同名 notebook。"""
-    result = subprocess.run(
-        ["nlm", "notebook", "list"],
-        capture_output=True,
-        text=True,
-    )
+    result = run_nlm("notebook", "list")
     if result.returncode == 0:
         try:
             notebooks = json.loads(result.stdout)
@@ -72,11 +122,7 @@ def create_notebook(notebook_name):
         print(f"    复用已有 notebook: {notebook_name}")
         return existing_id
 
-    result = subprocess.run(
-        ["nlm", "notebook", "create", notebook_name],
-        capture_output=True,
-        text=True,
-    )
+    result = run_nlm("notebook", "create", notebook_name)
     if result.returncode != 0:
         return None
 
@@ -88,21 +134,13 @@ def create_notebook(notebook_name):
 
 def add_url_to_notebook(notebook_id, pdf_url):
     """向 notebook 添加论文 PDF URL。"""
-    result = subprocess.run(
-        ["nlm", "add", "url", notebook_id, pdf_url],
-        capture_output=True,
-        text=True,
-    )
+    result = run_nlm("add", "url", notebook_id, pdf_url)
     return result.returncode == 0, result.stdout, result.stderr
 
 
 def get_all_sources(notebook_id):
     """获取 notebook 下所有 sources。"""
-    result = subprocess.run(
-        ["nlm", "source", "list", notebook_id, "--json"],
-        capture_output=True,
-        text=True,
-    )
+    result = run_nlm("source", "list", notebook_id, "--json")
     if result.returncode != 0:
         return []
 
@@ -121,11 +159,35 @@ def find_source_id(sources, target_url):
     return None
 
 
+def is_transient_nlm_error(stderr_text: str) -> bool:
+    """Return True for retryable network or backend errors."""
+    text = (stderr_text or "").lower()
+    retry_markers = [
+        "ssl: unexpected_eof_while_reading",
+        "connecterror",
+        "connectionreseterror",
+        "timed out",
+        "timeout",
+        "temporarily unavailable",
+        "503",
+        "bad gateway",
+        "gateway timeout",
+    ]
+    return any(marker in text for marker in retry_markers)
+
+
+def parse_artifact_id(stdout: str) -> str | None:
+    """Extract an artifact id from nlm stdout."""
+    match = re.search(r"Artifact ID:\s*([0-9a-fA-F-]+)", stdout or "")
+    if match:
+        return match.group(1)
+    return None
+
+
 def create_infographic(notebook_id, source_id):
     """发起 infographic 生成请求。"""
-    result = subprocess.run(
-        [
-            "nlm",
+    for attempt in range(3):
+        result = run_nlm(
             "infographic",
             "create",
             notebook_id,
@@ -138,13 +200,56 @@ def create_infographic(notebook_id, source_id):
             "--language",
             "zh-CN",
             "-y",
-        ],
-        capture_output=True,
-        text=True,
-    )
+        )
+        if result.returncode == 0:
+            return True, parse_artifact_id(result.stdout), None
+
+        if attempt < 2 and is_transient_nlm_error(result.stderr):
+            time.sleep(10 * (attempt + 1))
+            continue
+
+        return False, None, result.stderr
+
+    return False, None, "infographic creation failed after retries"
+
+
+def get_artifact_status(notebook_id, artifact_id):
+    """Fetch the current artifact status from NotebookLM."""
+    data, result = run_nlm_json("status", "artifacts", notebook_id, "--json", "-p", NLM_PROFILE)
     if result.returncode != 0:
-        return False, result.stderr
-    return True, None
+        return None, result.stderr
+
+    if not isinstance(data, list):
+        return None, "Unexpected artifact status payload"
+
+    for artifact in data:
+        if artifact.get("id") == artifact_id:
+            return artifact, None
+
+    return None, "Artifact not found"
+
+
+def wait_for_artifact_ready(notebook_id, artifact_id, timeout_seconds=None):
+    """Wait until an infographic artifact reaches completed status."""
+    timeout_seconds = timeout_seconds or ARTIFACT_STATUS_TIMEOUT
+    deadline = time.time() + timeout_seconds
+    last_error = None
+
+    while time.time() < deadline:
+        artifact, error = get_artifact_status(notebook_id, artifact_id)
+        if artifact:
+            status = (artifact.get("status") or "").lower()
+            if status == "completed":
+                return True, artifact, None
+            if status in {"failed", "canceled", "cancelled"}:
+                return False, artifact, f"Artifact ended with status: {status}"
+            last_error = status or "unknown"
+        else:
+            last_error = error
+
+        time.sleep(ARTIFACT_STATUS_POLL_INTERVAL)
+
+    return False, None, f"Timed out waiting for infographic readiness: {last_error}"
 
 
 def download_infographic_with_retry(notebook_id, output_path, max_retries=10, retry_interval=60):
@@ -153,16 +258,13 @@ def download_infographic_with_retry(notebook_id, output_path, max_retries=10, re
     每隔 retry_interval 秒尝试一次，最多重试 max_retries 次。
     """
     for attempt in range(max_retries):
-        result = subprocess.run(
-            ["nlm", "download", "infographic", notebook_id, "--output", output_path],
-            capture_output=True,
-            text=True,
-        )
+        result = run_nlm("download", "infographic", notebook_id, "--output", output_path)
         if result.returncode == 0:
             return True, result.stdout, None
 
-        stderr = (result.stderr or "").lower()
-        if "not ready" in stderr or "does not exist" in stderr:
+        stderr = result.stderr or ""
+        lowered = stderr.lower()
+        if "not ready" in lowered or "does not exist" in lowered or is_transient_nlm_error(stderr):
             if attempt < max_retries - 1:
                 print(
                     f"    图片未就绪，等待 {retry_interval} 秒后重试..."
@@ -176,14 +278,45 @@ def download_infographic_with_retry(notebook_id, output_path, max_retries=10, re
     return False, "", f"超过最大重试次数({max_retries})"
 
 
+def download_infographic_by_id(notebook_id, artifact_id, output_path):
+    """Download an infographic artifact explicitly by ID."""
+    for attempt in range(3):
+        result = run_nlm(
+            "download",
+            "infographic",
+            notebook_id,
+            "--id",
+            artifact_id,
+            "--no-progress",
+            "--output",
+            output_path,
+        )
+        if result.returncode == 0:
+            return True, result.stdout, None
+
+        if attempt < 2 and is_transient_nlm_error(result.stderr):
+            time.sleep(5 * (attempt + 1))
+            continue
+
+        return False, result.stdout, result.stderr
+
+    return False, "", "download infographic failed after retries"
+
+
 def delete_notebook(notebook_id):
     """删除 notebook。"""
-    result = subprocess.run(
-        ["nlm", "notebook", "delete", notebook_id, "-y"],
-        capture_output=True,
-        text=True,
-    )
-    return result.returncode == 0, result.stdout, result.stderr
+    for attempt in range(3):
+        result = run_nlm("notebook", "delete", notebook_id, "-y")
+        if result.returncode == 0:
+            return True, result.stdout, None
+
+        if attempt < 2 and is_transient_nlm_error(result.stderr):
+            time.sleep(5 * (attempt + 1))
+            continue
+
+        return False, result.stdout, result.stderr
+
+    return False, "", "delete notebook failed after retries"
 
 
 def compress_image_to_720p(input_path, output_path):
@@ -209,15 +342,11 @@ def compress_image_to_720p(input_path, output_path):
 
 def check_login():
     """检查 NotebookLM CLI 登录状态。"""
-    result = subprocess.run(["nlm", "login", "--check"], capture_output=True, text=True)
+    result = run_nlm("login", "--check", "-p", NLM_PROFILE)
     if result.returncode == 0:
         return True
 
-    login_result = subprocess.run(
-        ["nlm", "login", "-p", "default"],
-        capture_output=True,
-        text=True,
-    )
+    login_result = run_nlm("login", "-p", NLM_PROFILE)
     return login_result.returncode == 0
 
 
@@ -226,11 +355,7 @@ def delete_all_arxiv_notebooks():
     print("\n" + "-" * 60)
     print("清理旧的 arXiv notebook...")
 
-    result = subprocess.run(
-        ["nlm", "notebook", "list", "--json"],
-        capture_output=True,
-        text=True,
-    )
+    result = run_nlm("notebook", "list", "--json")
     if result.returncode != 0:
         print(f"  获取 notebook 列表失败: {result.stderr}")
         return
@@ -264,11 +389,7 @@ def delete_all_arxiv_notebooks():
             continue
 
         print(f"  删除: {notebook_title} ({notebook_id[:20]}...)")
-        del_result = subprocess.run(
-            ["nlm", "notebook", "delete", notebook_id, "-y"],
-            capture_output=True,
-            text=True,
-        )
+        del_result = run_nlm("notebook", "delete", notebook_id, "-y")
         if del_result.returncode == 0:
             print("    已删除")
             deleted_count += 1
@@ -401,7 +522,7 @@ def submit_paper_task(paper, today):
         print(f"  Source ID: {source_id[:20]}...")
 
         print("  步骤4: 发起 infographic 生成...")
-        success, error = create_infographic(notebook_id, source_id)
+        success, artifact_id, error = create_infographic(notebook_id, source_id)
         if not success:
             print(f"  infographic 请求失败: {error}")
             cleanup_task_notebook({"notebook_id": notebook_id})
@@ -414,6 +535,7 @@ def submit_paper_task(paper, today):
             "paper": paper,
             "notebook_id": notebook_id,
             "source_id": source_id,
+            "artifact_id": artifact_id,
             "pdf_url": pdf_url,
             "today": today,
             **output_paths,
@@ -452,22 +574,43 @@ def collect_paper_task(task):
     jpg_path = task["jpg_path"]
     png_filename = task["png_filename"]
     jpg_filename = task["jpg_filename"]
+    artifact_id = task.get("artifact_id")
 
     print(f"\n{'=' * 60}")
     print(f"回收任务: {arxiv_id}")
     print(f"标题: {paper.get('title', 'N/A')[:60]}...")
 
     try:
-        print(f"  步骤5: 等待 {INFOGRAPHIC_READY_WAIT} 秒让生成开始...")
-        time.sleep(INFOGRAPHIC_READY_WAIT)
+        if artifact_id:
+            print(f"  步骤5: 轮询等待 infographic 完成 ({artifact_id[:8]}...) ...")
+            ready, artifact, wait_error = wait_for_artifact_ready(
+                task["notebook_id"],
+                artifact_id,
+            )
+            if not ready:
+                print("  infographic 仍未完成")
+                print(f"    错误: {wait_error}")
+                cleanup_task_notebook(task)
+                return None
+            print(f"  infographic 状态: {artifact.get('status')}")
+        else:
+            print(f"  步骤5: 等待 {INFOGRAPHIC_READY_WAIT} 秒让生成开始...")
+            time.sleep(INFOGRAPHIC_READY_WAIT)
 
-        print("  步骤6: 下载图片（轮询等待）...")
-        dl_success, stdout, dl_error = download_infographic_with_retry(
-            task["notebook_id"],
-            png_path,
-            max_retries=DOWNLOAD_MAX_RETRIES,
-            retry_interval=DOWNLOAD_RETRY_INTERVAL,
-        )
+        print("  步骤6: 下载图片...")
+        if artifact_id:
+            dl_success, stdout, dl_error = download_infographic_by_id(
+                task["notebook_id"],
+                artifact_id,
+                png_path,
+            )
+        else:
+            dl_success, stdout, dl_error = download_infographic_with_retry(
+                task["notebook_id"],
+                png_path,
+                max_retries=DOWNLOAD_MAX_RETRIES,
+                retry_interval=DOWNLOAD_RETRY_INTERVAL,
+            )
         if not dl_success:
             print("  下载失败")
             print(f"    错误: {dl_error}")
@@ -518,7 +661,8 @@ def process_papers():
     print(
         f"参数: source等待 {SOURCE_READY_WAIT}s, "
         f"生成启动等待 {INFOGRAPHIC_READY_WAIT}s, "
-        f"下载最多重试 {DOWNLOAD_MAX_RETRIES} 次"
+        f"下载最多重试 {DOWNLOAD_MAX_RETRIES} 次, "
+        f"artifact轮询 {ARTIFACT_STATUS_POLL_INTERVAL}s / 超时 {ARTIFACT_STATUS_TIMEOUT}s"
     )
     print("=" * 60)
 

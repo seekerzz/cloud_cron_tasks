@@ -60,14 +60,11 @@ jobs:
           rm -rf DEST_REPO
           git clone "https://${GITHUB_TOKEN}@github.com/${GITHUB_USER}/${GITHUB_REPO}.git" DEST_REPO
 
-          echo "获取并解析 RSS 数据..."
           mkdir -p ./arxiv-daily-output/arxiv-daily/images
-          curl -s "https://export.arxiv.org/api/query?search_query=cat:eess.AS&sortBy=submittedDate&sortOrder=descending&max_results=50" \
-              -o ./arxiv-daily-output/rss_data.xml
           python3 arxiv_codes/fetch_arxiv_rss.py
 
           echo "检查 NotebookLM 状态..."
-          nlm login --check || nlm login -p default
+          nlm login --check -p default || nlm login -p default
 
           echo "生成论文信息图表..."
           python3 arxiv_codes/process_arxiv_papers.py
