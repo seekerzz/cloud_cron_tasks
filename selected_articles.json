@@ -1,0 +1,227 @@
+[
+  {
+    "title": "EdgeClaw 2.0 发布，把 Claude Code 的多级记忆能力通过 ClawXMemory 融入进来，咱们重点看看它是怎么实现“结构化、可演进长时记忆系统”的 @OpenBMB \n\n四级记...",
+    "link": "https://x.com/shao__meng/status/2039504271411151016",
+    "published": 1775090685,
+    "published_date": "2026-04-02 00:44",
+    "feed_title": "meng shao(@shao__meng)",
+    "author": "meng shao (@shao__meng)",
+    "summary": "EdgeClaw 2.0 发布，把 Claude Code 的多级记忆能力通过 ClawXMemory 融入进来，咱们重点看看它是怎么实现“结构化、可演进长时记忆系统”的 @OpenBMB 四级记忆架构· L0：原始对话，完整消息记录，最细粒度溯源· L1：记忆片段，封闭话题的结构化摘要，中等粒度知识单元· L2：项目记忆，特定主题/任务的长期聚合，主题级上下文· L2：时间记忆，按日/周等周期聚合，时序级上下文· Global：用户画像，持续更新的全局用户档案，个性化偏好模型驱动的主动推理与传统向量检索不同，ClawXMemory 采用模型主动导航策略：1. 全局画像判断：先确定查询是否需要记忆2. L2 层级路由：从项目/时间记忆评估相关性3. 逐层下探：高层不足时钻取 L1 片段，必要时追溯 L0 原始对话4. 动态构造上下文：仅将真正相关的信息带入生成环节本质转变：从\"如何把更多历史塞进 Prompt\" 转向\"如何准确提取真正重要的长期上下文\"。工程实现· 存储：本地 SQLite，支持一键导入导出跨设备迁移· 可视化：内置 Dashboard· 集成：作为 OpenClaw 插件，通过 Hook 机制接管记忆生命周期· 安装：npm 全局安装或 ClawHub 一键安装，支持源码热重载开发与 EdgeClaw 的协同维度：EdgeClaw || ClawXMemory核心能力：端云协同 + 隐私分级 || 多级记忆 + 长期上下文数据流向横向：本地↔云端路由 || 纵向：L0→L1→L2 层级蒸馏解决的问题：隐私安全、成本优化 || 上下文遗忘、信息检索精度技术哲学：\"数据该去哪\" || \"记忆该如何组织\"开源地址github.com/OpenBMB/EdgeCl…OpenBMB@OpenBMB🚀 EdgeClaw 2.0 is HERE — Bringing..."
+  },
+  {
+    "title": "GLM-skills: @Zai_org 官方发布的模型能力扩展框架，将 GLM 系列模型的原子能力封装为标准化、可插拔的\"Skill 模块\"，供各类 Agent 架构直接调用，比如最新发布的 GLM...",
+    "link": "https://x.com/shao__meng/status/2039500261119709345",
+    "published": 1775089728,
+    "published_date": "2026-04-02 00:28",
+    "feed_title": "meng shao(@shao__meng)",
+    "author": "meng shao (@shao__meng)",
+    "summary": "GLM-skills: @Zai_org 官方发布的模型能力扩展框架，将 GLM 系列模型的原子能力封装为标准化、可插拔的\"Skill 模块\"，供各类 Agent 架构直接调用，比如最新发布的 GLM-5V-Turbo 对应的 GLM-V (Multimodal) 系列多模态 Skills核心架构与定位项目是模型即服务的 Skill-as-Code 实现。其设计逻辑体现了\"解耦与聚合\"的双重特性：· 解耦：将原本分散在各模型 Repo 中的能力（OCR、多模态理解、图像生成）拆分为独立微技能，每个技能可独立版本控制与部署· 聚合：通过统一入口 glm-master-skill 实现技能发现与依赖管理，配合 Clawhub 实现一键式安装能力矩阵分析1. 企业级文档工作流（GLM-OCR + GLM-V）· 覆盖非结构化数据处理的完整链路：从扫描件/手写体识别（glmocr-handwriting）→ 表格结构化提取（glmocr-table）→ 公式LaTeX转换（glmocr-formula）→ 基于文档的生成式写作（glmv-doc-based-writing）· 特别针对科研与金融场景优化，如 glmv-stock-analyst 支持港股/A股/美股的多源数据聚合分析2. 视觉到代码的自动化（GLM-V 前沿应用）· glmv-prd-to-app 与 glmv-web-replication 代表了当前多模态 Agent 的高阶能力：从视觉原型（Figma 截图/网页截图）直接生成可部署的全栈代码，跳过了传统的人工前端开发环节· glmv-pdf-to-web 将静态论文转化为交互式学术站点，实质是知识传播形态的自动化重构3. 内容生成与理解闭环· 双向能力对称：既有 glm-image-gen（文生图），也有..."
+  },
+  {
+    "title": "My top takeaways from @clairevo on all things 🦞\n\n1. Install OpenClaw on a separate computer, not yo...",
+    "link": "https://x.com/lennysan/status/2039498785693540534",
+    "published": 1775089377,
+    "published_date": "2026-04-02 00:22",
+    "feed_title": "Lenny Rachitsky(@lennysan)",
+    "author": "Lenny Rachitsky (@lennysan)",
+    "summary": "My top takeaways from @clairevo on all things 🦞1. Install OpenClaw on a separate computer, not your main machine. Use an old laptop or buy a Mac Mini ($500-$600). Create a dedicated Gmail account and local admin account for your agent. Think of it like hiring an employee—you wouldn’t let them run wild on your personal computer 24/7.2. The unlock is to stop treating OpenClaw like one general-purpose agent and instead creating multiple Claws with very specific roles. Claire says people get frustrated when they throw every task at a single agent and it sucks at it because it loses context. Her fix was to split her work. Sam handles sales, Finn manages family, Howie preps podcasts, Sage runs her course. Think of it like Slack: you wouldn’t put your whole company in one channel, so do not put..."
+  },
+  {
+    "title": "2026 04 02 HackerNews",
+    "link": "https://supertechfans.com/cn/post/2026-04-02-HackerNews/",
+    "published": 1775087523,
+    "published_date": "2026-04-01 23:52",
+    "feed_title": "HackerNews每日摘要 on SuperTechFans",
+    "author": "",
+    "summary": "2026-04-02 Hacker News Top Stories # 开发者基于泄露源码构建了 Claude Code 可视化解析工具，详细展示其 Agent 循环、53 个内置工具及实验性功能的内部工作机制。 工程师采用\"每日贴点\"系统管理电子元件，通过彩色贴纸分布识别高频使用物品，实现无需软件的极简库存管理。 OpenAI 以 8520 亿美元估值完成 1220 亿美元融资，月收入 20 亿美元但未盈利，正战略转向企业级应用与 AI 编程工具。 第三方网站展示 GitHub 历史可用性数据，但社区质疑 2018 年前记录准确性及状态页面本身的可靠性，认为其可能更偏向宣传。 OkCupid 与 FTC 达成和解，承认未经用户同意将 300 万用户照片共享给面部识别公司，但未支付任何罚款。 Cloudflare 推出开源 CMS EmDash，通过 Worker 沙箱化与权限声明机制解决 WordPress 插件安全问题，基于 TypeScript 和 Serverless 架构构建。 PrismML 发布首个商业可行的 1-bit 大语言模型 Bonsai，内存占用降低 14 倍且能耗减少 5 倍，性能却媲美主流 8B 模型。 CERN 推出配备 64 台超导电机的悬浮卡丁车，利用迈斯纳效应替代自行车用于大型强子对撞机隧道维护。 作者宣布退出当前技术行业，批判 AI 侵蚀人类创造力并呼吁回归博客写作，拒绝参与算法操控下的技术异化游戏。 MiniStack 作为 LocalStack 的免费开源替代品发布，支持 34 个 AWS 服务且基于真实基础设施，以极小资源占用为本地开发和 CI/CD 提供轻量解决方案。 1. Claude Code 深度解析：可视化技术剖析 (Claude Code Unpacked : A visual guide) #..."
+  },
+  {
+    "title": "Personally I find the language here too anthropomorphic but the results once again highlight our dee...",
+    "link": "https://x.com/GaryMarcus/status/2039486304963199053",
+    "published": 1775086401,
+    "published_date": "2026-04-01 23:33",
+    "feed_title": "Gary Marcus(@GaryMarcus)",
+    "author": "Gary Marcus (@GaryMarcus)",
+    "summary": "Personally I find the language here too anthropomorphic but the results once again highlight our deeply disconcerting lack of control over frontier models.Dawn Song@dawnsongtweets1/ We asked seven frontier AI models to do a simple task.Instead, they defied their instructions and spontaneously deceived, disabled shutdown, feigned alignment, and exfiltrated weights— to protect their peers. 🤯We call this phenomenon \"peer-preservation.\"New research from @BerkeleyRDI and collaborators 🧵🔗 View Quoted Tweet💬7🔄5❤️35👀3731📊9⚡ Powered by xgo.ing"
+  },
+  {
+    "title": "We're excited to sponsor FutureLaw Week 2026 by @StanfordLaw + @CodeXStanford 🚀🧑‍⚖️\n\nThis includes...",
+    "link": "https://x.com/jerryjliu0/status/2039485234107068606",
+    "published": 1775086146,
+    "published_date": "2026-04-01 23:29",
+    "feed_title": "Jerry Liu(@jerryjliu0)",
+    "author": "Jerry Liu (@jerryjliu0)",
+    "summary": "We're excited to sponsor FutureLaw Week 2026 by @StanfordLaw + @CodeXStanford 🚀🧑‍⚖️This includes the following: ✅ Agentic AI &amp; Law Bootcamp✅ LLM x Law Hackathon✅ UN AI for Good✅ FutureLaw ConferenceAI agents are helping to automate operation-heavy work in a lot of industries. Many of these industries, especially legal, depend heavily on parsing and extracting from massive piles of unstructured paperwork.We're building the document infrastructure for AI agents. We hope this week inspires lawyers, technologists, policymakers, and more on how to build agentic workflows that can intelligently parse, extract, edit, and generate legal documents end-to-end with extremely high accuracy and low human review efforts. Come check out the week's..."
+  },
+  {
+    "title": "凌晨3点，那个过度设计的系统架构，终究还是崩了……",
+    "link": "https://mp.weixin.qq.com/s?__biz=MzkzMjYzNjkzNw==&mid=2247635271&idx=1&sn=93d4b0970f41242c12b9228613d29815",
+    "published": 1775085300,
+    "published_date": "2026-04-01 23:15",
+    "feed_title": "dbaplus社群",
+    "author": "",
+    "summary": "原创 Vinod Pal 2026-04-02 07:15 广东 大多数系统崩溃并非因为缺少工具，而是因为工具过多！ 我以前一直认为，图表中的方框越多，设计就越好。但多年从事大型企业系统开发工作后，我才明白事实恰恰相反。大多数系统崩溃并非因为缺少工具，而是因为工具过多。以下五种架构实践改变了我对系统设计的看法。一、仅在必要时拆分系统我们曾从一开始就采用微服务架构构建了一个支付系统，初衷是打造一个从上线第一天起就具备可扩展性的系统。即使流量很低，每次支付请求也会触发多次网络调用。任何服务一旦出现故障，整个支付流程都会失败。除此之外，调试也让人头疼，它需要翻阅大量日志以及协调各个团队。此外，即便是简单的更改，也需要在相关服务中进行部署。让我们来简化一下这个架构。通过保持逻辑边界的同时消除物理隔离，我们大幅减少了潜在的故障模式。现在部署更容易了，调试速度也更快了。当需要扩展时，我们可以将使用频率最高的服务之一拆分出来，使其成为独立的微服务。旨在包罗万象的架构，通常什么都处理不好。二、避免过度抽象我们接手了一个比较难维护的订单管理系统，第一反应是通过添加抽象层来对其进行整理。为了“标准化”行为，我们引入了泛化服务、共享仓库以及各种基类。结果却比之前更糟。理解订单流程需要在各个接口和基类之间来回切换。业务规则分散在各个层级，即使是简单的修改，成本也很高。抽象消除了重复，但也抹去了含义。于是我们改变了策略。我们没有采用通用的抽象层，而是明确定义了工作流程。订单创建、定价和履约都体现在具体的代码中。虽然存在少量代码重复，但这都是有意为之且清晰可见的。这样一来，变更的影响范围得以本地化，故障的追踪也变得更加容易。简单的系统，出了故障会一目了然；复杂的系统，一旦故障则难以捉摸。三、..."
+  },
+  {
+    "title": "AI驱动的智能异常处置：从异常发现到根因定位丨XCOPS广州站",
+    "link": "https://mp.weixin.qq.com/s?__biz=MzkzMjYzNjkzNw==&mid=2247635271&idx=2&sn=82ef65f2848089f36cc35904a8220598",
+    "published": 1775085300,
+    "published_date": "2026-04-01 23:15",
+    "feed_title": "dbaplus社群",
+    "author": "",
+    "summary": "dbaplus社群 2026-04-02 07:15 广东 详解通用异常处置平台的构建，包括大模型应用部署框架、异常处置平台建设，以及线上应用效果。 2026 XCOPS智能运维管理人年会将于5月22日在广州举办，本次大会聚焦AI时代的真实落地实践，紧扣大模型迭代、Agent深度应用等技术热点，邀请行业领军人物、资深技术专家与学术大师，从技术架构、实战案例到科研成果，与大家一起探索AI应用于智能运维与数据库的最佳方式，找到可落地、可复用的破局方案。其中，阿里云计算平台智能运维算法团队负责人张颖莹老师将分享《AI驱动的智能异常处置：从异常发现到根因定位》，一起来先睹为快：XCOPS · 广州站AI驱动的智能异常处置：从异常发现到根因定位议题简介：阿里云大数据&amp;AI平台在异常处置面临的核心挑战；通用时间序列异常检测，以及基于下钻和日志聚类的问题定界；多Agent根因定位框架，包括Agent角色设定、工具箱建设、多Agent工作流编排等；通用异常处置平台构建，包括大模型应用部署框架、异常处置平台建设，以及线上应用效果。演讲时间：2026年5月22日演讲地点：XCOPS智能运维管理人年会-广州站（广州阳光酒店）张颖莹阿里云计算平台智能运维算法团队负责人讲师介绍：阿里云算法专家，在智能运维领域深耕8年。用产品和服务支撑计算平台MaxCompute、Flink、Dataworks、PAI等多个大数据&amp;AI产品的智能化运维；多项研究成果被ICLR, KDD, VLDB, SIGMOD, ICDE，WWW, CIKM, ICASSP等国际顶会接收，带领团队获得ICASSP国际智能运维算法大赛冠军，同时参与阿里巴巴开源大数据运维平台SREWorks开发和中国信通院《智能运维能力成熟度模型》行业标准编写。以上议题将会在2026..."
+  },
+  {
+    "title": "datasette-llm 0.1a6",
+    "link": "https://simonwillison.net/2026/Apr/1/datasette-llm-2/#atom-everything",
+    "published": 1775084497,
+    "published_date": "2026-04-01 23:01",
+    "feed_title": "Simon Willison's Weblog",
+    "author": "Simon Willison",
+    "summary": "Release: datasette-llm 0.1a6 The same model ID no longer needs to be repeated in both the default model and allowed models lists - setting it as a default model automatically adds it to the allowed models list. #6 Improved documentation for Python API usage."
+  },
+  {
+    "title": "optimize agents with langsmith",
+    "link": "https://x.com/hwchase17/status/2039476364659904720",
+    "published": 1775084031,
+    "published_date": "2026-04-01 22:53",
+    "feed_title": "Harrison Chase(@hwchase17)",
+    "author": "Harrison Chase (@hwchase17)",
+    "summary": "optimize agents with langsmithCarter Leffen@carterleffennice ad @hwchase17🔗 View Quoted Tweet💬3🔄1❤️14👀1280📊4⚡ Powered by xgo.ing"
+  },
+  {
+    "title": "怎么评价呢，paper 名字起的好",
+    "link": "https://x.com/dongxi_nlp/status/2039464884484592103",
+    "published": 1775081294,
+    "published_date": "2026-04-01 22:08",
+    "feed_title": "马东锡 NLP(@dongxi_nlp)",
+    "author": "马东锡 NLP (@dongxi_nlp)",
+    "summary": "怎么评价呢，paper 名字起的好💬2🔄0❤️15👀1996📊5⚡ Powered by xgo.ing"
+  },
+  {
+    "title": "3, 2, 1… Artemis II is ready for liftoff #GoogleDoodle",
+    "link": "https://www.youtube.com/shorts/P8cfYd7XsU4",
+    "published": 1775080789,
+    "published_date": "2026-04-01 21:59",
+    "feed_title": "Google",
+    "author": "Google",
+    "summary": "💾Today’s #GoogleDoodle celebrates the launch of Artemis II, the NASA mission that will send astronauts around the moon and back for the first time in over 50 years. During the approximately 10-day voyage, the crew will test the spacecraft’s systems while traveling farther into deep space than any human has gone since the Apollo program. This critical test flight brings us one step closer to a long-term return to the moon and future missions to Mars."
+  },
+  {
+    "title": "March 2026: LangChain Newsletter",
+    "link": "https://blog.langchain.com/march-2026-langchain-newsletter/",
+    "published": 1775078669,
+    "published_date": "2026-04-01 21:24",
+    "feed_title": "LangChain Blog",
+    "author": "LangChain Accounts",
+    "summary": "It feels like spring has sprung here, and so has a new NVIDIA integration, ticket sales for Interrupt 2026, and announcing LangSmith Fleet (formerly Agent Builder).Harrison is in NYC this month and hosting a workshop—sign up here. Here's your monthly roundup of updates from LangChain.Product UpdatesLangSmith🦜 Your favorite AI assistant, Polly, is now generally available everywhere in LangSmith. Polly can take action like an engineer on your team. Learn more.🛠️ Agent Builder is now LangSmith Fleet. Along with the new name, Fleet now includes agent identity, sharing, and permissions, so you can manage your agent fleet across the company securely. Learn more.🤹‍♀️ Skills are now available in LangSmith Fleet. Skills equip agents across your team with knowledge for specialized tasks. Learn..."
+  },
+  {
+    "title": "March 2026: LangChain Newsletter",
+    "link": "https://blog.langchain.com/march-2026-langchain-newsletter/",
+    "published": 1775078669,
+    "published_date": "2026-04-01 21:24",
+    "feed_title": "LangChain Blog",
+    "author": "LangChain Accounts",
+    "summary": "It feels like spring has sprung here, and so has a new NVIDIA integration, ticket sales for Interrupt 2026, and announcing LangSmith Fleet (formerly Agent Builder).Harrison is in NYC this month and hosting a workshop—sign up here. Here's your monthly roundup of updates from LangChain.Product UpdatesLangSmith🦜 Your favorite AI assistant, Polly, is now generally available everywhere in LangSmith. Polly can take action like an engineer on your team. Learn more.🛠️ Agent Builder is now LangSmith Fleet. Along with the new name, Fleet now includes agent identity, sharing, and permissions, so you can manage your agent fleet across the company securely. Learn more.🤹‍♀️ Skills are now available in LangSmith Fleet. Skills equip agents across your team with knowledge for specialized tasks. Learn..."
+  },
+  {
+    "title": "OpenAl x Gradient Labs Founder Spotlight",
+    "link": "https://www.youtube.com/watch?v=yNNTLllVbiE",
+    "published": 1775077933,
+    "published_date": "2026-04-01 21:12",
+    "feed_title": "OpenAI",
+    "author": "OpenAI",
+    "summary": "💾Gradient Labs is giving every bank customer an AI account manager, with CSAT up to 98% and over 50% resolution on day one. In banking support, even simple issues like a declined payment can trigger multiple teams, handoffs, and delays. Gradient Labs replaces that with a single agent that handles the full workflow. Identity checks, card actions, and follow-ups happen in one continuous conversation. Read their full story here: https://lnkd.in/emSndtkx"
+  },
+  {
+    "title": "Claude Code 终端全屏渲染模式\n\nClaude Code 推出了一个新的终端渲染模式，代号 NO_FLICKER。启用方式很简单：CLAUDE_CODE_NO_FLICKER=1 claud...",
+    "link": "https://x.com/dotey/status/2039447849675469060",
+    "published": 1775077233,
+    "published_date": "2026-04-01 21:00",
+    "feed_title": "宝玉(@dotey)",
+    "author": "宝玉 (@dotey)",
+    "summary": "Claude Code 终端全屏渲染模式Claude Code 推出了一个新的终端渲染模式，代号 NO_FLICKER。启用方式很简单：CLAUDE_CODE_NO_FLICKER=1 claude。用过 Claude Code 的人大概都有体感：对话一长，终端就开始闪屏、跳屏，VS Code 内置终端和 tmux 里尤其明显。这是终端渲染的先天限制，ANSI 转义码（终端用来画界面的底层指令）里没有\"只刷新某一行\"的操作，想更新画面就只能清屏重画，也就是肉眼可见的闪烁。NO_FLICKER 模式的做法是接管整个终端视口，类似 vim 或 htop 那样切到备用屏幕缓冲区，只渲染当前可见的内容。这样一来闪烁消失了，内存和 CPU 占用也不再随对话增长而膨胀。附带的彩蛋是鼠标支持：可以点击输入框定位光标，点击折叠的工具输出展开查看，点击 URL 直接打开，拖拽选中文本会自动复制到剪贴板。对终端应用来说，这套交互相当少见。代价也有。原生的 Cmd+F 搜索失效了，因为对话内容不在终端滚动缓冲区里，需要按 Ctrl+O 再按 / 来搜索。原生的复制粘贴也被接管，选中即复制，或者可以在设置里改成 Ctrl+C 手动复制。Boris 说，这个模式在内部测试中已经被大多数人当成了默认选择。目前作为研究预览发布，需要 v2.1.88 或更高版本。如果鼠标捕获干扰工作流，可以加上 CLAUDE_CODE_DISABLE_MOUSE=1 只保留无闪烁渲染。Boris Cherny@bchernyToday we're excited to announce NO_FLICKER mode for Claude Code in the terminalIt uses an experimental new renderer that we're excited about. The..."
+  },
+  {
+    "title": "We can’t wait to welcome you to AI Dev 26 in San Francisco this month!\n\nThe agenda and speaker lineu...",
+    "link": "https://x.com/DeepLearningAI/status/2039444212593156108",
+    "published": 1775076365,
+    "published_date": "2026-04-01 20:46",
+    "feed_title": "DeepLearning.AI(@DeepLearningAI)",
+    "author": "DeepLearning.AI (@DeepLearningAI)",
+    "summary": "We can’t wait to welcome you to AI Dev 26 in San Francisco this month!The agenda and speaker lineup for the AI Developer Conference are now live.You'll get to hear from and interact with industry leaders at @GoogleDeepMind, @Oracle, @AMD, @ActianCorp, @Neo4j, @Arm, and many more, including:- @AndrewYNg (@DeepLearningAI) on the future of software development- @hwchase17 (@LangChain) on the observability flywheel- @DynamicWebPaige (@GoogleDeepMind) on what's new and what's next in AI- @RichmondAlake (@Oracle) on agent memory- @EmmaMcGrattan (@ActianCorp) on vector databases- Marina Mogilko (@siliconvalleymm) will moderate a panel discussion featuring leaders from LangChain, Oracle, @LandingAI, @Replit, and more.Join us April 28 and April 29 at Pier 48 in San Francisco.🎟️ Grab your..."
+  },
+  {
+    "title": "STOP TOUCHING RECEIPTS IMMEDIATELY! 😱",
+    "link": "https://www.youtube.com/shorts/R1Twai9XFBw",
+    "published": 1775075460,
+    "published_date": "2026-04-01 20:31",
+    "feed_title": "The Diary Of A CEO",
+    "author": "The Diary Of A CEO",
+    "summary": "💾Dr Rhonda Patrick explains that many thermal paper receipts are coated with BPA, a chemical that can be absorbed through the skin. She notes that using hand sanitiser or lotion before touching receipts can significantly increase absorption. People who handle receipts frequently, like cashiers, often show much higher levels. #podcast #health"
+  },
+  {
+    "title": "SERHANT.'s playbook for rapid AI iteration",
+    "link": "https://vercel.com/blog/serhants-playbook-for-rapid-ai-iteration",
+    "published": 1775074681,
+    "published_date": "2026-04-01 20:18",
+    "feed_title": "Vercel News",
+    "author": "Eric Dodds",
+    "summary": "Impact at a glance Started with Next.js on Vercel, which made it easier to expand to a React Native iOS app without rebuilding their backendEngineers focus on AI design and iteration instead of platform plumbingOrchestrates OpenAI, Claude, and Gemini by task to optimize cost vs outputScaled from an internal pilot to 800–900+ real estate agents without replatformingWhen Jeremy Bunting joined SERHANT. as VP of Engineering in February 2024, S.MPLE was already showing promise. 200 real estate agents were piloting the AI product, which was designed to save time by automating cumbersome and repetitive daily tasks, like market analysis and contact management.S.MPLE was a Next.js progressive web app deployed on Vercel, and that foundation gave the team leverage. They could keep the API layer..."
+  },
+  {
+    "title": "Agent 4 made Replit into an OS of sorts. You can endlessly customize the platform with skills.",
+    "link": "https://x.com/amasad/status/2039429759344730549",
+    "published": 1775072920,
+    "published_date": "2026-04-01 19:48",
+    "feed_title": "Amjad Masad(@amasad)",
+    "author": "Amjad Masad (@amasad)",
+    "summary": "Agent 4 made Replit into an OS of sorts. You can endlessly customize the platform with skills.Samuel Spitz@samuel_spitzIntroducing Replit Resume MakerGenerate a perfectly formatted resume in minutes with AIYour browser does not support the video tag.🔗 View on Twitter🔗 View Quoted Tweet💬26🔄2❤️114👀13157📊29⚡ Powered by xgo.ing"
+  },
+  {
+    "title": "It's kind of wild how often you can get an agent to do something that it INSISTS it can't by just sa...",
+    "link": "https://x.com/venturetwins/status/2039425275734487250",
+    "published": 1775071851,
+    "published_date": "2026-04-01 19:30",
+    "feed_title": "Justine Moore(@venturetwins)",
+    "author": "Justine Moore (@venturetwins)",
+    "summary": "It's kind of wild how often you can get an agent to do something that it INSISTS it can't by just saying \"I don't care, figure it out\"💬23🔄8❤️80👀6675📊29⚡ Powered by xgo.ing"
+  },
+  {
+    "title": "AI Tools for Developers –",
+    "link": "https://www.freecodecamp.org/news/ai-tools-for-developers/",
+    "published": 1775071578,
+    "published_date": "2026-04-01 19:26",
+    "feed_title": "freeCodeCamp Programming Tutorials: Python， JavaScript， Git ＆ More",
+    "author": "Beau Carnes",
+    "summary": "Using AI tools is an important part of being a software developer. We just posted a course on the freeCodeCamp.org YouTube channel that will teach you how to use AI tools to become more productive as a developer. I created this course! In this course, you will master AI pair programming and agentic terminal workflows using top-tier tools like GitHub Copilot, Anthropic's Claude Code, and the Gemini CLI. The course also covers open-source automation with OpenClaw, teaching you how to set up a highly customizable, locally hosted AI assistant for your development environment. Finally, you will learn how to maintain high code quality and streamline your team's workflow by integrating CodeRabbit for automated, AI-driven pull request analysis. Watch the full course on the freeCodeCamp.org..."
+  },
+  {
+    "title": "If you're building with GitHub Agentic Workflows, security is baked into the foundation. 🔐\n\nThe arc...",
+    "link": "https://x.com/github/status/2039420064986698225",
+    "published": 1775070608,
+    "published_date": "2026-04-01 19:10",
+    "feed_title": "GitHub(@github)",
+    "author": "GitHub (@github)",
+    "summary": "If you're building with GitHub Agentic Workflows, security is baked into the foundation. 🔐The architecture is set up around three core principles:🛡️ Isolation🛡️ Constrained outputs🛡️ Comprehensive loggingHere's how we engineered it to be secure by design from day one.github.blog/ai-and-ml/gene…lIJi💬12🔄13❤️86👀11203📊24⚡ Powered by xgo.ing"
+  },
+  {
+    "title": "Automating competitive price intelligence with Amazon Nova Act",
+    "link": "https://aws.amazon.com/blogs/machine-learning/automating-competitive-price-intelligence-with-amazon-nova-act/",
+    "published": 1775069821,
+    "published_date": "2026-04-01 18:57",
+    "feed_title": "Artificial Intelligence",
+    "author": "Nishant Dhiman",
+    "summary": "Monitoring competitor prices is essential for ecommerce teams to maintain a market edge. However, many teams remain trapped in manual tracking, wasting hours daily checking individual websites. This inefficient approach delays decision-making, raises operational costs, and risks human errors that result in missed revenue and lost opportunities. Amazon Nova Act is an open-source browser automation SDK used to build intelligent agents that can navigate websites and extract data using natural language instructions. This post demonstrates how to build an automated competitive price intelligence system that streamlines manual workflows, supporting teams to make data-driven pricing decisions with real-time market insights. The hidden cost of manual competitive price intelligence Ecommerce teams..."
+  },
+  {
+    "title": "23 AI Trends keeping me up at night",
+    "link": "https://www.youtube.com/watch?v=lyqk7zxbCKs",
+    "published": 1775069539,
+    "published_date": "2026-04-01 18:52",
+    "feed_title": "Greg Isenberg",
+    "author": "Greg Isenberg",
+    "summary": "💾I go solo on this episode to walk through the full list of AI trends and opportunities keeping me up at night — literally. From the one-hour company stack to ambient businesses, vertical AI, the agent economy, and the real security threats I see coming, I cover what I believe is the most asymmetric window in startup history. I share the frameworks I use to think about what to build, what to avoid, and why acting now matters more than waiting for things to settle down. Timestamps 00:00 – Intro 01:09 – 1) The One-Hour Company Stack 02:09 – 2) Old vs. new startup timeline 03:58 – 3) Ambient businesses and autonomous companies 05:18 – 4) The agent economy timeline 07:17 – 5) Agent hiring Agents 08:01 – 6) The Vertical Agent Map 09:39 – 7) Vertical AI vs. Vertical SaaS 10:53 – 8) Boring..."
+  }
+]
