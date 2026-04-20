@@ -1,0 +1,471 @@
+Export time: 2026-03-31 01:50:39
+[1] Hermes Agent v0.6.0 发布：多实例隔离（Profiles）、MCP Server 模式、Docker 官方支持、飞书和企业微信接入、Slack 多工作区、Telegram 生产优化
+...
+    Link: https://x.com/shao__meng/status/2038786904565633052
+    Source: meng shao(@shao__meng)
+    Summary: Hermes Agent v0.6.0 发布：多实例隔离（Profiles）、MCP Server 模式、Docker 官方支持、飞书和企业微信接入、Slack 多工作区、Telegram 生产优化核心架构升级 - 多实例隔离（Profiles）· 首次支持在同一安装中运行多个完全隔离的 Hermes 实例· 每个实例拥有独立的配置、记忆、会话、技能和网关服务· 通过 token 锁机制防止多个实...
+--------------------------------------------------
+[2] [AINews] The Last 4 Jobs in Tech
+    Link: https://www.latent.space/p/ainews-the-last-4-jobs-in-tech
+    Source: Latent.Space
+    Summary: It’s well known that org charts are changing with AI - the first trend we called out was in 2023 with the Rise of the AI Engineer (now an official org at Meta!), and then in 2025 with Tiny Teams (hire...
+--------------------------------------------------
+[3] 别再让AI只干零活了！AI工具正在接管投放全链路
+    Link: https://www.qbitai.com/2026/03/393471.html
+    Source: 量子位
+    Summary: 从行业中来，到行业中去...
+--------------------------------------------------
+[4] 昨天刚推荐了在Claude Code当中用Codex的方法 官方插件就发布了啊
+
+这个太棒了 简单看下文档 支持直接在CC中运行如下命令
+
+/codex:review runs the standar...
+    Link: https://x.com/vikingmute/status/2038783732598128775
+    Source: Viking(@vikingmute)
+    Summary: 昨天刚推荐了在Claude Code当中用Codex的方法 官方插件就发布了啊这个太棒了 简单看下文档 支持直接在CC中运行如下命令/codex:review runs the standard read-only Codex review./codex:adversarial-review runs a steerable challenge review. Use it when you wa...
+--------------------------------------------------
+[6] Vol.110｜养虾时代，OpenClaw 让打工人何去何从？
+    Link: https://www.xiaoyuzhoufm.com/episode/69ca3e32b977fb2c47a0457d
+    Source: 开始连接LinkStart
+    Summary: 【本期内容】Openclaw 爆火以后，数字员工终于从 AI 圈的概念，变成了企业老板们真正在考虑的现实选项。王诗沐，是网易云音乐创始人，现在创办 Seele AI。他刚刚做了一个非常大胆的决定，让 AI 接管公司办公，把 Openclaw 接入飞书，推动全员 AI 自动化。Austin Xu（Yuhao），曾是 Meta Stories 的高级工程师，他的团队做出了 Junior AI ——一个...
+--------------------------------------------------
+[7] model+harness is now over model only. agent perf can be significantly influenced by the design and q...
+    Link: https://x.com/JustinLin610/status/2038783276937310582
+    Source: Junyang Lin(@JustinLin610)
+    Summary: model+harness is now over model only. agent perf can be significantly influenced by the design and quality of harness. i do believe this is a right direction, nice work!Yoonho Lee@yoonholeeeHow can we...
+--------------------------------------------------
+[10] Our new model  is now live on OpenRouter for an early preview,  go give it a try! Looking forward to...
+    Link: https://x.com/Alibaba_Qwen/status/2038780221193863362
+    Source: Qwen(@Alibaba_Qwen)
+    Summary: Our new model is now live on OpenRouter for an early preview, go give it a try! Looking forward to your feedback~😎OpenRouter@OpenRouterQwen 3.6 Plus Preview from @Alibaba_Qwen is live now for free for...
+--------------------------------------------------
+[17] 沿江高铁总投资超5000亿，多家出险房企扭亏为盈 | 财经日日评
+    Link: https://mp.weixin.qq.com/s?__biz=MzA3OTM5NTkxNA==&mid=2653159300&idx=4&sn=b72b5c782eadaea49905e8e33b3c5ab7
+    Source: 吴晓波频道
+    Summary: 吴晓波频道 2026-03-31 08:20 浙江 内存价格暴涨数月后迎来大跌，中国大模型调用量连续四周超美国......
+--------------------------------------------------
+[19] Claude Code 把 Computer Use 直接塞进 CLI 了！又又更新🤯
+
+现在一条提示词就能让 Claude 完整闭环：
+→ 写代码
+→ 编译项目
+→ 启动 App
+→ ...
+    Link: https://x.com/berryxia/status/2038772923818029107
+    Source: Berryxia.AI(@berryxia)
+    Summary: Claude Code 把 Computer Use 直接塞进 CLI 了！又又更新🤯现在一条提示词就能让 Claude 完整闭环：→ 写代码 → 编译项目 → 启动 App → 自己打开界面点击测试 → 发现 Bug 立刻自动修复并验证通过 从开发到 UI 测试，全程无人值守！Pro/Max用户可体验！Your browser does not support the video tag.🔗 V...
+--------------------------------------------------
+[21] Imagine if Claude Code/Codex can access AND operate all your chats, calendars, meetings, docs, sheet...
+    Link: https://x.com/zarazhangrui/status/2038771778802331817
+    Source: Zara Zhang(@zarazhangrui)
+    Summary: Imagine if Claude Code/Codex can access AND operate all your chats, calendars, meetings, docs, sheets...That's possible now with Lark CLI. The world's most all-in-one collaboration tool just became th...
+--------------------------------------------------
+[25] vol.47 有问必答｜真正的蓄能，是看清自己的起心动念
+    Link: https://www.xiaoyuzhoufm.com/episode/69ca92eee2c8be3155eed2b5
+    Source: 天真不天真
+    Summary: 本期节目与专业运动品牌迪桑特共同呈现。此刻蓄能，静待绽放。我最近刚经历了一次滑雪受伤，右脚打着支架，第一次体验坐在轮椅上的视角。这次的经历让我重新审视自己的身体、能量，以及我们与外界碰撞的方式。人这一生，能量的来源有很多种。有的人靠向外求索，有的人靠向内深耕。但真正决定我们能走多远的，往往不是我们拥有多少能量，而是我们如何蓄能、如何转化，又如何在不同处境中觉察自己的起心动念。从运动场的狼狈与“看见...
+--------------------------------------------------
+[26] vol.47 有问必答｜真正的蓄能，是看清自己的起心动念
+    Link: https://www.xiaoyuzhoufm.com/episode/69ca92eee2c8be3155eed2b5
+    Source: 天真不天真
+    Summary: 本期节目与专业运动品牌迪桑特共同呈现。此刻蓄能，静待绽放。我最近刚经历了一次滑雪受伤，右脚打着支架，第一次体验坐在轮椅上的视角。这次的经历让我重新审视自己的身体、能量，以及我们与外界碰撞的方式。人这一生，能量的来源有很多种。有的人靠向外求索，有的人靠向内深耕。但真正决定我们能走多远的，往往不是我们拥有多少能量，而是我们如何蓄能、如何转化，又如何在不同处境中觉察自己的起心动念。从运动场的狼狈与“看见...
+--------------------------------------------------
+[27] datasette-files 0.1a3
+    Link: https://simonwillison.net/2026/Mar/30/datasette-files/#atom-everything
+    Source: Simon Willison's Weblog
+    Summary: Release: datasette-files 0.1a3 I'm working on integrating datasette-files into other plugins, such as datasette-extract. This necessitated a new release of the base plugin. owners_can_edit and owners_...
+--------------------------------------------------
+[28] 2026 03 31 HackerNews
+    Link: https://supertechfans.com/cn/post/2026-03-31-HackerNews/
+    Source: HackerNews每日摘要 on SuperTechFans
+    Summary: 2026-03-31 Hacker News Top Stories # GitHub Copilot 被曝在超过 150 万个拉取请求描述中擅自插入推广自身及第三方工具的广告内容，引发开发者对平台滥用权限和信任危机的强烈质疑。 ChatGPT 通过 Cloudflare 的加密 JavaScript 程序收集浏览器指纹、网络位置及 React 状态等 55 项指标进行反自动化验证，导致用户在验证...
+--------------------------------------------------
+[29] Recently found cc-connect, a neat way to control local AI agents from any chat app. It bridges Claud...
+    Link: https://x.com/HiTw93/status/2038764711194345795
+    Source: Tw93(@HiTw93)
+    Summary: Recently found cc-connect, a neat way to control local AI agents from any chat app. It bridges Claude Code, Cursor, Gemini CLI, and Codex to Slack, Telegram, Discord, Feishu, and more, so you can run ...
+--------------------------------------------------
+[30] AI，正在“杀死”哪些软件？
+    Link: https://mp.weixin.qq.com/s?__biz=MjM5OTEwNjI2MA==&mid=2651925824&idx=1&sn=ef8f5e2ecdf16f9ce9e07fe0460cf050
+    Source: 人人都是产品经理
+    Summary: 定焦One团队 2026-03-31 07:46 广东 以下文章来源于：定焦One 定焦One 深度影响创新。 留给它们转型的时间，可能不多了。 2026年AI加速冲击软件业：ChatGPT整合Office，Anthropic植入法律金融流程，MiniMax、Kimi已能生成PPT。两类软件最危险——通用功能型易被AI内化，轻交互型将被自然语言替代；社交软件与垂直专业软件（数据壁垒）相对安全。——...
+--------------------------------------------------
+[31] 10分钟了解突然爆火的CLI并开发一个"烂梗鸡汤"CLI
+    Link: https://mp.weixin.qq.com/s?__biz=MjM5OTEwNjI2MA==&mid=2651925824&idx=2&sn=168eb5330610162129a231218a6f14c6
+    Source: 人人都是产品经理
+    Summary: 张佳 2026-03-31 07:46 广东 钉钉和飞书在同一天开放了 CLI 支持，然后企微周末连夜更新增加了 CLI 支持 CLI 到底是个啥？为啥突然火了？钉钉和飞书在同一天开放了 CLI 支持，然后企微周末连夜更新增加了 CLI 支持。在此之前，网易云音乐、美图也开放了 CLI 控制能力，同步上线 Skills更早的，Obsidian 在 1.12.0 版本增加了对 CLI 的支持，可以直...
+--------------------------------------------------
+[32] 40 个 AI agent 跑营销，还不是最狠的
+    Link: https://mp.weixin.qq.com/s?__biz=MjM5OTEwNjI2MA==&mid=2651925824&idx=3&sn=dd0883ca95983a2bec7b04a90078918c
+    Source: 人人都是产品经理
+    Summary: 张艾拉 2026-03-31 07:46 广东 以下文章来源于：Fun AI Everyday Fun AI Everyday 每天分享一个好玩的AI应用 AI agent 做的就是这些原来最难长期坚持、但又最影响结果的动作。 Relay的40个AI agents案例揭示了营销工作流被系统化拆解的全新范式，而OpenClaw与autoresearch的组合则实现了7x24小时的智能测试与优化循环。...
+--------------------------------------------------
+[33] AI产品经理的“偷懒”指南：越懒，越值钱
+    Link: https://mp.weixin.qq.com/s?__biz=MjM5OTEwNjI2MA==&mid=2651925824&idx=4&sn=acd894a865203c80a214dc2112addcae
+    Source: 人人都是产品经理
+    Summary: 北沐而川 2026-03-31 07:46 广东 以下文章来源于：健彬的产品Live 健彬的产品Live B端产品设计师，日常分享设计日记与生活，希望文章能帮你提升自己的能力，早日实现自己的梦想~~ “懒”是人类进步的动力 当AI能够处理80%的重复性工作，真正的价值创造来自于精准的战略判断和业务洞察。本文揭秘如何通过Notion AI、MasterGo AI等工具实现'战略性偷懒'，将精力聚焦于...
+--------------------------------------------------
+[34] 想雇她？点这里注册👉 https://t.co/YsIC7RltFQ
+    Link: https://x.com/berryxia/status/2038763205863076165
+    Source: Berryxia.AI(@berryxia)
+    Summary: 想雇她？点这里注册👉agent.enrichlabs.ai/marketing/regi…Q💬1🔄0❤️0👀200📊1⚡ Powered by xgo.ing...
+--------------------------------------------------
+[35] 世界首个「自主 AI 营销师」Helena 正式登场！🚀
+
+企业做到第一个 100 万收入前，要烧掉 4000 小时营销……
+
+Helena 帮你全包了：
+
+➤ 深夜自动追踪竞品广告 → 生成 Ti...
+    Link: https://x.com/berryxia/status/2038763173764005927
+    Source: Berryxia.AI(@berryxia)
+    Summary: 世界首个「自主 AI 营销师」Helena 正式登场！🚀企业做到第一个 100 万收入前，要烧掉 4000 小时营销……Helena 帮你全包了：➤ 深夜自动追踪竞品广告 → 生成 TikTok 幻灯片、UGC、静态广告 ➤ 跨 GA4、Search Console、付费/有机社交实时分析绩效，每天给你洞察 ➤ 研究趋势 → 直接在 WordPress、Framer、Webflow 写好 GEO ...
+--------------------------------------------------
+[36] Image if Claude Code/Codex can access AND operate all your chats, calendars, meetings, docs, sheets....
+    Link: https://x.com/zarazhangrui/status/2038762790933119019
+    Source: Zara Zhang(@zarazhangrui)
+    Summary: Image if Claude Code/Codex can access AND operate all your chats, calendars, meetings, docs, sheets...That's possible now with Lark CLI. The world's most all-in-one collaboration tool just became the ...
+--------------------------------------------------
+[37] I'm happy to report that @cursor_ai also works perfectly fine in China with all types of models.
+    Link: https://x.com/petergyang/status/2038761330392629479
+    Source: Peter Yang(@petergyang)
+    Summary: I'm happy to report that @cursor_ai also works perfectly fine in China with all types of models.💬0🔄0❤️5👀1105📊1⚡ Powered by xgo.ing...
+--------------------------------------------------
+[40] When Opus 4.5 came out, it was a one-way door to a new way of engineering. Agents now do most of our...
+    Link: https://x.com/rauchg/status/2038759092442050651
+    Source: Guillermo Rauch(@rauchg)
+    Summary: When Opus 4.5 came out, it was a one-way door to a new way of engineering. Agents now do most of our coding.Knowing the inherent flaws and over-confidence of LLMs, we sent a clear message to our teams...
+--------------------------------------------------
+[41] Agent responsibly
+    Link: https://vercel.com/blog/agent-responsibly
+    Source: Vercel News
+    Summary: The following is based on an internal talk given at Vercel. We're sharing it publicly because the problem it describes isn't unique to us, and the framework is useful for any team shipping with agents...
+--------------------------------------------------
+[42] 十年仍争论不休！嫌它背离Unix哲学，又得用它搞定90%的Linux机器
+    Link: https://mp.weixin.qq.com/s?__biz=MzkzMjYzNjkzNw==&mid=2247635245&idx=1&sn=d386514bef3482ec74b781f424f6a584
+    Source: dbaplus社群
+    Summary: 原创 Can Artuc 2026-03-31 07:16 广东 十年了，也没出现它的完全替代品…… 十五个发行版，零个 systemd。上个月我统计时，这个数字让我吃了一惊。到 2026 年，仍有十五个活跃维护的 Linux 发行版默认不搭载 systemd。经过十多年关于替代品会消亡的预测，它们依然存在。当你启动一台 Linux 机器时，运行的第一个程序叫做初始化系统。它启动你的计算机所需的所...
+--------------------------------------------------
+[43] 免费的 Qwen3.6 Plus 来了🥳
+
+https://t.co/uUaDj1v73C
+    Link: https://x.com/geekbb/status/2038756903761891828
+    Source: Geek(@geekbb)
+    Summary: 免费的 Qwen3.6 Plus 来了🥳openrouter.ai/qwen/qwen3.6-p…COpenRouter@OpenRouterQwen 3.6 Plus Preview from @Alibaba_Qwen is live now for free for a limited time on OpenRouter!During this free period, prompts a...
+--------------------------------------------------
+[45] 仔细思考一下，发现还有意思的。
+1. 穿秋裤相对独立，不能通过其他世界知识推导得到；
+2. 穿秋裤，无法机器主动检测，只能人自己来记录，公开样本数据少，无足以形成LLM的世界知识；
+3. 穿秋裤，个体...
+    Link: https://x.com/yan5xu/status/2038756493387088354
+    Source: yan5xu(@yan5xu)
+    Summary: 仔细思考一下，发现还有意思的。1. 穿秋裤相对独立，不能通过其他世界知识推导得到；2. 穿秋裤，无法机器主动检测，只能人自己来记录，公开样本数据少，无足以形成LLM的世界知识；3. 穿秋裤，个体差异大，需要结合世界知识和个人的上下文。🤔我要命名为Agent的秋裤困境。💬0🔄0❤️2👀634📊1⚡ Powered by xgo.ing...
+--------------------------------------------------
+[47] 这似乎是 Agent 至今都无法解决的问题🤔
+    Link: https://x.com/yan5xu/status/2038753911943962934
+    Source: yan5xu(@yan5xu)
+    Summary: 这似乎是 Agent 至今都无法解决的问题🤔💬2🔄0❤️4👀1134📊3⚡ Powered by xgo.ing...
+--------------------------------------------------
+[49] So proud to have @ggerganov and @ggml_org part of the @huggingface team. One of the unsung heroes of...
+    Link: https://x.com/ClementDelangue/status/2038752860192518294
+    Source: clem 🤗(@ClementDelangue)
+    Summary: So proud to have @ggerganov and @ggml_org part of the @huggingface team. One of the unsung heroes of AI, powering the most widely used open-source runtime for local AI!Georgi Gerganov@ggerganovllama.c...
+--------------------------------------------------
+[50] 一个通过写邮件发布文章的产品，喜欢这种小而美的小应用。
+
+https://t.co/AtXFA8LyAX
+    Link: https://x.com/dingyi/status/2038752638876151938
+    Source: Ding(@dingyi)
+    Summary: 一个通过写邮件发布文章的产品，喜欢这种小而美的小应用。posts.im💬0🔄0❤️4👀986📊1⚡ Powered by xgo.ing...
+--------------------------------------------------
+[51] We are getting started with another live session on Youtube!
+
+Today, our topic is: AI Workspace Pro ...
+    Link: https://x.com/genspark_ai/status/2038751954932027474
+    Source: Genspark(@genspark_ai)
+    Summary: We are getting started with another live session on Youtube!Today, our topic is: AI Workspace Pro TipsYou'll learn all about to make the most of your credits and get to incredible results FAST.Our hos...
+--------------------------------------------------
+[52] 现在也是一个好时机。之前我一直有顾虑，就是真的想让大学生体验“好”模型，不可避免设计到海外闭源模型，多少有点灰色地带。现在国产模型虽然还没有追上SOTA，但已经足够好到，可以感受到LLM的魅力了。
+    Link: https://x.com/yan5xu/status/2038751664354832565
+    Source: yan5xu(@yan5xu)
+    Summary: 现在也是一个好时机。之前我一直有顾虑，就是真的想让大学生体验“好”模型，不可避免设计到海外闭源模型，多少有点灰色地带。现在国产模型虽然还没有追上SOTA，但已经足够好到，可以感受到LLM的魅力了。💬0🔄0❤️0👀354⚡ Powered by xgo.ing...
+--------------------------------------------------
+[53] Getting a lot of messages like this
+    Link: https://x.com/lennysan/status/2038751570586927304
+    Source: Lenny Rachitsky(@lennysan)
+    Summary: Getting a lot of messages like thisLenny Rachitsky@lennysanClaire Vo's first day with @OpenClaw it deleted her family calendar.Now she runs 9 agents across 3 Mac Minis, and said "I haven't felt like t...
+--------------------------------------------------
+[60] Agent 4 didn't replace what worked. It rethought it.
+
+The building experience is fundamentally bette...
+    Link: https://x.com/Replit/status/2038738072758518224
+    Source: Replit ⠕(@Replit)
+    Summary: Agent 4 didn't replace what worked. It rethought it.The building experience is fundamentally better.The Design Canvas now works across every artifact type.Collaboration happens in real time—no forking...
+--------------------------------------------------
+[63] Create a free, local, fast retrieval stack for Claude Code (or your favorite AI agent)
+
+`litesearch...
+    Link: https://x.com/jerryjliu0/status/2038731768074051694
+    Source: Jerry Liu(@jerryjliu0)
+    Summary: Create a free, local, fast retrieval stack for Claude Code (or your favorite AI agent) `litesearch` is a project @itsclelia that lets you parse, index, and search over any collection of documents with...
+--------------------------------------------------
+[64] Quoting Georgi Gerganov
+    Link: https://simonwillison.net/2026/Mar/30/georgi-gerganov/#atom-everything
+    Source: Simon Willison's Weblog
+    Summary: Note that the main issues that people currently unknowingly face with local models mostly revolve around the harness and some intricacies around model chat templates and prompt construction. Sometimes...
+--------------------------------------------------
+[66] Meta-Harness
+
+如何为 Agent 优化 harness？
+
+Meta-Harness =  coding agent + experience search
+    Link: https://x.com/dongxi_nlp/status/2038725725566521838
+    Source: 马东锡 NLP(@dongxi_nlp)
+    Summary: Meta-Harness如何为 Agent 优化 harness？Meta-Harness = coding agent + experience searchYoonho Lee@yoonholeeeHow can we autonomously improve LLM harnesses on problems humans are actively working on?Doing so r...
+--------------------------------------------------
+[67] A lot of people mistake inadequate scaffolding for a lack of capability in smaller local models. You...
+    Link: https://x.com/ClementDelangue/status/2038724952547803364
+    Source: clem 🤗(@ClementDelangue)
+    Summary: A lot of people mistake inadequate scaffolding for a lack of capability in smaller local models. You can't expect a system that was built for large model APIs to work out of the box magically with sma...
+--------------------------------------------------
+[68] We now support GitHub Enterprise Server across our product suite, including Claude Code on the web, ...
+    Link: https://x.com/_catwu/status/2038723796178526712
+    Source: cat(@_catwu)
+    Summary: We now support GitHub Enterprise Server across our product suite, including Claude Code on the web, iOS, Android and Code Review! Try it out and let us know your feedbackKashyap Murali@katchu11Claude ...
+--------------------------------------------------
+[70] Monetize your Replit-built mobile apps with RevenueCat!
+    Link: https://x.com/amasad/status/2038722068418805875
+    Source: Amjad Masad(@amasad)
+    Summary: Monetize your Replit-built mobile apps with RevenueCat!RevenueCat@RevenueCatRevenueCat now integrates with @Replit, meaning you can prompt your Agent to: 💰 Add subscriptions, in-app purchases and payw...
+--------------------------------------------------
+[71] Brian Armstrong: People may fear technology, but our lives are immeasurably richer today because of ...
+    Link: https://x.com/a16z/status/2038721914613694675
+    Source: a16z(@a16z)
+    Summary: Brian Armstrong: People may fear technology, but our lives are immeasurably richer today because of it.“Technology is just a tool. Fire can be used to heat your home or burn down a home.”“I think that...
+--------------------------------------------------
+[72] A lot of people mistake inadequate scaffolding for a lack of capability in smaller local models. You...
+    Link: https://x.com/ClementDelangue/status/2038721865028706676
+    Source: clem 🤗(@ClementDelangue)
+    Summary: A lot of people mistake inadequate scaffolding for a lack of capability in smaller local models. You can't expect a system that was built for large model APIs to work out of the box magically with sma...
+--------------------------------------------------
+[75] This sounds right to me - I've tinkered with running local models against Claude Code and Codex and ...
+    Link: https://x.com/simonw/status/2038715210677293081
+    Source: Simon Willison(@simonw)
+    Summary: This sounds right to me - I've tinkered with running local models against Claude Code and Codex and been disappointed, but I've not put the work in yet to try and find the right harness+model combinat...
+--------------------------------------------------
+[77] Georgi on why it's still hard to get great coding agent performance from local models:
+
+"Note that t...
+    Link: https://x.com/simonw/status/2038714926769094875
+    Source: Simon Willison(@simonw)
+    Summary: Georgi on why it's still hard to get great coding agent performance from local models:"Note that the main issues that people currently unknowingly face with local models mostly revolve around the harn...
+--------------------------------------------------
+[82] .@clairevo's biggest @OpenClaw unlock: going multi-agent
+    Link: https://x.com/lennysan/status/2038706612479959296
+    Source: Lenny Rachitsky(@lennysan)
+    Summary: .@clairevo's biggest @OpenClaw unlock: going multi-agentYour browser does not support the video tag.🔗 View on TwitterLenny Rachitsky@lennysanClaire Vo's first day with @OpenClaw it deleted her family ...
+--------------------------------------------------
+[85] datasette-llm 0.1a3
+    Link: https://simonwillison.net/2026/Mar/30/datasette-llm/#atom-everything
+    Source: Simon Willison's Weblog
+    Summary: Release: datasette-llm 0.1a3 Adds the ability to configure which LLMs are available for which purpose, which means you can restrict the list of models that can be used with a specific plugin. #3 Tags:...
+--------------------------------------------------
+[86] @Alibaba_Qwen Correction - this model is not a vision language model at this time.
+    Link: https://x.com/OpenRouter/status/2038704348583088204
+    Source: OpenRouter(@OpenRouterAI)
+    Summary: @Alibaba_Qwen Correction - this model is not a vision language model at this time.💬1🔄1❤️36👀5446📊6⚡ Powered by xgo.ing...
+--------------------------------------------------
+[89] Qwen 3.6 Plus Preview is an early look of Qwen's flagship model, upgraded to boost agentic coding, f...
+    Link: https://x.com/OpenRouter/status/2038701611179294799
+    Source: OpenRouter(@OpenRouterAI)
+    Summary: Qwen 3.6 Plus Preview is an early look of Qwen's flagship model, upgraded to boost agentic coding, front-end programming, and general reasoning. It is a more stable, powerful successor to Qwen 3.5-Plu...
+--------------------------------------------------
+[90] Qwen 3.6 Plus Preview from @Alibaba_Qwen is live now for free for a limited time on OpenRouter!
+
+Dur...
+    Link: https://x.com/OpenRouter/status/2038701599175196715
+    Source: OpenRouter(@OpenRouterAI)
+    Summary: Qwen 3.6 Plus Preview from @Alibaba_Qwen is live now for free for a limited time on OpenRouter!During this free period, prompts and completions will be collected and may be used to improve the model.💬...
+--------------------------------------------------
+[91] 🆕 Mistral: Voxtral TTS, Forge, Leanstral, ＆ what’s next for Mistral 4
+https://t.co/ozJwPxIMI5
+
+@Mis...
+    Link: https://x.com/latentspacepod/status/2038701549661323277
+    Source: Latent.Space(@latentspacepod)
+    Summary: 🆕 Mistral: Voxtral TTS, Forge, Leanstral, &amp; what’s next for Mistral 4latent.space/p/voxtral5@MistralAI is firing on all cylinders. In this episode, Pavan Kumar Reddy and @GuillaumeLample explain w...
+--------------------------------------------------
+[93] Agi will have a harness
+    Link: https://x.com/hwchase17/status/2038699790071153077
+    Source: Harrison Chase(@hwchase17)
+    Summary: Agi will have a harnessViv@Vtrivedy10prediction: AGI will have a harness, but it will be just-in-time, self-assembled based on the current Task+contexttoday our human priors dominate the details of ha...
+--------------------------------------------------
+[94] Mistral: Voxtral TTS, Forge, Leanstral, ＆ what's next for Mistral 4 — w/ Pavan Kumar Reddy ＆ Guillaume Lample
+    Link: https://www.latent.space/p/voxtral
+    Source: Latent.Space
+    Summary: Mistral has been on an absolute tear - with frequent successful model launches it is easy to forget that they raised the largest European AI round in history last year. We were long overdue for a Mist...
+--------------------------------------------------
+[96] Stop Vibe Coding. Start Getting Customers.
+    Link: https://www.youtube.com/watch?v=YeoGehNsrLc
+    Source: Greg Isenberg
+    Summary: 💾I break down the seven distribution strategies every vibe coder and builder needs to actually get customers. With 200,000 new projects launching daily on platforms like Lovable, the real bottleneck i...
+--------------------------------------------------
+[99] Security doesn't need to be intimidating. In just 5 minutes (or the time it takes to make your ☕️), ...
+    Link: https://x.com/github/status/2038691492219236397
+    Source: GitHub(@github)
+    Summary: Security doesn't need to be intimidating. In just 5 minutes (or the time it takes to make your ☕️), you'll know the basics of securing your projects and keeping them safe with GitHub Advanced Security...
+--------------------------------------------------
+[102] Codebase-to-course now has 2.6k stars on GitHub
+
+Just optimized it to be a lot more token efficient ...
+    Link: https://x.com/zarazhangrui/status/2038685338865221862
+    Source: Zara Zhang(@zarazhangrui)
+    Summary: Codebase-to-course now has 2.6k stars on GitHubJust optimized it to be a lot more token efficient &amp; reliableOriginally intended for vibe coders to learn CS, but was told it's great for developer o...
+--------------------------------------------------
+[103] 深夜更新，国行 Apple 智能这次真的来了（附上手实测
+    Link: https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653102447&idx=1&sn=42dece0571da0065c49b5e3bda7d5c58
+    Source: 极客公园
+    Summary: 极客公园 2026-03-31 02:27 云南 国行用户等待两年之后，终于正式亮相。作者｜张勇毅过去两年，国行的 Apple 智能一直都是一个“只闻楼梯响，不见人影来”的事件：即使苹果官网已经有相关的标注，标明目前全系设备都已为 Apple 智能预备好，但 Apple 智能这个主角始终未能到来，苹果也没有为其设定官宣的发布日期。但在 3 月底，这个情况被彻底改变了，因为它真的来了。3月31日凌晨...
+--------------------------------------------------
+[105] OpenAI 官方发布了一个 Claude Code 插件 codex-plugin-cc，让开发者可以直接在 Claude Code 里调用 Codex 做代码审查、对抗性审查，甚至把任务整个移交给...
+    Link: https://x.com/dotey/status/2038682622180634793
+    Source: 宝玉(@dotey)
+    Summary: OpenAI 官方发布了一个 Claude Code 插件 codex-plugin-cc，让开发者可以直接在 Claude Code 里调用 Codex 做代码审查、对抗性审查，甚至把任务整个移交给 Codex 执行。这件事有意思的地方在于：这是 OpenAI 主动把自己的工具送进竞争对手 Anthropic 的地盘。Claude Code 有自己的插件生态，OpenAI 这次正式以官方身份入场...
+--------------------------------------------------
+[106] Is now a bad time to announce our new toolbar
+    Link: https://x.com/figma/status/2038678088498950423
+    Source: Figma(@figma)
+    Summary: Is now a bad time to announce our new toolbarKITKAT@KITKATRegarding recent press coverage🔗 View Quoted Tweet💬60🔄114❤️1933👀101992📊203⚡ Powered by xgo.ing...
+--------------------------------------------------
+[107] New in M365 Copilot: Council.
+
+You can run multiple models on the same prompt at the same time, so y...
+    Link: https://x.com/satyanadella/status/2038677637644922943
+    Source: Satya Nadella(@satyanadella)
+    Summary: New in M365 Copilot: Council.You can run multiple models on the same prompt at the same time, so you can see where they align and diverge, and understand what each adds.Your browser does not support t...
+--------------------------------------------------
+[112] Claude Code 新增"电脑操控（computer use）"功能：写完代码直接帮你点鼠标测试
+
+Anthropic 给 Claude Code 加了一个新能力：直接操控你的 Mac 桌面。写完...
+    Link: https://x.com/dotey/status/2038671395631108220
+    Source: 宝玉(@dotey)
+    Summary: Claude Code 新增"电脑操控（computer use）"功能：写完代码直接帮你点鼠标测试Anthropic 给 Claude Code 加了一个新能力：直接操控你的 Mac 桌面。写完代码之后，Claude 可以自己编译、启动应用、点击按钮、截图验证，整个流程不用你碰鼠标。这个功能叫 computer use，目前是研究预览阶段，仅限 macOS，需要 Pro 或 Max 订阅。具体能...
+--------------------------------------------------
+[116] Add gemini-api-dev skills to your workflows: https://t.co/kBYz5PWek0
+    Link: https://x.com/googleaidevs/status/2038668839479865705
+    Source: Google AI Developers(@googleaidevs)
+    Summary: Add gemini-api-dev skills to your workflows: github.com/google-gemini/…💬0🔄3❤️33👀3652📊9⚡ Powered by xgo.ing...
+--------------------------------------------------
+[117] Give your coding agents up-to-date SDK knowledge with Gemini API skills. Our evaluation saw 96.6% su...
+    Link: https://x.com/googleaidevs/status/2038668835755319427
+    Source: Google AI Developers(@googleaidevs)
+    Summary: Give your coding agents up-to-date SDK knowledge with Gemini API skills. Our evaluation saw 96.6% success with the gemini-3.1-pro-preview model across 117 coding prompts, measuring model performance a...
+--------------------------------------------------
+[118] Computer use now available in Claude Code.
+
+Waited a long time for this.
+    Link: https://x.com/omarsar0/status/2038668801256968381
+    Source: elvis(@omarsar0)
+    Summary: Computer use now available in Claude Code.Waited a long time for this.Claude@claudeaiComputer use is now in Claude Code.Claude can open your apps, click through your UI, and test what it built, right ...
+--------------------------------------------------
+[120] Startup idea:
+
+OpenClaw agents rooting out government fraud for 30% bounties
+    Link: https://x.com/AiBreakfast/status/2038667266905014480
+    Source: AI Breakfast(@AiBreakfast)
+    Summary: Startup idea: OpenClaw agents rooting out government fraud for 30% bountiesBreaking911@Breaking911GET PAID TO EXPOSE FRAUD: Treasury Secretary Scott Bessent is launching a new program on Monday that w...
+--------------------------------------------------
+[123] GTM agent built on top of deepagents!
+    Link: https://x.com/hwchase17/status/2038666570772459997
+    Source: Harrison Chase(@hwchase17)
+    Summary: GTM agent built on top of deepagents!Jai Toor@jai__toorI rebuilt @LangChain GTM agent on @DeeplineCLI + Deep Agents in under an hour.... Then spent 2 hours debugging the Slack API. But such is life.Co...
+--------------------------------------------------
+[124] Computer use is available in Claude Code now as well.
+    Link: https://x.com/adocomplete/status/2038664587193848040
+    Source: Ado(@adocomplete)
+    Summary: Computer use is available in Claude Code now as well.Claude@claudeaiComputer use is now in Claude Code.Claude can open your apps, click through your UI, and test what it built, right from the CLI.Now ...
+--------------------------------------------------
+[126] jensen at interrupt!!!
+    Link: https://x.com/hwchase17/status/2038663930923647190
+    Source: Harrison Chase(@hwchase17)
+    Summary: jensen at interrupt!!!LangChain@LangChainJensen Huang is coming to Interrupt. May 13-14 in SF.Join Jensen and Harrison for a fireside chat to learn where enterprise agents are headed. We'll dive into ...
+--------------------------------------------------
+[127] Making Turborepo 96% faster with agents, sandboxes, and humans
+    Link: https://vercel.com/blog/making-turborepo-ninety-six-percent-faster-with-agents-sandboxes-and-humans
+    Source: Vercel News
+    Summary: Turborepo is now 81-91% faster to compute its task graph in our repositories, scaling with repo size. On our 1,000+ package monorepo, turbo run now feels instant. Time to First Task is now 11x faster....
+--------------------------------------------------
+[130] It works on anything you can open on your Mac: a compiled SwiftUI app, a local Electron build, or a ...
+    Link: https://x.com/claudeai/status/2038663018427420698
+    Source: Claude(@claudeai)
+    Summary: It works on anything you can open on your Mac: a compiled SwiftUI app, a local Electron build, or a GUI tool that doesn't have a CLI.💬26🔄20❤️1290👀279358📊148⚡ Powered by xgo.ing...
+--------------------------------------------------
+[131] Computer use is now in Claude Code.
+
+Claude can open your apps, click through your UI, and test what...
+    Link: https://x.com/claudeai/status/2038663014098899416
+    Source: Claude(@claudeai)
+    Summary: Computer use is now in Claude Code.Claude can open your apps, click through your UI, and test what it built, right from the CLI.Now in research preview on Pro and Max plans.Your browser does not suppo...
+--------------------------------------------------
+[132] 24/7 AI Voice Agent for Your Business
+    Link: https://www.youtube.com/shorts/qbmgPWqe5CU
+    Source: AI Master
+    Summary: 💾Try ElevenLabs for free https://try.elevenlabs.io/rdiyl653roqe 🚀 Become an AI Master – All-in-one AI Learning https://aimaster.me 📹 Get a Custom Promo Video From AI Master https://collab.aimaster.me...
+--------------------------------------------------
+[134] Here's the official line from GitHub on the ads in PRs story - I find this explanation credible pers...
+    Link: https://x.com/simonw/status/2038661593127649551
+    Source: Simon Willison(@simonw)
+    Summary: Here's the official line from GitHub on the ads in PRs story - I find this explanation credible personally, it looks to me like it was a poorly considered product tips feature that got out of handMart...
+--------------------------------------------------
+[135] Jensen Huang is coming to Interrupt. May 13-14 in SF.
+
+Join Jensen and Harrison for a fireside chat ...
+    Link: https://x.com/LangChain/status/2038660999495217428
+    Source: LangChain(@LangChainAI)
+    Summary: Jensen Huang is coming to Interrupt. May 13-14 in SF.Join Jensen and Harrison for a fireside chat to learn where enterprise agents are headed. We'll dive into the LangChain x @nvidia partnership and h...
+--------------------------------------------------
+[136] My friend Aaron Katz (@ceo_clickhouse) says this is going to be a great event at Google Cloud.
+    Link: https://x.com/JeffDean/status/2038660511852900642
+    Source: Jeff Dean(@JeffDean)
+    Summary: My friend Aaron Katz (@ceo_clickhouse) says this is going to be a great event at Google Cloud.ClickHouse@ClickHouseDBThe loudest event at Next ‘26 isn’t a keynote. 🤫We’re taking over Hakkasan with The...
+--------------------------------------------------
+[138] project is here forked from @karpathy's autoresearch: https://t.co/CjPR2FATpk
+    Link: https://x.com/ClementDelangue/status/2038657495648944476
+    Source: clem 🤗(@ClementDelangue)
+    Summary: project is here forked from @karpathy's autoresearch: github.com/mishig25/hf-au…💬2🔄2❤️14👀2789📊6⚡ Powered by xgo.ing...
+--------------------------------------------------
+[139] Here’s a refresher on the Realtime API:
+https://t.co/cepwKCJpuw
+    Link: https://x.com/OpenAIDevs/status/2038656340999168409
+    Source: OpenAI Developers(@OpenAIDevs)
+    Summary: Here’s a refresher on the Realtime API:x.com/OpenAIDevs/sta…OpenAI Developers@OpenAIDevsVoice workflows just got stronger with gpt-realtime-1.5 in the Realtime API.The model offers more reliable instr...
+--------------------------------------------------
+[140] 📣 Lessons from building voice agents at scale
+
+@perplexity_ai breaks down how running voice with th...
+    Link: https://x.com/OpenAIDevs/status/2038656328873463917
+    Source: OpenAI Developers(@OpenAIDevs)
+    Summary: 📣 Lessons from building voice agents at scale@perplexity_ai breaks down how running voice with the Realtime API in production shaped their approach to context, audio pipelines, and turn-taking in real...
+--------------------------------------------------
+[141] EP124 为什么 Agent 时代，CLI 反而成了最优解？⚡
+    Link: https://www.xiaoyuzhoufm.com/episode/69caa449e2c8be3155f03013
+    Source: 硬地骇客
+    Summary: 如果你还在“听播客”，那你可能已经错过了下一代的信息消费方式。这期节目，我们从一个看似技术选型的问题出发——为什么不做 API / SDK，而是选择 CLI。一路聊到了一个更本质的变化：当用户从“人”变成“Agent”，软件该如何重新设计？安装 Podwise Skills：for Openclaw：clawhub install podwiseOn Claude Code / Codex / O...
+--------------------------------------------------
+[144] Tau Bench got an update! Tau Bench is one of the most adopted Agentic Benchmarks. They now added “Ba...
+    Link: https://x.com/_philschmid/status/2038655544613826985
+    Source: Philipp Schmid(@_philschmid)
+    Summary: Tau Bench got an update! Tau Bench is one of the most adopted Agentic Benchmarks. They now added “Banking” a fintech-inspired customer support domain built around a realistic knowledge base of 698 doc...
+--------------------------------------------------
+[147] The new AI image tools, now rolling out in FigJam, Buzz, ＆amp; Slides:
+→ Expand image
+→ Isolate obj...
+    Link: https://x.com/figma/status/2038650229638213672
+    Source: Figma(@figma)
+    Summary: The new AI image tools, now rolling out in FigJam, Buzz, &amp; Slides: → Expand image→ Isolate object→ Erase object→ Vectorize imageYour browser does not support the video tag.🔗 View on Twitter💬18🔄27❤...
+--------------------------------------------------
+[148] In a world where everyone can build websites, apps and features easily (thank you Cursor, Lovable, C...
+    Link: https://x.com/ClementDelangue/status/2038649731404927202
+    Source: clem 🤗(@ClementDelangue)
+    Summary: In a world where everyone can build websites, apps and features easily (thank you Cursor, Lovable, Claude and the likes), it will take more for you and your company to differentiate themselves (which ...
+--------------------------------------------------
