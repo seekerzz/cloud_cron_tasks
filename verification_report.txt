@@ -1,0 +1,3 @@
+The JSON export from FreshRSS was successfully generated and moved to DEST_REPO/tech-daily/ directory.
+It was also committed and pushed to the destination repository.
+The JSON file itself is not included in this repository's commit, as requested.
