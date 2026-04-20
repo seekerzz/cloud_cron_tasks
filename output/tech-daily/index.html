@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>科技日报 - 智能聚合阅览</title>
+    <style>
+        body { font-family: sans-serif; background: #f0f2f5; display: flex; justify-content: center; align-items: center; min-height: 100vh; }
+        .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; max-width: 1000px; }
+        .card { background: white; padding: 30px; border-radius: 12px; text-align: center; text-decoration: none; color: #333; transition: transform 0.2s; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+        .card:hover { transform: translateY(-5px); box-shadow: 0 8px 24px rgba(0,0,0,0.1); }
+        .emoji { font-size: 40px; margin-bottom: 10px; display: block; }
+        .name { font-weight: bold; font-size: 18px; }
+    </style>
+</head>
+<body>
+    <div style="text-align: center;">
+        <h1 style="margin-bottom: 40px; color: #1a73e8;">🗞️ 科技日报 - 2026.03.29</h1>
+        <div class="grid">
+
+        <a href="cto_insight.html" class="card">
+            <span class="emoji">🎯</span>
+            <span class="name">CTO 洞察版</span>
+        </a>
+
+
+        <a href="developer_practice.html" class="card">
+            <span class="emoji">💻</span>
+            <span class="name">开发者实战版</span>
+        </a>
+
+
+        <a href="tech_enthusiast.html" class="card">
+            <span class="emoji">🚀</span>
+            <span class="name">极客玩家版</span>
+        </a>
+
+
+        <a href="investment_analysis.html" class="card">
+            <span class="emoji">💰</span>
+            <span class="name">投资分析版</span>
+        </a>
+
+
+        <a href="academic_research.html" class="card">
+            <span class="emoji">🎓</span>
+            <span class="name">前沿论文版</span>
+        </a>
+
+
+        <a href="user_research.html" class="card">
+            <span class="emoji">👥</span>
+            <span class="name">用户体验版</span>
+        </a>
+
+        </div>
+        <p style="margin-top: 40px;"><a href="archive/" style="color: #666; text-decoration: none;">📅 查看历史归档</a></p>
+    </div>
+</body>
+</html>
