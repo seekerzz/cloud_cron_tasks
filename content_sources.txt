@@ -1,0 +1,50 @@
+<!-- 延伸阅读 -->
+<section class="section">
+<h2 class="section-title">📖 信息来源汇总</h2>
+<div class="reading-list">
+<div class="reading-item">
+<div class="reading-number">1</div>
+<div class="reading-content">
+<div class="reading-title">Grok Imagine 质量模式发布</div>
+<div class="reading-source"><a href="https://x.com/xai/status/2040150192893370562" target="_blank" rel="noopener">xAI(@xai)</a></div>
+</div>
+</div>
+<div class="reading-item">
+<div class="reading-number">2</div>
+<div class="reading-content">
+<div class="reading-title">Cursor 3 推出及更新说明</div>
+<div class="reading-source"><a href="https://x.com/cursor_ai/status/2040143041692930293" target="_blank" rel="noopener">Cursor(@cursor_ai)</a></div>
+</div>
+</div>
+<div class="reading-item">
+<div class="reading-number">3</div>
+<div class="reading-content">
+<div class="reading-title">Claude Code 结合 LangSmith</div>
+<div class="reading-source"><a href="https://x.com/LangChain/status/2040137349313556633" target="_blank" rel="noopener">LangChain(@LangChainAI)</a></div>
+</div>
+</div>
+<div class="reading-item">
+<div class="reading-number">4</div>
+<div class="reading-content">
+<div class="reading-title">Code Arena 将图片转换为网页</div>
+<div class="reading-source"><a href="https://x.com/arena/status/2040145898060304635" target="_blank" rel="noopener">Arena.ai(@lmarena_ai)</a></div>
+</div>
+</div>
+<div class="reading-item">
+<div class="reading-number">5</div>
+<div class="reading-content">
+<div class="reading-title">Anthropic 关于大模型特性的差异研究</div>
+<div class="reading-source"><a href="https://x.com/AnthropicAI/status/2040179539738030182" target="_blank" rel="noopener">Anthropic(@AnthropicAI)</a></div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<footer class="footer">
+<p>📝 科技日报 · 科技爱好者版</p>
+<p>用好奇心探索未来 · 让科技触手可及</p>
+<p style="margin-top: 10px; font-size: 0.8em;">本期编辑：AI助手 | 数据来源：FreshRSS聚合 | 2026年4月3日</p>
+</footer>
+</div>
+</body>
+</html>

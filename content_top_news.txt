@@ -1,0 +1,44 @@
+<!-- 今日头条 -->
+<section class="section">
+<h2 class="section-title">🔥 今日头条</h2>
+<div class="news-item top-news">
+<div class="news-title">Grok Imagine 推出全新 Quality 模式，更懂你的复杂需求</div>
+<div class="news-content">
+                        xAI 宣布在 Grok Imagine 中推出全新的 Quality 模式。相比之前的速度模式，Quality 模式拥有更强大的世界知识库和提示词理解能力。它不仅能准确解释复杂的场景和现实的物理特性，还能精准呈现品牌、地点、文化等具体参考，甚至是虚构或艺术世界中的丰富细节。这对于喜欢用 AI 创作复杂场景图的科技爱好者来说，无疑是一个令人兴奋的功能升级。
+                    </div>
+<div class="news-meta">
+<span class="tag product">产品更新</span>
+<span>来源：<a href="https://x.com/xai/status/2040150192893370562" target="_blank" rel="noopener">xAI(@xai)</a></span>
+</div>
+</div>
+<div class="news-item top-news">
+<div class="news-title">Cursor 3 重磅来袭：为 Agent 时代打造的新一代编程环境</div>
+<div class="news-content">
+                        深受开发者喜爱的 AI 编程工具 Cursor 推出了全新的 Cursor 3。新界面更加简洁强大，专门为“所有代码由 Agent 编写”的未来世界而构建，同时保留了深度开发环境的功能。官方还宣布，在周末期间将 Composer 2 的使用配额翻倍。无论你是专业开发者还是想尝试用自然语言“写代码”的小白，Cursor 3 都值得一试。
+                    </div>
+<div class="news-meta">
+<span class="tag ai">AI工具</span>
+<span>来源：<a href="https://x.com/cursor_ai/status/2040143041692930293" target="_blank" rel="noopener">Cursor(@cursor_ai)</a></span>
+</div>
+</div>
+<div class="news-item top-news">
+<div class="news-title">Claude Code 与 LangSmith 强强联合，AI 工作流变得更透明</div>
+<div class="news-content">
+                        LangChain 宣布推出针对 Claude Code 的 LangSmith 追踪插件。现在，开发者可以直观地追踪子代理、工具调用和运行轨迹。不仅如此，它还支持评估技能/MCP 的影响，并通过 LangSmith Insights 分析趋势和跟踪 Token 使用情况。这项更新让 AI Agent 的运行过程不再是“黑盒”，大大提高了调试和优化的效率。
+                    </div>
+<div class="news-meta">
+<span class="tag product">工具联动</span>
+<span>来源：<a href="https://x.com/LangChain/status/2040137349313556633" target="_blank" rel="noopener">LangChain(@LangChainAI)</a></span>
+</div>
+</div>
+<div class="news-item top-news">
+<div class="news-title">Code Arena：只需一张图片，AI 帮你搞定整个网站开发</div>
+<div class="news-content">
+                        Arena.ai 展示了他们最新的能力——使用 Code Arena 将任何图片直接转换为可运行的网站。Code Arena 能够处理涉及代理式 Web 开发的图像输入，并通过推理解决多步骤问题，甚至在过程中自主使用各种工具。这种多模态能力展示了未来前端开发的可能方向：画个草图，网站就做好了。
+                    </div>
+<div class="news-meta">
+<span class="tag trend">前端革命</span>
+<span>来源：<a href="https://x.com/arena/status/2040145898060304635" target="_blank" rel="noopener">Arena.ai(@lmarena_ai)</a></span>
+</div>
+</div>
+</section>

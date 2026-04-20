@@ -1,0 +1,16 @@
+<!-- 今日金句 -->
+<section class="section">
+<h2 class="section-title">💬 今日金句</h2>
+<div class="quote-box">
+<div class="quote-text">
+                    AGI 的重点在于“通用”，跨越所有问题域。这正是“G”所代表的含义。奥数题是一个狭窄领域，本身与 AGI 并没有什么特别的关系。
+                </div>
+<div class="quote-author">—— Gary Marcus</div>
+</div>
+<div class="quote-box" style="margin-top: 20px; background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);">
+<div class="quote-text" style="color: #1e40af;">
+                    关于人工智能导致人们在领域中变得既过度乌托邦又过度末日论……事实上发生的是——回想起来，随着时间的推移，已经积累了大量的技术进步。
+                </div>
+<div class="quote-author" style="color: #3b82f6;">—— Marc Andreessen</div>
+</div>
+</section>
